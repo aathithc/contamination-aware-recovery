@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-798-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT continent, avg_life_expectancy, total_population\nFROM your_table_name\nWHERE avg_life_expectancy < 72\nGROUP BY continent, avg_life_expectancy, total_population;\n```", "success": false, "baseline_success": true}

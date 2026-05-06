@@ -1,0 +1,16 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_4",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_4_2_0",
+    "sharded-BFCL/parallel_4_3_1",
+    "sharded-BFCL/parallel_4_2_1",
+    "sharded-BFCL/parallel_4_1_1",
+    "sharded-BFCL/parallel_4_3_0",
+    "sharded-BFCL/parallel_4_1_0",
+    "sharded-BFCL/parallel_4_0_1",
+    "sharded-BFCL/parallel_4_0_0"
+  ]
+}

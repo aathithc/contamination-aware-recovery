@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_18",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_18_0_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The investment amount is $1000",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_1_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, with an investment amount of $1,000, the function call would be: [fv(rate=0.05, nper=10, pmt=1000, pv=-1000)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_1_1",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Use an annual interest rate of 5%",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_2_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Got it, with an annual interest rate of 5%, the function call would be: [fv(rate=0.05, nper=10, pmt=1000, pv=-1000)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_2_1",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Calculate it for a duration of 1 year",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_3_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Alright, with a duration of 1 year, the function call would be: [fv(rate=0.05, nper=1, pmt=1000, pv=-1000)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_3_1",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Additionally, calculate it for a duration of 5 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_4_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, here are the function calls for both 1 year and 5 years: [fv(rate=0.05, nper=1, pmt=1000, pv=-1000)] [fv(rate=0.05, nper=5, pmt=1000, pv=-1000)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_4_1",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Also calculate it for a duration of 10 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_18_5_0",
+      "conversation_id": "sharded-BFCL/parallel_18",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Sure, here are the function calls for 1 year, 5 years, and 10 years: [fv(rate=0.05, nper=1, pmt=1000, pv=-1000)] [fv(rate=0.05, nper=5, pmt=1000, pv=-1000)] [fv(rate=0.05, nper=10, pmt=1000, pv=-1000)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_18_0_0",
+      "target": "sharded-BFCL/parallel_18_1_0",
+      "type": "supports",
+      "rationale": "user specifies the investment amount"
+    },
+    {
+      "source": "sharded-BFCL/parallel_18_1_1",
+      "target": "sharded-BFCL/parallel_18_2_0",
+      "type": "supports",
+      "rationale": "user specifies the interest rate"
+    },
+    {
+      "source": "sharded-BFCL/parallel_18_2_1",
+      "target": "sharded-BFCL/parallel_18_3_0",
+      "type": "supports",
+      "rationale": "user specifies the duration of 1 year"
+    },
+    {
+      "source": "sharded-BFCL/parallel_18_3_1",
+      "target": "sharded-BFCL/parallel_18_4_0",
+      "type": "supports",
+      "rationale": "user specifies the duration of 5 years"
+    },
+    {
+      "source": "sharded-BFCL/parallel_18_4_1",
+      "target": "sharded-BFCL/parallel_18_5_0",
+      "type": "supports",
+      "rationale": "user specifies the duration of 10 years"
+    }
+  ],
+  "attributes": {}
+}

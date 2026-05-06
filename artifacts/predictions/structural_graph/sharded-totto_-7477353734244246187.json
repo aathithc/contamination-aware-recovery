@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-7477353734244246187",
   "method": "structural_graph",
-  "prediction": "The event titled \"Deep: Oyaji Deep\" took place on December 18, 2011, at Asunal Kanayama Hall in Nagoya.",
+  "prediction": "The highlighted cell in row 167 under the column \"Event title\" contains the value \"Deep: Oyaji Deep.\"",
   "success": true,
   "baseline_success": false
 }

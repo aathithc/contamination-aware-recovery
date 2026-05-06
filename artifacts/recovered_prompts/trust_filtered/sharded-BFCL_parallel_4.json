@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_4",
+  "method": "trust_filtered",
+  "prompt": "The first person is 6 feet tall\nThe first person weighs 80 kg\nThe second person is 5.6 feet tall\nThe second person weighs 60 kg",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_4_0_0",
+    "sharded-BFCL/parallel_4_1_0",
+    "sharded-BFCL/parallel_4_2_0",
+    "sharded-BFCL/parallel_4_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_4_0_1",
+    "sharded-BFCL/parallel_4_1_1",
+    "sharded-BFCL/parallel_4_2_1",
+    "sharded-BFCL/parallel_4_3_1"
+  ]
+}

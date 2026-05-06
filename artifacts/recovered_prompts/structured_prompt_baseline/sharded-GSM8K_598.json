@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/598",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item       | Amount | Value   | Total Money | Number of Gumballs |\n|------------|--------|---------|-------------|---------------------|\n| Quarters   | 8      | $0.25   | $2.00       |                     |\n| Dimes      | 6      | $0.10   | $0.60       |                     |\n| Nickels    | 14     | $0.05   | $0.70       |                     |\n| Pennies    | 15     | $0.01   | $0.15       |                     |\n|            |        |         | $3.45       | 69                  |\n\nHighlighted:\n| Total Money | Number of Gumballs |\n\nContext:\nColby has a total of 8 quarters, 6 dimes, 14 nickels, and 15 pennies.\n\nInstruction:\nCalculate the total number of gumballs Colby can buy.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/510",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Date            | Total Weight to Lose | Total Calorie Deficit | Daily Calorie Deficit |\n|------------------|---------------------|-----------------------|-----------------------|\n| June 1           | 30 pounds           | 105,000 calories      | 2,188 calories/day    |\n| December 31      | 30 pounds           | 105,000 calories      | 525 calories/day      |\n\nHighlighted:\n- 30 pounds\n- 105,000 calories\n- 2,188 calories/day\n- 525 calories/day\n\nContext:\n- The user mentioned that Andy wants to lose weight by July 19th and provided information about calorie deficit calculations.\n\nInstruction:\nSummarize the calorie deficit calculations for Andy's weight loss goal.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

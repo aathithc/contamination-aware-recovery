@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-spider-val-53-hard",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-spider-val-53-hard_3_1",
+    "sharded-spider-val-53-hard_1_0",
+    "sharded-spider-val-53-hard_1_1",
+    "sharded-spider-val-53-hard_0_2",
+    "sharded-spider-val-53-hard_2_0",
+    "sharded-spider-val-53-hard_2_2",
+    "sharded-spider-val-53-hard_1_2",
+    "sharded-spider-val-53-hard_0_1",
+    "sharded-spider-val-53-hard_2_1",
+    "sharded-spider-val-53-hard_0_3",
+    "sharded-spider-val-53-hard_3_0",
+    "sharded-spider-val-53-hard_0_0",
+    "sharded-spider-val-53-hard_3_2"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_111",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Compound      | Molecular Formula | Molecular Weight (g/mol) |\n|---------------|-------------------|--------------------------|\n| Glucose       | C6H12O6           | [value]                  |\n| Sucrose       | C12H22O11         | [value]                  |\n\nHighlighted:\n- Glucose (C6H12O6)\n- Sucrose (C12H22O11)\n\nContext:\n- Provide the molecular weights in grams/mole.\n\nInstruction:\n- Compare the molecular weight of Glucose to that of Sucrose.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

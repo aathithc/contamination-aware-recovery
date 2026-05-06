@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_163",
+  "method": "concat",
+  "prompt": "The player attempts 10 shots in the game\nCalculate the probability that the player makes exactly 6 successful shots\nNow, consider if the player's success rate drops to 50%, but the number of attempts remains at 10 shots\nFinally, consider a scenario where the success rate is 50%, but the number of attempts increases to 15 shots\nCalculate the probability of making exactly 6 successful shots in all three scenarios",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_163_0_0",
+    "sharded-BFCL/parallel_163_1_0",
+    "sharded-BFCL/parallel_163_2_0",
+    "sharded-BFCL/parallel_163_3_0",
+    "sharded-BFCL/parallel_163_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_163_0_1",
+    "sharded-BFCL/parallel_163_1_1",
+    "sharded-BFCL/parallel_163_2_1",
+    "sharded-BFCL/parallel_163_3_1",
+    "sharded-BFCL/parallel_163_4_1"
+  ]
+}

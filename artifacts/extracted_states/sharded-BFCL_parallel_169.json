@@ -1,0 +1,106 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_169",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_169_0_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The bond has an annual coupon payment of $50",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_1_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The bond has a time frame of 5 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_2_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Use a discount rate of 5% for the calculation",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_3_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The face value of the bond is $1000",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_4_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "After that, add the result for another bond",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_5_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "The second bond has an annual coupon payment of $60",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_6_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "The second bond has a time frame of 7 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_7_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 7,
+      "source": "user",
+      "type": "fact",
+      "text": "Use a discount rate of 4% for the second bond",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_169_8_0",
+      "conversation_id": "sharded-BFCL/parallel_169",
+      "turn_index": 8,
+      "source": "user",
+      "type": "fact",
+      "text": "The second bond has the same face value of $1000",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [],
+  "attributes": {}
+}

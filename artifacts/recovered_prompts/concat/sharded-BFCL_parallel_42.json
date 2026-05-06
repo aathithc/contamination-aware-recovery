@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_42",
+  "method": "concat",
+  "prompt": "Check the price of the piano\nLook for stock availability of the piano\nSearch in music stores in Berlin\nSearch in music stores in Madrid",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_42_0_0",
+    "sharded-BFCL/parallel_42_1_0",
+    "sharded-BFCL/parallel_42_2_0",
+    "sharded-BFCL/parallel_42_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_42_0_1",
+    "sharded-BFCL/parallel_42_1_1",
+    "sharded-BFCL/parallel_42_2_1",
+    "sharded-BFCL/parallel_42_3_1"
+  ]
+}

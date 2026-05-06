@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_2",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Length (meters) | Diameter (meters) | Resistivity (ohm-m) |\n|------------------|-------------------|---------------------|\n| 5                | 0.1               | 1.68e-8             |\n| 5                | 0.1               | 2.65e-8             |\n\nHighlighted:\n- Length (meters): 5\n- Diameter (meters): 0.1\n- Resistivity (ohm-m): 1.68e-8, 2.65e-8\n\nContext:\n- The wire has a length of 5 meters and a cross-sectional area of 0.01 square meters. \n\nInstruction:\nCalculate the resistance of the wire using the resistivity of copper and aluminum.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

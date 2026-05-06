@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_184",
+  "method": "concat",
+  "prompt": "The first equation is 3x^2 + 7x + 2 = 0\nIn the first equation, 'a' is 3\nIn the first equation, 'b' is 7\nIn the first equation, 'c' is 2\nThe second equation is 5x^2 - 4x + 1 = 0\nIn the second equation, 'a' is 5\nIn the second equation, 'b' is -4\nIn the second equation, 'c' is 1",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_184_0_0",
+    "sharded-BFCL/parallel_184_1_0",
+    "sharded-BFCL/parallel_184_2_0",
+    "sharded-BFCL/parallel_184_3_0",
+    "sharded-BFCL/parallel_184_4_0",
+    "sharded-BFCL/parallel_184_5_0",
+    "sharded-BFCL/parallel_184_6_0",
+    "sharded-BFCL/parallel_184_7_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_184_0_1",
+    "sharded-BFCL/parallel_184_1_1",
+    "sharded-BFCL/parallel_184_2_1",
+    "sharded-BFCL/parallel_184_3_1",
+    "sharded-BFCL/parallel_184_4_1",
+    "sharded-BFCL/parallel_184_5_1",
+    "sharded-BFCL/parallel_184_6_1",
+    "sharded-BFCL/parallel_184_7_1"
+  ]
+}

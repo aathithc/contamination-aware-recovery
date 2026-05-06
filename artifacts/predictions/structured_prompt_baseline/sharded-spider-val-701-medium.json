@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-701-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT name\nFROM contestants\nWHERE name LIKE '%Al%';\n```", "success": true, "baseline_success": true}

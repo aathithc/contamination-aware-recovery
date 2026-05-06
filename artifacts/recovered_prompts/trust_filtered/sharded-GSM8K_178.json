@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-GSM8K/178",
+  "method": "trust_filtered",
+  "prompt": "Rani has 10 more crabs compared to Monic.\nTotal number of crabs = Rani's crabs + Monic's crabs + Bo's crabs.\nTotal number of crabs = 2y + 10 + z.\nMonic has 4 fewer crabs than Bo.\nTotal number of crabs = (y + 10) + y + (y + 4).\nTotal number of crabs = 3y + 14.\nBo has 40 crabs to start with.\nBo's crabs = 40.\nMonic's crabs = Bo's crabs - 4 = 40 - 4 = 36.\nRani's crabs = Monic's crabs + 10 = 36 + 10 = 46.\nTotal number of crabs = Rani's crabs + Monic's crabs + Bo's crabs.\nTotal number of crabs = 46 + 36 + 40 = 122.",
+  "included_node_ids": [
+    "sharded-GSM8K/178_0_0",
+    "sharded-GSM8K/178_0_4",
+    "sharded-GSM8K/178_0_5",
+    "sharded-GSM8K/178_1_0",
+    "sharded-GSM8K/178_1_2",
+    "sharded-GSM8K/178_1_3",
+    "sharded-GSM8K/178_2_0",
+    "sharded-GSM8K/178_2_1",
+    "sharded-GSM8K/178_2_2",
+    "sharded-GSM8K/178_2_3",
+    "sharded-GSM8K/178_2_4",
+    "sharded-GSM8K/178_2_5"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/178_0_1",
+    "sharded-GSM8K/178_0_2",
+    "sharded-GSM8K/178_0_3",
+    "sharded-GSM8K/178_1_1"
+  ]
+}

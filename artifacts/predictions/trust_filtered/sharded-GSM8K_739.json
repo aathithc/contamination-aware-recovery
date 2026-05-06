@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/739", "method": "trust_filtered", "prediction": "The price of the half-gallon jar is $3. The total amount Cecelia spent is calculated as follows:\n\n- For 10 gallon jars: 10 \u00d7 $5 = $50\n- For 16 half-gallon jars: 16 \u00d7 $3 = $48\n\nTotal spent = $50 + $48 = $98.", "success": true, "baseline_success": true}

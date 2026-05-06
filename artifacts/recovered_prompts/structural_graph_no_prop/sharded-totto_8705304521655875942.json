@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-totto_8705304521655875942",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: Missouri 4th\n    Column: District\n    Value: Missouri 4th\n    Highlighted: true\nSupporting context:\n  - Table columns: District, Vacator, Reason for change, Successor, Date successor seated\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_8705304521655875942_1_9",
+    "sharded-totto_8705304521655875942_1_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_8705304521655875942_1_2",
+    "sharded-totto_8705304521655875942_5_0",
+    "sharded-totto_8705304521655875942_1_6",
+    "sharded-totto_8705304521655875942_1_4",
+    "sharded-totto_8705304521655875942_4_0",
+    "sharded-totto_8705304521655875942_1_0",
+    "sharded-totto_8705304521655875942_2_0",
+    "sharded-totto_8705304521655875942_4_1",
+    "sharded-totto_8705304521655875942_3_1",
+    "sharded-totto_8705304521655875942_1_5",
+    "sharded-totto_8705304521655875942_0_0",
+    "sharded-totto_8705304521655875942_2_1",
+    "sharded-totto_8705304521655875942_3_0",
+    "sharded-totto_8705304521655875942_1_3",
+    "sharded-totto_8705304521655875942_1_8",
+    "sharded-totto_8705304521655875942_5_1",
+    "sharded-totto_8705304521655875942_1_7"
+  ]
+}

@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/158", "method": "concat", "prediction": "Total cost of supplies:\n\n- Pens: 4 pens \u00d7 $1.5 = $6\n- Notebooks: 2 notebooks \u00d7 $4 = $8\n- Bond paper: $20\n\nTotal cost = $6 + $8 + $20 = $34.", "success": true, "baseline_success": true}

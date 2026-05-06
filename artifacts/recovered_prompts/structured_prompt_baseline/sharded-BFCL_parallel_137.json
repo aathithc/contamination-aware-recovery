@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_137",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| List Number | Numbers                     | Ascending Order Function Call                           | Descending Order Function Call                           |\n|-------------|-----------------------------|--------------------------------------------------------|---------------------------------------------------------|\n| First       | [45, 12, 67, 21, 89]       | [array_sort(array=[45, 12, 67, 21, 89], order='asc')] | [array_sort(array=[45, 12, 67, 21, 89], order='desc')] |\n| Second      | [34, 78, 12, 56, 90]       | [array_sort(array=[34, 78, 12, 56, 90], order='asc')] | [array_sort(array=[34, 78, 12, 56, 90], order='desc')] |\n| Third       | [23, 45, 67, 89, 12]       | [array_sort(array=[23, 45, 67, 89, 12], order='asc')] | [array_sort(array=[23, 45, 67, 89, 12], order='desc')] |\n| Fourth      | [56, 78, 90, 12, 34]       | [array_sort(array=[56, 78, 90, 12, 34], order='asc')] | [array_sort(array=[56, 78, 90, 12, 34], order='desc')] |\n\nHighlighted:\n[45, 12, 67, 21, 89], [34, 78, 12, 56, 90], [23, 45, 67, 89, 12], [56, 78, 90, 12, 34]\n\nContext:\nNone\n\nInstruction:\nProvide the sorting function calls for both ascending and descending order for the given lists.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1197", "method": "structured_prompt_baseline", "prediction": "John spent a total of $600 on scotch and $1,800 on cognac. \n\nTo calculate the total amount spent:\nTotal Amount = Total Cost of Scotch + Total Cost of Cognac\nTotal Amount = $600 + $1,800 = $2,400\n\nJohn spent a total of $2,400.", "success": false, "baseline_success": true}

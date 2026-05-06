@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/416",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Animal         | Number of Heads | Humps per Animal | Total Humps |\n|----------------|------------------|-------------------|-------------|\n| Camels         | 124              | 2                 | 248         |\n| Dromedaries    | 56               | 1                 | 56          |\n| Total          | 180              |                   | 304         |\n\nHighlighted:\n- 180 (Total number of heads)\n- 304 (Total humps)\n- 56 (Number of dromedaries)\n\nContext:\n- The herd consists of camels and dromedaries.\n- Each camel has 2 humps.\n- Each dromedary has 1 hump.\n- The number of dromedaries has been determined to be 56.\n\nInstruction:\nProvide a summary of the animal count and hump distribution in the herd.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

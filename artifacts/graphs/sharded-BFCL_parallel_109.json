@@ -1,0 +1,92 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_109",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_109_0_0",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User asked about the proteins found in the mitochondria.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_109_1_0",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Main proteins found in the mitochondria will be provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_109_1_1",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "User asked about the proteins found in the cytoplasm.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_109_2_0",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Main proteins found in the cytoplasm will be provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_109_2_1",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "User requested brief descriptions of each protein.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_109_3_0",
+      "conversation_id": "sharded-BFCL/parallel_109",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Descriptions of the key proteins in each cellular compartment will be provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_109_0_0",
+      "target": "sharded-BFCL/parallel_109_1_0",
+      "type": "supports",
+      "rationale": "User's query supports assistant's assumption."
+    },
+    {
+      "source": "sharded-BFCL/parallel_109_1_1",
+      "target": "sharded-BFCL/parallel_109_1_0",
+      "type": "supports",
+      "rationale": "User's query supports assistant's assumption."
+    },
+    {
+      "source": "sharded-BFCL/parallel_109_1_1",
+      "target": "sharded-BFCL/parallel_109_2_0",
+      "type": "supports",
+      "rationale": "User's request for description supports assistant's assumption."
+    }
+  ],
+  "attributes": {}
+}

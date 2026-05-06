@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_33",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Year | President         | Vice President        |\n|------|-------------------|-----------------------|\n| 1975 | Gerald Ford       | Nelson Rockefeller     |\n| 2011 | Barack Obama      | Joe Biden             |\n| 2016 | Barack Obama      | Joe Biden             |\n| 1980 | Ronald Reagan     | George H.W. Bush      |\n\nHighlighted:\n2016, 1975, 2011, 1980\n\nContext:\nThe user is interested in the presidents and vice presidents for the years 1980, 2016, 1975, and 2011.\n\nInstruction:\nProvide the president and vice president for the specified years.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

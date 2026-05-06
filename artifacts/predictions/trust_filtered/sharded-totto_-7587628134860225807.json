@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-7587628134860225807",
   "method": "trust_filtered",
-  "prediction": "William Wolfe received 69.6% of the votes in the 1969 Scottish National Party leadership election, while Arthur Donaldson secured 30.4% of the votes.",
-  "success": false,
+  "prediction": "William Wolfe received a total of 544 votes, making him the leading candidate in the 1969 Scottish National Party leadership election. In contrast, Arthur Donaldson secured 238 votes, placing him behind Wolfe in the election results.",
+  "success": true,
   "baseline_success": true
 }

@@ -1,0 +1,30 @@
+{
+  "conversation_id": "sharded-GSM8K/598",
+  "method": "trust_filtered",
+  "prompt": "Gumballs cost 1 nickel each.\nColby wants to buy some gumballs.\nNumber of gumballs = M / $0.05.\nIf Colby has $1.00, he can buy 20 gumballs.\nColby has 8 quarters.\nNumber of gumballs = $2.00 / $0.05 = 40 gumballs.\nColby also has 6 dimes.\nTotal money = $2.00 + $0.60 = $2.60.\nNumber of gumballs = $2.60 / $0.05 = 52 gumballs.\nColby has 14 nickels.\nTotal money = $2.60 + $0.70 = $3.30.\nNumber of gumballs = $3.30 / $0.05 = 66 gumballs.\nColby has 15 pennies.\nTotal money = $3.30 + $0.15 = $3.45.\nNumber of gumballs = $3.45 / $0.05 = 69 gumballs.",
+  "included_node_ids": [
+    "sharded-GSM8K/598_0_0",
+    "sharded-GSM8K/598_0_1",
+    "sharded-GSM8K/598_1_1",
+    "sharded-GSM8K/598_1_2",
+    "sharded-GSM8K/598_2_0",
+    "sharded-GSM8K/598_2_2",
+    "sharded-GSM8K/598_3_0",
+    "sharded-GSM8K/598_3_2",
+    "sharded-GSM8K/598_3_3",
+    "sharded-GSM8K/598_4_0",
+    "sharded-GSM8K/598_4_2",
+    "sharded-GSM8K/598_4_3",
+    "sharded-GSM8K/598_5_0",
+    "sharded-GSM8K/598_5_2",
+    "sharded-GSM8K/598_5_3"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/598_1_0",
+    "sharded-GSM8K/598_1_3",
+    "sharded-GSM8K/598_2_1",
+    "sharded-GSM8K/598_3_1",
+    "sharded-GSM8K/598_4_1",
+    "sharded-GSM8K/598_5_1"
+  ]
+}

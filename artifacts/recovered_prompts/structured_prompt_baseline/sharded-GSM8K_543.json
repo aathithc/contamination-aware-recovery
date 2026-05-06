@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/543",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Person  | Monthly Income | Income per Task | Tasks Completed |\n|---------|----------------|------------------|------------------|\n| Jairus  | $5,000         | $0.8             | 20               |\n| Jenny   | $3,500         | $0.5             | 20               |\n\nHighlighted:\n$5,000, $3,500, $0.8, $0.5, 20 tasks\n\nContext:\nJairus earns $5,000 per month and $0.8 for every small task he completes. Jenny earns $3,500 per month and $0.5 for each task she finishes. Both completed 20 tasks.\n\nInstruction:\nCalculate the difference in earnings between Jairus and Jenny based on tasks completed.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

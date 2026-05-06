@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_123",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Sequence Number | Preference |\n|------------------|------------|\n| 1                | A          |\n| 2                | T          |\n| 3                | C          |\n| 4                | G          |\n\nHighlighted:\n- A\n- T\n- C\n- G\n\nContext:\nEach sequence is 500 nucleotides long. \n\nInstruction:\nProvide four different DNA sequences of specified preferences.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-147-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Maker                     | Number of Car Models |\n|---------------------------|----------------------|\n| American Motor Company     | ?                    |\n\nHighlighted:\nAmerican Motor Company\n\nContext:\nThe query is specifically about the maker of the cars, not any other entity. Focus on determining the exact number of car models related to the company.\n\nInstruction:\nProvide the SQL query to find the number of car models produced by American Motor Company.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

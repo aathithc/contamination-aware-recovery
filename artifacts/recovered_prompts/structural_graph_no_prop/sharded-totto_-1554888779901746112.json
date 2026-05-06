@@ -1,0 +1,36 @@
+{
+  "conversation_id": "sharded-totto_-1554888779901746112",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 9\n    Column: Event Title\n    Value: M-1 Challenge 79 - Shlemenko vs. Halsey 2\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Event Title, Date, Arena, Location\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-1554888779901746112_1_10",
+    "sharded-totto_-1554888779901746112_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-1554888779901746112_1_1",
+    "sharded-totto_-1554888779901746112_0_0",
+    "sharded-totto_-1554888779901746112_2_1",
+    "sharded-totto_-1554888779901746112_1_7",
+    "sharded-totto_-1554888779901746112_1_17",
+    "sharded-totto_-1554888779901746112_1_18",
+    "sharded-totto_-1554888779901746112_1_8",
+    "sharded-totto_-1554888779901746112_1_15",
+    "sharded-totto_-1554888779901746112_3_1",
+    "sharded-totto_-1554888779901746112_4_0",
+    "sharded-totto_-1554888779901746112_1_13",
+    "sharded-totto_-1554888779901746112_1_11",
+    "sharded-totto_-1554888779901746112_1_6",
+    "sharded-totto_-1554888779901746112_3_0",
+    "sharded-totto_-1554888779901746112_1_19",
+    "sharded-totto_-1554888779901746112_1_9",
+    "sharded-totto_-1554888779901746112_1_16",
+    "sharded-totto_-1554888779901746112_1_3",
+    "sharded-totto_-1554888779901746112_1_2",
+    "sharded-totto_-1554888779901746112_4_1",
+    "sharded-totto_-1554888779901746112_2_0",
+    "sharded-totto_-1554888779901746112_1_4",
+    "sharded-totto_-1554888779901746112_1_14",
+    "sharded-totto_-1554888779901746112_1_12",
+    "sharded-totto_-1554888779901746112_1_5"
+  ]
+}

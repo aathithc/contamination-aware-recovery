@@ -1,0 +1,322 @@
+{
+  "conversation_id": "sharded-spider-val-832-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-832-medium_0_0",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter the performances by excluding a certain type.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_0",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To filter the performance data and exclude a certain type, I'll need a bit more information.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_1",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "What are the different types of performance data you have in the database?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_2",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Which specific type of performance data do you want to exclude from the query?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_3",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "What are the table(s) and column(s) that contain the performance data and the type/classification information?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_4",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Are there any other filters or criteria you want to apply to the data, besides excluding the specific performance type?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_5",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's a sample SQL query that you can use: SELECT * FROM performance_data WHERE performance_type <> 'Live final'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_6",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This will return all columns from the performance_data table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_7",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This assumes that the performance data is stored in a table called performance_data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_1_8",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This is the key part that filters out the 'Live final' type of performance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_0",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Identify the minimum share of the filtered performances.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_1",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To identify the minimum share of the filtered performances (excluding the 'Live final' type), we can modify the previous query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_2",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT MIN(performance_share) AS min_performance_share FROM performance_data WHERE performance_type <> 'Live final'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_3",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This will find the minimum value of the performance_share column from the filtered data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_4",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This assumes the performance data is stored in a table called performance_data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_2_5",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The result of this query will be a single row containing the minimum performance share value from the filtered data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_0",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Identify the maximum share of the filtered performances.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_1",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To identify both the minimum and maximum share of the filtered performances (excluding the 'Live final' type), we can modify the query like this.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_2",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT MIN(performance_share) AS min_performance_share, MAX(performance_share) AS max_performance_share FROM performance_data WHERE performance_type <> 'Live final'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_3",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This will find the minimum and maximum values of the performance_share column from the filtered data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_4",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This assumes the performance data is stored in a table called performance_data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-832-medium_3_5",
+      "conversation_id": "sharded-spider-val-832-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The result of this query will be a single row containing both the minimum and maximum performance share values from the filtered data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-832-medium_0_0",
+      "target": "sharded-spider-val-832-medium_1_0",
+      "type": "supports",
+      "rationale": "user request for filtering supports assistant's response for more information"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_1_0",
+      "target": "sharded-spider-val-832-medium_1_1",
+      "type": "supports",
+      "rationale": "assistant's request for types of performance data supports providing an SQL query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_1_0",
+      "target": "sharded-spider-val-832-medium_1_2",
+      "type": "supports",
+      "rationale": "assistant's request for specific performance types supports providing an SQL query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_1_0",
+      "target": "sharded-spider-val-832-medium_1_3",
+      "type": "supports",
+      "rationale": "assistant's request for tables and columns supports providing an SQL query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_1_0",
+      "target": "sharded-spider-val-832-medium_1_4",
+      "type": "supports",
+      "rationale": "assistant's request for additional filters supports providing an SQL query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_1_5",
+      "target": "sharded-spider-val-832-medium_1_0",
+      "type": "supports",
+      "rationale": "assistant's provided SQL query supports filtering performances"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_2_0",
+      "target": "sharded-spider-val-832-medium_2_1",
+      "type": "supports",
+      "rationale": "user request for minimum share supports assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_2_1",
+      "target": "sharded-spider-val-832-medium_2_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the modified query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_2_0",
+      "target": "sharded-spider-val-832-medium_2_5",
+      "type": "supports",
+      "rationale": "user's request supports explaining the result of the query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_3_0",
+      "target": "sharded-spider-val-832-medium_3_1",
+      "type": "supports",
+      "rationale": "user request for maximum share supports assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_3_1",
+      "target": "sharded-spider-val-832-medium_3_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the modified query"
+    },
+    {
+      "source": "sharded-spider-val-832-medium_3_0",
+      "target": "sharded-spider-val-832-medium_3_5",
+      "type": "supports",
+      "rationale": "user's request supports explaining the result of the query"
+    }
+  ],
+  "attributes": {}
+}

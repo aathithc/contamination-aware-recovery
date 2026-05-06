@@ -1,21 +1,20 @@
 {
   "conversation_id": "sharded-totto_-7720423331010486388",
   "method": "trust_filtered",
-  "prompt": "Reference table-description examples provided.\nTable columns: Year, Competition, Venue, Position, Event, Notes\n1998 | Central American and Caribbean Junior Championships (U20) | Georgetown, Cayman Islands | 1st | 5000 m | 17:41.88\n1999 | Pan American Junior Championships | Tampa, United States | 2nd | 3000 m | 9:38.44\n2008 | Olympic Games | Beijing, PR China | 19th | Marathon | 2:31:47 [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/Mada%C3%AD_P%C3%A9rez.\nThe table_page_title is Madaí Pérez.\nThe table_section_title is Achievements.",
+  "prompt": "Reference table-description examples provided.\nThe table provides a detailed record of a Mexican athlete's competitive achievements in various track and field events.\nTable columns: Year, Competition, Venue, Position, Event, Notes\nRepresenting Mexico\ntable_webpage_url is http://en.wikipedia.org/wiki/Mada%C3%AD_P%C3%A9rez.\ntable_page_title is Madaí Pérez.\ntable_section_title is Achievements.",
   "included_node_ids": [
     "sharded-totto_-7720423331010486388_0_0",
+    "sharded-totto_-7720423331010486388_1_0",
+    "sharded-totto_-7720423331010486388_1_2",
+    "sharded-totto_-7720423331010486388_1_3",
     "sharded-totto_-7720423331010486388_2_0",
-    "sharded-totto_-7720423331010486388_2_1",
-    "sharded-totto_-7720423331010486388_2_2",
-    "sharded-totto_-7720423331010486388_2_3",
     "sharded-totto_-7720423331010486388_3_0",
-    "sharded-totto_-7720423331010486388_4_0",
-    "sharded-totto_-7720423331010486388_5_0"
+    "sharded-totto_-7720423331010486388_4_0"
   ],
   "excluded_node_ids": [
-    "sharded-totto_-7720423331010486388_1_0",
+    "sharded-totto_-7720423331010486388_1_1",
+    "sharded-totto_-7720423331010486388_2_1",
     "sharded-totto_-7720423331010486388_3_1",
-    "sharded-totto_-7720423331010486388_4_1",
-    "sharded-totto_-7720423331010486388_5_1"
+    "sharded-totto_-7720423331010486388_4_1"
   ]
 }

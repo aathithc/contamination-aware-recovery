@@ -1,0 +1,29 @@
+{
+  "conversation_id": "sharded-GSM8K/420",
+  "method": "trust_filtered",
+  "prompt": "Mr. Josue raised money from two banks for his store.\nMr. Josue started a business with an initial capital of $50,000.\nAfter the first year, his business made a profit of $15,000.\nIn the second year, his business made a loss of $8,000.\nIn the third year, his business made a profit of $12,000.\nTotal capital after the third year = $69,000.\nLet's assume he raised $X from the first bank and $Y from the second bank.\nThe first bank provided him with $4000.\nTotal amount raised from the two banks = $4,000 (from the first bank) + $Y (from the second bank).\nTotal capital now = $69,000 + ($4,000 + $Y).\nMr. Josue's total capital now is $69,000 plus the amount he raised from the second bank, which is $4,000 + $Y.\nThe second bank gave him twice the amount the first bank gave.\nAmount from the second bank = 2 × $4,000 = $8,000.\nTotal capital now = $69,000 + ($4,000 + $8,000).\nTotal capital now = $81,000.\nBefore receiving the loans, he already had $5000 in capital.\nTotal amount raised from the two banks = $4,000 + $8,000 = $12,000.\nTotal capital now = $69,000 + $12,000 + $5,000.\nTotal capital now = $86,000.",
+  "included_node_ids": [
+    "sharded-GSM8K/420_0_0",
+    "sharded-GSM8K/420_0_2",
+    "sharded-GSM8K/420_0_3",
+    "sharded-GSM8K/420_0_4",
+    "sharded-GSM8K/420_0_5",
+    "sharded-GSM8K/420_0_6",
+    "sharded-GSM8K/420_0_7",
+    "sharded-GSM8K/420_1_0",
+    "sharded-GSM8K/420_1_1",
+    "sharded-GSM8K/420_1_2",
+    "sharded-GSM8K/420_1_3",
+    "sharded-GSM8K/420_2_0",
+    "sharded-GSM8K/420_2_1",
+    "sharded-GSM8K/420_2_2",
+    "sharded-GSM8K/420_2_3",
+    "sharded-GSM8K/420_3_0",
+    "sharded-GSM8K/420_3_1",
+    "sharded-GSM8K/420_3_2",
+    "sharded-GSM8K/420_3_3"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/420_0_1"
+  ]
+}

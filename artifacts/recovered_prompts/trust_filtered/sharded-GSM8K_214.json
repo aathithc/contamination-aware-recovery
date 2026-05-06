@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-GSM8K/214",
+  "method": "trust_filtered",
+  "prompt": "The scenario involves Jerry and his two pools.\nJerry has a small pool and a large pool.\nThe small pool initially had 50 liters of water.\n20 liters of water were transferred from the small pool to the large pool.\nThe amount of water remaining in the small pool is 30 liters.\nBoth pools lose water at a rate of 4 gallons per minute due to leaks.\nThe leak rate is 15.14 liters per minute.\nThe amount of water remaining in the small pool after 1 minute is 14.86 liters.\n4 minutes ago, the big pool had twice as much water as the small pool.\nThe amount of water in the big pool 4 minutes ago was 100 liters.\nThe amount of water in the big pool now is 39.44 liters.\nAt this moment, the big pool has four times as much water as the small pool.\nThe amount of water remaining in the small pool now is 4.86 liters.",
+  "included_node_ids": [
+    "sharded-GSM8K/214_0_0",
+    "sharded-GSM8K/214_1_1",
+    "sharded-GSM8K/214_1_2",
+    "sharded-GSM8K/214_1_3",
+    "sharded-GSM8K/214_1_4",
+    "sharded-GSM8K/214_2_0",
+    "sharded-GSM8K/214_2_2",
+    "sharded-GSM8K/214_2_3",
+    "sharded-GSM8K/214_3_0",
+    "sharded-GSM8K/214_3_2",
+    "sharded-GSM8K/214_3_3",
+    "sharded-GSM8K/214_4_0",
+    "sharded-GSM8K/214_4_2"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/214_1_0",
+    "sharded-GSM8K/214_2_1",
+    "sharded-GSM8K/214_3_1",
+    "sharded-GSM8K/214_4_1"
+  ]
+}

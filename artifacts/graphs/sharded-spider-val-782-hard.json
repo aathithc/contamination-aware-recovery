@@ -1,0 +1,204 @@
+{
+  "conversation_id": "sharded-spider-val-782-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-782-hard_0_0",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Consider the government forms of the countries as a factor.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_0_1",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Analyzing the government forms of different countries as part of a political analysis makes sense.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_0_2",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Create a table or view that contains the country name, the type of government, and any other relevant political/governmental details.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_0_3",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Write queries to analyze the distribution of government types across countries.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_0_4",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Explore relationships between government type and other political/economic factors.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_0_5",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Look at changes in government type over time, if you have historical data.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_1_0",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter the countries to include only those where English is not spoken.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_1_1",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To filter the countries to only include those where English is not spoken, we can assume we have a table called country_info that contains information about each country, including the languages spoken.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_1_2",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "We can write a query that selects relevant columns from the country_info table, but only for countries where the country name does not appear in the list of countries where English is spoken.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_1_3",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Alternatively, you could do this in a single query using a NOT EXISTS clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_2_0",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Return the codes for the countries, not the names.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_2_1",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To return the country codes instead of the country names, we can modify the query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_3_0",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter to include only countries whose government forms are not Republic.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-782-hard_3_1",
+      "conversation_id": "sharded-spider-val-782-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To filter the results to only include countries whose government form is not a Republic, we can modify the query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-782-hard_0_0",
+      "target": "sharded-spider-val-782-hard_0_1",
+      "type": "supports",
+      "rationale": "user suggests analyzing government forms"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_0_1",
+      "target": "sharded-spider-val-782-hard_0_2",
+      "type": "supports",
+      "rationale": "assistant provides a way to analyze government forms"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_0_2",
+      "target": "sharded-spider-val-782-hard_0_3",
+      "type": "supports",
+      "rationale": "assistant provides guidance on writing queries"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_1_0",
+      "target": "sharded-spider-val-782-hard_1_1",
+      "type": "supports",
+      "rationale": "user specifies a filter about languages"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_1_1",
+      "target": "sharded-spider-val-782-hard_1_2",
+      "type": "supports",
+      "rationale": "assistant provides a filtering query"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_2_0",
+      "target": "sharded-spider-val-782-hard_2_1",
+      "type": "supports",
+      "rationale": "user desires country code instead of names"
+    },
+    {
+      "source": "sharded-spider-val-782-hard_3_0",
+      "target": "sharded-spider-val-782-hard_3_1",
+      "type": "supports",
+      "rationale": "user adds another filtering criterion"
+    }
+  ],
+  "attributes": {}
+}

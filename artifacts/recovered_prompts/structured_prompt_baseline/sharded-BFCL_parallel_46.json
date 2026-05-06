@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_46",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Team  | 2018 Winning Percentage | 2020 Winning Percentage |\n|-------|------------------------|------------------------|\n| Bulls |                        |                        |\n| Lakers|                        |                        |\n\nHighlighted:\n| Bulls | 2018 Winning Percentage |\n\nContext:\nThe user is interested in the winning percentage of the Bulls for the NBA seasons 2018 and 2020, while additionally mentioning the Lakers.\n\nInstruction:\nFind the winning percentage of the Bulls for the NBA seasons 2018 and 2020.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

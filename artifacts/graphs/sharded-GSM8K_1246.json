@@ -1,0 +1,104 @@
+{
+  "conversation_id": "sharded-GSM8K/1246",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1246_0_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Ara has been on the school basketball team for four years now.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_0_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Ara's total basketball score over the four years on the school basketball team is 65 points.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Ara plays 40 games per year on average.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Ara's total basketball score over the four years on the school basketball team is 65 points.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "She scores 21 points in each game.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Ara's total basketball score over the four years on the school basketball team is 3,360 points.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1246_0_0",
+      "target": "sharded-GSM8K/1246_0_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_0",
+      "target": "sharded-GSM8K/1246_1_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_2_0",
+      "target": "sharded-GSM8K/1246_2_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant calculation"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-totto_-7720423331010486388",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-totto_-7720423331010486388_1_0",
+    "sharded-totto_-7720423331010486388_1_1",
+    "sharded-totto_-7720423331010486388_2_0",
+    "sharded-totto_-7720423331010486388_4_1",
+    "sharded-totto_-7720423331010486388_1_3",
+    "sharded-totto_-7720423331010486388_4_0",
+    "sharded-totto_-7720423331010486388_0_0",
+    "sharded-totto_-7720423331010486388_1_2",
+    "sharded-totto_-7720423331010486388_2_1",
+    "sharded-totto_-7720423331010486388_3_1",
+    "sharded-totto_-7720423331010486388_3_0"
+  ]
+}

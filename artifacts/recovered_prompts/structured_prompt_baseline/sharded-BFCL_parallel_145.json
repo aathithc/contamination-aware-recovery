@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_145",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Time   | Angle Calculation                     | Angle Rounded |\n|--------|---------------------------------------|---------------|\n| 8:20   | |30 * 8 - 6 * 20| = |240 - 120|      | 120.00        |\n| 11:50  | |30 * 11 - 6 * 50| = |330 - 300|    | 30.00         |\n\nHighlighted:\n| 120.00 | 30.00 |\n\nContext:\nAll angles must be rounded to 2 decimal places.\n\nInstruction:\nCalculate the angle at 11:50 and round it to 2 decimal places.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

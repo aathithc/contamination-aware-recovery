@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-GSM8K/477",
+  "method": "concat",
+  "prompt": "9 kids in Gina's class have a dairy allergy\n6 of them are allergic to peanuts\n3 kids are allergic to both dairy and peanuts\nThe entire class has 32 kids",
+  "included_node_ids": [
+    "sharded-GSM8K/477_0_0",
+    "sharded-GSM8K/477_1_0",
+    "sharded-GSM8K/477_2_0",
+    "sharded-GSM8K/477_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/477_0_1",
+    "sharded-GSM8K/477_1_1",
+    "sharded-GSM8K/477_2_1",
+    "sharded-GSM8K/477_3_1"
+  ]
+}

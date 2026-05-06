@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-spider-val-551-medium",
+  "method": "concat",
+  "prompt": "Look for transcripts that have at least 2 course results.\nInclude the date associated with each transcript.\nAlso include the id of each transcript.",
+  "included_node_ids": [
+    "sharded-spider-val-551-medium_0_0",
+    "sharded-spider-val-551-medium_2_0",
+    "sharded-spider-val-551-medium_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-551-medium_1_0",
+    "sharded-spider-val-551-medium_1_1",
+    "sharded-spider-val-551-medium_1_2",
+    "sharded-spider-val-551-medium_1_3",
+    "sharded-spider-val-551-medium_1_4",
+    "sharded-spider-val-551-medium_1_5",
+    "sharded-spider-val-551-medium_3_0",
+    "sharded-spider-val-551-medium_3_1",
+    "sharded-spider-val-551-medium_3_2",
+    "sharded-spider-val-551-medium_3_3",
+    "sharded-spider-val-551-medium_5_0",
+    "sharded-spider-val-551-medium_5_1",
+    "sharded-spider-val-551-medium_5_2",
+    "sharded-spider-val-551-medium_5_3"
+  ]
+}

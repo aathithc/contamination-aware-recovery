@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-GSM8K/346",
+  "method": "concat",
+  "prompt": "Jenny buys one bag of cookies every week.\nEach bag contains 36 cookies.\nJenny puts 4 cookies in her son's lunchbox.\nShe makes a lunchbox 5 days a week.\nHer husband eats one cookie every day.\nThe husband eats cookies even on the weekend.\nJenny eats whatever cookies are left over after this.",
+  "included_node_ids": [
+    "sharded-GSM8K/346_0_0",
+    "sharded-GSM8K/346_1_0",
+    "sharded-GSM8K/346_2_0",
+    "sharded-GSM8K/346_3_0",
+    "sharded-GSM8K/346_4_0",
+    "sharded-GSM8K/346_5_0",
+    "sharded-GSM8K/346_6_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/346_0_1",
+    "sharded-GSM8K/346_0_2",
+    "sharded-GSM8K/346_1_1",
+    "sharded-GSM8K/346_2_1",
+    "sharded-GSM8K/346_3_1",
+    "sharded-GSM8K/346_4_1",
+    "sharded-GSM8K/346_5_1",
+    "sharded-GSM8K/346_6_1"
+  ]
+}

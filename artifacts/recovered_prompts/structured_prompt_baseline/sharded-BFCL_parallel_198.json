@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_198",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Entity   | County        | State       |\n|----------|---------------|-------------|\n| Google   | Santa Clara   | California  |\n| Facebook | San Mateo     |             |\n\nHighlighted:\nGoogle, Santa Clara, California, Facebook, San Mateo\n\nContext:\nThe user is searching for lawsuits involving Google and Facebook with specified counties and state.\n\nInstruction:\nSummarize the lawsuits for both entities with the given constraints.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

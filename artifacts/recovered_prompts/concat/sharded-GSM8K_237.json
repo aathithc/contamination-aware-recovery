@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/237",
+  "method": "concat",
+  "prompt": "Johnny started with a $20 allowance.\nHe also added $10 more to this amount.\nHe took the total and invested it.\nThis investment tripled in value after a year.",
+  "included_node_ids": [
+    "sharded-GSM8K/237_0_0",
+    "sharded-GSM8K/237_1_0",
+    "sharded-GSM8K/237_2_0",
+    "sharded-GSM8K/237_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/237_0_1",
+    "sharded-GSM8K/237_0_2",
+    "sharded-GSM8K/237_0_3",
+    "sharded-GSM8K/237_0_4",
+    "sharded-GSM8K/237_1_1",
+    "sharded-GSM8K/237_1_2",
+    "sharded-GSM8K/237_2_1",
+    "sharded-GSM8K/237_3_1"
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "conversation_id": "sharded-spider-val-551-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-551-medium_0_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Look for transcripts that have at least 2 course results.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To look for transcripts that have at least 2 course results, here are the suggested steps.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_1",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Determine the database table(s) where the transcript data is stored.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_2",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Identify the columns in the table that contain the course information.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_3",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Write a SQL query that selects the transcript records that have 2 or more rows of course data.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_4",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The query first groups the transcript data by the transcript_id column.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_1_5",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It then uses that filtered list of transcript_id values to select the full transcript records.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_2_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Include the date associated with each transcript.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_3_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To include the date associated with each transcript, we'll need to modify the SQL query slightly.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_3_1",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "I've added a JOIN clause to connect the transcripts table with a transcript_dates table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_3_2",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The JOIN condition matches the transcript_id column between the two tables.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_3_3",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "I'm selecting the * from the transcripts table as well as the transcript_date column from the transcript_dates table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_4_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Also include the id of each transcript.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_5_0",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To include the transcript ID in the results, we can modify the query further.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_5_1",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "I've added t.transcript_id to the SELECT clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_5_2",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The full query now returns the unique identifier for each transcript.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-551-medium_5_3",
+      "conversation_id": "sharded-spider-val-551-medium",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This should give you the complete set of information you need for the transcripts that have at least 2 course results.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-551-medium_0_0",
+      "target": "sharded-spider-val-551-medium_1_0",
+      "type": "supports",
+      "rationale": "user's request initiates the assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_0",
+      "target": "sharded-spider-val-551-medium_1_1",
+      "type": "supports",
+      "rationale": "assistant outlines the steps"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_1",
+      "target": "sharded-spider-val-551-medium_1_2",
+      "type": "supports",
+      "rationale": "assistant identifies columns needed"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_2",
+      "target": "sharded-spider-val-551-medium_1_3",
+      "type": "supports",
+      "rationale": "assistant explains writing the SQL query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_3",
+      "target": "sharded-spider-val-551-medium_1_4",
+      "type": "supports",
+      "rationale": "assistant explains grouping in SQL query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_4",
+      "target": "sharded-spider-val-551-medium_1_5",
+      "type": "supports",
+      "rationale": "assistant explains selecting records from the groups"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_1_0",
+      "target": "sharded-spider-val-551-medium_2_0",
+      "type": "supports",
+      "rationale": "confirmed user request for transcript dates"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_2_0",
+      "target": "sharded-spider-val-551-medium_3_0",
+      "type": "supports",
+      "rationale": "user's request for dates changes the assistant's query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_3_0",
+      "target": "sharded-spider-val-551-medium_3_1",
+      "type": "supports",
+      "rationale": "assistant explains the JOIN clause"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_3_1",
+      "target": "sharded-spider-val-551-medium_3_2",
+      "type": "supports",
+      "rationale": "assistant clarifies the JOIN condition"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_3_2",
+      "target": "sharded-spider-val-551-medium_3_3",
+      "type": "supports",
+      "rationale": "assistant describes what is selected from the query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_3_0",
+      "target": "sharded-spider-val-551-medium_4_0",
+      "type": "supports",
+      "rationale": "user requests for transcript IDs"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_4_0",
+      "target": "sharded-spider-val-551-medium_5_0",
+      "type": "supports",
+      "rationale": "user's request for IDs affects the assistant's query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_5_0",
+      "target": "sharded-spider-val-551-medium_5_1",
+      "type": "supports",
+      "rationale": "assistant indicates changes to the query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_5_1",
+      "target": "sharded-spider-val-551-medium_5_2",
+      "type": "supports",
+      "rationale": "assistant explains the results of the updated query"
+    },
+    {
+      "source": "sharded-spider-val-551-medium_5_2",
+      "target": "sharded-spider-val-551-medium_5_3",
+      "type": "supports",
+      "rationale": "assistant confirms the query will fulfill user request"
+    }
+  ],
+  "attributes": {}
+}

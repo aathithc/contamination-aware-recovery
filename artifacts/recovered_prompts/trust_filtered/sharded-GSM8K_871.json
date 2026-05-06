@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-GSM8K/871",
+  "method": "trust_filtered",
+  "prompt": "Tobias started with a pizza that had 60 pieces.\nHalf of 60 pieces = 30 pieces.\nTherefore, Tobias has eaten 30 pizza pieces so far.\nOn the first day, Tobias ate 2/5 of the pizza.\n2/5 of 60 pieces = 24 pieces.\nTherefore, on the first day, Tobias ate 24 pizza pieces.\nTotal pizza pieces eaten = 24 pieces.\nThe next day, he ate 10 more pieces.\nTotal pizza pieces eaten = 24 (first day) + 10 (next day) = 34 pieces.\nTherefore, Tobias has eaten a total of 34 pizza pieces so far.\nAnd on the third day, he ate 7/13 of the remaining slices.\nRemaining slices before third day = 60 - 34 = 26 slices.\nSlices eaten on the third day = 7/13 of 26 = 14 slices.\nTotal pizza pieces eaten = 24 (first day) + 10 (second day) + 14 (third day) = 48 slices.\nTherefore, Tobias has eaten a total of 48 pizza pieces so far.",
+  "included_node_ids": [
+    "sharded-GSM8K/871_0_0",
+    "sharded-GSM8K/871_0_2",
+    "sharded-GSM8K/871_0_3",
+    "sharded-GSM8K/871_1_0",
+    "sharded-GSM8K/871_1_2",
+    "sharded-GSM8K/871_1_3",
+    "sharded-GSM8K/871_1_4",
+    "sharded-GSM8K/871_2_0",
+    "sharded-GSM8K/871_2_2",
+    "sharded-GSM8K/871_2_3",
+    "sharded-GSM8K/871_3_0",
+    "sharded-GSM8K/871_3_2",
+    "sharded-GSM8K/871_3_3",
+    "sharded-GSM8K/871_3_4",
+    "sharded-GSM8K/871_3_5"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/871_0_1",
+    "sharded-GSM8K/871_1_1",
+    "sharded-GSM8K/871_2_1",
+    "sharded-GSM8K/871_3_1"
+  ]
+}

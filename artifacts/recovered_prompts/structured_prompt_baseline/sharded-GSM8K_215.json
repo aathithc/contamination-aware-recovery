@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/215",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item          | Price   | Hours Needed |\n|---------------|---------|--------------|\n| Shoes         | $320.00 | 40           |\n| Belt          | $32.00  | 4            |\n| Total         | $352.00 | 44           |\n\nHighlighted:\n| Shoes         | Price: $320.00 |\n| Belt          | Price: $32.00  |\n| Total         | Total Price: $352.00 |\n\nContext:\nLori earns $8.00 per hour from her part-time job.\n\nInstruction:\nCalculate the total number of hours Lori needs to work to afford both the shoes and the belt.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_27",
+  "method": "concat",
+  "prompt": "The reserve is within 10 kilometers.\nThe reserve has picnic tables available.\nThe reserve has public restrooms.\nFind one around Tokyo within 5 kilometers.\nThe reserve near Tokyo should have playgrounds and biking trails.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_27_0_0",
+    "sharded-BFCL/parallel_27_1_0",
+    "sharded-BFCL/parallel_27_2_0",
+    "sharded-BFCL/parallel_27_3_0",
+    "sharded-BFCL/parallel_27_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_27_0_1",
+    "sharded-BFCL/parallel_27_1_1",
+    "sharded-BFCL/parallel_27_2_1",
+    "sharded-BFCL/parallel_27_3_1",
+    "sharded-BFCL/parallel_27_4_1"
+  ]
+}

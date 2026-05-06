@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-GSM8K/215",
+  "method": "trust_filtered",
+  "prompt": "Lori plans to purchase a pair of shoes worth $320.00.\nLori needs to work 16 hours to afford the $320.00 pair of shoes.\nLori also wants to get a matching belt priced at $32.00.\nLori earns $8.00 per hour from her part-time job.\nLori needs to work 44 hours to afford the total purchase of $352.00.",
+  "included_node_ids": [
+    "sharded-GSM8K/215_0_0",
+    "sharded-GSM8K/215_0_2",
+    "sharded-GSM8K/215_1_0",
+    "sharded-GSM8K/215_2_0",
+    "sharded-GSM8K/215_2_3"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/215_0_1",
+    "sharded-GSM8K/215_1_1",
+    "sharded-GSM8K/215_2_1",
+    "sharded-GSM8K/215_2_2"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_109",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Protein Name      | Location     | Description               |\n|-------------------|--------------|---------------------------|\n| Cytochrome c      | Mitochondria | Key role in apoptosis.    |\n| ATP synthase      | Mitochondria | Produces ATP from ADP.    |\n| Actin             | Cytoplasm    | Essential for cell shape. |\n| Myosin            | Cytoplasm    | Involved in muscle contraction. |\n\nHighlighted:\n- Mitochondria\n- Cytoplasm\n\nContext:\nThe user requested brief descriptions of the proteins in the mitochondria and cytoplasm.\n\nInstruction:\nProvide the names and brief descriptions of the proteins in the mitochondria and cytoplasm.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

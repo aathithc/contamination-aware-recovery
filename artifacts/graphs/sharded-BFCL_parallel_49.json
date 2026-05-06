@@ -1,0 +1,95 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_49",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_49_0_0",
+      "conversation_id": "sharded-BFCL/parallel_49",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The player is in team RocketLeague.",
+      "entities": [
+        "RocketLeague"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_49_1_0",
+      "conversation_id": "sharded-BFCL/parallel_49",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The player has achieved top scorer status.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_49_2_0",
+      "conversation_id": "sharded-BFCL/parallel_49",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Top scorer status for season 2017 is included.",
+      "entities": [
+        "2017"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_49_3_0",
+      "conversation_id": "sharded-BFCL/parallel_49",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Top scorer status for season 2018 is included.",
+      "entities": [
+        "2018"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_49_4_0",
+      "conversation_id": "sharded-BFCL/parallel_49",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Top scorer status for season 2019 is included.",
+      "entities": [
+        "2019"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_49_0_0",
+      "target": "sharded-BFCL/parallel_49_1_0",
+      "type": "supports",
+      "rationale": "player is in team supports top scorer status"
+    },
+    {
+      "source": "sharded-BFCL/parallel_49_1_0",
+      "target": "sharded-BFCL/parallel_49_2_0",
+      "type": "supports",
+      "rationale": "top scorer status for 2017 supports player status"
+    },
+    {
+      "source": "sharded-BFCL/parallel_49_1_0",
+      "target": "sharded-BFCL/parallel_49_3_0",
+      "type": "supports",
+      "rationale": "top scorer status for 2018 supports player status"
+    },
+    {
+      "source": "sharded-BFCL/parallel_49_1_0",
+      "target": "sharded-BFCL/parallel_49_4_0",
+      "type": "supports",
+      "rationale": "top scorer status for 2019 supports player status"
+    }
+  ],
+  "attributes": {}
+}

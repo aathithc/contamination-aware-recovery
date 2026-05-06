@@ -1,0 +1,363 @@
+{
+  "conversation_id": "sharded-GSM8K/1166",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1166_0_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "A 5-year-old avocado tree produces 50 fruits normally.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "When the tree is 6 years old, it produces 3 times the initial 5-year amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "At age 7, it starts producing 7 times the 5-year-old amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "For an 8-year-old tree, it produces 200 fewer fruits than a 10-year-old tree.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "In its ninth year, the tree doesn't produce any fruit at all.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "A 10-year-old tree will produce 20 times the 5-year-old amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_0_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year would be 10 fruits per year.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_0_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 100 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "When the tree is 6 years old, it produces 150 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year is 90 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_3",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 900 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "When the tree is 7 years old, it produces 350 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year is 160 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_3",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 1,600 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "When the tree is 8 years old, it produces 40 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year is 142 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_3",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 1,420 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "In the ninth year, the tree doesn't produce any fruit.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year is 110 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_3",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 1,100 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A 10-year-old tree will produce 1,000 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year is 255 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_3",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "A total of 2,550 fruits will be produced over 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1166_0_0",
+      "target": "sharded-GSM8K/1166_0_1",
+      "type": "supports",
+      "rationale": "user provided initial fact"
+    },
+    {
+      "source": "sharded-GSM8K/1166_0_1",
+      "target": "sharded-GSM8K/1166_0_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_1_0",
+      "target": "sharded-GSM8K/1166_1_1",
+      "type": "supports",
+      "rationale": "user updated information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_1_1",
+      "target": "sharded-GSM8K/1166_1_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_1_2",
+      "target": "sharded-GSM8K/1166_1_3",
+      "type": "supports",
+      "rationale": "assistant concluded total fruits"
+    },
+    {
+      "source": "sharded-GSM8K/1166_2_0",
+      "target": "sharded-GSM8K/1166_2_1",
+      "type": "supports",
+      "rationale": "user provided additional info"
+    },
+    {
+      "source": "sharded-GSM8K/1166_2_1",
+      "target": "sharded-GSM8K/1166_2_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_2_2",
+      "target": "sharded-GSM8K/1166_2_3",
+      "type": "supports",
+      "rationale": "assistant concluded total fruits"
+    },
+    {
+      "source": "sharded-GSM8K/1166_3_0",
+      "target": "sharded-GSM8K/1166_3_1",
+      "type": "supports",
+      "rationale": "user provided additional parameter"
+    },
+    {
+      "source": "sharded-GSM8K/1166_3_1",
+      "target": "sharded-GSM8K/1166_3_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_3_2",
+      "target": "sharded-GSM8K/1166_3_3",
+      "type": "supports",
+      "rationale": "assistant concluded total fruits"
+    },
+    {
+      "source": "sharded-GSM8K/1166_4_0",
+      "target": "sharded-GSM8K/1166_4_1",
+      "type": "supports",
+      "rationale": "user provided additional info"
+    },
+    {
+      "source": "sharded-GSM8K/1166_4_1",
+      "target": "sharded-GSM8K/1166_4_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_4_2",
+      "target": "sharded-GSM8K/1166_4_3",
+      "type": "supports",
+      "rationale": "assistant concluded total fruits"
+    },
+    {
+      "source": "sharded-GSM8K/1166_5_0",
+      "target": "sharded-GSM8K/1166_5_1",
+      "type": "supports",
+      "rationale": "user provided final information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_5_1",
+      "target": "sharded-GSM8K/1166_5_2",
+      "type": "supports",
+      "rationale": "assistant calculated based on provided information"
+    },
+    {
+      "source": "sharded-GSM8K/1166_5_2",
+      "target": "sharded-GSM8K/1166_5_3",
+      "type": "supports",
+      "rationale": "assistant concluded total fruits"
+    }
+  ],
+  "attributes": {}
+}

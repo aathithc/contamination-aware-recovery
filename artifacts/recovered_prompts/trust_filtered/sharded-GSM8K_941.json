@@ -1,0 +1,29 @@
+{
+  "conversation_id": "sharded-GSM8K/941",
+  "method": "trust_filtered",
+  "prompt": "There are 29 students in the teacher's class.\nThe teacher would have initially had 29 bottles of apple juice.\nInitial number of bottles = 29.\nNumber of bottles left = 29 - 29 = 0.\nThe teacher possesses 9 coupons in total.\nNumber of bottles left = 9 - 29 = -20.\nThe teacher is short 20 bottles of apple juice.\nEach one of these coupons can be exchanged for 100 bottles of apple juice.\nTotal bottles of apple juice = 9 × 100 = 900.\nNumber of bottles left = 900 - 29 = 871.\nEvery student gets 2 bottles of apple juice during lunch.\nTotal bottles needed = 29 × 2 = 58.\nNumber of bottles left = 900 - 58 = 842.\nThe teacher redeemed all her coupons and distributed the apple juice to the students for lunch.\nTotal bottles of apple juice = 9 × 100 = 900.\nTotal bottles needed = 29 × 2 = 58.\nNumber of bottles left = 900 - 58 = 842.\nThe teacher has 0 bottles of apple juice left.",
+  "included_node_ids": [
+    "sharded-GSM8K/941_0_0",
+    "sharded-GSM8K/941_0_2",
+    "sharded-GSM8K/941_0_3",
+    "sharded-GSM8K/941_0_4",
+    "sharded-GSM8K/941_1_0",
+    "sharded-GSM8K/941_1_2",
+    "sharded-GSM8K/941_1_3",
+    "sharded-GSM8K/941_2_0",
+    "sharded-GSM8K/941_2_1",
+    "sharded-GSM8K/941_2_2",
+    "sharded-GSM8K/941_3_0",
+    "sharded-GSM8K/941_3_1",
+    "sharded-GSM8K/941_3_2",
+    "sharded-GSM8K/941_4_0",
+    "sharded-GSM8K/941_4_1",
+    "sharded-GSM8K/941_4_2",
+    "sharded-GSM8K/941_4_3",
+    "sharded-GSM8K/941_4_4"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/941_0_1",
+    "sharded-GSM8K/941_1_1"
+  ]
+}

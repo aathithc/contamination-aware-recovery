@@ -1,0 +1,365 @@
+{
+  "conversation_id": "sharded-GSM8K/598",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/598_0_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Gumballs cost 1 nickel each.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_0_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Colby wants to buy some gumballs.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_1_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Colby has an amount of money represented by M.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_1_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of gumballs = M / $0.05.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_1_2",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Colby has $1.00, he can buy 20 gumballs.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_1_3",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The number of gumballs Colby can afford depends on how much money he has (M).",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_2_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Colby has 8 quarters.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_2_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Colby has 8 quarters worth $2.00.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_2_2",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of gumballs = $2.00 / $0.05 = 40 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_3_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Colby also has 6 dimes.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_3_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Colby has 6 dimes worth $0.60.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_3_2",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total money = $2.00 + $0.60 = $2.60.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_3_3",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of gumballs = $2.60 / $0.05 = 52 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_4_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Colby has 14 nickels.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_4_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Colby has 14 nickels worth $0.70.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_4_2",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total money = $2.60 + $0.70 = $3.30.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_4_3",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of gumballs = $3.30 / $0.05 = 66 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_5_0",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Colby has 15 pennies.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_5_1",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Colby has 15 pennies worth $0.15.",
+      "entities": [
+        "Colby"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_5_2",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total money = $3.30 + $0.15 = $3.45.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/598_5_3",
+      "conversation_id": "sharded-GSM8K/598",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of gumballs = $3.45 / $0.05 = 69 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/598_0_0",
+      "target": "sharded-GSM8K/598_1_0",
+      "type": "supports",
+      "rationale": "user provides cost information"
+    },
+    {
+      "source": "sharded-GSM8K/598_0_1",
+      "target": "sharded-GSM8K/598_1_3",
+      "type": "supports",
+      "rationale": "user states Colby's interest in buying gumballs"
+    },
+    {
+      "source": "sharded-GSM8K/598_1_0",
+      "target": "sharded-GSM8K/598_1_1",
+      "type": "derived_from",
+      "rationale": "assumed by assistant based on user input"
+    },
+    {
+      "source": "sharded-GSM8K/598_1_1",
+      "target": "sharded-GSM8K/598_1_2",
+      "type": "supports",
+      "rationale": "assumes Colby's money (M) is known"
+    },
+    {
+      "source": "sharded-GSM8K/598_1_1",
+      "target": "sharded-GSM8K/598_1_3",
+      "type": "supports",
+      "rationale": "formula derived from assistant's information"
+    },
+    {
+      "source": "sharded-GSM8K/598_2_0",
+      "target": "sharded-GSM8K/598_2_1",
+      "type": "supports",
+      "rationale": "user provides extra information about Colby's money"
+    },
+    {
+      "source": "sharded-GSM8K/598_2_1",
+      "target": "sharded-GSM8K/598_2_2",
+      "type": "supports",
+      "rationale": "calculates total based on provided quarters"
+    },
+    {
+      "source": "sharded-GSM8K/598_2_2",
+      "target": "sharded-GSM8K/598_2_3",
+      "type": "supports",
+      "rationale": "derives total number of gumballs"
+    },
+    {
+      "source": "sharded-GSM8K/598_3_0",
+      "target": "sharded-GSM8K/598_3_1",
+      "type": "supports",
+      "rationale": "user states additional information about Colby's money"
+    },
+    {
+      "source": "sharded-GSM8K/598_3_1",
+      "target": "sharded-GSM8K/598_3_2",
+      "type": "supports",
+      "rationale": "calculates total based on provided dimes"
+    },
+    {
+      "source": "sharded-GSM8K/598_3_2",
+      "target": "sharded-GSM8K/598_3_3",
+      "type": "supports",
+      "rationale": "derives total number of gumballs"
+    },
+    {
+      "source": "sharded-GSM8K/598_4_0",
+      "target": "sharded-GSM8K/598_4_1",
+      "type": "supports",
+      "rationale": "user provides additional information about Colby's money"
+    },
+    {
+      "source": "sharded-GSM8K/598_4_1",
+      "target": "sharded-GSM8K/598_4_2",
+      "type": "supports",
+      "rationale": "calculates total based on provided nickels"
+    },
+    {
+      "source": "sharded-GSM8K/598_4_2",
+      "target": "sharded-GSM8K/598_4_3",
+      "type": "supports",
+      "rationale": "derives total number of gumballs"
+    },
+    {
+      "source": "sharded-GSM8K/598_5_0",
+      "target": "sharded-GSM8K/598_5_1",
+      "type": "supports",
+      "rationale": "user adds more information about Colby's money"
+    },
+    {
+      "source": "sharded-GSM8K/598_5_1",
+      "target": "sharded-GSM8K/598_5_2",
+      "type": "supports",
+      "rationale": "calculates total based on provided pennies"
+    },
+    {
+      "source": "sharded-GSM8K/598_5_2",
+      "target": "sharded-GSM8K/598_5_3",
+      "type": "supports",
+      "rationale": "derives total number of gumballs"
+    }
+  ],
+  "attributes": {}
+}

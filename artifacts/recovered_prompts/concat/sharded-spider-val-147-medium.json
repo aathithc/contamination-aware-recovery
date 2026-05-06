@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-147-medium",
+  "method": "concat",
+  "prompt": "The maker is identified by their full name, American Motor Company.\nThe query is specifically about the maker of the cars, not any other entity.\nFocus on determining the exact number of car models related to the company.",
+  "included_node_ids": [
+    "sharded-spider-val-147-medium_0_0",
+    "sharded-spider-val-147-medium_1_0",
+    "sharded-spider-val-147-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-147-medium_0_1",
+    "sharded-spider-val-147-medium_1_1",
+    "sharded-spider-val-147-medium_2_1"
+  ]
+}

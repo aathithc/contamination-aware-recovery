@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-spider-val-972-medium",
+  "method": "concat",
+  "prompt": "Focus on owners who reside in some specific state.\nInclude the email address of the owners in the result.\nAlso list the first name of the owners.\nRestrict this to states whose names include the word 'North'.\nAdd the last name of the owners.",
+  "included_node_ids": [
+    "sharded-spider-val-972-medium_0_0",
+    "sharded-spider-val-972-medium_1_0",
+    "sharded-spider-val-972-medium_2_0",
+    "sharded-spider-val-972-medium_3_0",
+    "sharded-spider-val-972-medium_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-972-medium_0_1",
+    "sharded-spider-val-972-medium_1_1",
+    "sharded-spider-val-972-medium_2_1",
+    "sharded-spider-val-972-medium_3_1",
+    "sharded-spider-val-972-medium_4_1"
+  ]
+}

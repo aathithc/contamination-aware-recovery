@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1240",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Shelf         | Capacity (books) |\n|---------------|------------------|\n| Bottom Shelf  | 20               |\n| Middle Shelf  | 10               |\n| Middle Shelf  | 10               |\n| Top Shelf     | 15               |\n\nHighlighted:\n- Bottom Shelf\n- Top Shelf\n\nContext:\n- Each of the two middle shelves can hold 10 books.\n- The bottom shelf holds twice as many as one middle shelf.\n- The top shelf can hold 5 fewer than the bottom shelf.\n- Elly has a total of 110 books.\n\nInstruction:\nCalculate the capacity and number of bookcases needed for Elly's books.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

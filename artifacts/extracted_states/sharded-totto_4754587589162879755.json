@@ -64,9 +64,9 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_1_3",
+      "id": "sharded-totto_4754587589162879755_2_0",
       "conversation_id": "sharded-totto_4754587589162879755",
-      "turn_index": 1,
+      "turn_index": 2,
       "source": "assistant",
       "type": "answer_candidate",
       "text": "This table highlights the peak chart positions of 133 on the U.S. Billboard 200 and 43 on the U.S. Billboard Top R&B/Hip-Hop Albums for a musical release in 2004.",
@@ -75,20 +75,20 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_2_0",
+      "id": "sharded-totto_4754587589162879755_3_0",
       "conversation_id": "sharded-totto_4754587589162879755",
       "turn_index": 2,
       "source": "user",
-      "type": "fact",
+      "type": "metadata",
       "text": "The table_webpage_url is http://en.wikipedia.org/wiki/The_Best_of_E-40:_Yesterday,_Today_%26_Tomorrow.",
       "entities": [],
       "attributes": {},
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_2_1",
+      "id": "sharded-totto_4754587589162879755_4_0",
       "conversation_id": "sharded-totto_4754587589162879755",
-      "turn_index": 2,
+      "turn_index": 3,
       "source": "assistant",
       "type": "answer_candidate",
       "text": "This table highlights the peak chart positions of 133 on the U.S. Billboard 200 and 43 on the U.S. Billboard Top R&B/Hip-Hop Albums for a musical release in 2004, as found on the Wikipedia page http://en.wikipedia.org/wiki/The_Best_of_E-40:_Yesterday,_Today_%26_Tomorrow.",
@@ -97,20 +97,20 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_3_0",
+      "id": "sharded-totto_4754587589162879755_5_0",
       "conversation_id": "sharded-totto_4754587589162879755",
       "turn_index": 3,
       "source": "user",
-      "type": "fact",
+      "type": "metadata",
       "text": "The table_page_title is The Best of E-40: Yesterday, Today & Tomorrow.",
       "entities": [],
       "attributes": {},
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_3_1",
+      "id": "sharded-totto_4754587589162879755_6_0",
       "conversation_id": "sharded-totto_4754587589162879755",
-      "turn_index": 3,
+      "turn_index": 4,
       "source": "assistant",
       "type": "answer_candidate",
       "text": "This table highlights the peak chart positions of 133 on the U.S. Billboard 200 and 43 on the U.S. Billboard Top R&B/Hip-Hop Albums for the album The Best of E-40: Yesterday, Today & Tomorrow, released in 2004, as found on the Wikipedia page http://en.wikipedia.org/wiki/The_Best_of_E-40:_Yesterday,_Today_%26_Tomorrow.",
@@ -119,20 +119,20 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_4_0",
+      "id": "sharded-totto_4754587589162879755_7_0",
       "conversation_id": "sharded-totto_4754587589162879755",
       "turn_index": 4,
       "source": "user",
-      "type": "fact",
+      "type": "metadata",
       "text": "The table_section_title is Chart history.",
       "entities": [],
       "attributes": {},
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_4_1",
+      "id": "sharded-totto_4754587589162879755_8_0",
       "conversation_id": "sharded-totto_4754587589162879755",
-      "turn_index": 4,
+      "turn_index": 5,
       "source": "assistant",
       "type": "answer_candidate",
       "text": "This table, found in the \"Chart history\" section of the Wikipedia page for the album The Best of E-40: Yesterday, Today & Tomorrow, highlights the peak chart positions of 133 on the U.S. Billboard 200 and 43 on the U.S. Billboard Top R&B/Hip-Hop Albums for the album, released in 2004.",
@@ -141,20 +141,20 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_5_0",
+      "id": "sharded-totto_4754587589162879755_9_0",
       "conversation_id": "sharded-totto_4754587589162879755",
       "turn_index": 5,
       "source": "user",
-      "type": "fact",
+      "type": "metadata",
       "text": "The table_section_text is Album.",
       "entities": [],
       "attributes": {},
       "status": "active"
     },
     {
-      "id": "sharded-totto_4754587589162879755_5_1",
+      "id": "sharded-totto_4754587589162879755_10_0",
       "conversation_id": "sharded-totto_4754587589162879755",
-      "turn_index": 5,
+      "turn_index": 6,
       "source": "assistant",
       "type": "answer_candidate",
       "text": "This table, found in the \"Album\" section of the Wikipedia page for The Best of E-40: Yesterday, Today & Tomorrow, highlights the peak chart positions of 133 on the U.S. Billboard 200 and 43 on the U.S. Billboard Top R&B/Hip-Hop Albums for the album, released in 2004.",

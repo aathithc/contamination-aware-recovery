@@ -1,0 +1,227 @@
+{
+  "conversation_id": "sharded-spider-val-149-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-149-medium_0_0",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The query is about car makers that designed cars, not just manufacturers or sellers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_0_1",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The SQL query retrieves information about car designers or design teams at various car companies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_0_2",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The query joins the car_companies and car_designers tables to retrieve the company name, designer name, and designer role.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_0_3",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The query selects the company_name, designer_name, and designer_role columns.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_0_4",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It joins the car_companies and car_designers tables on the company_id column.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_1_0",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter for only those makers that have designed more than 3 car models.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_1_1",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To filter the results to include car makers that have designed more than 3 car models, we can add a subquery and a HAVING clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_1_2",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The subquery finds all company IDs that have more than 3 associated designers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_1_3",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The outer query uses a WHERE clause to only include companies that have their ID present in the subquery result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_2_0",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Retrieve the full name of the car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_2_1",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To retrieve the full name of the car maker, we can modify the original query slightly.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_2_2",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "We're now selecting c.full_company_name instead of c.company_name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_3_0",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Also include the unique id for each car maker in the result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_3_1",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To include the unique ID for each car maker, we can add the company_id column to the SELECT clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-149-medium_3_2",
+      "conversation_id": "sharded-spider-val-149-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This will include the unique identifier for each car company in the result set.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-149-medium_0_0",
+      "target": "sharded-spider-val-149-medium_0_1",
+      "type": "supports",
+      "rationale": "user provides context"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_0_1",
+      "target": "sharded-spider-val-149-medium_0_2",
+      "type": "supports",
+      "rationale": "assistance in crafting query"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_1_0",
+      "target": "sharded-spider-val-149-medium_1_1",
+      "type": "supports",
+      "rationale": "user requests filtering"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_1_1",
+      "target": "sharded-spider-val-149-medium_1_2",
+      "type": "supports",
+      "rationale": "explains subquery"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_1_2",
+      "target": "sharded-spider-val-149-medium_1_3",
+      "type": "supports",
+      "rationale": "clarifying outer query usage"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_2_0",
+      "target": "sharded-spider-val-149-medium_2_1",
+      "type": "supports",
+      "rationale": "user requests retrieval of full name"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_2_1",
+      "target": "sharded-spider-val-149-medium_2_2",
+      "type": "supports",
+      "rationale": "explaining change in query"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_3_0",
+      "target": "sharded-spider-val-149-medium_3_1",
+      "type": "supports",
+      "rationale": "user requests unique ID inclusion"
+    },
+    {
+      "source": "sharded-spider-val-149-medium_3_1",
+      "target": "sharded-spider-val-149-medium_3_2",
+      "type": "supports",
+      "rationale": "explains addition to query"
+    }
+  ],
+  "attributes": {}
+}

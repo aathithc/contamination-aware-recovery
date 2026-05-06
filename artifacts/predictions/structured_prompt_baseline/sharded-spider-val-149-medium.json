@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-149-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT company_id, full_company_name, designer_name, designer_role\nFROM car_makers\nWHERE car_model_count > 3;\n```", "success": false, "baseline_success": false}

@@ -1,0 +1,120 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_1",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_1_0_0",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Use a magnetic field of 5 Tesla",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_0_1",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This calculation will use a magnetic field of 5 Tesla.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_1_0",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Consider an area of 2 square meters",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_1_1",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This calculation will use an area of 2 square meters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_2_0",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Work with a change in time of 4 seconds initially",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_2_1",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This calculation will use a change in time of 4 seconds.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_3_0",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Repeat the calculation with a change in time of 10 seconds",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_1_3_1",
+      "conversation_id": "sharded-BFCL/parallel_1",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This calculation will now use a change in time of 10 seconds.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_1_0_0",
+      "target": "sharded-BFCL/parallel_1_0_1",
+      "type": "supports",
+      "rationale": "user fact supports the assistant's assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_1_1_0",
+      "target": "sharded-BFCL/parallel_1_1_1",
+      "type": "supports",
+      "rationale": "user fact supports the assistant's assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_1_2_0",
+      "target": "sharded-BFCL/parallel_1_2_1",
+      "type": "supports",
+      "rationale": "user fact supports the assistant's assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_1_3_0",
+      "target": "sharded-BFCL/parallel_1_3_1",
+      "type": "supports",
+      "rationale": "user fact supports the assistant's assumption"
+    }
+  ],
+  "attributes": {}
+}

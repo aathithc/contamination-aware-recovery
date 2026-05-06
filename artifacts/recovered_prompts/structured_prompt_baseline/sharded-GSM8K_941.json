@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/941",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Students | Coupons | Bottles per coupon | Total bottles | Bottles needed | Bottles left |\n|----------|---------|--------------------|---------------|----------------|---------------|\n| 29       | 9       | 100                | 900           | 58             | 842           |\n\nHighlighted:\n- 29 (Students)\n- 9 (Coupons)\n- 100 (Bottles per coupon)\n- 900 (Total bottles)\n- 58 (Bottles needed)\n- 842 (Bottles left)\n\nContext:\n- Each student receives 2 bottles of apple juice.\n- The teacher redeemed all her coupons.\n\nInstruction:\nCalculate the number of bottles of apple juice left after distribution.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

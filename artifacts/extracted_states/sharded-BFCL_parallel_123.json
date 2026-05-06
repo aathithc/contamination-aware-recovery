@@ -1,0 +1,188 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_123",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_123_0_0",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Make each sequence 500 nucleotides long",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_1_0",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Ensure the first sequence prefers nucleotide 'A'",
+      "entities": [
+        "A"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_2_0",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Ensure the second sequence prefers nucleotide 'T'",
+      "entities": [
+        "T"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_3_0",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Ensure the third sequence prefers nucleotide 'C'",
+      "entities": [
+        "C"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_4_0",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Ensure the fourth sequence prefers nucleotide 'G'",
+      "entities": [
+        "G"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_0_1",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are four different DNA sequences, each 500 nucleotides long:",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_1_1",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are four different DNA sequences, each 500 nucleotides long, with the first sequence preferring the nucleotide 'A':",
+      "entities": [
+        "A"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_2_1",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are four different DNA sequences, each 500 nucleotides long, with the first sequence preferring the nucleotide 'A' and the second sequence preferring the nucleotide 'T':",
+      "entities": [
+        "A",
+        "T"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_3_1",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are four different DNA sequences, each 500 nucleotides long, with the first sequence preferring the nucleotide 'A', the second sequence preferring the nucleotide 'T', and the third sequence preferring the nucleotide 'C':",
+      "entities": [
+        "A",
+        "T",
+        "C"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_123_4_1",
+      "conversation_id": "sharded-BFCL/parallel_123",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are four different DNA sequences, each 500 nucleotides long, with the first sequence preferring the nucleotide 'A', the second sequence preferring the nucleotide 'T', the third sequence preferring the nucleotide 'C', and the fourth sequence preferring the nucleotide 'G':",
+      "entities": [
+        "A",
+        "T",
+        "C",
+        "G"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_123_0_0",
+      "target": "sharded-BFCL/parallel_123_0_1",
+      "type": "supports",
+      "rationale": "user sets the requirement"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_1_0",
+      "target": "sharded-BFCL/parallel_123_1_1",
+      "type": "supports",
+      "rationale": "user sets the preference"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_2_0",
+      "target": "sharded-BFCL/parallel_123_2_1",
+      "type": "supports",
+      "rationale": "user sets the preference"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_3_0",
+      "target": "sharded-BFCL/parallel_123_3_1",
+      "type": "supports",
+      "rationale": "user sets the preference"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_4_0",
+      "target": "sharded-BFCL/parallel_123_4_1",
+      "type": "supports",
+      "rationale": "user sets the preference"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_1_1",
+      "target": "sharded-BFCL/parallel_123_2_1",
+      "type": "supports",
+      "rationale": "sequence preferences are cumulative"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_2_1",
+      "target": "sharded-BFCL/parallel_123_3_1",
+      "type": "supports",
+      "rationale": "sequence preferences are cumulative"
+    },
+    {
+      "source": "sharded-BFCL/parallel_123_3_1",
+      "target": "sharded-BFCL/parallel_123_4_1",
+      "type": "supports",
+      "rationale": "sequence preferences are cumulative"
+    }
+  ],
+  "attributes": {}
+}

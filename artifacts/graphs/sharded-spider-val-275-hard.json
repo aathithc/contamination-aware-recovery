@@ -1,0 +1,143 @@
+{
+  "conversation_id": "sharded-spider-val-275-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-275-hard_0_0",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Consider stores that have a higher count than a specific threshold.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_0_1",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "You can use a database schema with tables like 'stores' and 'products'.",
+      "entities": [
+        "stores",
+        "products"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_0_2",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The SQL query involves joining 'stores' and 'store_products' and filtering by a product count threshold.",
+      "entities": [
+        "stores",
+        "store_products"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_1_0",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Retrieve the names of the qualifying stores.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_1_1",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Modify the previous query to select only 'store_name'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_2_0",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on the number of products each store has.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_2_1",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Include product count in the output and sort results by product_count.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_3_0",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Let's say many products is more than the average number of products across all stores.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-275-hard_3_1",
+      "conversation_id": "sharded-spider-val-275-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Use a Common Table Expression to calculate product count and compare it to the average.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-275-hard_0_0",
+      "target": "sharded-spider-val-275-hard_0_1",
+      "type": "supports",
+      "rationale": "User fact leads to assistant derivation."
+    },
+    {
+      "source": "sharded-spider-val-275-hard_0_1",
+      "target": "sharded-spider-val-275-hard_0_2",
+      "type": "supports",
+      "rationale": "Assistant derivation provides SQL context."
+    },
+    {
+      "source": "sharded-spider-val-275-hard_1_0",
+      "target": "sharded-spider-val-275-hard_1_1",
+      "type": "supports",
+      "rationale": "User fact leads to assistant answer candidate."
+    },
+    {
+      "source": "sharded-spider-val-275-hard_2_0",
+      "target": "sharded-spider-val-275-hard_2_1",
+      "type": "supports",
+      "rationale": "User fact leads to assistant answer candidate."
+    },
+    {
+      "source": "sharded-spider-val-275-hard_3_0",
+      "target": "sharded-spider-val-275-hard_3_1",
+      "type": "supports",
+      "rationale": "User fact leads to assistant answer candidate."
+    }
+  ],
+  "attributes": {}
+}

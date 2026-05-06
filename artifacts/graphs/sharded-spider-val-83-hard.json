@@ -1,0 +1,143 @@
+{
+  "conversation_id": "sharded-spider-val-83-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-83-hard_0_0",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on students who own a cat.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_0_1",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To retrieve information about students who own a cat, you need a table that stores information about the pets owned by each student.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_0_2",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can use a JOIN query to get the information about students who own a cat.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_1_0",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Narrow it down to cats that are specifically 3 years old.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_1_1",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To retrieve information about students who own a cat that is 3 years old, you can modify the previous query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_1_2",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can use a JOIN query to get the information about students who own a cat that is 3 years old.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_2_0",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Retrieve the last name of the relevant student.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_2_1",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To retrieve just the last name of the students who own a 3-year-old cat, you can modify the query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-83-hard_2_2",
+      "conversation_id": "sharded-spider-val-83-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can use a JOIN query to get just the last name of the students who own a 3-year-old cat.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-83-hard_0_0",
+      "target": "sharded-spider-val-83-hard_0_1",
+      "type": "supports",
+      "rationale": "User fact provides context for query derivation."
+    },
+    {
+      "source": "sharded-spider-val-83-hard_0_1",
+      "target": "sharded-spider-val-83-hard_0_2",
+      "type": "supports",
+      "rationale": "Derivation leads to an answer candidate."
+    },
+    {
+      "source": "sharded-spider-val-83-hard_1_0",
+      "target": "sharded-spider-val-83-hard_1_1",
+      "type": "supports",
+      "rationale": "User fact modifies context for query derivation."
+    },
+    {
+      "source": "sharded-spider-val-83-hard_1_1",
+      "target": "sharded-spider-val-83-hard_1_2",
+      "type": "supports",
+      "rationale": "Derivation leads to an answer candidate."
+    },
+    {
+      "source": "sharded-spider-val-83-hard_2_0",
+      "target": "sharded-spider-val-83-hard_2_1",
+      "type": "supports",
+      "rationale": "User fact modifies context for query derivation."
+    },
+    {
+      "source": "sharded-spider-val-83-hard_2_1",
+      "target": "sharded-spider-val-83-hard_2_2",
+      "type": "supports",
+      "rationale": "Derivation leads to an answer candidate."
+    }
+  ],
+  "attributes": {}
+}

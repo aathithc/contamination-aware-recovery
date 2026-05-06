@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_126",
+  "method": "trust_filtered",
+  "prompt": "Predict it over a time span of 5000 years\nUse the Darwin model for the prediction\nExplain how this prediction might change\nAlso include the prediction using the Lamarck model",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_126_0_0",
+    "sharded-BFCL/parallel_126_1_0",
+    "sharded-BFCL/parallel_126_2_0",
+    "sharded-BFCL/parallel_126_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_126_0_1",
+    "sharded-BFCL/parallel_126_1_1",
+    "sharded-BFCL/parallel_126_2_1",
+    "sharded-BFCL/parallel_126_3_1"
+  ]
+}

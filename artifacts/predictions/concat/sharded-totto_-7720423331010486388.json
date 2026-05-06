@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-7720423331010486388",
   "method": "concat",
-  "prediction": "The highlighted cell indicates that in 2008, at the Olympic Games held in Beijing, PR China, Mada\u00ed P\u00e9rez finished in 19th place in the marathon event with a time of 2:31:47.",
-  "success": true,
+  "prediction": "The highlighted cells indicate that in the year 2020, the athlete Mada\u00ed P\u00e9rez finished in 1st position at the National Championships held in Mexico City, competing in the Marathon event. Additionally, in 2022, she secured a 2nd position at the World Athletics Championships, also in the Marathon event, held in Eugene, Oregon.",
+  "success": false,
   "baseline_success": true
 }

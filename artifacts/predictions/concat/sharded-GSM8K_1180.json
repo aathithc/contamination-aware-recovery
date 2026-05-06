@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1180", "method": "concat", "prediction": "Mr. Marcellus bought 4000 gallons of milk at $3.50 per gallon. Since 2/5 of the milk was expired, he returned 1600 gallons (2/5 of 4000). The refund amount for the returned expired milk is 1600 gallons x $3.50 = $5,600.", "success": true, "baseline_success": true}

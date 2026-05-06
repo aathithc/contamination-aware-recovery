@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/122",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Day       | Hours of Sleep |\n|-----------|----------------|\n| Monday    | 8              |\n| Tuesday   | 6              |\n| Wednesday | 4              |\n| Thursday  | 5              |\n| Friday    | 5              |\n| Saturday  | 10             |\n| Sunday    | 10             |\n\nHighlighted:\nMonday: 8, Tuesday: 6, Wednesday: 4, Thursday: 5, Friday: 5, Saturday: 10, Sunday: 10\n\nContext:\nFor Tuesday and Wednesday, she slept 2 hours less than Monday. For Thursday and Friday, she slept 1 hour more per day than Tuesday and Wednesday.\n\nInstruction:\nSummarize Sadie's total sleep hours for the week.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

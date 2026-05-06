@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-spider-val-79-medium",
+  "method": "concat",
+  "prompt": "The number of pets should be grouped for each student.\nOnly include students who have at least one pet.",
+  "included_node_ids": [
+    "sharded-spider-val-79-medium_0_0",
+    "sharded-spider-val-79-medium_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-79-medium_1_0",
+    "sharded-spider-val-79-medium_1_1",
+    "sharded-spider-val-79-medium_1_2",
+    "sharded-spider-val-79-medium_2_0",
+    "sharded-spider-val-79-medium_2_1",
+    "sharded-spider-val-79-medium_2_2",
+    "sharded-spider-val-79-medium_2_3",
+    "sharded-spider-val-79-medium_4_0",
+    "sharded-spider-val-79-medium_4_1",
+    "sharded-spider-val-79-medium_4_2",
+    "sharded-spider-val-79-medium_4_3"
+  ]
+}

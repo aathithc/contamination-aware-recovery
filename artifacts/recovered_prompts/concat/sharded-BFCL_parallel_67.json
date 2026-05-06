@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_67",
+  "method": "concat",
+  "prompt": "The first circle has a radius of 5 meters\nThe second circle has a radius of 10 meters\nCompare the areas of the two circles\nFigure out which circle has a larger area\nCalculate by how much the larger circle's area exceeds the smaller one",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_67_0_0",
+    "sharded-BFCL/parallel_67_1_0",
+    "sharded-BFCL/parallel_67_2_0",
+    "sharded-BFCL/parallel_67_3_0",
+    "sharded-BFCL/parallel_67_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_67_0_1",
+    "sharded-BFCL/parallel_67_1_1",
+    "sharded-BFCL/parallel_67_2_1",
+    "sharded-BFCL/parallel_67_3_1",
+    "sharded-BFCL/parallel_67_4_1"
+  ]
+}

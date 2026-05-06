@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-GSM8K/237",
+  "method": "trust_filtered",
+  "prompt": "Johnny started with a $20 allowance.\nJohnny's weekly allowance = $20.\nNumber of weeks in a year = 52.\nTotal allowance received in 1 year = $1,040.\nTotal amount after 1 year = $1,060.\nHe also added $10 more to this amount.\nTotal amount after 1 year = $1,060.\nFinal amount = $1,070.\nHe took the total and invested it.\nJohnny invested the total $1,070.\nThis investment tripled in value after a year.\nFinal value of the investment = $3,210.",
+  "included_node_ids": [
+    "sharded-GSM8K/237_0_0",
+    "sharded-GSM8K/237_0_1",
+    "sharded-GSM8K/237_0_2",
+    "sharded-GSM8K/237_0_3",
+    "sharded-GSM8K/237_0_4",
+    "sharded-GSM8K/237_1_0",
+    "sharded-GSM8K/237_1_1",
+    "sharded-GSM8K/237_1_2",
+    "sharded-GSM8K/237_2_0",
+    "sharded-GSM8K/237_2_1",
+    "sharded-GSM8K/237_3_0",
+    "sharded-GSM8K/237_3_1"
+  ],
+  "excluded_node_ids": []
+}

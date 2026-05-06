@@ -1,0 +1,143 @@
+{
+  "conversation_id": "sharded-GSM8K/435",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/435_0_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Ray started with 25 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Ray gave some of his 25 lollipops to his friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "There is not enough information to determine the exact number of lollipops Ray's friends received.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Ray decided to keep 5 lollipops for himself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Ray had 25 - 5 = 20 lollipops left to give to his friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Ray's friends received a total of 20 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The rest of the lollipops were shared equally among his 4 friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The remaining lollipops were shared equally among Ray's 4 friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Ray's 4 friends each got 5 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/435_0_0",
+      "target": "sharded-GSM8K/435_0_1",
+      "type": "supports",
+      "rationale": "Ray's statement supports the assistant's assumption."
+    },
+    {
+      "source": "sharded-GSM8K/435_0_1",
+      "target": "sharded-GSM8K/435_0_2",
+      "type": "supports",
+      "rationale": "The assistant's assumption leads to the conclusion of insufficient information."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_0",
+      "target": "sharded-GSM8K/435_1_1",
+      "type": "supports",
+      "rationale": "User fact about Ray keeping lollipops backs the assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_1",
+      "target": "sharded-GSM8K/435_1_2",
+      "type": "supports",
+      "rationale": "The assistant's calculation supports the conclusion about friends' total lollipops."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_0",
+      "target": "sharded-GSM8K/435_2_1",
+      "type": "supports",
+      "rationale": "User fact about sharing lollipops backs the assistant's assumption."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_1",
+      "target": "sharded-GSM8K/435_2_2",
+      "type": "supports",
+      "rationale": "The assistant's assumption supports the conclusion on distribution among friends."
+    }
+  ],
+  "attributes": {}
+}

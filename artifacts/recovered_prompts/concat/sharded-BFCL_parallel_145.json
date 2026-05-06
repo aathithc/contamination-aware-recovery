@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_145",
+  "method": "concat",
+  "prompt": "Round the angle to 2 decimal places\nAlso find the angle between the hour and minute hands at 8:20\nAdditionally, calculate the angle at 11:50\nEnsure all angles are rounded to 2 decimal places",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_145_0_0",
+    "sharded-BFCL/parallel_145_1_0",
+    "sharded-BFCL/parallel_145_2_0",
+    "sharded-BFCL/parallel_145_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_145_1_1",
+    "sharded-BFCL/parallel_145_1_2",
+    "sharded-BFCL/parallel_145_1_3",
+    "sharded-BFCL/parallel_145_2_1",
+    "sharded-BFCL/parallel_145_2_2",
+    "sharded-BFCL/parallel_145_2_3",
+    "sharded-BFCL/parallel_145_3_1"
+  ]
+}

@@ -1,27 +1,24 @@
 {
   "conversation_id": "sharded-totto_-1200443185142546807",
   "method": "trust_filtered",
-  "prompt": "Reference table-description examples provided.\nTable columns: Pos, No., Driver, Team, Manufacturer, Time, Speed\n1 | No.: 2 | Driver: Brad Keselowski [highlighted] | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]\nTable title: Official final practice results\n1 | No.: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]\n1 | No.: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596 [highlighted]\n2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072\n2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072\n2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072\n3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995\n3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995\n3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995\nThe table_webpage_url is http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400.\nThe table_page_title is 2018 Bank of America Roval 400.\nThe table_section_title is Final practice.",
+  "prompt": "Reference table-description examples provided.\nTable columns: Pos, No., Driver, Team, Manufacturer, Time, Speed\n1 | No: 2 | Driver: Brad Keselowski [highlighted] | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]\n1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596\n1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596\n1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596\n1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596\n1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596\ntable_webpage_url: http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400.\ntable_page_title: 2018 Bank of America Roval 400.\ntable_section_title: Final practice.",
   "included_node_ids": [
     "sharded-totto_-1200443185142546807_0_0",
     "sharded-totto_-1200443185142546807_1_0",
     "sharded-totto_-1200443185142546807_1_1",
-    "sharded-totto_-1200443185142546807_1_10",
     "sharded-totto_-1200443185142546807_1_2",
     "sharded-totto_-1200443185142546807_1_3",
     "sharded-totto_-1200443185142546807_1_4",
     "sharded-totto_-1200443185142546807_1_5",
     "sharded-totto_-1200443185142546807_1_6",
-    "sharded-totto_-1200443185142546807_1_7",
-    "sharded-totto_-1200443185142546807_1_8",
-    "sharded-totto_-1200443185142546807_1_9",
-    "sharded-totto_-1200443185142546807_2_0",
     "sharded-totto_-1200443185142546807_3_0",
-    "sharded-totto_-1200443185142546807_4_0"
+    "sharded-totto_-1200443185142546807_4_0",
+    "sharded-totto_-1200443185142546807_5_0"
   ],
   "excluded_node_ids": [
-    "sharded-totto_-1200443185142546807_2_1",
+    "sharded-totto_-1200443185142546807_2_0",
     "sharded-totto_-1200443185142546807_3_1",
-    "sharded-totto_-1200443185142546807_4_1"
+    "sharded-totto_-1200443185142546807_4_1",
+    "sharded-totto_-1200443185142546807_5_1"
   ]
 }

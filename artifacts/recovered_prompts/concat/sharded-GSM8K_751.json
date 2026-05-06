@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-GSM8K/751",
+  "method": "concat",
+  "prompt": "Gunther started with a stash of 48 bananas hidden under a fern branch.\nArnold, the chimpanzee, swiped half of those bananas when Gunther wasn't looking.\nThe following day, Gunther added back another 25 bananas to his pile.\nThat evening, Arnold came back and stole 12 more bananas.\nOn the third day, Gunther added another 6 bananas to his pile.\nAt this point, Gunther started counting how many bananas he had.",
+  "included_node_ids": [
+    "sharded-GSM8K/751_0_0",
+    "sharded-GSM8K/751_1_0",
+    "sharded-GSM8K/751_2_0",
+    "sharded-GSM8K/751_3_0",
+    "sharded-GSM8K/751_4_0",
+    "sharded-GSM8K/751_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/751_0_1",
+    "sharded-GSM8K/751_0_2",
+    "sharded-GSM8K/751_1_1",
+    "sharded-GSM8K/751_1_2",
+    "sharded-GSM8K/751_2_1",
+    "sharded-GSM8K/751_2_2",
+    "sharded-GSM8K/751_3_1",
+    "sharded-GSM8K/751_4_1",
+    "sharded-GSM8K/751_5_1"
+  ]
+}

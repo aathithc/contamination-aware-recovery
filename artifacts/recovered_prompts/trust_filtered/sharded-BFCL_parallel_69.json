@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_69",
+  "method": "trust_filtered",
+  "prompt": "The first triangle has a base of 10 units\nThe first triangle has a height of 5 units\nThe second triangle has a base of 8 units\nThe second triangle has a height of 6 units\nJohn is a geometry teacher preparing a quiz for his students",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_69_0_0",
+    "sharded-BFCL/parallel_69_1_0",
+    "sharded-BFCL/parallel_69_2_0",
+    "sharded-BFCL/parallel_69_3_0",
+    "sharded-BFCL/parallel_69_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_69_0_1",
+    "sharded-BFCL/parallel_69_1_1",
+    "sharded-BFCL/parallel_69_2_1",
+    "sharded-BFCL/parallel_69_3_1",
+    "sharded-BFCL/parallel_69_4_1"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "conversation_id": "sharded-spider-val-423-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-423-hard_0_0",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on the visitor who purchased the maximum number of tickets.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_0_1",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the details of the visitor who purchased the maximum number of tickets, we can use the following SQL query: SELECT v.visitor_id, v.name, v.email, v.address, v.phone, COUNT(t.ticket_id) AS total_tickets_purchased FROM visitors v JOIN tickets t ON v.visitor_id = t.visitor_id GROUP BY v.visitor_id ORDER BY total_tickets_purchased DESC LIMIT 1.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_0_2",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The query retrieves relevant visitor details like visitor_id, name, email, address, phone, and the total_tickets_purchased count.",
+      "entities": [
+        "visitor_id",
+        "name",
+        "email",
+        "address",
+        "phone"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_1_0",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Retrieve the visitor's name as part of the details.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_1_1",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To retrieve the visitor's name as part of the details, we can modify the SQL query to include v.name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_1_2",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The modified query is: SELECT v.visitor_id, v.name, v.email, v.address, v.phone, COUNT(t.ticket_id) AS total_tickets_purchased FROM visitors v JOIN tickets t ON v.visitor_id = t.visitor_id GROUP BY v.visitor_id ORDER BY total_tickets_purchased DESC LIMIT 1.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_2_0",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Ensure the ticket purchase was all in a single transaction.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_2_1",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To ensure that the maximum number of tickets purchased was done in a single transaction, we can modify the SQL query by joining the transactions table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_2_2",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The updated query is: SELECT v.visitor_id, v.name, v.email, v.address, v.phone, COUNT(t.ticket_id) AS total_tickets_purchased FROM visitors v JOIN tickets t ON v.visitor_id = t.visitor_id JOIN transactions tr ON t.transaction_id = tr.transaction_id GROUP BY v.visitor_id ORDER BY total_tickets_purchased DESC LIMIT 1.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_3_0",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Retrieve the visitor's age along with the name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_3_1",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To retrieve the visitor's age along with their name, we can modify the SQL query by including TIMESTAMPDIFF().",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-423-hard_3_2",
+      "conversation_id": "sharded-spider-val-423-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The updated query will be: SELECT v.visitor_id, v.name, TIMESTAMPDIFF(YEAR, v.date_of_birth, CURDATE()) AS age, v.email, v.address, v.phone, COUNT(t.ticket_id) AS total_tickets_purchased FROM visitors v JOIN tickets t ON v.visitor_id = t.visitor_id JOIN transactions tr ON t.transaction_id = tr.transaction_id GROUP BY v.visitor_id ORDER BY total_tickets_purchased DESC LIMIT 1.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-423-hard_0_0",
+      "target": "sharded-spider-val-423-hard_0_1",
+      "type": "supports",
+      "rationale": "user turns indicates requirement for visitor with maximum tickets"
+    },
+    {
+      "source": "sharded-spider-val-423-hard_1_0",
+      "target": "sharded-spider-val-423-hard_1_1",
+      "type": "supports",
+      "rationale": "user requests inclusion of visitor's name"
+    },
+    {
+      "source": "sharded-spider-val-423-hard_2_0",
+      "target": "sharded-spider-val-423-hard_2_1",
+      "type": "supports",
+      "rationale": "user specifies need for single transaction assurance"
+    },
+    {
+      "source": "sharded-spider-val-423-hard_3_0",
+      "target": "sharded-spider-val-423-hard_3_1",
+      "type": "supports",
+      "rationale": "user asks for visitor's age"
+    }
+  ],
+  "attributes": {}
+}

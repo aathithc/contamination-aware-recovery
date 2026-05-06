@@ -1,0 +1,31 @@
+{
+  "conversation_id": "sharded-spider-val-832-medium",
+  "method": "concat",
+  "prompt": "Filter the performances by excluding a certain type.\nIdentify the minimum share of the filtered performances.\nIdentify the maximum share of the filtered performances.",
+  "included_node_ids": [
+    "sharded-spider-val-832-medium_0_0",
+    "sharded-spider-val-832-medium_2_0",
+    "sharded-spider-val-832-medium_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-832-medium_1_0",
+    "sharded-spider-val-832-medium_1_1",
+    "sharded-spider-val-832-medium_1_2",
+    "sharded-spider-val-832-medium_1_3",
+    "sharded-spider-val-832-medium_1_4",
+    "sharded-spider-val-832-medium_1_5",
+    "sharded-spider-val-832-medium_1_6",
+    "sharded-spider-val-832-medium_1_7",
+    "sharded-spider-val-832-medium_1_8",
+    "sharded-spider-val-832-medium_2_1",
+    "sharded-spider-val-832-medium_2_2",
+    "sharded-spider-val-832-medium_2_3",
+    "sharded-spider-val-832-medium_2_4",
+    "sharded-spider-val-832-medium_2_5",
+    "sharded-spider-val-832-medium_3_1",
+    "sharded-spider-val-832-medium_3_2",
+    "sharded-spider-val-832-medium_3_3",
+    "sharded-spider-val-832-medium_3_4",
+    "sharded-spider-val-832-medium_3_5"
+  ]
+}

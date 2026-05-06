@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/14",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Dance Type        | Number of Students | Percentage of Students |\n|-------------------|--------------------|------------------------|\n| Contemporary Dance | 4                  | 20%                    |\n| Jazz Dance        | 4                  | 25%                    |\n| Hip-Hop Dance     | 12                 | 60%                    |\n| Total             | 20                 | 100%                   |\n\nHighlighted:\n- Hip-Hop Dance: 12 students, 60%\n\nContext:\n- There are 20 students total in the dance class.\n- 20% of the students chose contemporary dance.\n- 25% of the remaining students opted for jazz dance.\n\nInstruction:\nSummarize the number of students in each dance category and their respective percentages.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,125 @@
+{
+  "conversation_id": "sharded-spider-val-497-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-497-medium_0_0",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "The commander should not be 'Boril'.",
+      "entities": [
+        "Boril"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_1_0",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Include the outcomes or results of these battles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_1_1",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's the SQL query that includes battle outcomes.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_2_0",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Provide the names of these battles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_2_1",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's the updated SQL query that will return the names of the battles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_3_0",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on battles involving Bulgarian commanders.",
+      "entities": [
+        "Bulgarian"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-497-medium_3_1",
+      "conversation_id": "sharded-spider-val-497-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's an updated SQL query focusing on battles involving Bulgarian commanders.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-497-medium_0_0",
+      "target": "sharded-spider-val-497-medium_1_0",
+      "type": "supports",
+      "rationale": "user provided constraint influences SQL query"
+    },
+    {
+      "source": "sharded-spider-val-497-medium_1_0",
+      "target": "sharded-spider-val-497-medium_1_1",
+      "type": "supports",
+      "rationale": "new requirement to include outcomes"
+    },
+    {
+      "source": "sharded-spider-val-497-medium_1_1",
+      "target": "sharded-spider-val-497-medium_2_0",
+      "type": "supports",
+      "rationale": "user requested battle names"
+    },
+    {
+      "source": "sharded-spider-val-497-medium_2_0",
+      "target": "sharded-spider-val-497-medium_2_1",
+      "type": "supports",
+      "rationale": "user provides new requirement to include names"
+    },
+    {
+      "source": "sharded-spider-val-497-medium_2_1",
+      "target": "sharded-spider-val-497-medium_3_0",
+      "type": "supports",
+      "rationale": "user seeks focus on Bulgarian commanders"
+    },
+    {
+      "source": "sharded-spider-val-497-medium_3_0",
+      "target": "sharded-spider-val-497-medium_3_1",
+      "type": "supports",
+      "rationale": "user's request influences updated SQL query"
+    }
+  ],
+  "attributes": {}
+}

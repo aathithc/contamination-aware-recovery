@@ -1,0 +1,176 @@
+{
+  "conversation_id": "sharded-GSM8K/369",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/369_0_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "There are 44 seniors who need to receive awards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Every senior will get a picture frame that costs $20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Each picture frame also has a logo etched on it, adding 20% more to its cost.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Besides the frames, 2 seniors will also get $5 pins.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "About 1/4 of these seniors are officers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_5_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Officers will also get cords that cost $12 each.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_0_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Based on the information provided, the estimated amount that will be spent on senior gifts for the 44 graduating seniors is approximately $880.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount that will be spent on senior gifts, where each senior receives a $20 picture frame, is $880.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount that will be spent on senior gifts, where each senior receives a $24 picture frame with a logo etched on it, is $1,056.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount that will be spent on senior gifts, including the $24 picture frames for all 44 seniors and the $5 pins for 2 seniors, is $1,066.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount that will be spent on senior gifts, including the $24 picture frames for all 44 seniors, the $5 pins for 2 seniors, and the additional $10 gifts for the 11 officer seniors, is $1,176.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_5_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount that will be spent on senior gifts, including the $24 picture frames for all 44 seniors, the $5 pins for 2 seniors, the additional $10 gifts for the 11 officer seniors, and the $12 cords for the 11 officer seniors, is $1,308.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/369_0_0",
+      "target": "sharded-GSM8K/369_0_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant's estimation"
+    },
+    {
+      "source": "sharded-GSM8K/369_1_0",
+      "target": "sharded-GSM8K/369_1_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/369_2_0",
+      "target": "sharded-GSM8K/369_2_1",
+      "type": "supports",
+      "rationale": "user fact modifies cost leading to assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/369_3_0",
+      "target": "sharded-GSM8K/369_3_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant's calculation of pins"
+    },
+    {
+      "source": "sharded-GSM8K/369_4_0",
+      "target": "sharded-GSM8K/369_4_1",
+      "type": "supports",
+      "rationale": "user fact provides officer senior data for assistant's estimate"
+    },
+    {
+      "source": "sharded-GSM8K/369_5_0",
+      "target": "sharded-GSM8K/369_5_1",
+      "type": "supports",
+      "rationale": "user fact adds to senior gifts total cost"
+    }
+  ],
+  "attributes": {}
+}

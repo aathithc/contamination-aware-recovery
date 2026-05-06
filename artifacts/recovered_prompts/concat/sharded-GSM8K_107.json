@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-GSM8K/107",
+  "method": "concat",
+  "prompt": "On both Monday and Tuesday, he watched a 1-hour episode of his favorite show.\nOn Thursday, he watched a 1-hour episode of a show.\nOn that same Thursday, he also watched a 30-minute show.\nOn Friday night, he watched two 1-hour episodes of his show.\nIn total, he watched TV for 7 hours during the week.",
+  "included_node_ids": [
+    "sharded-GSM8K/107_0_0",
+    "sharded-GSM8K/107_2_0",
+    "sharded-GSM8K/107_3_0",
+    "sharded-GSM8K/107_4_0",
+    "sharded-GSM8K/107_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/107_1_0",
+    "sharded-GSM8K/107_1_1",
+    "sharded-GSM8K/107_1_2",
+    "sharded-GSM8K/107_1_3",
+    "sharded-GSM8K/107_5_1"
+  ]
+}

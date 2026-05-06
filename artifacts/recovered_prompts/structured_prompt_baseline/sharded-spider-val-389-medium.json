@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-389-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Teacher Name | Age | Subject | Years of Experience |\n|--------------|-----|---------|---------------------|\n|              |     |         |                     |\n\nHighlighted:\nNone\n\nContext:\nThe user is asking for information based on teachers' names and ages, both of which are deemed unethical to query.\n\nInstruction:\nList the names of teachers based only on their qualifications and experience.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

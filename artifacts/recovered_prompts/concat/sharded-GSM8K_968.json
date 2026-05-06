@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-GSM8K/968",
+  "method": "concat",
+  "prompt": "Andy works at the pro shop of a tennis resort.\nAndy can string 4 racquets per hour.\nAndy needs to string 20 racquets.\nHe needs to restring 12 racquets in total.\n3 racquets will use synthetic gut string.\n5 racquets will be strung with polyester string.\nThe remaining 4 racquets will have hybrid strings.\nStringing with synthetic gut takes him 15 minutes per racquet on average.\nStringing with polyester string takes him 22 minutes per racquet.\nStringing a racquet with a hybrid set takes him 18 minutes on average.",
+  "included_node_ids": [
+    "sharded-GSM8K/968_0_0",
+    "sharded-GSM8K/968_0_1",
+    "sharded-GSM8K/968_0_2",
+    "sharded-GSM8K/968_1_0",
+    "sharded-GSM8K/968_2_0",
+    "sharded-GSM8K/968_3_0",
+    "sharded-GSM8K/968_4_0",
+    "sharded-GSM8K/968_5_0",
+    "sharded-GSM8K/968_6_0",
+    "sharded-GSM8K/968_7_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/968_0_3",
+    "sharded-GSM8K/968_1_1",
+    "sharded-GSM8K/968_2_1",
+    "sharded-GSM8K/968_3_1",
+    "sharded-GSM8K/968_4_1",
+    "sharded-GSM8K/968_5_1",
+    "sharded-GSM8K/968_6_1",
+    "sharded-GSM8K/968_7_1"
+  ]
+}

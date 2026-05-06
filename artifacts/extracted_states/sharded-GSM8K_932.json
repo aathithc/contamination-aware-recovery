@@ -1,0 +1,273 @@
+{
+  "conversation_id": "sharded-GSM8K/932",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/932_0_0",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Maria had 4 friends join her for this activity.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_0_1",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria had 12 water balloons.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_0_2",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Each of Maria's friends had 8 water balloons.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_0_3",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of water balloons that Maria's friends had is 32.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_0_4",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria and her friends had a total of 44 water balloons.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_1_0",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "They decided to have a water balloon fight outside.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_1_1",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "With the additional information that they decided to have a water balloon fight outside, Maria and her friends still had a total of 44 water balloons.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_2_0",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "At first, Maria handed 2 balloons to each of her friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_2_1",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria gave 8 water balloons to her friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_2_2",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria had 4 water balloons left.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_2_3",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "After handing out the balloons, Maria and her friends had a total of 36 water balloons.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_3_0",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Maria kept 1 balloon for herself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_3_1",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria had 3 water balloons remaining after keeping one for herself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_3_2",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria and her friends had a total of 35 water balloons after she kept one.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_4_0",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Maria's mom gave an extra 3 balloons to everyone, including Maria.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_4_1",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria received 3 extra balloons, making her total 4.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/932_4_2",
+      "conversation_id": "sharded-GSM8K/932",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maria and her 4 friends had a total of 51 water balloons after the extra balloons were given.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/932_0_0",
+      "target": "sharded-GSM8K/932_0_1",
+      "type": "supports",
+      "rationale": "user provides fact to support assistant's statement"
+    },
+    {
+      "source": "sharded-GSM8K/932_0_0",
+      "target": "sharded-GSM8K/932_0_2",
+      "type": "supports",
+      "rationale": "user provides fact to support assistant's statement"
+    },
+    {
+      "source": "sharded-GSM8K/932_0_1",
+      "target": "sharded-GSM8K/932_0_3",
+      "type": "supports",
+      "rationale": "assistant derives from given values for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/932_0_1",
+      "target": "sharded-GSM8K/932_0_4",
+      "type": "supports",
+      "rationale": "assistant derives total from previous calculations"
+    },
+    {
+      "source": "sharded-GSM8K/932_1_0",
+      "target": "sharded-GSM8K/932_1_1",
+      "type": "supports",
+      "rationale": "user provides context that updates previous calculations"
+    },
+    {
+      "source": "sharded-GSM8K/932_1_1",
+      "target": "sharded-GSM8K/932_0_4",
+      "type": "supports",
+      "rationale": "assistant reiterates total based on previous calculations"
+    },
+    {
+      "source": "sharded-GSM8K/932_2_0",
+      "target": "sharded-GSM8K/932_2_1",
+      "type": "supports",
+      "rationale": "user provides fact leading to assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/932_2_1",
+      "target": "sharded-GSM8K/932_2_2",
+      "type": "supports",
+      "rationale": "assistant derives remaining balloons from giving 2"
+    },
+    {
+      "source": "sharded-GSM8K/932_2_2",
+      "target": "sharded-GSM8K/932_2_3",
+      "type": "supports",
+      "rationale": "total calculated including remaining after gifts"
+    },
+    {
+      "source": "sharded-GSM8K/932_3_0",
+      "target": "sharded-GSM8K/932_3_1",
+      "type": "supports",
+      "rationale": "user fact updates assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/932_3_1",
+      "target": "sharded-GSM8K/932_3_2",
+      "type": "supports",
+      "rationale": "assistant calculates new total based on changes"
+    },
+    {
+      "source": "sharded-GSM8K/932_4_0",
+      "target": "sharded-GSM8K/932_4_1",
+      "type": "supports",
+      "rationale": "user fact updates previous context leading to new calculation"
+    },
+    {
+      "source": "sharded-GSM8K/932_4_1",
+      "target": "sharded-GSM8K/932_4_2",
+      "type": "supports",
+      "rationale": "assistant derives new total from additional balloons"
+    }
+  ],
+  "attributes": {}
+}

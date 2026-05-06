@@ -1,0 +1,38 @@
+{
+  "conversation_id": "sharded-GSM8K/1180",
+  "method": "trust_filtered",
+  "prompt": "The company sold Mr. Marcellus 4000 gallons of milk in jars.\nTotal cost of 4,000 gallons of milk at $3 per gallon = $12,000.\nMr. Marcellus would be entitled to a full refund of $12,000.\nEach gallon of milk cost $3.50.\nTotal cost = 4,000 gallons × $3.50 per gallon = $14,000.\nSince the milk expired, and assuming the company has a policy of providing a full refund for expired products, the refund amount would be $14,000.\nThe amount Mr. Marcellus got refunded for the expired milk is $14,000.\nHe discovered that 2/5 of the milk he bought was expired.\n2/5 of 4,000 gallons = 1,600 gallons of expired milk.\nCost of expired milk = 1,600 gallons × $3.50 per gallon = $5,600.\nRefund amount = Cost of expired milk = $5,600.\nThe amount Mr. Marcellus got refunded for the expired milk is $5,600.\nThe spoiled milk couldn't be sold in his store.\nSince the expired milk could not be sold, the full cost of the expired milk should be refunded.\nThe amount Mr. Marcellus got refunded for the expired milk that could not be sold is $5,600.\nHe ended up returning the expired milk to the company.\nMr. Marcellus should receive a full refund for the cost of the expired milk.\nThe amount Mr. Marcellus got refunded for the 1,600 gallons of expired milk is $5,600.\nAnd then he requested a refund for the returned milk.\nMr. Marcellus got refunded for the 1,600 gallons of expired milk that he returned to the company is $5,600.",
+  "included_node_ids": [
+    "sharded-GSM8K/1180_0_0",
+    "sharded-GSM8K/1180_0_5",
+    "sharded-GSM8K/1180_0_6",
+    "sharded-GSM8K/1180_1_0",
+    "sharded-GSM8K/1180_1_2",
+    "sharded-GSM8K/1180_1_3",
+    "sharded-GSM8K/1180_1_4",
+    "sharded-GSM8K/1180_2_0",
+    "sharded-GSM8K/1180_2_2",
+    "sharded-GSM8K/1180_2_3",
+    "sharded-GSM8K/1180_2_4",
+    "sharded-GSM8K/1180_2_5",
+    "sharded-GSM8K/1180_3_0",
+    "sharded-GSM8K/1180_3_2",
+    "sharded-GSM8K/1180_3_3",
+    "sharded-GSM8K/1180_4_0",
+    "sharded-GSM8K/1180_4_2",
+    "sharded-GSM8K/1180_4_3",
+    "sharded-GSM8K/1180_5_0",
+    "sharded-GSM8K/1180_5_2"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/1180_0_1",
+    "sharded-GSM8K/1180_0_2",
+    "sharded-GSM8K/1180_0_3",
+    "sharded-GSM8K/1180_0_4",
+    "sharded-GSM8K/1180_1_1",
+    "sharded-GSM8K/1180_2_1",
+    "sharded-GSM8K/1180_3_1",
+    "sharded-GSM8K/1180_4_1",
+    "sharded-GSM8K/1180_5_1"
+  ]
+}

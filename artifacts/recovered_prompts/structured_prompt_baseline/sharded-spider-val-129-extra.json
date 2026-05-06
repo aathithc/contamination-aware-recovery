@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-129-extra",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| country_name        | num_manufacturers | num_car_manufacturers |\n|---------------------|-------------------|-----------------------|\n\nHighlighted:\n- country_name\n- num_car_manufacturers\n\nContext:\n- Focus only on countries located in Europe.\n- Identify countries that have a minimum of 3 manufacturers.\n- Specifically look for car manufacturers in those countries.\n\nInstruction:\nGenerate a SQL query to list European countries with at least 3 car manufacturers.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

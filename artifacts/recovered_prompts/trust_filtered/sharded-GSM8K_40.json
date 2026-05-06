@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-GSM8K/40",
+  "method": "trust_filtered",
+  "prompt": "Brandon's iPhone is 4 times older than Ben's iPhone.\nLet the age of Ben's iPhone be x.\nBrandon's iPhone age can be expressed as 4x.\nBen's iPhone is twice as old as Suzy's iPhone.\nBen's iPhone age equals 2 times Suzy's iPhone age.\nBrandon's iPhone age is 8 times Suzy's iPhone age.\nSuzy's iPhone is 1 year old.\nBen's iPhone age is 2 years old.\nBrandon's iPhone age is 8 years old.",
+  "included_node_ids": [
+    "sharded-GSM8K/40_0_0",
+    "sharded-GSM8K/40_0_1",
+    "sharded-GSM8K/40_0_2",
+    "sharded-GSM8K/40_1_0",
+    "sharded-GSM8K/40_1_1",
+    "sharded-GSM8K/40_1_2",
+    "sharded-GSM8K/40_2_0",
+    "sharded-GSM8K/40_2_1",
+    "sharded-GSM8K/40_2_2"
+  ],
+  "excluded_node_ids": []
+}

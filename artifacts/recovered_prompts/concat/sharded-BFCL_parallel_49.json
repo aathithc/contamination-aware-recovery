@@ -1,0 +1,13 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_49",
+  "method": "concat",
+  "prompt": "The player is in team RocketLeague.\nThe player has achieved top scorer status.\nTop scorer status for season 2017 is included.\nTop scorer status for season 2018 is included.\nTop scorer status for season 2019 is included.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_49_0_0",
+    "sharded-BFCL/parallel_49_1_0",
+    "sharded-BFCL/parallel_49_2_0",
+    "sharded-BFCL/parallel_49_3_0",
+    "sharded-BFCL/parallel_49_4_0"
+  ],
+  "excluded_node_ids": []
+}

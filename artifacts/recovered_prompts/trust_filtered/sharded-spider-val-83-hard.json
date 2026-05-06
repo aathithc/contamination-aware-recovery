@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-83-hard",
+  "method": "trust_filtered",
+  "prompt": "Focus on students who own a cat.\nTo retrieve information about students who own a cat, you need a table that stores information about the pets owned by each student.\nNarrow it down to cats that are specifically 3 years old.\nTo retrieve information about students who own a cat that is 3 years old, you can modify the previous query.\nRetrieve the last name of the relevant student.\nTo retrieve just the last name of the students who own a 3-year-old cat, you can modify the query.",
+  "included_node_ids": [
+    "sharded-spider-val-83-hard_0_0",
+    "sharded-spider-val-83-hard_0_1",
+    "sharded-spider-val-83-hard_1_0",
+    "sharded-spider-val-83-hard_1_1",
+    "sharded-spider-val-83-hard_2_0",
+    "sharded-spider-val-83-hard_2_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-83-hard_0_2",
+    "sharded-spider-val-83-hard_1_2",
+    "sharded-spider-val-83-hard_2_2"
+  ]
+}

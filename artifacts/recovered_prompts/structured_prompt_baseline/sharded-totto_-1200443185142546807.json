@@ -1,7 +1,7 @@
 {
   "conversation_id": "sharded-totto_-1200443185142546807",
   "method": "structured_prompt_baseline",
-  "prompt": "Table:\n| Pos | No. | Driver                | Team                     | Manufacturer | Time     | Speed   |\n|-----|-----|----------------------|--------------------------|--------------|----------|---------|\n| 1   | 2   | Brad Keselowski      | Team Penske              | Ford         | 77.730   | 105.596 |\n| 2   | 24  | William Byron (R)    | Hendrick Motorsports      | Chevrolet     | 78.118   | 105.072 |\n| 3   | 42  | Kyle Larson          | Chip Ganassi Racing      | Chevrolet     | 78.175   | 104.995 |\n\nHighlighted:\n- Driver: Brad Keselowski\n- Time: 77.730\n- Speed: 105.596\n\nContext:\n- The table_webpage_url is http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400.\n- The table_page_title is 2018 Bank of America Roval 400.\n- The table_section_title is Final practice.\n\nInstruction:\nSummarize the final practice results for the 2018 Bank of America Roval 400.",
+  "prompt": "Table:\n| Pos | No. | Driver              | Team         | Manufacturer | Time     | Speed    |\n|-----|-----|---------------------|--------------|--------------|----------|----------|\n| 1   | 2   | Brad Keselowski [highlighted] | Team Penske | Ford         | 77.730 [highlighted] | 105.596 [highlighted] |\n\nHighlighted:\n- Driver: Brad Keselowski\n- Time: 77.730\n- Speed: 105.596\n\nContext:\nThe table URL is http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400. The table title is “2018 Bank of America Roval 400.” The section title is “Final practice.”\n\nInstruction:\nSummarize the table content.",
   "included_node_ids": [],
   "excluded_node_ids": []
 }

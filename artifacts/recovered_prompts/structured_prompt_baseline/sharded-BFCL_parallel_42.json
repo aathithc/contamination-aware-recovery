@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_42",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Action                            | Description                                  |\n|----------------------------------|----------------------------------------------|\n| Check price                      | Get product price with the given product ID |\n| Check stock availability          | Check product availability with the given product ID |\n| Search in music stores in Berlin  | Search stores for Yamaha P125 piano in Berlin |\n| Search in music stores in Madrid   | Search stores for Yamaha P125 piano in Madrid |\n\nHighlighted:\nNone\n\nContext:\nNone\n\nInstruction:\nList the actions to find the piano.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

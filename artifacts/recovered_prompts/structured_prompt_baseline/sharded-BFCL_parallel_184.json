@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_184",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Equation              | a  | b  | c  |\n|-----------------------|----|----|----|\n| 1. 3x^2 + 7x + 2 = 0 | 3  | 7  | 2  |\n| 2. 5x^2 - 4x + 1 = 0 | 5  | -4 | 1  |\n\nHighlighted:\n1. 3x^2 + 7x + 2 = 0\n2. 5x^2 - 4x + 1 = 0\n\nContext:\nThere are two equations provided, and the coefficients 'a', 'b', and 'c' for both equations are specified.\n\nInstruction:\nFind the roots of both quadratic equations.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

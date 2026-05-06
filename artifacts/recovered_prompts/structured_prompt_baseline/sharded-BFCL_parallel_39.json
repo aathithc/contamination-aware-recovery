@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_39",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Museum               | Location          | Ticket Type | Price        | Opening Hours         |\n|----------------------|-------------------|-------------|--------------|------------------------|\n| National Museum      | Washington D.C.   | Adult       | [price]      | [hours]                |\n| National Museum      | Washington D.C.   | Child       | [price]      | [hours]                |\n| Louvre Museum        | Paris             | Adult       | [price]      | [hours]                |\n| Louvre Museum        | Paris             | Child       | [price]      | [hours]                |\n\nHighlighted:\n- National Museum in Washington D.C.\n- Louvre Museum in Paris\n- Ticket prices for adults\n- Ticket prices for children\n\nContext:\nNone\n\nInstruction:\nProvide the opening hours and ticket prices for both museums.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

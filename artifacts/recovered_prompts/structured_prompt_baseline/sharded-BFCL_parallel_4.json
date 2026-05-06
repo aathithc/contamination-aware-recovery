@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_4",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Person       | Height (ft) | Height (in) | Weight (kg) |\n|--------------|-------------|-------------|-------------|\n| First Person | 6           | 72          | 80          |\n| Second Person| 5.6         | 67.2        | 60          |\n\nHighlighted:\n| Height (in) | Weight (kg) |\n|-------------|-------------|\n| 72          | 80          |\n| 67.2        | 60          |\n\nContext:\nThe heights have been converted from feet to inches for calculations.\n\nInstruction:\nCalculate the BMI for both persons.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

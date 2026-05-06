@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-129-extra",
+  "method": "concat",
+  "prompt": "Focus only on countries located in Europe.\nIdentify countries that have a minimum of 3 manufacturers.\nSpecifically look for car manufacturers in those countries.",
+  "included_node_ids": [
+    "sharded-spider-val-129-extra_0_0",
+    "sharded-spider-val-129-extra_1_0",
+    "sharded-spider-val-129-extra_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-129-extra_0_1",
+    "sharded-spider-val-129-extra_1_1",
+    "sharded-spider-val-129-extra_2_1"
+  ]
+}

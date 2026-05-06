@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/40",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Name     | Age    |\n|----------|--------|\n| Ben      | 2      |\n| Suzy     | 1      |\n| Brandon  | 8      |\n\nHighlighted:\nBen's iPhone, Suzy's iPhone, Brandon's iPhone\n\nContext:\nBen's iPhone age is expressed as 2 times Suzy's iPhone age. Brandon's iPhone is 4 times older than Ben's iPhone. Suzy's iPhone is 1 year old.\n\nInstruction:\nSummarize the ages of the iPhones mentioned.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

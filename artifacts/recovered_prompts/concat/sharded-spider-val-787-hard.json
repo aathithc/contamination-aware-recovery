@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-787-hard",
+  "method": "concat",
+  "prompt": "User wants to list all the different names the cities might be known by.\nUser wants to restrict the cities to those located in Asia.\nUser wants to focus on cities for which Chinese is an official language.",
+  "included_node_ids": [
+    "sharded-spider-val-787-hard_0_0",
+    "sharded-spider-val-787-hard_1_0",
+    "sharded-spider-val-787-hard_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-787-hard_0_1",
+    "sharded-spider-val-787-hard_0_2",
+    "sharded-spider-val-787-hard_1_1",
+    "sharded-spider-val-787-hard_1_2",
+    "sharded-spider-val-787-hard_2_1",
+    "sharded-spider-val-787-hard_2_2"
+  ]
+}

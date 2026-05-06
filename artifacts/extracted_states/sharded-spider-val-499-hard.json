@@ -1,0 +1,120 @@
+{
+  "conversation_id": "sharded-spider-val-499-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-499-hard_0_0",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on battles that resulted in more than 10 people being killed.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_0_1",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's focus on historical battles that resulted in more than 10 casualties.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_1_0",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "correction",
+      "text": "The total number of deaths should exceed 10 across all participants.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_1_1",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The SQL query would be slightly different to account for friendly and enemy casualties.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_2_0",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Also include the names of the battles with their IDs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_2_1",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here's the updated SQL query that includes the battle IDs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_3_0",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Provide the unique identifiers for the battles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-499-hard_3_1",
+      "conversation_id": "sharded-spider-val-499-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here's the SQL query that will return the unique identifiers for the battles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-499-hard_0_0",
+      "target": "sharded-spider-val-499-hard_0_1",
+      "type": "supports",
+      "rationale": "user's fact supports the assistant's assumption."
+    },
+    {
+      "source": "sharded-spider-val-499-hard_1_0",
+      "target": "sharded-spider-val-499-hard_1_1",
+      "type": "supports",
+      "rationale": "user's correction supports the assistant's assumption."
+    },
+    {
+      "source": "sharded-spider-val-499-hard_2_0",
+      "target": "sharded-spider-val-499-hard_2_1",
+      "type": "supports",
+      "rationale": "user's request supports the assistant's assumption."
+    },
+    {
+      "source": "sharded-spider-val-499-hard_3_0",
+      "target": "sharded-spider-val-499-hard_3_1",
+      "type": "supports",
+      "rationale": "user's request supports the assistant's assumption."
+    }
+  ],
+  "attributes": {}
+}

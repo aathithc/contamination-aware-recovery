@@ -1,0 +1,183 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_184",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_184_0_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The first equation is 3x^2 + 7x + 2 = 0",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_0_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the updated function call for the first quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_1_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "In the first equation, 'a' is 3",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_1_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the updated function call for the first quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_2_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "In the first equation, 'b' is 7",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_2_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the updated function call for the first quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_3_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "In the first equation, 'c' is 2",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_3_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the function call to find the roots of the first quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_4_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The second equation is 5x^2 - 4x + 1 = 0",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_4_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the function call to find the roots of the second quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_5_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "In the second equation, 'a' is 5",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_5_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the updated function call for the second quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_6_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "In the second equation, 'b' is -4",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_6_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the updated function call for the second quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_7_0",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 7,
+      "source": "user",
+      "type": "fact",
+      "text": "In the second equation, 'c' is 1",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_184_7_1",
+      "conversation_id": "sharded-BFCL/parallel_184",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here is the function call to find the roots of the second quadratic equation.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [],
+  "attributes": {}
+}

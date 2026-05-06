@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1246",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Player | Years on Team | Average Games per Year | Points per Game | Total Points |\n|--------|---------------|------------------------|------------------|--------------|\n| Ara    | 4             | 40                     | 21               | 3360         |\n\nHighlighted:\n| Total Points |\n\nContext:\nAra has been on the school basketball team for four years, plays 40 games per year, and scores 21 points in each game.\n\nInstruction:\nSummarize Ara's basketball performance in a table format.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

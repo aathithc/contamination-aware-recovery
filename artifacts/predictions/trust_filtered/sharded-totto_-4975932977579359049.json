@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-4975932977579359049",
   "method": "trust_filtered",
-  "prediction": "The highlighted cells indicate that \"Fight Nights Global 78: Tsarev vs. Guseinov\" took place on November 4, 2017, at the Lada Arena located in Tolyatti, Russia.",
+  "prediction": "The highlighted cells indicate major events within the Fight Nights Global series, specifically noting the event titled \"Fight Nights Global 77: Krylov vs. Newton,\" which took place on October 13, 2017, at the SOK Energetik in Surgut, Russia. Additionally, \"Fight Nights Global 78: Tsarev vs. Guseinov\" is highlighted for its scheduling on November 4, 2017, at the Lada Arena in Tolyatti, Russia.",
   "success": true,
   "baseline_success": true
 }

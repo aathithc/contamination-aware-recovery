@@ -1,0 +1,307 @@
+{
+  "conversation_id": "sharded-GSM8K/871",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/871_0_0",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Tobias started with a pizza that had 60 pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_0_1",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Assuming that Tobias has eaten half of the pizza so far.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_0_2",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Half of 60 pieces = 30 pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_0_3",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Tobias has eaten 30 pizza pieces so far.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_1_0",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "On the first day, Tobias ate 2/5 of the pizza.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_1_1",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the new information that Tobias ate 2/5 of the pizza on the first day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_1_2",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "2/5 of 60 pieces = 24 pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_1_3",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, on the first day, Tobias ate 24 pizza pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_1_4",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total pizza pieces eaten = 24 pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_2_0",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The next day, he ate 10 more pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_2_1",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the new information that the next day Tobias ate 10 more pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_2_2",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total pizza pieces eaten = 24 (first day) + 10 (next day) = 34 pieces.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_2_3",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Tobias has eaten a total of 34 pizza pieces so far.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_0",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "And on the third day, he ate 7/13 of the remaining slices.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_1",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the information about the third day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_2",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Remaining slices before third day = 60 - 34 = 26 slices.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_3",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Slices eaten on the third day = 7/13 of 26 = 14 slices.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_4",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total pizza pieces eaten = 24 (first day) + 10 (second day) + 14 (third day) = 48 slices.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/871_3_5",
+      "conversation_id": "sharded-GSM8K/871",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Tobias has eaten a total of 48 pizza pieces so far.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/871_0_0",
+      "target": "sharded-GSM8K/871_0_1",
+      "type": "supports",
+      "rationale": "user provides base fact for assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/871_0_1",
+      "target": "sharded-GSM8K/871_0_2",
+      "type": "supports",
+      "rationale": "assumption supports derivation"
+    },
+    {
+      "source": "sharded-GSM8K/871_0_2",
+      "target": "sharded-GSM8K/871_0_3",
+      "type": "supports",
+      "rationale": "derivation leads to conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/871_1_0",
+      "target": "sharded-GSM8K/871_1_1",
+      "type": "supports",
+      "rationale": "user provides new information for assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/871_1_1",
+      "target": "sharded-GSM8K/871_1_2",
+      "type": "supports",
+      "rationale": "assumption supports derivation"
+    },
+    {
+      "source": "sharded-GSM8K/871_1_2",
+      "target": "sharded-GSM8K/871_1_3",
+      "type": "supports",
+      "rationale": "derivation leads to conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/871_1_3",
+      "target": "sharded-GSM8K/871_1_4",
+      "type": "supports",
+      "rationale": "conclusion contributes to overall calculation"
+    },
+    {
+      "source": "sharded-GSM8K/871_2_0",
+      "target": "sharded-GSM8K/871_2_1",
+      "type": "supports",
+      "rationale": "user provides new information for assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/871_2_1",
+      "target": "sharded-GSM8K/871_2_2",
+      "type": "supports",
+      "rationale": "assumption supports derivation"
+    },
+    {
+      "source": "sharded-GSM8K/871_2_2",
+      "target": "sharded-GSM8K/871_2_3",
+      "type": "supports",
+      "rationale": "derivation leads to conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/871_3_0",
+      "target": "sharded-GSM8K/871_3_1",
+      "type": "supports",
+      "rationale": "user provides new information for assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/871_3_1",
+      "target": "sharded-GSM8K/871_3_2",
+      "type": "supports",
+      "rationale": "assumption supports derivation"
+    },
+    {
+      "source": "sharded-GSM8K/871_3_2",
+      "target": "sharded-GSM8K/871_3_3",
+      "type": "supports",
+      "rationale": "derivation contributes to overall calculation"
+    },
+    {
+      "source": "sharded-GSM8K/871_3_3",
+      "target": "sharded-GSM8K/871_3_4",
+      "type": "supports",
+      "rationale": "calculation leads to total"
+    },
+    {
+      "source": "sharded-GSM8K/871_3_4",
+      "target": "sharded-GSM8K/871_3_5",
+      "type": "supports",
+      "rationale": "total leads to conclusion"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/751",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Event                         | Number of Bananas |\n|-------------------------------|-------------------|\n| Initial stash                 | 48                |\n| Bananas taken by Arnold       | 24                |\n| Bananas after Arnold's theft  | 24                |\n| Bananas added by Gunther      | 25                |\n| Total after addition          | 49                |\n| Bananas stolen by Arnold      | 12                |\n| Bananas after second theft    | 37                |\n| Bananas added by Gunther      | 6                 |\n| Final count                   | 43                |\n\nHighlighted:\n- 48\n- 24\n- 25\n- 49\n- 12\n- 37\n- 6\n- 43\n\nContext:\nGunther started with 48 bananas, Arnold took half, Gunther added some back, and then Arnold stole more before Gunther added again.\n\nInstruction:\nSummarize the final count of bananas Gunther has after all transactions.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

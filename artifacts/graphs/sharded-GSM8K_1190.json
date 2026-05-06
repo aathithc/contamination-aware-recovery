@@ -1,0 +1,227 @@
+{
+  "conversation_id": "sharded-GSM8K/1190",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1190_0_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The nurses' station gets bandages in bulk packs of 50.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_0_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The possible starting amounts could be: 50, 100, 150, 200 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "On the first day, they used 38 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "If the nurses started with 50 bandages, they would have 12 remaining after using 38.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_2",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The most likely starting amount of bandages on the first day would be 50 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_2_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "They ordered one pack of bandages on the first day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "On the second day, they used 10 bandages fewer than on the first day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "They used 28 bandages on the second day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_2",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "fact",
+      "text": "They started with 62 bandages on the second day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_4_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On the third day, they restocked with two more bulk packs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_4_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "They started with 162 bandages on the third day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_5_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "On the third day, they only used half a pack of bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_5_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "By the end of the third day, they had 137 bandages left.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_6_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "By the end of the third day, they had 78 bandages left.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_6_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of bandages they had by the end of the third day was 78.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1190_0_0",
+      "target": "sharded-GSM8K/1190_0_1",
+      "type": "supports",
+      "rationale": "user states fact used by assistant"
+    },
+    {
+      "source": "sharded-GSM8K/1190_1_0",
+      "target": "sharded-GSM8K/1190_1_1",
+      "type": "supports",
+      "rationale": "user's usage data supports assistant's reasoning"
+    },
+    {
+      "source": "sharded-GSM8K/1190_1_0",
+      "target": "sharded-GSM8K/1190_1_2",
+      "type": "supports",
+      "rationale": "user's fact supports assistant's conclusion on initial amount"
+    },
+    {
+      "source": "sharded-GSM8K/1190_2_0",
+      "target": "sharded-GSM8K/1190_2_0",
+      "type": "supports",
+      "rationale": "user documents an additional fact"
+    },
+    {
+      "source": "sharded-GSM8K/1190_3_0",
+      "target": "sharded-GSM8K/1190_3_1",
+      "type": "supports",
+      "rationale": "user's usage change justifies assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1190_3_2",
+      "target": "sharded-GSM8K/1190_3_1",
+      "type": "supports",
+      "rationale": "assistant's calculation used to demonstrate user fact"
+    },
+    {
+      "source": "sharded-GSM8K/1190_4_0",
+      "target": "sharded-GSM8K/1190_4_1",
+      "type": "supports",
+      "rationale": "user's fact about restocking supports assistant's conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1190_5_0",
+      "target": "sharded-GSM8K/1190_5_1",
+      "type": "supports",
+      "rationale": "user information on usage supports assistant's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1190_6_0",
+      "target": "sharded-GSM8K/1190_6_1",
+      "type": "supports",
+      "rationale": "user's fact about remaining bandages confirms assistant's calculation"
+    }
+  ],
+  "attributes": {}
+}

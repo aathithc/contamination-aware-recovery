@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_117",
+  "method": "trust_filtered",
+  "prompt": "Calculate it for the year 2000\nget_country_population_density(country='China', year=2000)\nRemember the population was 1.267 billion in 2000\nget_country_population_density(country='China', year=2000, population=1267000000)\nAlso calculate it for the year 2010\nget_country_population_density(country='China', year=2000, population=1267000000)\nget_country_population_density(country='China', year=2010)\nThe population was 1.341 billion in 2010\nget_country_population_density(country='China', year=2000, population=1267000000)\nget_country_population_density(country='China', year=2010, population=1341000000)\nUse the fact that the land area stayed constant at 9.597 million square kilometers\nget_country_population_density(country='China', year=2000, population=1267000000, land_area=9597000)\nget_country_population_density(country='China', year=2010, population=1341000000, land_area=9597000)",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_117_0_0",
+    "sharded-BFCL/parallel_117_1_1",
+    "sharded-BFCL/parallel_117_1_2",
+    "sharded-BFCL/parallel_117_2_1",
+    "sharded-BFCL/parallel_117_3_0",
+    "sharded-BFCL/parallel_117_4_1",
+    "sharded-BFCL/parallel_117_4_2",
+    "sharded-BFCL/parallel_117_5_0",
+    "sharded-BFCL/parallel_117_6_1",
+    "sharded-BFCL/parallel_117_6_2",
+    "sharded-BFCL/parallel_117_7_0",
+    "sharded-BFCL/parallel_117_8_1",
+    "sharded-BFCL/parallel_117_8_2"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_117_1_0",
+    "sharded-BFCL/parallel_117_2_0",
+    "sharded-BFCL/parallel_117_4_0",
+    "sharded-BFCL/parallel_117_6_0",
+    "sharded-BFCL/parallel_117_8_0"
+  ]
+}

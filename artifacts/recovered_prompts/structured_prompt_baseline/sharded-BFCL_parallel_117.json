@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_117",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Year | Population (billions) | Land Area (million sq km) | Population Density (people/sq km) |\n|------|-----------------------|---------------------------|------------------------------------|\n| 2000 | 1.267                 | 9.597                     |                                    |\n| 2010 | 1.341                 | 9.597                     |                                    |\n\nHighlighted:\n- 1.267 billion (2000)\n- 1.341 billion (2010)\n- 9.597 million square kilometers\n\nContext:\n- The population values for China in 2000 and 2010.\n- The land area of China remained constant at 9.597 million square kilometers.\n\nInstruction:\nCalculate the population density for China in the years 2000 and 2010.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

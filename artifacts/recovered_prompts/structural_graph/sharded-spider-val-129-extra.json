@@ -1,0 +1,14 @@
+{
+  "conversation_id": "sharded-spider-val-129-extra",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-spider-val-129-extra_0_1",
+    "sharded-spider-val-129-extra_1_0",
+    "sharded-spider-val-129-extra_2_0",
+    "sharded-spider-val-129-extra_0_0",
+    "sharded-spider-val-129-extra_2_1",
+    "sharded-spider-val-129-extra_1_1"
+  ]
+}

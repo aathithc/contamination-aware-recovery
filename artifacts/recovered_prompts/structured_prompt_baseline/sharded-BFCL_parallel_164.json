@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_164",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n|      |       |       |       |\n|------|-------|-------|-------|\n|  45  |  55   |  35   |  65   |\n|  30  |  70   |  50   |  50   |\n\nHighlighted:\n[45, 55, 35, 65], [30, 70, 50, 50]\n\nContext:\nUse a significance level of 0.05 for the tests.\n\nInstruction:\nPerform the Chi-Squared test for independence on the two 2x2 tables.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

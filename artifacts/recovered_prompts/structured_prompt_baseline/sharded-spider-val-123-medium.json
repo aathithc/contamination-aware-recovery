@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-123-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| country_id | country      |\n|------------|--------------|\n| ...        | ...          |\n\nHighlighted:\ncountry_id, country_name\n\nContext:\nFocus on countries that have at least one car maker and include their IDs.\n\nInstruction:\nModify the SQL query to return each country's name and ID.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

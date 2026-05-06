@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1027", "method": "structured_prompt_baseline", "prediction": "The prices of the sandwich packages are as follows:\n\n- Small (2 sandwiches): $3\n- Medium (4 sandwiches): $6\n- Large (8 sandwiches): $12", "success": true, "baseline_success": true}

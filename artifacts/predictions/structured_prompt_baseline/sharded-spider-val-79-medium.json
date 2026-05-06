@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-79-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT student_id, COUNT(num_pets) AS total_pets\nFROM pets_table\nWHERE num_pets > 0\nGROUP BY student_id;\n```", "success": true, "baseline_success": false}

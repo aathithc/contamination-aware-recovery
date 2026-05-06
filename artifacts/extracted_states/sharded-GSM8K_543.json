@@ -1,0 +1,287 @@
+{
+  "conversation_id": "sharded-GSM8K/543",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/543_0_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Jairus earns $0.8 for every small task he completes.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Jairus earns $5,000 per month.",
+      "entities": [
+        "Jairus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Jenny earns $3,500 per month.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus earns $0.8 for every small task he completes.",
+      "entities": [
+        "Jairus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_4",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$5,000 / $0.8 per task = 6,250 small tasks per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_5",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$5,000 - $3,500 = $1,500.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny earns $0.5 for each task she finishes.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Jairus earns $5,000 per month.",
+      "entities": [
+        "Jairus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Jairus earns $0.8 for every small task he completes.",
+      "entities": [
+        "Jairus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Jenny earns $3,500 per month.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_4",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$3,500 / $0.5 per task = 7,000 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_5",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "6,250 tasks - 7,000 tasks = -750 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_6",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$5,000 - $3,500 = $1,500.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Both Jairus and Jenny completed 20 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$0.8 per task × 20 tasks = $16.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$0.5 per task × 20 tasks = $10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "$16 - $10 = $6.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/543_0_0",
+      "target": "sharded-GSM8K/543_0_1",
+      "type": "supports",
+      "rationale": "fact confirms assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/543_0_0",
+      "target": "sharded-GSM8K/543_0_3",
+      "type": "supports",
+      "rationale": "fact confirms assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/543_0_1",
+      "target": "sharded-GSM8K/543_0_4",
+      "type": "supports",
+      "rationale": "assumption provides basis for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/543_0_2",
+      "target": "sharded-GSM8K/543_0_5",
+      "type": "supports",
+      "rationale": "assumption provides basis for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/543_1_0",
+      "target": "sharded-GSM8K/543_1_1",
+      "type": "supports",
+      "rationale": "fact confirms assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/543_1_0",
+      "target": "sharded-GSM8K/543_1_3",
+      "type": "supports",
+      "rationale": "fact confirms assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/543_1_1",
+      "target": "sharded-GSM8K/543_1_4",
+      "type": "supports",
+      "rationale": "assumption provides basis for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/543_1_3",
+      "target": "sharded-GSM8K/543_1_6",
+      "type": "supports",
+      "rationale": "assumption provides basis for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/543_1_5",
+      "target": "sharded-GSM8K/543_1_6",
+      "type": "supports",
+      "rationale": "calculation uses derived values"
+    },
+    {
+      "source": "sharded-GSM8K/543_2_0",
+      "target": "sharded-GSM8K/543_2_1",
+      "type": "supports",
+      "rationale": "fact confirms assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/543_2_0",
+      "target": "sharded-GSM8K/543_2_2",
+      "type": "supports",
+      "rationale": "fact confirms assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/543_2_1",
+      "target": "sharded-GSM8K/543_2_3",
+      "type": "supports",
+      "rationale": "calculation uses derived values"
+    },
+    {
+      "source": "sharded-GSM8K/543_2_2",
+      "target": "sharded-GSM8K/543_2_3",
+      "type": "supports",
+      "rationale": "calculation uses derived values"
+    }
+  ],
+  "attributes": {}
+}

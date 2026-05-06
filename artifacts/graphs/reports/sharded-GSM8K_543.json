@@ -1,0 +1,1 @@
+{"contaminated_ids": ["sharded-GSM8K/543_0_2", "sharded-GSM8K/543_1_2"], "inactive_ids": [], "reasons": {"sharded-GSM8K/543_0_2": "assistant assumption/answer_candidate without support", "sharded-GSM8K/543_1_2": "assistant assumption/answer_candidate without support"}}

@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-totto_5550605730650873901",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: Caribbean\n    Column: Country\n    Value: Anguilla\n    Highlighted: true\n  - Row: Pacific\n    Column: Country\n    Value: American Samoa\n    Highlighted: true\n  - Row: Africa, Indian Ocean, Mediterranean and South China Sea (AIMS)\n    Column: Country\n    Value: Bahrain\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_5550605730650873901_1_1",
+    "sharded-totto_5550605730650873901_1_2",
+    "sharded-totto_5550605730650873901_1_3",
+    "sharded-totto_5550605730650873901_0_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_5550605730650873901_2_0",
+    "sharded-totto_5550605730650873901_2_1",
+    "sharded-totto_5550605730650873901_4_1",
+    "sharded-totto_5550605730650873901_1_0",
+    "sharded-totto_5550605730650873901_3_1",
+    "sharded-totto_5550605730650873901_3_0",
+    "sharded-totto_5550605730650873901_4_0"
+  ]
+}

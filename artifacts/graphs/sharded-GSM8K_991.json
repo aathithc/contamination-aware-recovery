@@ -1,0 +1,204 @@
+{
+  "conversation_id": "sharded-GSM8K/991",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/991_0_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Comet Halley takes 75 years to complete one orbit around the sun.",
+      "entities": [
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Bill first observed Comet Halley during its most recent perihelion in 1986.",
+      "entities": [
+        "Bill",
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Bill was a typical observer, meaning he would have been old enough to remember and appreciate seeing the comet, say around 10-20 years old.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_3",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Bill was 10 years old when he saw Comet Halley in 1986, then he was born in 1976.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_4",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Bill was 20 years old when he saw Comet Halley in 1986, then he was born in 1966.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Bill's dad was 30 years old when he saw the comet.",
+      "entities": [
+        "Bill's dad"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill's dad saw Comet Halley in 1948.",
+      "entities": [
+        "Bill's dad",
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill was born in 1918.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_3",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill was 68 years old when he first saw Comet Halley.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Bill saw Comet Halley for the second time when he was three times as old as his dad was when his dad saw it.",
+      "entities": [
+        "Bill",
+        "Bill's dad"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill was 90 years old when he saw Comet Halley for the second time.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill saw Comet Halley for the second time in 2023.",
+      "entities": [
+        "Bill",
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/991_0_0",
+      "target": "sharded-GSM8K/991_0_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumption"
+    },
+    {
+      "source": "sharded-GSM8K/991_1_0",
+      "target": "sharded-GSM8K/991_1_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/991_1_1",
+      "target": "sharded-GSM8K/991_1_2",
+      "type": "derived_from",
+      "rationale": "age calculation derived from previous derivation"
+    },
+    {
+      "source": "sharded-GSM8K/991_1_2",
+      "target": "sharded-GSM8K/991_1_3",
+      "type": "derived_from",
+      "rationale": "age calculation derived from birth year"
+    },
+    {
+      "source": "sharded-GSM8K/991_2_0",
+      "target": "sharded-GSM8K/991_2_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/991_1_1",
+      "target": "sharded-GSM8K/991_2_2",
+      "type": "supports",
+      "rationale": "date derived from previous derivation"
+    }
+  ],
+  "attributes": {}
+}

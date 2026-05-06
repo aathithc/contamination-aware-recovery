@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_169",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Bond          | Annual Coupon Payment | Time Frame | Discount Rate | Face Value |\n|---------------|-----------------------|------------|----------------|------------|\n| First Bond    | $50                   | 5 years    | 5%             | $1000      |\n| Second Bond   | $60                   | 7 years    | 4%             | $1000      |\n\nHighlighted:\n- Annual Coupon Payment: $50, $60\n- Time Frame: 5 years, 7 years\n- Discount Rate: 5%, 4%\n- Face Value: $1000\n\nContext:\nNone\n\nInstruction:\nCalculate the total present value of both bonds.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

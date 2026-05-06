@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/237",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                         | Amount  |\n|-------------------------------------|---------|\n| Weekly allowance                    | $20     |\n| Total allowance in 1 year          | $1,040  |\n| Total amount after 1 year          | $1,070  |\n| Final value of investment           | $3,210  |\n\nHighlighted:\n| Total amount after 1 year          | $1,070  |\n| Final value of investment           | $3,210  |\n\nContext:\nJohnny's weekly allowance is $20, and he added an extra $10 to his total amount after one year.\n\nInstruction:\nCalculate the final value of Johnny's investment after it tripled.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

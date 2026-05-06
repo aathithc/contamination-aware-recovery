@@ -1,0 +1,261 @@
+{
+  "conversation_id": "sharded-GSM8K/214",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/214_0_0",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The scenario involves Jerry and his two pools.",
+      "entities": [
+        "Jerry"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_1_0",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's solve the problem with the additional context about Jerry and his two pools.",
+      "entities": [
+        "Jerry"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_1_1",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Jerry has a small pool and a large pool.",
+      "entities": [
+        "Jerry"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_1_2",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The small pool initially had 50 liters of water.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_1_3",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "20 liters of water were transferred from the small pool to the large pool.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_1_4",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of water remaining in the small pool is 30 liters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_2_0",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Both pools lose water at a rate of 4 gallons per minute due to leaks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_2_1",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We need to update the calculation.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_2_2",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The leak rate is 15.14 liters per minute.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_2_3",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of water remaining in the small pool after 1 minute is 14.86 liters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_3_0",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "4 minutes ago, the big pool had twice as much water as the small pool.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_3_1",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We can update the calculation.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_3_2",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of water in the big pool 4 minutes ago was 100 liters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_3_3",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of water in the big pool now is 39.44 liters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_4_0",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "At this moment, the big pool has four times as much water as the small pool.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_4_1",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We can update the calculation.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/214_4_2",
+      "conversation_id": "sharded-GSM8K/214",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of water remaining in the small pool now is 4.86 liters.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/214_0_0",
+      "target": "sharded-GSM8K/214_1_0",
+      "type": "supports",
+      "rationale": "user provides context"
+    },
+    {
+      "source": "sharded-GSM8K/214_1_1",
+      "target": "sharded-GSM8K/214_1_2",
+      "type": "supports",
+      "rationale": "assistant acknowledges user facts"
+    },
+    {
+      "source": "sharded-GSM8K/214_1_3",
+      "target": "sharded-GSM8K/214_1_4",
+      "type": "supports",
+      "rationale": "water transferred impacts remaining amount"
+    },
+    {
+      "source": "sharded-GSM8K/214_2_0",
+      "target": "sharded-GSM8K/214_2_1",
+      "type": "supports",
+      "rationale": "user provides additional context"
+    },
+    {
+      "source": "sharded-GSM8K/214_2_2",
+      "target": "sharded-GSM8K/214_2_3",
+      "type": "supports",
+      "rationale": "leak rate impacts water remaining calculation"
+    },
+    {
+      "source": "sharded-GSM8K/214_3_0",
+      "target": "sharded-GSM8K/214_3_1",
+      "type": "supports",
+      "rationale": "user statement updates understanding"
+    },
+    {
+      "source": "sharded-GSM8K/214_3_2",
+      "target": "sharded-GSM8K/214_3_3",
+      "type": "supports",
+      "rationale": "previous water amounts inform current computations"
+    },
+    {
+      "source": "sharded-GSM8K/214_4_0",
+      "target": "sharded-GSM8K/214_4_1",
+      "type": "supports",
+      "rationale": "user provides current state for calculations"
+    },
+    {
+      "source": "sharded-GSM8K/214_3_1",
+      "target": "sharded-GSM8K/214_4_1",
+      "type": "supports",
+      "rationale": "prior assumptions support current calculations"
+    },
+    {
+      "source": "sharded-GSM8K/214_4_2",
+      "target": "sharded-GSM8K/214_4_1",
+      "type": "supports",
+      "rationale": "last calculation leads to final state"
+    }
+  ],
+  "attributes": {}
+}

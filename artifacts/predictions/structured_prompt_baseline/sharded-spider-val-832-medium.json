@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-832-medium", "method": "structured_prompt_baseline", "prediction": "Excluding performances of type 'Live final', the remaining performance types and their shares are:\n\n- Recorded: 0.6\n- Broadcast: 0.5\n- Webcast: 0.3\n\nMinimum share: 0.3 (Webcast)  \nMaximum share: 0.6 (Recorded)", "success": true, "baseline_success": true}

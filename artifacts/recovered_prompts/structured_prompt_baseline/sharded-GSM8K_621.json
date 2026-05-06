@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/621",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Sessions per Week | Total Weeks | Total Sessions | Session Duration | Cost per Session | Total Cost | Insurance Coverage | Out-of-Pocket Cost |\n|-------------------|-------------|----------------|-------------------|------------------|------------|--------------------|---------------------|\n| 2                 | 6           | 12             | 2 hours           | $100             | $600       | 80%                | $120                |\n\nHighlighted:\n- 12\n- 2 hours\n- $600\n\nContext:\n- John requires 12 sessions, each costing $100. Health insurance covers 80% of the costs.\n\nInstruction:\nCalculate the out-of-pocket cost for John's physical therapy.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

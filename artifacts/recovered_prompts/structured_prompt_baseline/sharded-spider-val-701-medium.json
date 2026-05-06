@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-701-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| name          |\n|---------------|\n| Contestant A  |\n| Contestant B  |\n| Contestant C  |\n| Contestant D  |\n| Contestant E  |\n\nHighlighted:\n- 'Al'\n\nContext:\n- User wants to focus on contestant names that contain the substring 'Al' and possibly match a specific pattern.\n\nInstruction:\nProvide an SQL query to filter contestants whose names contain 'Al'.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

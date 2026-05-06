@@ -1,0 +1,106 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_30",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_30_0_0",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Set the departure date to May 3rd, 2022 for this flight",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_30_0_1",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "book flight from San Francisco to Tokyo on 2022-05-03",
+      "entities": [
+        "San Francisco",
+        "Tokyo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_30_1_0",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Add another flight from Tokyo to Sydney",
+      "entities": [
+        "Tokyo",
+        "Sydney"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_30_1_1",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "book flight from San Francisco to Tokyo on 2022-05-03 and from Tokyo to Sydney",
+      "entities": [
+        "San Francisco",
+        "Tokyo",
+        "Sydney"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_30_2_0",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Set the departure date to May 18th, 2022 for the second flight",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_30_2_1",
+      "conversation_id": "sharded-BFCL/parallel_30",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "book flight from San Francisco to Tokyo on 2022-05-03 and from Tokyo to Sydney on 2022-05-18",
+      "entities": [
+        "San Francisco",
+        "Tokyo",
+        "Sydney"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_30_0_0",
+      "target": "sharded-BFCL/parallel_30_0_1",
+      "type": "supports",
+      "rationale": "user sets date for the flight"
+    },
+    {
+      "source": "sharded-BFCL/parallel_30_1_0",
+      "target": "sharded-BFCL/parallel_30_1_1",
+      "type": "supports",
+      "rationale": "user adds another flight"
+    },
+    {
+      "source": "sharded-BFCL/parallel_30_2_0",
+      "target": "sharded-BFCL/parallel_30_2_1",
+      "type": "supports",
+      "rationale": "user sets date for the second flight"
+    }
+  ],
+  "attributes": {}
+}

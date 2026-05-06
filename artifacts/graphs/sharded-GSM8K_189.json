@@ -1,0 +1,182 @@
+{
+  "conversation_id": "sharded-GSM8K/189",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/189_0_0",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The three friends spent $20.25 on 3 fair tickets together.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_0_1",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each fair ticket costs $6.75.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_1_0",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "On food, they spent $4.50 less than the cost of the tickets.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_1_1",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "They spent $15.75 on food.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_1_2",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each friend paid $5.25 for food.",
+      "entities": [],
+      "attributes": {},
+      "status": "inactive"
+    },
+    {
+      "id": "sharded-GSM8K/189_2_0",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "They went on two rides at the fair.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_2_1",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each friend paid $12 in total.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_3_0",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Each of the rides was $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_3_1",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each friend paid for one ride.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_4_0",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "All the costs were split evenly between the three friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_4_1",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Total cost was $42.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/189_4_2",
+      "conversation_id": "sharded-GSM8K/189",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each friend paid $14 in total.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/189_0_0",
+      "target": "sharded-GSM8K/189_0_1",
+      "type": "supports",
+      "rationale": "User's fact provides basis for assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/189_1_0",
+      "target": "sharded-GSM8K/189_1_1",
+      "type": "supports",
+      "rationale": "User's fact about spending relates to the amount spent on food."
+    },
+    {
+      "source": "sharded-GSM8K/189_1_1",
+      "target": "sharded-GSM8K/189_1_2",
+      "type": "supersedes",
+      "rationale": "Amount spent on food defines how much each paid."
+    },
+    {
+      "source": "sharded-GSM8K/189_2_0",
+      "target": "sharded-GSM8K/189_2_1",
+      "type": "supports",
+      "rationale": "User's fact about rides adds to total calculations."
+    },
+    {
+      "source": "sharded-GSM8K/189_3_0",
+      "target": "sharded-GSM8K/189_3_1",
+      "type": "supports",
+      "rationale": "User's fact about rides relates to assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/189_4_0",
+      "target": "sharded-GSM8K/189_4_1",
+      "type": "supports",
+      "rationale": "User's fact about cost splitting relates to total cost."
+    },
+    {
+      "source": "sharded-GSM8K/189_4_1",
+      "target": "sharded-GSM8K/189_4_2",
+      "type": "supports",
+      "rationale": "Total cost computation leads to each friend's payment."
+    }
+  ],
+  "attributes": {}
+}

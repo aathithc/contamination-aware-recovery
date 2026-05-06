@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-totto_-6348715672223667663",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 48\n    Column: Event title\n    Value: Deep: clubDeep Tokyo: Future King Tournament 2006\n    Highlighted: true\n  - Row: 48\n    Column: Date\n    Value: December 9, 2006\n    Highlighted: true\n  - Row: 48\n    Column: Arena\n    Value: Shinjuku Face\n    Highlighted: true\n  - Row: 48\n    Column: Location\n    Value: Tokyo\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-6348715672223667663_1_1",
+    "sharded-totto_-6348715672223667663_1_2",
+    "sharded-totto_-6348715672223667663_1_3",
+    "sharded-totto_-6348715672223667663_1_4",
+    "sharded-totto_-6348715672223667663_0_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-6348715672223667663_3_0",
+    "sharded-totto_-6348715672223667663_4_1",
+    "sharded-totto_-6348715672223667663_4_0",
+    "sharded-totto_-6348715672223667663_3_1",
+    "sharded-totto_-6348715672223667663_1_0",
+    "sharded-totto_-6348715672223667663_2_1",
+    "sharded-totto_-6348715672223667663_2_0"
+  ]
+}

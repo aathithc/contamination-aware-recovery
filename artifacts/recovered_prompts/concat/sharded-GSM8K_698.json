@@ -1,0 +1,23 @@
+{
+  "conversation_id": "sharded-GSM8K/698",
+  "method": "concat",
+  "prompt": "Greta's monthly paycheck is $2400.00.\nShe allocates 50% of her paycheck toward her retirement account.\nShe also spends 20% of her paycheck for her monthly car payment.\nretirement and her car payment are her only two deductions.",
+  "included_node_ids": [
+    "sharded-GSM8K/698_0_0",
+    "sharded-GSM8K/698_1_0",
+    "sharded-GSM8K/698_2_0",
+    "sharded-GSM8K/698_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/698_0_1",
+    "sharded-GSM8K/698_0_2",
+    "sharded-GSM8K/698_0_3",
+    "sharded-GSM8K/698_1_1",
+    "sharded-GSM8K/698_1_2",
+    "sharded-GSM8K/698_1_3",
+    "sharded-GSM8K/698_2_1",
+    "sharded-GSM8K/698_2_2",
+    "sharded-GSM8K/698_2_3",
+    "sharded-GSM8K/698_3_1"
+  ]
+}

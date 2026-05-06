@@ -1,0 +1,158 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_27",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_27_0_0",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "The reserve is within 10 kilometers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_1_0",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 1,
+      "source": "user",
+      "type": "constraint",
+      "text": "The reserve has picnic tables available.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_2_0",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 2,
+      "source": "user",
+      "type": "constraint",
+      "text": "The reserve has public restrooms.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_3_0",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 3,
+      "source": "user",
+      "type": "constraint",
+      "text": "Find one around Tokyo within 5 kilometers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_4_0",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 4,
+      "source": "user",
+      "type": "constraint",
+      "text": "The reserve near Tokyo should have playgrounds and biking trails.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_0_1",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Finding a nature reserve in Berkeley within 10 kilometers.",
+      "entities": [
+        "Berkeley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_1_1",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Finding a nature reserve in Berkeley with picnic tables within 10 kilometers.",
+      "entities": [
+        "Berkeley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_2_1",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Finding a nature reserve in Berkeley with public restrooms within 10 kilometers.",
+      "entities": [
+        "Berkeley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_3_1",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Finding a nature reserve in Tokyo within 5 kilometers.",
+      "entities": [
+        "Tokyo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_27_4_1",
+      "conversation_id": "sharded-BFCL/parallel_27",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Finding a nature reserve in Tokyo with playgrounds and biking trails within 5 kilometers.",
+      "entities": [
+        "Tokyo"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_27_0_0",
+      "target": "sharded-BFCL/parallel_27_0_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's derivation."
+    },
+    {
+      "source": "sharded-BFCL/parallel_27_1_0",
+      "target": "sharded-BFCL/parallel_27_1_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's derivation."
+    },
+    {
+      "source": "sharded-BFCL/parallel_27_2_0",
+      "target": "sharded-BFCL/parallel_27_2_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's derivation."
+    },
+    {
+      "source": "sharded-BFCL/parallel_27_3_0",
+      "target": "sharded-BFCL/parallel_27_3_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's derivation."
+    },
+    {
+      "source": "sharded-BFCL/parallel_27_4_0",
+      "target": "sharded-BFCL/parallel_27_4_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's derivation."
+    }
+  ],
+  "attributes": {}
+}

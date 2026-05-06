@@ -1,0 +1,260 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_172",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_172_0_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "There are two different investment opportunities to evaluate.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_0_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the function calls to calculate the future value of the two different investment opportunities.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_1_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The first investment has a present value of $5000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_1_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the updated function calls.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_2_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "It has an annual interest rate of 5%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_2_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the updated function calls with the annual interest rate for the first investment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_3_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "I plan to hold the first investment for 10 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_3_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the complete function calls to calculate the future value of the two investments.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_4_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The second investment has a present value of $7000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_4_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the updated function calls with the present value for the second investment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_5_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "It has an annual interest rate of 4%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_5_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the updated function calls with the annual interest rate for the second investment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_6_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "I plan to hold the second investment for 15 years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_6_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the complete function calls to calculate the future value of the two investments.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_7_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 7,
+      "source": "user",
+      "type": "fact",
+      "text": "Both investments compound interest annually.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_7_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the final function calls with the compounding period specified.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_8_0",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 8,
+      "source": "user",
+      "type": "fact",
+      "text": "Let's use the finance.predict_future_value function to perform this calculation.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_172_8_1",
+      "conversation_id": "sharded-BFCL/parallel_172",
+      "turn_index": 8,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Here are the function calls using the finance.predict_future_value function.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_172_0_0",
+      "target": "sharded-BFCL/parallel_172_0_1",
+      "type": "supports",
+      "rationale": "user states investment opportunities"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_1_0",
+      "target": "sharded-BFCL/parallel_172_1_1",
+      "type": "supports",
+      "rationale": "user states present value for first investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_2_0",
+      "target": "sharded-BFCL/parallel_172_2_1",
+      "type": "supports",
+      "rationale": "user specifies interest rate for first investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_3_0",
+      "target": "sharded-BFCL/parallel_172_3_1",
+      "type": "supports",
+      "rationale": "user states holding period for first investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_4_0",
+      "target": "sharded-BFCL/parallel_172_4_1",
+      "type": "supports",
+      "rationale": "user states present value for second investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_5_0",
+      "target": "sharded-BFCL/parallel_172_5_1",
+      "type": "supports",
+      "rationale": "user specifies interest rate for second investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_6_0",
+      "target": "sharded-BFCL/parallel_172_6_1",
+      "type": "supports",
+      "rationale": "user states holding period for second investment"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_7_0",
+      "target": "sharded-BFCL/parallel_172_7_1",
+      "type": "supports",
+      "rationale": "user states compounding period for investments"
+    },
+    {
+      "source": "sharded-BFCL/parallel_172_8_0",
+      "target": "sharded-BFCL/parallel_172_8_1",
+      "type": "supports",
+      "rationale": "user requests to use specific function for calculation"
+    }
+  ],
+  "attributes": {}
+}

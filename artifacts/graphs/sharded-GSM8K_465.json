@@ -1,0 +1,379 @@
+{
+  "conversation_id": "sharded-GSM8K/465",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/465_0_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria teaches in a middle school.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria has a passion for collecting sports cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria owns 6 decks of basketball cards, each holding 25 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria has 5 boxes of baseball cards, with 40 cards per box.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria keeps 50 cards for herself.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "All the remaining cards are given to her students.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_6_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Each student ended up receiving 10 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria likely has a personal collection of sports cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "It's likely she brought in her personal collection to share with the class.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Miss Maria shared her collection of approximately 100 sports cards with 25 students in her middle school class.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria owns 6 decks of basketball cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Each deck contains 25 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Miss Maria shared her 150 basketball cards with the students, dividing them evenly, so she shared her cards with 6 students.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria has 5 boxes of baseball cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Each box contains 40 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Miss Maria shared her 350 cards (150 basketball cards and 200 baseball cards) with the students, giving each student 25 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of cards Miss Maria has is 350 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The remaining cards available to share with the students is 300 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, Miss Maria shared the remaining 300 cards with 12 students.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The remaining cards Miss Maria shares with her students is 300 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Miss Maria shared all 300 remaining cards (after keeping 50 for herself) with her students.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_6_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The number of students Miss Maria shared her cards with is 30.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_6_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Miss Maria shared the remaining 300 cards (after keeping 50 for herself) with 30 students, giving each student 10 cards.",
+      "entities": [
+        "Miss Maria"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/465_1_0",
+      "target": "sharded-GSM8K/465_0_0",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_2_0",
+      "target": "sharded-GSM8K/465_1_0",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_2_0",
+      "target": "sharded-GSM8K/465_1_1",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_3_0",
+      "target": "sharded-GSM8K/465_2_0",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_4_0",
+      "target": "sharded-GSM8K/465_3_0",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_4_0",
+      "target": "sharded-GSM8K/465_4_1",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_5_0",
+      "target": "sharded-GSM8K/465_4_2",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_6_0",
+      "target": "sharded-GSM8K/465_5_1",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_5_2",
+      "target": "sharded-GSM8K/465_5_1",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_6_1",
+      "target": "sharded-GSM8K/465_5_2",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/465_4_1",
+      "target": "sharded-GSM8K/465_6_1",
+      "type": "supports",
+      "rationale": "Assistant derivation supports final answer"
+    },
+    {
+      "source": "sharded-GSM8K/465_6_2",
+      "target": "sharded-GSM8K/465_6_1",
+      "type": "supports",
+      "rationale": "Assistant derivation supports final answer"
+    },
+    {
+      "source": "sharded-GSM8K/465_4_3",
+      "target": "sharded-GSM8K/465_6_1",
+      "type": "supports",
+      "rationale": "Assistant derivation supports final answer"
+    }
+  ],
+  "attributes": {}
+}

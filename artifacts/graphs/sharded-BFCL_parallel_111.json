@@ -1,0 +1,173 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_111",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_111_0_0",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "Provide the answer in 'grams/mole'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_0_1",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Molecular weight of C6H12O6 is provided in g/mol.",
+      "entities": [
+        "C6H12O6"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_1_0",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "I'd also like to add the molecular weight of C12H22O11 (Sucrose).",
+      "entities": [
+        "C12H22O11",
+        "Sucrose"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_1_1",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Molecular weight of C6H12O6 and C12H22O11 is provided in g/mol.",
+      "entities": [
+        "C6H12O6",
+        "C12H22O11"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_2_0",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 2,
+      "source": "user",
+      "type": "constraint",
+      "text": "Ensure the molecular weight of Sucrose is also provided in 'grams/mole'.",
+      "entities": [
+        "Sucrose"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_2_1",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Molecular weight of C6H12O6 and C12H22O11 is provided in g/mol.",
+      "entities": [
+        "C6H12O6",
+        "C12H22O11"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_3_0",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Explain how the molecular weight of Glucose compares to that of Sucrose.",
+      "entities": [
+        "Glucose",
+        "Sucrose"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_3_1",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The molecular formula for Glucose is C6H12O6, and its molecular weight is provided.",
+      "entities": [
+        "Glucose",
+        "C6H12O6"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_3_2",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The molecular formula for Sucrose is C12H22O11, and its molecular weight is provided.",
+      "entities": [
+        "Sucrose",
+        "C12H22O11"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-BFCL/parallel_111_3_3",
+      "conversation_id": "sharded-BFCL/parallel_111",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The molecular weight of Sucrose is higher than the molecular weight of Glucose, as Sucrose has a larger molecular formula with more atoms.",
+      "entities": [
+        "Sucrose",
+        "Glucose"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_111_1_1",
+      "target": "sharded-BFCL/parallel_111_1_0",
+      "type": "supports",
+      "rationale": "User request is supported by assistant's provision of both molecular weights."
+    },
+    {
+      "source": "sharded-BFCL/parallel_111_2_1",
+      "target": "sharded-BFCL/parallel_111_2_0",
+      "type": "supports",
+      "rationale": "User constraint is supported by assistant's provision of both molecular weights."
+    },
+    {
+      "source": "sharded-BFCL/parallel_111_3_1",
+      "target": "sharded-BFCL/parallel_111_3_0",
+      "type": "supports",
+      "rationale": "User request for explanation is supported by assistant's claim on Glucose."
+    },
+    {
+      "source": "sharded-BFCL/parallel_111_3_2",
+      "target": "sharded-BFCL/parallel_111_3_0",
+      "type": "supports",
+      "rationale": "User request for explanation is supported by assistant's claim on Sucrose."
+    },
+    {
+      "source": "sharded-BFCL/parallel_111_3_3",
+      "target": "sharded-BFCL/parallel_111_3_0",
+      "type": "supports",
+      "rationale": "User request for explanation is supported by assistant's comparison of molecular weights."
+    }
+  ],
+  "attributes": {}
+}

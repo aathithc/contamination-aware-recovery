@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/932",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Participant  | Initial Balloons | Balloons Given | Balloons After Keeping | Extra Balloons | Total Balloons |\n|--------------|------------------|----------------|-----------------------|----------------|-----------------|\n| Maria        | 12               | 8              | 3                     | 3              | 51              |\n| Friend 1     | 8                | 2              | -                     | 3              | -               |\n| Friend 2     | 8                | 2              | -                     | 3              | -               |\n| Friend 3     | 8                | 2              | -                     | 3              | -               |\n| Friend 4     | 8                | 2              | -                     | 3              | -               |\n\nHighlighted:\n- Total Balloons: 51\n\nContext:\n- Maria had 4 friends.\n- Each friend had 8 water balloons.\n- Maria originally had 12 water balloons.\n- Maria handed 2 balloons to each friend initially.\n- Maria kept 1 balloon for herself.\n- Maria's mom gave an extra 3 balloons to everyone.\n\nInstruction:\nCalculate the total number of water balloons after distributing and receiving extra balloons.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

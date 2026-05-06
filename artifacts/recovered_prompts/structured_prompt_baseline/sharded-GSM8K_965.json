@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/965",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Step | Direction      | Speed (mph) | Time (hours) | Distance (units) | New Location  |\n|------|----------------|--------------|---------------|-------------------|----------------|\n| 1    | South          | 30           | 10            | 300               | (10, -280)     |\n| 2    | North          | 18           | 2             | 36                | (10, 36)       |\n| 3    | South          | 22           | 5             | 110               | (10, -596)     |\n\nHighlighted:\n- South for 10 hours\n- North for 2 hours\n- South for 5 hours\n\nContext:\n- The first leg of the journey involves flying south for 10 hours at 30 mph, which results in a significant distance.\n- The second leg consists of flying north for 2 hours at 18 mph, followed by another southward leg.\n- Each leg's calculations of distance and new location are provided.\n\nInstruction:\nSummarize the bird's migration journey including key distances and final location.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

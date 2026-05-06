@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-spider-val-412-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-412-medium_0_0",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User requests to retrieve only the names of the filtered visitors.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_0_1",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can modify the SQL query to select the visitor_name column.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_1_0",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "User ensures the results are sorted in a specific way.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_1_1",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can modify the ORDER BY clause to sort in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_2_0",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "User requests to filter the visitors whose membership level is greater than 4.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_2_1",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You need to add a condition in the WHERE clause for membership_level.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_3_0",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "User requests to sort from high to low.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_3_1",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Modify the ORDER BY clause to sort by membership_level in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_4_0",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "User requests to sort the results by their membership level value.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-412-medium_4_1",
+      "conversation_id": "sharded-spider-val-412-medium",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can select both the visitor_name and membership_level columns in the query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-412-medium_0_0",
+      "target": "sharded-spider-val-412-medium_0_1",
+      "type": "supports",
+      "rationale": "User's request supports the assistant's SQL modification."
+    },
+    {
+      "source": "sharded-spider-val-412-medium_1_0",
+      "target": "sharded-spider-val-412-medium_1_1",
+      "type": "supports",
+      "rationale": "User's request for specific sorting supports the assistant's SQL modification."
+    },
+    {
+      "source": "sharded-spider-val-412-medium_2_0",
+      "target": "sharded-spider-val-412-medium_2_1",
+      "type": "supports",
+      "rationale": "User's request for filtering supports the assistant's SQL modification."
+    },
+    {
+      "source": "sharded-spider-val-412-medium_3_0",
+      "target": "sharded-spider-val-412-medium_3_1",
+      "type": "supports",
+      "rationale": "User's request for sorting supports the assistant's SQL modification."
+    },
+    {
+      "source": "sharded-spider-val-412-medium_4_0",
+      "target": "sharded-spider-val-412-medium_4_1",
+      "type": "supports",
+      "rationale": "User's request for sorting by membership level supports the assistant's SQL modification."
+    }
+  ],
+  "attributes": {}
+}

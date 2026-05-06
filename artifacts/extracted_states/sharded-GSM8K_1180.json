@@ -1,0 +1,479 @@
+{
+  "conversation_id": "sharded-GSM8K/1180",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1180_0_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The company sold Mr. Marcellus 4000 gallons of milk in jars.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Mr. Marcellus purchased 4,000 gallons of milk in jars from the company.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The milk expired before Mr. Marcellus could use it all.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Assume the price per gallon of milk was $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_4",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Assume the company has a policy of providing a full refund for expired products.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_5",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of 4,000 gallons of milk at $3 per gallon = $12,000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_6",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Marcellus would be entitled to a full refund of $12,000.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each gallon of milk cost $3.50.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the updated information that each gallon of milk cost $3.50, let's recalculate the refund amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = 4,000 gallons × $3.50 per gallon = $14,000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Since the milk expired, and assuming the company has a policy of providing a full refund for expired products, the refund amount would be $14,000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_4",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount Mr. Marcellus got refunded for the expired milk is $14,000.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "He discovered that 2/5 of the milk he bought was expired.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Mr. Marcellus purchased 4,000 gallons of milk at $3.50 per gallon.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "2/5 of 4,000 gallons = 1,600 gallons of expired milk.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Cost of expired milk = 1,600 gallons × $3.50 per gallon = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_4",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Refund amount = Cost of expired milk = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_5",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount Mr. Marcellus got refunded for the expired milk is $5,600.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The spoiled milk couldn't be sold in his store.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The expired milk could not be sold in Mr. Marcellus' store.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Since the expired milk could not be sold, the full cost of the expired milk should be refunded.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount Mr. Marcellus got refunded for the expired milk that could not be sold is $5,600.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "He ended up returning the expired milk to the company.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Mr. Marcellus returned the expired milk to the company.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Marcellus should receive a full refund for the cost of the expired milk.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount Mr. Marcellus got refunded for the 1,600 gallons of expired milk is $5,600.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_5_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "And then he requested a refund for the returned milk.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_5_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Mr. Marcellus requested a refund for the returned expired milk.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_5_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Marcellus got refunded for the 1,600 gallons of expired milk that he returned to the company is $5,600.",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1180_0_0",
+      "target": "sharded-GSM8K/1180_0_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumptions"
+    },
+    {
+      "source": "sharded-GSM8K/1180_0_0",
+      "target": "sharded-GSM8K/1180_0_2",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumptions"
+    },
+    {
+      "source": "sharded-GSM8K/1180_0_1",
+      "target": "sharded-GSM8K/1180_0_3",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_0_1",
+      "target": "sharded-GSM8K/1180_0_4",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_0_5",
+      "target": "sharded-GSM8K/1180_0_6",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_0",
+      "target": "sharded-GSM8K/1180_1_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumptions"
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_1",
+      "target": "sharded-GSM8K/1180_1_2",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_2",
+      "target": "sharded-GSM8K/1180_1_3",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_3",
+      "target": "sharded-GSM8K/1180_1_4",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_0",
+      "target": "sharded-GSM8K/1180_2_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_1",
+      "target": "sharded-GSM8K/1180_2_2",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_2",
+      "target": "sharded-GSM8K/1180_2_3",
+      "type": "supports",
+      "rationale": "derivation supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_3",
+      "target": "sharded-GSM8K/1180_2_4",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_3_0",
+      "target": "sharded-GSM8K/1180_3_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumption"
+    },
+    {
+      "source": "sharded-GSM8K/1180_3_1",
+      "target": "sharded-GSM8K/1180_3_2",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_3_2",
+      "target": "sharded-GSM8K/1180_3_3",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_4_0",
+      "target": "sharded-GSM8K/1180_4_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumption"
+    },
+    {
+      "source": "sharded-GSM8K/1180_4_1",
+      "target": "sharded-GSM8K/1180_4_2",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1180_4_2",
+      "target": "sharded-GSM8K/1180_4_3",
+      "type": "supports",
+      "rationale": "derivation supports conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/1180_5_0",
+      "target": "sharded-GSM8K/1180_5_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant assumption"
+    },
+    {
+      "source": "sharded-GSM8K/1180_5_1",
+      "target": "sharded-GSM8K/1180_5_2",
+      "type": "supports",
+      "rationale": "assistant assumption supports calculation"
+    }
+  ],
+  "attributes": {}
+}

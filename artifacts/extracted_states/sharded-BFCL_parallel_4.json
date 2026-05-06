@@ -1,0 +1,120 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_4",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_4_0_0",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The first person is 6 feet tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_0_1",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The height of 6 feet is equivalent to 72 inches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_1_0",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The first person weighs 80 kg",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_1_1",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The function call would be: [calculate_bmi(height=72, weight=80)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_2_0",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The second person is 5.6 feet tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_2_1",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The height of 5.6 feet is equivalent to 67.2 inches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_3_0",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The second person weighs 60 kg",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_4_3_1",
+      "conversation_id": "sharded-BFCL/parallel_4",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The function call would be: [calculate_bmi(height=67.2, weight=60)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_4_0_0",
+      "target": "sharded-BFCL/parallel_4_0_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_4_1_0",
+      "target": "sharded-BFCL/parallel_4_1_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_4_2_0",
+      "target": "sharded-BFCL/parallel_4_2_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant assumption"
+    },
+    {
+      "source": "sharded-BFCL/parallel_4_3_0",
+      "target": "sharded-BFCL/parallel_4_3_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant assumption"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_113",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Weight (lbs) | Height (inches) | Activity Level     |\n|---------------|-----------------|---------------------|\n| 180           | 70              | lightly active       |\n| 200           | 65              | very active         |\n| 150           | 72              | moderately active    |\n| 220           | 68              | extra active        |\n\nHighlighted:\n| 180 lbs, 70 inches tall, lightly active | 200 lbs, 65 inches tall, very active | 150 lbs, 72 inches tall, moderately active | 220 lbs, 68 inches tall, extra active |\n\nContext:\nFour individuals have been included with their weights, heights, and activity levels. The target variable pattern for the logistic regression follows the structure: y=[1, 0, 0, 1].\n\nInstruction:\nProvide the complete function call for logistic regression with all four individuals.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

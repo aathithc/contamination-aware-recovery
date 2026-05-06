@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-275-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Store Name | Product Count |\n|------------|---------------|\n| Store A    | 50            |\n| Store B    | 30            |\n| Store C    | 75            |\n| Store D    | 20            |\n\nHighlighted:\n- Store A\n- Store C\n\nContext:\n- Focus on stores with a product count greater than the average number of products across all stores.\n\nInstruction:\n- Retrieve the names of the qualifying stores along with their product counts.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

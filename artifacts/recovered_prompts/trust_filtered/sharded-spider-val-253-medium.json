@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-253-medium",
+  "method": "trust_filtered",
+  "prompt": "The destination city should specifically be Aberdeen.\nFilter the flights to include only those that are arriving at that destination.\nReturn the flight numbers for the filtered flights.",
+  "included_node_ids": [
+    "sharded-spider-val-253-medium_0_0",
+    "sharded-spider-val-253-medium_1_0",
+    "sharded-spider-val-253-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-253-medium_1_1",
+    "sharded-spider-val-253-medium_1_2",
+    "sharded-spider-val-253-medium_2_1"
+  ]
+}

@@ -1,0 +1,1 @@
+{"task_id": "sharded-BFCL/parallel_184", "method": "trust_filtered", "prediction": "In the first equation \\(3x^2 + 7x + 2 = 0\\), the coefficients are:\n- \\(a = 3\\)\n- \\(b = 7\\)\n- \\(c = 2\\)\n\nIn the second equation \\(5x^2 - 4x + 1 = 0\\), the coefficients are:\n- \\(a = 5\\)\n- \\(b = -4\\)\n- \\(c = 1\\)", "success": true, "baseline_success": true}

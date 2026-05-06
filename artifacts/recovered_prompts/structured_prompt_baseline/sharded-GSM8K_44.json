@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/44",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                          | Value            |\n|--------------------------------------|------------------|\n| Number of beeswax candles sold       | 20               |\n| Cost price per beeswax candle        | $3               |\n| Selling price per beeswax candle     | $2               |\n| Total revenue                        | $40              |\n| Total cost                           | $20              |\n| Net profit                           | $20              |\n| Pounds of beeswax needed             | 2                |\n| Cost per pound of beeswax           | $5               |\n| Supplies cost for 1 pound of wax and wicks | $10       |\n\nHighlighted:\n- Selling price per beeswax candle\n- Net profit\n\nContext:\n- Each pound of beeswax produces 10 candles.\n- The supplies for 1 pound of beeswax and the wicks cost $10.\n- No additional expenses or costs.\n\nInstruction:\nCalculate Charlie's net profit from selling 20 beeswax candles based on the corrected selling price per candle.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

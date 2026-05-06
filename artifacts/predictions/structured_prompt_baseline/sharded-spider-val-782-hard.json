@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-782-hard", "method": "structured_prompt_baseline", "prediction": "| Country Code | Type of Government |\n|--------------|---------------------|\n| ...          | Not Republic        |", "success": false, "baseline_success": false}

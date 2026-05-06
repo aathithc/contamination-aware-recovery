@@ -1,7 +1,7 @@
 {
   "conversation_id": "sharded-totto_4754587589162879755",
   "method": "structured_prompt_baseline",
-  "prompt": "Table:\n| Chart (2004) | Peak position U.S. Billboard 200 | Peak position U.S. Billboard Top R&B/Hip-Hop Albums |\n|---------------|----------------------------------|---------------------------------------------------|\n|               | 133                              | 43                                                |\n\nHighlighted:\n- Peak position U.S. Billboard 200: 133\n- Peak position U.S. Billboard Top R&B/Hip-Hop Albums: 43\n\nContext:\n- Table webpage URL: http://en.wikipedia.org/wiki/The_Best_of_E-40:_Yesterday,_Today_%26_Tomorrow\n- Table page title: The Best of E-40: Yesterday, Today & Tomorrow\n- Table section title: Chart history\n- Table section text: Album\n\nInstruction:\nSummarize the peak chart positions for the album.",
+  "prompt": "Table:\n| Chart (2004) | Peak position U.S. Billboard 200 | Peak position U.S. Billboard Top R&B/Hip-Hop Albums |\n|---------------|---------------------------------|-----------------------------------------------------|\n|               | 133                             | 43                                                  |\n\nHighlighted:\n- Peak position: 133\n- Peak position: 43\n\nContext:\nThe table is from the Wikipedia page for the album The Best of E-40: Yesterday, Today & Tomorrow, specifically in the \"Chart history\" section.\n\nInstruction:\nSummarize the table's contents.",
   "included_node_ids": [],
   "excluded_node_ids": []
 }

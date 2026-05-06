@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-GSM8K/435",
+  "method": "trust_filtered",
+  "prompt": "Ray started with 25 lollipops.\nThere is not enough information to determine the exact number of lollipops Ray's friends received.\nRay decided to keep 5 lollipops for himself.\nRay's friends received a total of 20 lollipops.\nThe rest of the lollipops were shared equally among his 4 friends.\nRay's 4 friends each got 5 lollipops.",
+  "included_node_ids": [
+    "sharded-GSM8K/435_0_0",
+    "sharded-GSM8K/435_0_2",
+    "sharded-GSM8K/435_1_0",
+    "sharded-GSM8K/435_1_2",
+    "sharded-GSM8K/435_2_0",
+    "sharded-GSM8K/435_2_2"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/435_0_1",
+    "sharded-GSM8K/435_1_1",
+    "sharded-GSM8K/435_2_1"
+  ]
+}

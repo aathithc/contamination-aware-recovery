@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/991",
+  "method": "concat",
+  "prompt": "Comet Halley takes 75 years to complete one orbit around the sun.\nBill's dad was 30 years old when he saw the comet.\nBill saw Comet Halley for the second time when he was three times as old as his dad was when his dad saw it.",
+  "included_node_ids": [
+    "sharded-GSM8K/991_0_0",
+    "sharded-GSM8K/991_1_0",
+    "sharded-GSM8K/991_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/991_0_1",
+    "sharded-GSM8K/991_0_2",
+    "sharded-GSM8K/991_0_3",
+    "sharded-GSM8K/991_0_4",
+    "sharded-GSM8K/991_1_1",
+    "sharded-GSM8K/991_1_2",
+    "sharded-GSM8K/991_1_3",
+    "sharded-GSM8K/991_2_1",
+    "sharded-GSM8K/991_2_2"
+  ]
+}

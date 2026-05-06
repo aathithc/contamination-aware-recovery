@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_18",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Duration | Investment Amount | Interest Rate | Function Call                                 |\n|----------|-------------------|----------------|-----------------------------------------------|\n| 1 year   | $1000             | 5%             | fv(rate=0.05, nper=1, pmt=1000, pv=-1000)   |\n| 5 years  | $1000             | 5%             | fv(rate=0.05, nper=5, pmt=1000, pv=-1000)   |\n| 10 years | $1000             | 5%             | fv(rate=0.05, nper=10, pmt=1000, pv=-1000)  |\n\nHighlighted:\n- $1000\n- 5%\n- 1 year\n- 5 years\n- 10 years\n\nContext:\nThe user specified the investment amount, interest rate, and various durations for calculation.\n\nInstruction:\nProvide the function calls for future value calculations based on the specified input.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

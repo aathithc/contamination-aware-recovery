@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-GSM8K/932",
+  "method": "trust_filtered",
+  "prompt": "Maria had 4 friends join her for this activity.\nMaria had 12 water balloons.\nEach of Maria's friends had 8 water balloons.\nThe total number of water balloons that Maria's friends had is 32.\nMaria and her friends had a total of 44 water balloons.\nThey decided to have a water balloon fight outside.\nWith the additional information that they decided to have a water balloon fight outside, Maria and her friends still had a total of 44 water balloons.\nAt first, Maria handed 2 balloons to each of her friends.\nMaria gave 8 water balloons to her friends.\nMaria had 4 water balloons left.\nAfter handing out the balloons, Maria and her friends had a total of 36 water balloons.\nMaria kept 1 balloon for herself.\nMaria had 3 water balloons remaining after keeping one for herself.\nMaria and her friends had a total of 35 water balloons after she kept one.\nMaria's mom gave an extra 3 balloons to everyone, including Maria.\nMaria received 3 extra balloons, making her total 4.\nMaria and her 4 friends had a total of 51 water balloons after the extra balloons were given.",
+  "included_node_ids": [
+    "sharded-GSM8K/932_0_0",
+    "sharded-GSM8K/932_0_1",
+    "sharded-GSM8K/932_0_2",
+    "sharded-GSM8K/932_0_3",
+    "sharded-GSM8K/932_0_4",
+    "sharded-GSM8K/932_1_0",
+    "sharded-GSM8K/932_1_1",
+    "sharded-GSM8K/932_2_0",
+    "sharded-GSM8K/932_2_1",
+    "sharded-GSM8K/932_2_2",
+    "sharded-GSM8K/932_2_3",
+    "sharded-GSM8K/932_3_0",
+    "sharded-GSM8K/932_3_1",
+    "sharded-GSM8K/932_3_2",
+    "sharded-GSM8K/932_4_0",
+    "sharded-GSM8K/932_4_1",
+    "sharded-GSM8K/932_4_2"
+  ],
+  "excluded_node_ids": []
+}

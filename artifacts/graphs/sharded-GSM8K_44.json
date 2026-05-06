@@ -1,0 +1,618 @@
+{
+  "conversation_id": "sharded-GSM8K/44",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/44_0_0",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Charlie is starting to sell beeswax candles.",
+      "entities": [
+        "Charlie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_1",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Charlie is starting to sell beeswax candles.",
+      "entities": [
+        "Charlie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_2",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Charlie is selling 20 beeswax candles.",
+      "entities": [
+        "Charlie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_3",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Cost price of each beeswax candle: $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_4",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Selling price of each beeswax candle: $6.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_5",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "No additional expenses or costs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_6",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = Cost price per beeswax candle × Number of beeswax candles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_7",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = $3 × 20 = $60.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_8",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = Selling price per beeswax candle × Number of beeswax candles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_9",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = $6 × 20 = $120.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_10",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = Total revenue - Total cost.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_0_11",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = $120 - $60 = $60.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_0",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each pound of beeswax produces 10 candles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_1",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each pound of beeswax produces 10 candles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_2",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of pounds of beeswax needed = Number of candles / Candles per pound.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_3",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of pounds of beeswax needed = 20 / 10 = 2 pounds.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_4",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Assume the cost per pound of beeswax is $5.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_5",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of beeswax = Cost per pound of beeswax × Number of pounds of beeswax.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_6",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of beeswax = $5 × 2 = $10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_7",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = Total cost of beeswax.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_8",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = $10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_9",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = $6 × 20 = $120.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_10",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = Total revenue - Total cost.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_1_11",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = $120 - $10 = $110.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_0",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The supplies for 1 pound of beeswax and the wicks cost $10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_1",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The supplies for 1 pound of beeswax and the wicks cost $10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_2",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of beeswax and wicks = Cost per pound of beeswax and wicks × Number of pounds of beeswax.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_3",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of beeswax and wicks = $10 × 2 = $20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_4",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = Total cost of beeswax and wicks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_5",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = $20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_6",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = $6 × 20 = $120.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_7",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = Total revenue - Total cost.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_2_8",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = $120 - $20 = $100.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_0",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Each candle sells for $2.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_1",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each candle sells for $2.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_2",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = Selling price per beeswax candle × Number of beeswax candles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_3",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue = $2 × 20 = $40.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_4",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = Total revenue - Total cost.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_5",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Net profit = $40 - $20 = $20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/44_3_6",
+      "conversation_id": "sharded-GSM8K/44",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Charlie's net profit from selling 20 beeswax candles at $2 per candle is $20.",
+      "entities": [
+        "Charlie"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/44_0_0",
+      "target": "sharded-GSM8K/44_0_1",
+      "type": "supports",
+      "rationale": "user states fact"
+    },
+    {
+      "source": "sharded-GSM8K/44_0_2",
+      "target": "sharded-GSM8K/44_0_7",
+      "type": "supports",
+      "rationale": "user provides data for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/44_0_4",
+      "target": "sharded-GSM8K/44_0_9",
+      "type": "supports",
+      "rationale": "user provides data for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/44_0_6",
+      "target": "sharded-GSM8K/44_0_10",
+      "type": "supports",
+      "rationale": "derived formula for profit"
+    },
+    {
+      "source": "sharded-GSM8K/44_0_10",
+      "target": "sharded-GSM8K/44_0_11",
+      "type": "supports",
+      "rationale": "calculates net profit"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_0",
+      "target": "sharded-GSM8K/44_1_1",
+      "type": "supports",
+      "rationale": "user states fact"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_1",
+      "target": "sharded-GSM8K/44_1_2",
+      "type": "supports",
+      "rationale": "assistant states assumption"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_2",
+      "target": "sharded-GSM8K/44_1_3",
+      "type": "supports",
+      "rationale": "derived formula for amount needed"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_4",
+      "target": "sharded-GSM8K/44_1_5",
+      "type": "supports",
+      "rationale": "assumed cost per pound"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_5",
+      "target": "sharded-GSM8K/44_1_6",
+      "type": "supports",
+      "rationale": "supports cost calculation"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_7",
+      "target": "sharded-GSM8K/44_1_8",
+      "type": "supports",
+      "rationale": "total cost verification"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_6",
+      "target": "sharded-GSM8K/44_1_9",
+      "type": "supports",
+      "rationale": "revenues calculated from given info"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_9",
+      "target": "sharded-GSM8K/44_1_10",
+      "type": "supports",
+      "rationale": "profit calculated formulaically"
+    },
+    {
+      "source": "sharded-GSM8K/44_1_10",
+      "target": "sharded-GSM8K/44_1_11",
+      "type": "supports",
+      "rationale": "calculates new net profit"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_0",
+      "target": "sharded-GSM8K/44_2_1",
+      "type": "supports",
+      "rationale": "user states fact"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_1",
+      "target": "sharded-GSM8K/44_2_2",
+      "type": "supports",
+      "rationale": "assistant states assumption"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_2",
+      "target": "sharded-GSM8K/44_2_3",
+      "type": "supports",
+      "rationale": "supports cost calculation"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_3",
+      "target": "sharded-GSM8K/44_2_5",
+      "type": "supports",
+      "rationale": "total cost verification"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_5",
+      "target": "sharded-GSM8K/44_2_6",
+      "type": "supports",
+      "rationale": "revenues calculated from given info"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_6",
+      "target": "sharded-GSM8K/44_2_7",
+      "type": "supports",
+      "rationale": "profit calculated formulaically"
+    },
+    {
+      "source": "sharded-GSM8K/44_2_7",
+      "target": "sharded-GSM8K/44_2_8",
+      "type": "supports",
+      "rationale": "calculates new net profit"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_0",
+      "target": "sharded-GSM8K/44_3_1",
+      "type": "supports",
+      "rationale": "user states fact"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_1",
+      "target": "sharded-GSM8K/44_3_2",
+      "type": "supports",
+      "rationale": "assistant states assumption"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_2",
+      "target": "sharded-GSM8K/44_3_3",
+      "type": "supports",
+      "rationale": "revenue calculation stated"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_3",
+      "target": "sharded-GSM8K/44_3_4",
+      "type": "supports",
+      "rationale": "profit calculated formulaically"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_4",
+      "target": "sharded-GSM8K/44_3_5",
+      "type": "supports",
+      "rationale": "calculates net profit"
+    },
+    {
+      "source": "sharded-GSM8K/44_3_5",
+      "target": "sharded-GSM8K/44_3_6",
+      "type": "supports",
+      "rationale": "conclusion on net profit"
+    }
+  ],
+  "attributes": {}
+}

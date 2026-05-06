@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-GSM8K/14",
+  "method": "concat",
+  "prompt": "There are 20 students in the dance class.\n20% of the students chose contemporary dance.\n25% opted for jazz dance among the remaining students.\nThe rest of the students are in the hip-hop dance group.",
+  "included_node_ids": [
+    "sharded-GSM8K/14_0_0",
+    "sharded-GSM8K/14_1_0",
+    "sharded-GSM8K/14_2_0",
+    "sharded-GSM8K/14_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/14_0_1",
+    "sharded-GSM8K/14_0_2",
+    "sharded-GSM8K/14_1_1",
+    "sharded-GSM8K/14_1_2",
+    "sharded-GSM8K/14_1_3",
+    "sharded-GSM8K/14_1_4",
+    "sharded-GSM8K/14_2_1",
+    "sharded-GSM8K/14_2_2",
+    "sharded-GSM8K/14_2_3",
+    "sharded-GSM8K/14_3_1",
+    "sharded-GSM8K/14_3_2"
+  ]
+}

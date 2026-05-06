@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-633-medium",
+  "method": "trust_filtered",
+  "prompt": "The user wants to determine which countries these TV channels belong to.\nThe user wants to ensure the TV channels are actively playing the relevant cartoons.\nThe user wants to make sure the cartoons being aired are specifically written by Todd Casey.",
+  "included_node_ids": [
+    "sharded-spider-val-633-medium_0_0",
+    "sharded-spider-val-633-medium_1_0",
+    "sharded-spider-val-633-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-633-medium_0_1",
+    "sharded-spider-val-633-medium_0_2",
+    "sharded-spider-val-633-medium_1_1",
+    "sharded-spider-val-633-medium_1_2",
+    "sharded-spider-val-633-medium_2_1",
+    "sharded-spider-val-633-medium_2_2"
+  ]
+}

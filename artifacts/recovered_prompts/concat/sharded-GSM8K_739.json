@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-GSM8K/739",
+  "method": "concat",
+  "prompt": "Cecelia went shopping at the milk store.\nThe gallon jar is priced $2 higher than the half-gallon jar.\nFor reference, a gallon jar costs $5.\nShe bought 10 gallon jars.\nShe also purchased 16 half-gallon jars.",
+  "included_node_ids": [
+    "sharded-GSM8K/739_0_0",
+    "sharded-GSM8K/739_2_0",
+    "sharded-GSM8K/739_4_0",
+    "sharded-GSM8K/739_6_0",
+    "sharded-GSM8K/739_8_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/739_1_0",
+    "sharded-GSM8K/739_1_1",
+    "sharded-GSM8K/739_1_2",
+    "sharded-GSM8K/739_1_3",
+    "sharded-GSM8K/739_1_4",
+    "sharded-GSM8K/739_3_0",
+    "sharded-GSM8K/739_3_1",
+    "sharded-GSM8K/739_5_0",
+    "sharded-GSM8K/739_5_1",
+    "sharded-GSM8K/739_7_0",
+    "sharded-GSM8K/739_9_0"
+  ]
+}

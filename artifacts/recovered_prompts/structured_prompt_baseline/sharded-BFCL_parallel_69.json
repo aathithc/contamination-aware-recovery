@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_69",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Triangle | Base | Height |\n|----------|------|--------|\n| First    | 10   | 5      |\n| Second   | 8    | 6      |\n\nHighlighted:\n- Base of the first triangle: 10 units\n- Height of the first triangle: 5 units\n- Base of the second triangle: 8 units\n- Height of the second triangle: 6 units\n\nContext:\n- John is a geometry teacher preparing a quiz for his students.\n\nInstruction:\nCalculate the areas of the triangles for the quiz.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

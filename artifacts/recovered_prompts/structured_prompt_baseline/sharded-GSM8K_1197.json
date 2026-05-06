@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1197",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item       | Quantity | Price per Bottle | Total Cost |\n|------------|----------|------------------|------------|\n| Scotch     | 10       | $60              | $600       |\n| Cognac     | 20       | $90              | $1,800     |\n\nHighlighted:\n$600, $1,800, $60, $90\n\nContext:\nJohn purchased 10 bottles of scotch and then bought twice as many bottles of cognac. Each bottle of cognac costs 50% more than each bottle of scotch.\n\nInstruction:\nCalculate the total amount John spent on both scotch and cognac.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

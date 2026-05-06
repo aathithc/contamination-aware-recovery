@@ -1,0 +1,103 @@
+{
+  "conversation_id": "sharded-spider-val-129-extra",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-129-extra_0_0",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "Focus only on countries located in Europe.",
+      "entities": [
+        "Europe"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-129-extra_0_1",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the list of European countries with manufacturing industries, you can modify the previous query as follows: SELECT c.country_name FROM countries c INNER JOIN industries i ON c.country_id = i.country_id WHERE i.industry_type = 'Manufacturing' AND c.continent = 'Europe'",
+      "entities": [
+        "Manufacturing",
+        "Europe"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-129-extra_1_0",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 1,
+      "source": "user",
+      "type": "constraint",
+      "text": "Identify countries that have a minimum of 3 manufacturers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-129-extra_1_1",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the list of European countries that have a minimum of 3 manufacturing industries, you can use the following SQL query: SELECT c.country_name, COUNT(i.industry_type) AS num_manufacturers FROM countries c INNER JOIN industries i ON c.country_id = i.country_id WHERE i.industry_type = 'Manufacturing' AND c.continent = 'Europe' GROUP BY c.country_name HAVING COUNT(i.industry_type) >= 3",
+      "entities": [
+        "Manufacturing",
+        "Europe"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-129-extra_2_0",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 2,
+      "source": "user",
+      "type": "constraint",
+      "text": "Specifically look for car manufacturers in those countries.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-129-extra_2_1",
+      "conversation_id": "sharded-spider-val-129-extra",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the list of European countries that have a minimum of 3 car manufacturing industries, you can use the following SQL query: SELECT c.country_name, COUNT(i.industry_type) AS num_car_manufacturers FROM countries c INNER JOIN industries i ON c.country_id = i.country_id WHERE i.industry_type = 'Car Manufacturing' AND c.continent = 'Europe' GROUP BY c.country_name HAVING COUNT(i.industry_type) >= 3",
+      "entities": [
+        "Car Manufacturing",
+        "Europe"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-129-extra_0_0",
+      "target": "sharded-spider-val-129-extra_0_1",
+      "type": "supports",
+      "rationale": "user constraint backs assistant's answer"
+    },
+    {
+      "source": "sharded-spider-val-129-extra_1_0",
+      "target": "sharded-spider-val-129-extra_1_1",
+      "type": "supports",
+      "rationale": "user constraint backs assistant's answer"
+    },
+    {
+      "source": "sharded-spider-val-129-extra_2_0",
+      "target": "sharded-spider-val-129-extra_2_1",
+      "type": "supports",
+      "rationale": "user constraint backs assistant's answer"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/420",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Year | Initial Capital | Profit/Loss | Total Capital |\n|------|-----------------|--------------|---------------|\n| 1    | $50,000         | $15,000      | $69,000       |\n| 2    |                 | -$8,000      | $69,000       |\n| 3    |                 | $12,000      | $81,000       |\n|      |                 |              | $86,000       |\n\nHighlighted:\n- Initial Capital: $50,000\n- First Bank Amount: $4,000\n- Second Bank Amount: $8,000\n- Total Capital after 3 years: $86,000\n\nContext:\n- Mr. Josue had $5,000 before receiving loans.\n- The second bank provided twice the amount of the first bank.\n\nInstruction:\nCalculate Mr. Josue's total capital after three years including initial capital and loans.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

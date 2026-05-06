@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_27",
+  "method": "trust_filtered",
+  "prompt": "The reserve is within 10 kilometers.\nFinding a nature reserve in Berkeley within 10 kilometers.\nThe reserve has picnic tables available.\nFinding a nature reserve in Berkeley with picnic tables within 10 kilometers.\nThe reserve has public restrooms.\nFinding a nature reserve in Berkeley with public restrooms within 10 kilometers.\nFind one around Tokyo within 5 kilometers.\nFinding a nature reserve in Tokyo within 5 kilometers.\nThe reserve near Tokyo should have playgrounds and biking trails.\nFinding a nature reserve in Tokyo with playgrounds and biking trails within 5 kilometers.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_27_0_0",
+    "sharded-BFCL/parallel_27_0_1",
+    "sharded-BFCL/parallel_27_1_0",
+    "sharded-BFCL/parallel_27_1_1",
+    "sharded-BFCL/parallel_27_2_0",
+    "sharded-BFCL/parallel_27_2_1",
+    "sharded-BFCL/parallel_27_3_0",
+    "sharded-BFCL/parallel_27_3_1",
+    "sharded-BFCL/parallel_27_4_0",
+    "sharded-BFCL/parallel_27_4_1"
+  ],
+  "excluded_node_ids": []
+}

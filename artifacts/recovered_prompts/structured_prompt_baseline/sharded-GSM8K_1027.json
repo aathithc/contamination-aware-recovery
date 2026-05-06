@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1027",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Package Size | Number of Sandwiches | Price |\n|--------------|----------------------|-------|\n| Small        | 2                    | $3    |\n| Medium       | 4                    | $6    |\n| Large        | 8                    | $12   |\n\nHighlighted:\n$3, $6, $12\n\nContext:\nPrices grow proportionally with the number of sandwiches.\n\nInstruction:\nDetermine the prices of the sandwich packages based on the given information.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

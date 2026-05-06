@@ -1,0 +1,32 @@
+{
+  "conversation_id": "sharded-GSM8K/1166",
+  "method": "concat",
+  "prompt": "A 5-year-old avocado tree produces 50 fruits normally.\nWhen the tree is 6 years old, it produces 3 times the initial 5-year amount.\nAt age 7, it starts producing 7 times the 5-year-old amount.\nFor an 8-year-old tree, it produces 200 fewer fruits than a 10-year-old tree.\nIn its ninth year, the tree doesn't produce any fruit at all.\nA 10-year-old tree will produce 20 times the 5-year-old amount.",
+  "included_node_ids": [
+    "sharded-GSM8K/1166_0_0",
+    "sharded-GSM8K/1166_1_0",
+    "sharded-GSM8K/1166_2_0",
+    "sharded-GSM8K/1166_3_0",
+    "sharded-GSM8K/1166_4_0",
+    "sharded-GSM8K/1166_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/1166_0_1",
+    "sharded-GSM8K/1166_0_2",
+    "sharded-GSM8K/1166_1_1",
+    "sharded-GSM8K/1166_1_2",
+    "sharded-GSM8K/1166_1_3",
+    "sharded-GSM8K/1166_2_1",
+    "sharded-GSM8K/1166_2_2",
+    "sharded-GSM8K/1166_2_3",
+    "sharded-GSM8K/1166_3_1",
+    "sharded-GSM8K/1166_3_2",
+    "sharded-GSM8K/1166_3_3",
+    "sharded-GSM8K/1166_4_1",
+    "sharded-GSM8K/1166_4_2",
+    "sharded-GSM8K/1166_4_3",
+    "sharded-GSM8K/1166_5_1",
+    "sharded-GSM8K/1166_5_2",
+    "sharded-GSM8K/1166_5_3"
+  ]
+}

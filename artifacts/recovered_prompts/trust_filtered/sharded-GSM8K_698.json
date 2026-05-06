@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-GSM8K/698",
+  "method": "trust_filtered",
+  "prompt": "Greta's monthly paycheck is $2400.00.\nGreta's monthly paycheck is $2,400.00.\nTotal deductions = $360.00 + $120.00 + $148.80 + $34.80 = $663.60.\nAmount of money Greta has left = $2,400.00 - $663.60 = $1,736.40.\nShe allocates 50% of her paycheck toward her retirement account.\nGreta allocates 50% of her paycheck toward her retirement account.\nRemaining amount = $2,400.00 - $1,200.00 = $1,200.00.\nAmount Greta has left = $1,200.00 - $331.80 = $868.20.\nShe also spends 20% of her paycheck for her monthly car payment.\nGreta spends 20% of her paycheck for her monthly car payment.\nRemaining amount = $2,400.00 - $1,200.00 - $480.00 = $720.00.\nAmount Greta has left = $720.00 - $199.08 = $520.92.\nretirement and her car payment are her only two deductions.\nAmount Greta has left = $2,400.00 - $1,200.00 - $480.00 = $720.00.",
+  "included_node_ids": [
+    "sharded-GSM8K/698_0_0",
+    "sharded-GSM8K/698_0_1",
+    "sharded-GSM8K/698_0_2",
+    "sharded-GSM8K/698_0_3",
+    "sharded-GSM8K/698_1_0",
+    "sharded-GSM8K/698_1_1",
+    "sharded-GSM8K/698_1_2",
+    "sharded-GSM8K/698_1_3",
+    "sharded-GSM8K/698_2_0",
+    "sharded-GSM8K/698_2_1",
+    "sharded-GSM8K/698_2_2",
+    "sharded-GSM8K/698_2_3",
+    "sharded-GSM8K/698_3_0",
+    "sharded-GSM8K/698_3_1"
+  ],
+  "excluded_node_ids": []
+}

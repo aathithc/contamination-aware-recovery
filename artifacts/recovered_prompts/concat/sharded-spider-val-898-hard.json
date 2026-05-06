@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-898-hard",
+  "method": "concat",
+  "prompt": "Focus on high schoolers who have friends.\nReturn the ids of the high schoolers who meet these criteria.\nThe high schoolers should also be liked by someone else.",
+  "included_node_ids": [
+    "sharded-spider-val-898-hard_0_0",
+    "sharded-spider-val-898-hard_1_0",
+    "sharded-spider-val-898-hard_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-898-hard_0_1",
+    "sharded-spider-val-898-hard_1_1",
+    "sharded-spider-val-898-hard_2_1"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_156",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| n_estimators | max_depth |\n|---------------|-----------|\n| 100           | 10        |\n| 200           | 20        |\n| 300           | 30        |\n| 400           | 40        |\n\nHighlighted:\n- 100 trees and depth 10\n- 200 trees and depth 20\n- 300 trees and depth 30\n- 400 trees and depth 40\n\nContext:\nThe parameters for the models are set to vary the number of trees and the maximum depth, with specific values indicated.\n\nInstruction:\nCompare how the performance of the four models differs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

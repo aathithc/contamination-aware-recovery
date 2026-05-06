@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_129",
+  "method": "trust_filtered",
+  "prompt": "We are working with two sets of data\nThe first data set is [12, 15, 11, 14, 18, 19, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]\nThe second data set is [32, 35, 31, 34, 38, 39, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]\nUse the 'create_histogram' function to create the histograms\nMake sure each histogram has 5 bins",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_129_0_0",
+    "sharded-BFCL/parallel_129_1_0",
+    "sharded-BFCL/parallel_129_2_0",
+    "sharded-BFCL/parallel_129_3_0",
+    "sharded-BFCL/parallel_129_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_129_1_1",
+    "sharded-BFCL/parallel_129_2_1",
+    "sharded-BFCL/parallel_129_3_1",
+    "sharded-BFCL/parallel_129_4_1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-982-extra",
+  "method": "concat",
+  "prompt": "narrow the scope to only treatments or operations performed on dogs\nfocus on professionals who did not perform any operations\nensure the treatments or operations are explicitly included in this consideration",
+  "included_node_ids": [
+    "sharded-spider-val-982-extra_0_0",
+    "sharded-spider-val-982-extra_1_0",
+    "sharded-spider-val-982-extra_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-982-extra_0_1",
+    "sharded-spider-val-982-extra_0_2",
+    "sharded-spider-val-982-extra_1_1",
+    "sharded-spider-val-982-extra_1_2",
+    "sharded-spider-val-982-extra_2_1",
+    "sharded-spider-val-982-extra_2_2"
+  ]
+}

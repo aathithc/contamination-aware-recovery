@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-265-medium",
+  "method": "trust_filtered",
+  "prompt": "Focus on cities where there are multiple employees meeting the criteria.\nThe employees in question should be under the age of 30.",
+  "included_node_ids": [
+    "sharded-spider-val-265-medium_0_0",
+    "sharded-spider-val-265-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-265-medium_1_0",
+    "sharded-spider-val-265-medium_1_1",
+    "sharded-spider-val-265-medium_2_1",
+    "sharded-spider-val-265-medium_2_2"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-982-extra",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Professional ID | Treatment/Operation  | Animal Type |\n|-----------------|---------------------|-------------|\n| 1               | Vaccination         | Dog         |\n| 2               | Surgery             | Dog         |\n| 3               | Checkup             | Cat         |\n| 4               | Spay                | Dog         |\n| 5               | Neuter              | Dog         |\n\nHighlighted:\n| Professional ID | Treatment/Operation  |\n\nContext:\nFocus only on treatments or operations performed on dogs and include only professionals who did not perform any operations.\n\nInstruction:\nCount the number of professionals who have not performed any operations on dogs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

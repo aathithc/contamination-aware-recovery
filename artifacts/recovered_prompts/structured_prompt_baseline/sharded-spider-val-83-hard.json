@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-83-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Student First Name | Student Last Name | Pet Type | Pet Age |\n|--------------------|-------------------|----------|---------|\n\nHighlighted:\n| Student Last Name |\n\nContext:\nNone\n\nInstruction:\nRetrieve the last name of students who own a 3-year-old cat.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

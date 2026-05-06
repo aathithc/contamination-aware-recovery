@@ -1,0 +1,109 @@
+{
+  "conversation_id": "sharded-spider-val-285-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-285-hard_0_0",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User requests to return the names of shops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_0_1",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the names of all the shops in the 'shops' table, you can use the query 'SELECT name FROM shops;'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_1_0",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "User ensures that no employees are hired by these shops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_1_1",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the list of shop names where there are no employees hired, you can use the query 'SELECT s.name FROM shops s WHERE NOT EXISTS (SELECT 1 FROM employees e WHERE e.shop_id = s.id);'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_2_0",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "User asks to find shops that do not hire staff or workers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_2_1",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the shops that do not hire any staff or workers, you can use the query 'SELECT s.name FROM shops s WHERE NOT EXISTS (SELECT 1 FROM employees e WHERE e.shop_id = s.id);'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-285-hard_2_2",
+      "conversation_id": "sharded-spider-val-285-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can modify the subquery to filter the employees table by roles to exclude specific staff or workers.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-285-hard_0_0",
+      "target": "sharded-spider-val-285-hard_0_1",
+      "type": "supports",
+      "rationale": "User request leads to assistant's response."
+    },
+    {
+      "source": "sharded-spider-val-285-hard_1_0",
+      "target": "sharded-spider-val-285-hard_1_1",
+      "type": "supports",
+      "rationale": "User confirmation leads to assistant's response about shops without employees."
+    },
+    {
+      "source": "sharded-spider-val-285-hard_2_0",
+      "target": "sharded-spider-val-285-hard_2_1",
+      "type": "supports",
+      "rationale": "User request leads to assistant's response."
+    },
+    {
+      "source": "sharded-spider-val-285-hard_2_1",
+      "target": "sharded-spider-val-285-hard_2_2",
+      "type": "supports",
+      "rationale": "Assistant provides further clarification on filtering roles."
+    }
+  ],
+  "attributes": {}
+}

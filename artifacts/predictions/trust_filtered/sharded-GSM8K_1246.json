@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1246", "method": "trust_filtered", "prediction": "Ara plays an average of 40 games per year and scores 21 points in each game. Therefore, in one year, she scores:\n\n40 games/year \u00d7 21 points/game = 840 points/year.\n\nOver four years, she scores:\n\n840 points/year \u00d7 4 years = 3,360 points.", "success": true, "baseline_success": true}

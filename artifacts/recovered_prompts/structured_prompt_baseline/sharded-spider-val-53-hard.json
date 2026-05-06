@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-53-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Sex | Pet Type | Count |\n|-----|----------|-------|\n| F   | Dog      | 12    |\n\nHighlighted:\n- 12 dog pets that are cared for by students explicitly marked as female.\n\nContext:\nUser wants to focus only on students explicitly marked as female (sex = 'F') for the count of dog pets.\n\nInstruction:\nProvide the count of dog pets cared for by female students.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

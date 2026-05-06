@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/378", "method": "concat", "prediction": "Lindsay has washed 10 pairs of socks, which equals 20 individual socks. Since she has washed 15 individual socks in total, it means she has washed 20 - 15 = 5 pairs of socks completely. Therefore, she has 50 - 15 = 35 socks left to wash.", "success": false, "baseline_success": false}

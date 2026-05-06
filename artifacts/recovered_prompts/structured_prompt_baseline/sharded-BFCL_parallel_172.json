@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_172",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Investment | Present Value | Annual Interest Rate | Number of Years | Compounding Period |\n|------------|---------------|----------------------|------------------|--------------------|\n| First      | $5000         | 5%                   | 10               | Annually            |\n| Second     | $7000         | 4%                   | 15               | Annually            |\n\nHighlighted:\n- First Investment: Present Value ($5000), Annual Interest Rate (5%), Number of Years (10)\n- Second Investment: Present Value ($7000), Annual Interest Rate (4%), Number of Years (15)\n\nContext:\n- Both investments compound interest annually.\n\nInstruction:\n- Use the finance.predict_future_value function to calculate the future value of both investments.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

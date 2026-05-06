@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_30",
+  "method": "concat",
+  "prompt": "Set the departure date to May 3rd, 2022 for this flight\nAdd another flight from Tokyo to Sydney\nSet the departure date to May 18th, 2022 for the second flight",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_30_0_0",
+    "sharded-BFCL/parallel_30_1_0",
+    "sharded-BFCL/parallel_30_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_30_0_1",
+    "sharded-BFCL/parallel_30_1_1",
+    "sharded-BFCL/parallel_30_2_1"
+  ]
+}

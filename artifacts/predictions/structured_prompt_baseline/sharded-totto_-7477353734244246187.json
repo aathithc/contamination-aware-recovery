@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-7477353734244246187",
   "method": "structured_prompt_baseline",
-  "prediction": "The highlighted entry details the event titled \"Gold: Deep: Oyaji Deep,\" which took place on December 18, 2011, at the Asunal Kanayama Hall in Nagoya.",
+  "prediction": "The highlighted event is \"Deep: Oyaji Deep,\" which took place on December 18, 2011, at the Asunal Kanayama Hall in Nagoya.",
   "success": true,
   "baseline_success": false
 }

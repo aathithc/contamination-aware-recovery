@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/739",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item              | Price per Unit | Quantity | Total Cost |\n|-------------------|----------------|----------|------------|\n| Half-gallon jar   | $3             | 16       | $48        |\n| Gallon jar        | $5             | 10       | $50        |\n| **Total**         |                |          | **$98**    |\n\nHighlighted:\n- Total Cost: $98\n\nContext:\n- A gallon jar costs $5, which makes the price of a half-gallon jar $3. Cecelia purchased 10 gallon jars and 16 half-gallon jars.\n\nInstruction:\nCalculate the total amount Cecelia spent on milk jars.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

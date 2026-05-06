@@ -1,0 +1,405 @@
+{
+  "conversation_id": "sharded-GSM8K/234",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/234_0_0",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Steve wants to add more tomatoes to his diet.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_0_1",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine Steve's current tomato consumption.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_0_2",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Decide on the target increase in tomato consumption.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_0_3",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate the additional number of cherry tomato plants needed.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_0_4",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine the number of additional vines required.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_0",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He plans to grow his own cherry tomatoes to supply his needs.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_1",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Assume current consumption is 10 cherry tomatoes per week.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_2",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Decide on the target increase by 20 more cherry tomatoes per week.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_3",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Estimate an average yield of 15 tomatoes per plant.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_4",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate the total number of cherry tomato plants needed.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_1_5",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine the number of vines required.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_2_0",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Steve consumes twice the number of tomatoes as his girlfriend.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_2_1",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate girlfriend's tomato consumption as 15 cherry tomatoes per week.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_2_2",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate total tomato consumption of 45 cherry tomatoes per week.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_2_3",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate number of plants needed as 3.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_2_4",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine 3 vines are needed.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_3_0",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Steve himself eats 6 tomatoes every day.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_3_1",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate Steve's weekly tomato consumption as 42 cherry tomatoes.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_3_2",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine total weekly consumption for both Steve and girlfriend as 57 cherry tomatoes.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_3_3",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine number of plants needed as 4.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_3_4",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Determine the number of vines required as 4.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_4_0",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Each vine produces 3 tomatoes weekly.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/234_4_1",
+      "conversation_id": "sharded-GSM8K/234",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Calculate the number of vines needed as 19 vines.",
+      "entities": [
+        "Steve"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/234_0_0",
+      "target": "sharded-GSM8K/234_0_1",
+      "type": "supports",
+      "rationale": "user states desire to add tomatoes"
+    },
+    {
+      "source": "sharded-GSM8K/234_0_1",
+      "target": "sharded-GSM8K/234_0_2",
+      "type": "supports",
+      "rationale": "current consumption leads to target increase"
+    },
+    {
+      "source": "sharded-GSM8K/234_0_2",
+      "target": "sharded-GSM8K/234_0_3",
+      "type": "supports",
+      "rationale": "target increase determines additional plants"
+    },
+    {
+      "source": "sharded-GSM8K/234_0_3",
+      "target": "sharded-GSM8K/234_0_4",
+      "type": "supports",
+      "rationale": "plants lead to vines needed"
+    },
+    {
+      "source": "sharded-GSM8K/234_1_0",
+      "target": "sharded-GSM8K/234_1_1",
+      "type": "supports",
+      "rationale": "growth plans influence consumption estimation"
+    },
+    {
+      "source": "sharded-GSM8K/234_1_1",
+      "target": "sharded-GSM8K/234_1_2",
+      "type": "supports",
+      "rationale": "current consumption informs target increase"
+    },
+    {
+      "source": "sharded-GSM8K/234_1_2",
+      "target": "sharded-GSM8K/234_1_4",
+      "type": "supports",
+      "rationale": "target increase leads to plant calculation"
+    },
+    {
+      "source": "sharded-GSM8K/234_1_4",
+      "target": "sharded-GSM8K/234_1_5",
+      "type": "supports",
+      "rationale": "plants dictate vines required"
+    },
+    {
+      "source": "sharded-GSM8K/234_2_0",
+      "target": "sharded-GSM8K/234_2_1",
+      "type": "supports",
+      "rationale": "girlfriend's consumption impacts total consumption"
+    },
+    {
+      "source": "sharded-GSM8K/234_2_1",
+      "target": "sharded-GSM8K/234_2_2",
+      "type": "supports",
+      "rationale": "individual consumption contributes to total"
+    },
+    {
+      "source": "sharded-GSM8K/234_2_2",
+      "target": "sharded-GSM8K/234_2_3",
+      "type": "supports",
+      "rationale": "total influences plants needed"
+    },
+    {
+      "source": "sharded-GSM8K/234_2_3",
+      "target": "sharded-GSM8K/234_2_4",
+      "type": "supports",
+      "rationale": "plants lead to vine count"
+    },
+    {
+      "source": "sharded-GSM8K/234_3_0",
+      "target": "sharded-GSM8K/234_3_1",
+      "type": "supports",
+      "rationale": "daily consumption affects weekly total"
+    },
+    {
+      "source": "sharded-GSM8K/234_3_1",
+      "target": "sharded-GSM8K/234_3_2",
+      "type": "supports",
+      "rationale": "Steve's total impacts overall consumption"
+    },
+    {
+      "source": "sharded-GSM8K/234_3_2",
+      "target": "sharded-GSM8K/234_3_3",
+      "type": "supports",
+      "rationale": "total figures into plant requirement"
+    },
+    {
+      "source": "sharded-GSM8K/234_3_3",
+      "target": "sharded-GSM8K/234_3_4",
+      "type": "supports",
+      "rationale": "plant count defines vine necessity"
+    },
+    {
+      "source": "sharded-GSM8K/234_4_0",
+      "target": "sharded-GSM8K/234_4_1",
+      "type": "supports",
+      "rationale": "vine production rate informs needs"
+    }
+  ],
+  "attributes": {}
+}

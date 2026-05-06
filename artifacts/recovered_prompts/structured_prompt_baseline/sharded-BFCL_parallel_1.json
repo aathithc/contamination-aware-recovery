@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_1",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Magnetic Field (Tesla) | Area (sq m) | Change in Time (s) |\n|------------------------|-------------|---------------------|\n| 5                      | 2           | 4                   |\n| 5                      | 2           | 10                  |\n\nHighlighted:\n5 Tesla, 2 square meters, change in time of 4 seconds, change in time of 10 seconds\n\nContext:\nThe user specified the values to be used in calculations with different changes in time.\n\nInstruction:\nPerform the calculations with the specified parameters.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

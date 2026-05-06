@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/435",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Initial Lollipops | Lollipops Kept | Lollipops Given | Friends | Lollipops per Friend |\n|-------------------|----------------|-----------------|---------|----------------------|\n| 25                | 5              | 20              | 4       | 5                    |\n\nHighlighted:\n| Initial Lollipops | Lollipops Kept | Lollipops Given | Friends | Lollipops per Friend |\n\nContext:\nRay had 25 lollipops, kept 5 for himself, and shared the rest equally among 4 friends.\n\nInstruction:\nSummarize the distribution of Ray's lollipops among his friends.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

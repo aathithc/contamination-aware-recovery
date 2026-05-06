@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-GSM8K/698",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-GSM8K/698_0_0",
+    "sharded-GSM8K/698_1_3",
+    "sharded-GSM8K/698_2_1",
+    "sharded-GSM8K/698_1_0",
+    "sharded-GSM8K/698_2_2",
+    "sharded-GSM8K/698_1_2",
+    "sharded-GSM8K/698_0_3",
+    "sharded-GSM8K/698_1_1",
+    "sharded-GSM8K/698_3_1",
+    "sharded-GSM8K/698_3_0",
+    "sharded-GSM8K/698_2_3",
+    "sharded-GSM8K/698_0_2",
+    "sharded-GSM8K/698_0_1",
+    "sharded-GSM8K/698_2_0"
+  ]
+}

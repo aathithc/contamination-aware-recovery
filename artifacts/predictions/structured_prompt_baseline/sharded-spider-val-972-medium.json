@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-972-medium", "method": "structured_prompt_baseline", "prediction": "| First Name | Last Name | Email Address |\n|------------|-----------|---------------|\n|            |           |               |\n|            |           |               |", "success": false, "baseline_success": true}

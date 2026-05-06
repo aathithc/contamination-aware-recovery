@@ -1,0 +1,165 @@
+{
+  "conversation_id": "sharded-GSM8K/215",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/215_0_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Lori plans to purchase a pair of shoes worth $320.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_0_1",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Assume Lori's hourly wage is $20.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_0_2",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lori needs to work 16 hours to afford the $320.00 pair of shoes.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_1_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Lori also wants to get a matching belt priced at $32.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_1_1",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I understand.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Lori earns $8.00 per hour from her part-time job.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_1",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Lori plans to purchase a pair of shoes worth $320.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_2",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Lori also wants to get a matching belt priced at $32.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_3",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lori needs to work 44 hours to afford the total purchase of $352.00.",
+      "entities": [
+        "Lori"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/215_0_0",
+      "target": "sharded-GSM8K/215_0_1",
+      "type": "supports",
+      "rationale": "User mentions purchase details."
+    },
+    {
+      "source": "sharded-GSM8K/215_0_1",
+      "target": "sharded-GSM8K/215_0_2",
+      "type": "supports",
+      "rationale": "Assumption leads to calculation of hours needed."
+    },
+    {
+      "source": "sharded-GSM8K/215_1_0",
+      "target": "sharded-GSM8K/215_2_1",
+      "type": "supports",
+      "rationale": "User adds details affecting the calculation."
+    },
+    {
+      "source": "sharded-GSM8K/215_1_0",
+      "target": "sharded-GSM8K/215_2_2",
+      "type": "supports",
+      "rationale": "User confirms additional purchase."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_0",
+      "target": "sharded-GSM8K/215_2_3",
+      "type": "supports",
+      "rationale": "User provides wage, which aids in calculation."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_1",
+      "target": "sharded-GSM8K/215_2_3",
+      "type": "supports",
+      "rationale": "Calculating hours needs historical purchase data."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_2",
+      "target": "sharded-GSM8K/215_2_3",
+      "type": "supports",
+      "rationale": "Calculating total needs current purchase data."
+    }
+  ],
+  "attributes": {}
+}

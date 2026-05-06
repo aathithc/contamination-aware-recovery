@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_39",
+  "method": "trust_filtered",
+  "prompt": "Specifically for the National Museum in Washington D.C.\nAdditionally, check for the Louvre Museum in Paris\nAlso find ticket prices for adults\nInclude ticket prices for children",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_39_0_0",
+    "sharded-BFCL/parallel_39_1_0",
+    "sharded-BFCL/parallel_39_2_0",
+    "sharded-BFCL/parallel_39_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_39_0_1",
+    "sharded-BFCL/parallel_39_1_1",
+    "sharded-BFCL/parallel_39_2_1",
+    "sharded-BFCL/parallel_39_2_2",
+    "sharded-BFCL/parallel_39_3_1",
+    "sharded-BFCL/parallel_39_3_2"
+  ]
+}

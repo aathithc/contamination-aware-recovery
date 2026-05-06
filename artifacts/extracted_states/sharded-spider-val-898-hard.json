@@ -1,0 +1,104 @@
+{
+  "conversation_id": "sharded-spider-val-898-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-898-hard_0_0",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on high schoolers who have friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-898-hard_0_1",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find information about high schoolers who have friends, you could try a query like the provided SQL.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-898-hard_1_0",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Return the ids of the high schoolers who meet these criteria.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-898-hard_1_1",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To return just the student IDs of the high schoolers who have friends, you can modify the query like the provided SQL.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-898-hard_2_0",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The high schoolers should also be liked by someone else.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-898-hard_2_1",
+      "conversation_id": "sharded-spider-val-898-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the high schoolers who have friends and are also liked by someone else, we can modify the query further as shown in the provided SQL.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-898-hard_0_0",
+      "target": "sharded-spider-val-898-hard_0_1",
+      "type": "supports",
+      "rationale": "User's focus leads to assistant providing a query."
+    },
+    {
+      "source": "sharded-spider-val-898-hard_0_1",
+      "target": "sharded-spider-val-898-hard_1_0",
+      "type": "supports",
+      "rationale": "Assistant's response prompts user to request IDs."
+    },
+    {
+      "source": "sharded-spider-val-898-hard_1_0",
+      "target": "sharded-spider-val-898-hard_1_1",
+      "type": "supports",
+      "rationale": "User's request leads to assistant providing another query."
+    },
+    {
+      "source": "sharded-spider-val-898-hard_1_1",
+      "target": "sharded-spider-val-898-hard_2_0",
+      "type": "supports",
+      "rationale": "Assistant's query prompts user to refine criteria."
+    },
+    {
+      "source": "sharded-spider-val-898-hard_2_0",
+      "target": "sharded-spider-val-898-hard_2_1",
+      "type": "supports",
+      "rationale": "User's refinement leads to assistant providing an updated query."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_109",
+  "method": "trust_filtered",
+  "prompt": "User asked about the proteins found in the mitochondria.\nUser asked about the proteins found in the cytoplasm.\nUser requested brief descriptions of each protein.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_109_0_0",
+    "sharded-BFCL/parallel_109_1_1",
+    "sharded-BFCL/parallel_109_2_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_109_1_0",
+    "sharded-BFCL/parallel_109_2_0",
+    "sharded-BFCL/parallel_109_3_0"
+  ]
+}

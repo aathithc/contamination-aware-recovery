@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-spider-val-149-medium",
+  "method": "trust_filtered",
+  "prompt": "The query is about car makers that designed cars, not just manufacturers or sellers.\nFilter for only those makers that have designed more than 3 car models.\nRetrieve the full name of the car maker.\nAlso include the unique id for each car maker in the result.",
+  "included_node_ids": [
+    "sharded-spider-val-149-medium_0_0",
+    "sharded-spider-val-149-medium_1_0",
+    "sharded-spider-val-149-medium_2_0",
+    "sharded-spider-val-149-medium_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-149-medium_0_1",
+    "sharded-spider-val-149-medium_0_2",
+    "sharded-spider-val-149-medium_0_3",
+    "sharded-spider-val-149-medium_0_4",
+    "sharded-spider-val-149-medium_1_1",
+    "sharded-spider-val-149-medium_1_2",
+    "sharded-spider-val-149-medium_1_3",
+    "sharded-spider-val-149-medium_2_1",
+    "sharded-spider-val-149-medium_2_2",
+    "sharded-spider-val-149-medium_3_1",
+    "sharded-spider-val-149-medium_3_2"
+  ]
+}

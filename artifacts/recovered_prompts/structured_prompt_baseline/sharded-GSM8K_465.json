@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/465",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Categories               | Basketball Cards | Baseball Cards | Total Cards | Cards Kept | Students | Cards per Student |\n|--------------------------|------------------|----------------|-------------|------------|----------|-------------------|\n| Number of Decks / Boxes  | 6                | 5              |             |            |          |                   |\n| Cards per Deck / Box     | 25               | 40             |             |            |          |                   |\n| Total Cards              | 150              | 200            | 350         | 50         | 30       | 10                |\n\nHighlighted:\n- 150 (Basketball Cards)\n- 200 (Baseball Cards)\n- 350 (Total Cards)\n- 50 (Cards Kept)\n- 30 (Students)\n- 10 (Cards per Student)\n\nContext:\n- Miss Maria has a total of 350 cards, keeps 50 for herself, and shares the remaining 300 cards.\n\nInstruction:\nSummarize the sharing of cards by Miss Maria with her students.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

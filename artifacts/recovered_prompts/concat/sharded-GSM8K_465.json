@@ -1,0 +1,32 @@
+{
+  "conversation_id": "sharded-GSM8K/465",
+  "method": "concat",
+  "prompt": "Miss Maria teaches in a middle school.\nMiss Maria has a passion for collecting sports cards.\nMiss Maria owns 6 decks of basketball cards, each holding 25 cards.\nMiss Maria has 5 boxes of baseball cards, with 40 cards per box.\nMiss Maria keeps 50 cards for herself.\nAll the remaining cards are given to her students.\nEach student ended up receiving 10 cards.",
+  "included_node_ids": [
+    "sharded-GSM8K/465_0_0",
+    "sharded-GSM8K/465_1_0",
+    "sharded-GSM8K/465_2_0",
+    "sharded-GSM8K/465_3_0",
+    "sharded-GSM8K/465_4_0",
+    "sharded-GSM8K/465_5_0",
+    "sharded-GSM8K/465_6_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/465_1_1",
+    "sharded-GSM8K/465_1_2",
+    "sharded-GSM8K/465_1_3",
+    "sharded-GSM8K/465_2_1",
+    "sharded-GSM8K/465_2_2",
+    "sharded-GSM8K/465_2_3",
+    "sharded-GSM8K/465_3_1",
+    "sharded-GSM8K/465_3_2",
+    "sharded-GSM8K/465_3_3",
+    "sharded-GSM8K/465_4_1",
+    "sharded-GSM8K/465_4_2",
+    "sharded-GSM8K/465_4_3",
+    "sharded-GSM8K/465_5_1",
+    "sharded-GSM8K/465_5_2",
+    "sharded-GSM8K/465_6_1",
+    "sharded-GSM8K/465_6_2"
+  ]
+}

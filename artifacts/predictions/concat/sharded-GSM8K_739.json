@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/739", "method": "concat", "prediction": "Cecelia bought 10 gallon jars at $5 each, totaling $50. The half-gallon jars are $3 each (since they are $2 less than the gallon jars). For 16 half-gallon jars, she spent $48. Her total expenditure is $50 + $48 = $98.", "success": true, "baseline_success": true}

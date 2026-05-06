@@ -1,0 +1,34 @@
+{
+  "conversation_id": "sharded-totto_6763966874855482258",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 5\n    Column: Name\n    Value: Philip Guthrie Hoffman\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_6763966874855482258_1_6",
+    "sharded-totto_6763966874855482258_0_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_6763966874855482258_1_11",
+    "sharded-totto_6763966874855482258_1_13",
+    "sharded-totto_6763966874855482258_4_1",
+    "sharded-totto_6763966874855482258_1_7",
+    "sharded-totto_6763966874855482258_1_12",
+    "sharded-totto_6763966874855482258_1_0",
+    "sharded-totto_6763966874855482258_1_2",
+    "sharded-totto_6763966874855482258_2_0",
+    "sharded-totto_6763966874855482258_1_10",
+    "sharded-totto_6763966874855482258_1_15",
+    "sharded-totto_6763966874855482258_3_1",
+    "sharded-totto_6763966874855482258_2_1",
+    "sharded-totto_6763966874855482258_1_16",
+    "sharded-totto_6763966874855482258_1_4",
+    "sharded-totto_6763966874855482258_1_9",
+    "sharded-totto_6763966874855482258_1_17",
+    "sharded-totto_6763966874855482258_1_1",
+    "sharded-totto_6763966874855482258_1_14",
+    "sharded-totto_6763966874855482258_3_0",
+    "sharded-totto_6763966874855482258_4_0",
+    "sharded-totto_6763966874855482258_1_3",
+    "sharded-totto_6763966874855482258_1_5",
+    "sharded-totto_6763966874855482258_1_8"
+  ]
+}

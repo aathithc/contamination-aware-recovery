@@ -1,0 +1,92 @@
+{
+  "conversation_id": "sharded-spider-val-494-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-494-medium_0_0",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "The death toll is considered for each specific event or instance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-494-medium_0_1",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To ensure the death toll is considered for each specific event or instance, we'll need to structure the SQL query in a way that groups the data by the event or instance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-494-medium_1_0",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "constraint",
+      "text": "Find the minimum death toll recorded for any given instance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-494-medium_1_1",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the minimum death toll recorded for any given instance, we can modify the previous query by adding MIN(death_toll) to the SELECT clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-494-medium_2_0",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "constraint",
+      "text": "Retrieve the maximum death toll recorded for any given instance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-494-medium_2_1",
+      "conversation_id": "sharded-spider-val-494-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To retrieve the maximum death toll recorded for any given instance, we can modify the previous query again by adding MAX(death_toll) to the SELECT clause.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-494-medium_0_0",
+      "target": "sharded-spider-val-494-medium_0_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's response."
+    },
+    {
+      "source": "sharded-spider-val-494-medium_1_0",
+      "target": "sharded-spider-val-494-medium_1_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's response."
+    },
+    {
+      "source": "sharded-spider-val-494-medium_2_0",
+      "target": "sharded-spider-val-494-medium_2_1",
+      "type": "supports",
+      "rationale": "User constraint supports assistant's response."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,169 @@
+{
+  "conversation_id": "sharded-spider-val-701-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-701-medium_0_0",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User focuses specifically on the names of the contestants.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_0_1",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Assuming you have a table called \"contestants\" with a column for names, the SQL query to get a list of names is SELECT name FROM contestants.",
+      "entities": [
+        "contestants"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_0_2",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can add additional filtering or sorting to the query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_1_0",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The pattern in the name should include the substring 'Al'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_1_1",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get a list of contestant names that contain the substring 'Al', use the SQL query SELECT name FROM contestants WHERE name LIKE '%Al%'.",
+      "entities": [
+        "Al",
+        "contestants"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_1_2",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can add an ORDER BY clause to sort the results alphabetically.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_2_0",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter contestants to include only those whose names match a certain pattern.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_2_1",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To filter contestants based on a name pattern, use the LIKE operator in your SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_2_2",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Example query: SELECT name FROM contestants WHERE name LIKE 'J%Al%'.",
+      "entities": [
+        "J",
+        "Al",
+        "contestants"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-701-medium_2_3",
+      "conversation_id": "sharded-spider-val-701-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "There are also other examples for different patterns.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-701-medium_0_0",
+      "target": "sharded-spider-val-701-medium_0_1",
+      "type": "supports",
+      "rationale": "User's focus supports assistant's response."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_0_1",
+      "target": "sharded-spider-val-701-medium_0_2",
+      "type": "supports",
+      "rationale": "Assistant's initial query supports ability to filter."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_1_0",
+      "target": "sharded-spider-val-701-medium_1_1",
+      "type": "supports",
+      "rationale": "User's pattern requirement supports assistant's query."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_1_1",
+      "target": "sharded-spider-val-701-medium_1_2",
+      "type": "supports",
+      "rationale": "Query can include sorting."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_2_0",
+      "target": "sharded-spider-val-701-medium_2_1",
+      "type": "supports",
+      "rationale": "User's request to filter supports assistant's explanation."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_2_1",
+      "target": "sharded-spider-val-701-medium_2_2",
+      "type": "supports",
+      "rationale": "Assistant's explanation of filtering supports example query."
+    },
+    {
+      "source": "sharded-spider-val-701-medium_2_2",
+      "target": "sharded-spider-val-701-medium_2_3",
+      "type": "supports",
+      "rationale": "Example query supports additional query examples."
+    }
+  ],
+  "attributes": {}
+}

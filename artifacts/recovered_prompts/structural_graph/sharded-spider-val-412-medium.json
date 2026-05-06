@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-412-medium",
+  "method": "structural_graph",
+  "prompt": "",
+  "included_node_ids": [],
+  "excluded_node_ids": [
+    "sharded-spider-val-412-medium_3_0",
+    "sharded-spider-val-412-medium_2_0",
+    "sharded-spider-val-412-medium_1_1",
+    "sharded-spider-val-412-medium_1_0",
+    "sharded-spider-val-412-medium_4_1",
+    "sharded-spider-val-412-medium_4_0",
+    "sharded-spider-val-412-medium_2_1",
+    "sharded-spider-val-412-medium_3_1",
+    "sharded-spider-val-412-medium_0_0",
+    "sharded-spider-val-412-medium_0_1"
+  ]
+}

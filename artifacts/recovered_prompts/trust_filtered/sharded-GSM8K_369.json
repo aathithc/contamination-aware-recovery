@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/369",
+  "method": "trust_filtered",
+  "prompt": "There are 44 seniors who need to receive awards.\nEvery senior will get a picture frame that costs $20.\nEach picture frame also has a logo etched on it, adding 20% more to its cost.\nBesides the frames, 2 seniors will also get $5 pins.\nAbout 1/4 of these seniors are officers.\nOfficers will also get cords that cost $12 each.",
+  "included_node_ids": [
+    "sharded-GSM8K/369_0_0",
+    "sharded-GSM8K/369_1_0",
+    "sharded-GSM8K/369_2_0",
+    "sharded-GSM8K/369_3_0",
+    "sharded-GSM8K/369_4_0",
+    "sharded-GSM8K/369_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/369_0_1",
+    "sharded-GSM8K/369_1_1",
+    "sharded-GSM8K/369_2_1",
+    "sharded-GSM8K/369_3_1",
+    "sharded-GSM8K/369_4_1",
+    "sharded-GSM8K/369_5_1"
+  ]
+}

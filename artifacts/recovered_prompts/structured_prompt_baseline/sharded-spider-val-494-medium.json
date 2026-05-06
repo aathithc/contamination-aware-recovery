@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-494-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Event/Instance  | Death Toll |\n|------------------|------------|\n| Instance A       | 100        |\n| Instance B       | 50         |\n| Instance C       | 200        |\n\nHighlighted:\n| Death Toll |\n\nContext:\nThe user is interested in finding the minimum and maximum death tolls specific to events or instances.\n\nInstruction:\nProvide the minimum and maximum death toll recorded for any given instance.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-GSM8K/543",
+  "method": "trust_filtered",
+  "prompt": "Jairus earns $0.8 for every small task he completes.\nJairus earns $0.8 for every small task he completes.\n$5,000 / $0.8 per task = 6,250 small tasks per month.\n$5,000 - $3,500 = $1,500.\nJenny earns $0.5 for each task she finishes.\n$3,500 / $0.5 per task = 7,000 tasks.\n6,250 tasks - 7,000 tasks = -750 tasks.\n$5,000 - $3,500 = $1,500.\nBoth Jairus and Jenny completed 20 tasks.\n$0.8 per task × 20 tasks = $16.\n$0.5 per task × 20 tasks = $10.\n$16 - $10 = $6.",
+  "included_node_ids": [
+    "sharded-GSM8K/543_0_0",
+    "sharded-GSM8K/543_0_3",
+    "sharded-GSM8K/543_0_4",
+    "sharded-GSM8K/543_0_5",
+    "sharded-GSM8K/543_1_0",
+    "sharded-GSM8K/543_1_4",
+    "sharded-GSM8K/543_1_5",
+    "sharded-GSM8K/543_1_6",
+    "sharded-GSM8K/543_2_0",
+    "sharded-GSM8K/543_2_1",
+    "sharded-GSM8K/543_2_2",
+    "sharded-GSM8K/543_2_3"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/543_0_1",
+    "sharded-GSM8K/543_0_2",
+    "sharded-GSM8K/543_1_1",
+    "sharded-GSM8K/543_1_2",
+    "sharded-GSM8K/543_1_3"
+  ]
+}

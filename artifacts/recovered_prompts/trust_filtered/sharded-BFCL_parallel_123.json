@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_123",
+  "method": "trust_filtered",
+  "prompt": "Make each sequence 500 nucleotides long\nEnsure the first sequence prefers nucleotide 'A'\nEnsure the second sequence prefers nucleotide 'T'\nEnsure the third sequence prefers nucleotide 'C'\nEnsure the fourth sequence prefers nucleotide 'G'",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_123_0_0",
+    "sharded-BFCL/parallel_123_1_0",
+    "sharded-BFCL/parallel_123_2_0",
+    "sharded-BFCL/parallel_123_3_0",
+    "sharded-BFCL/parallel_123_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_123_0_1",
+    "sharded-BFCL/parallel_123_1_1",
+    "sharded-BFCL/parallel_123_2_1",
+    "sharded-BFCL/parallel_123_3_1",
+    "sharded-BFCL/parallel_123_4_1"
+  ]
+}

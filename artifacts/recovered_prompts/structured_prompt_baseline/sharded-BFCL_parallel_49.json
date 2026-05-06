@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_49",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Team          | Top Scorer Status     |\n|---------------|-----------------------|\n| RocketLeague  | 2017, 2018, 2019      |\n\nHighlighted:\n| Top Scorer Status     |\n|-----------------------|\n| 2017, 2018, 2019      |\n\nContext:\n- The player is in team RocketLeague.\n- The player has achieved top scorer status for seasons 2017, 2018, and 2019.\n\nInstruction:\nSummarize the player’s achievements in RocketLeague.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

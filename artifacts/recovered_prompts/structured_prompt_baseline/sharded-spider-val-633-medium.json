@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-633-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| channel_name | country | program_type         |\n|--------------|---------|----------------------|\n| ...          | ...     | cartoon              |\n\nHighlighted:\n- `country`\n\nContext:\n- The TV channels must be actively playing cartoons.\n- The cartoons must be specifically written by Todd Casey.\n\nInstruction:\n- Construct a SQL query to find TV channels airing cartoons by Todd Casey.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

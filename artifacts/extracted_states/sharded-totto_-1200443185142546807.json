@@ -29,7 +29,7 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "1 | No.: 2 | Driver: Brad Keselowski [highlighted] | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]",
+      "text": "1 | No: 2 | Driver: Brad Keselowski [highlighted] | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]",
       "entities": [
         "Brad Keselowski",
         "Team Penske",
@@ -51,7 +51,61 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "1 | No.: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 [highlighted] | Speed: 105.596 [highlighted]",
+      "text": "1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "No.",
+        "value": "2",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1200443185142546807_1_3",
+      "conversation_id": "sharded-totto_-1200443185142546807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Team",
+        "value": "Team Penske",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1200443185142546807_1_4",
+      "conversation_id": "sharded-totto_-1200443185142546807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Manufacturer",
+        "value": "Ford",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1200443185142546807_1_5",
+      "conversation_id": "sharded-totto_-1200443185142546807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596",
       "entities": [],
       "attributes": {
         "table_title": "Table",
@@ -64,12 +118,12 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_-1200443185142546807_1_3",
+      "id": "sharded-totto_-1200443185142546807_1_6",
       "conversation_id": "sharded-totto_-1200443185142546807",
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "1 | No.: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596 [highlighted]",
+      "text": "1 | No: 2 | Driver: Brad Keselowski | Team: Team Penske | Manufacturer: Ford | Time: 77.730 | Speed: 105.596",
       "entities": [],
       "attributes": {
         "table_title": "Table",
@@ -82,150 +136,12 @@
       "status": "active"
     },
     {
-      "id": "sharded-totto_-1200443185142546807_1_4",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072",
-      "entities": [
-        "William Byron",
-        "Hendrick Motorsports",
-        "Chevrolet"
-      ],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_1",
-        "row_header": "2",
-        "column": "Driver",
-        "value": "William Byron (R)",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_5",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072",
-      "entities": [],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_1",
-        "row_header": "2",
-        "column": "Time",
-        "value": "78.118",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_6",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "2 | No.: 24 | Driver: William Byron (R) | Team: Hendrick Motorsports | Manufacturer: Chevrolet | Time: 78.118 | Speed: 105.072",
-      "entities": [],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_1",
-        "row_header": "2",
-        "column": "Speed",
-        "value": "105.072",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_7",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995",
-      "entities": [
-        "Kyle Larson",
-        "Chip Ganassi Racing",
-        "Chevrolet"
-      ],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_2",
-        "row_header": "3",
-        "column": "Driver",
-        "value": "Kyle Larson",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_8",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995",
-      "entities": [],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_2",
-        "row_header": "3",
-        "column": "Time",
-        "value": "78.175",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_9",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "structural_record",
-      "text": "3 | No.: 42 | Driver: Kyle Larson | Team: Chip Ganassi Racing | Manufacturer: Chevrolet | Time: 78.175 | Speed: 104.995",
-      "entities": [],
-      "attributes": {
-        "table_title": "Table",
-        "row_id": "row_2",
-        "row_header": "3",
-        "column": "Speed",
-        "value": "104.995",
-        "highlighted": false
-      },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_1_10",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 1,
-      "source": "user",
-      "type": "metadata",
-      "text": "Table title: Official final practice results",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
       "id": "sharded-totto_-1200443185142546807_2_0",
-      "conversation_id": "sharded-totto_-1200443185142546807",
-      "turn_index": 2,
-      "source": "user",
-      "type": "fact",
-      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1200443185142546807_2_1",
       "conversation_id": "sharded-totto_-1200443185142546807",
       "turn_index": 2,
       "source": "assistant",
       "type": "answer_candidate",
-      "text": "This table displays the results of the official final practice session for the 2018 Bank of America Roval 400, highlighting the position, driver name, lap time, and speed for the driver who finished in first place.",
+      "text": "This table highlights the position, driver name, lap time, and speed for the driver who finished in first place during the official final practice session.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -235,8 +151,8 @@
       "conversation_id": "sharded-totto_-1200443185142546807",
       "turn_index": 3,
       "source": "user",
-      "type": "fact",
-      "text": "The table_page_title is 2018 Bank of America Roval 400.",
+      "type": "metadata",
+      "text": "table_webpage_url: http://en.wikipedia.org/wiki/2018_Bank_of_America_Roval_400.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -257,8 +173,8 @@
       "conversation_id": "sharded-totto_-1200443185142546807",
       "turn_index": 4,
       "source": "user",
-      "type": "fact",
-      "text": "The table_section_title is Final practice.",
+      "type": "metadata",
+      "text": "table_page_title: 2018 Bank of America Roval 400.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -269,6 +185,28 @@
       "turn_index": 4,
       "source": "assistant",
       "type": "answer_candidate",
+      "text": "This table displays the results of the official final practice session for the 2018 Bank of America Roval 400, highlighting the position, driver name, lap time, and speed for the driver who finished in first place.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1200443185142546807_5_0",
+      "conversation_id": "sharded-totto_-1200443185142546807",
+      "turn_index": 5,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_section_title: Final practice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1200443185142546807_5_1",
+      "conversation_id": "sharded-totto_-1200443185142546807",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
       "text": "This table displays the results of the final practice session for the 2018 Bank of America Roval 400, highlighting the position, driver name, lap time, and speed for the driver who finished in first place.",
       "entities": [],
       "attributes": {},
@@ -276,12 +214,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "sharded-totto_-1200443185142546807_1_0",
-      "target": "sharded-totto_-1200443185142546807_0_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
-    },
     {
       "source": "sharded-totto_-1200443185142546807_1_1",
       "target": "sharded-totto_-1200443185142546807_1_0",
@@ -317,42 +249,6 @@
       "target": "sharded-totto_-1200443185142546807_1_0",
       "type": "belongs_to",
       "rationale": "cell belongs to table"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_1_7",
-      "target": "sharded-totto_-1200443185142546807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_1_8",
-      "target": "sharded-totto_-1200443185142546807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_1_9",
-      "target": "sharded-totto_-1200443185142546807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_2_1",
-      "target": "sharded-totto_-1200443185142546807_2_0",
-      "type": "supports",
-      "rationale": "metadata about table url"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_3_1",
-      "target": "sharded-totto_-1200443185142546807_3_0",
-      "type": "supports",
-      "rationale": "metadata about table title"
-    },
-    {
-      "source": "sharded-totto_-1200443185142546807_4_1",
-      "target": "sharded-totto_-1200443185142546807_4_0",
-      "type": "supports",
-      "rationale": "metadata about table section"
     }
   ],
   "attributes": {}

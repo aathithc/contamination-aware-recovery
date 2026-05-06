@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_164",
+  "method": "trust_filtered",
+  "prompt": "The data involves two 2x2 contingency tables\nThe first table contains the values: [45, 55, 35, 65]\nThe second table contains the values: [30, 70, 50, 50]\nUse a significance level of 0.05 for the tests",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_164_0_0",
+    "sharded-BFCL/parallel_164_1_1",
+    "sharded-BFCL/parallel_164_2_1",
+    "sharded-BFCL/parallel_164_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_164_1_0",
+    "sharded-BFCL/parallel_164_2_0",
+    "sharded-BFCL/parallel_164_3_0",
+    "sharded-BFCL/parallel_164_5_0",
+    "sharded-BFCL/parallel_164_5_1",
+    "sharded-BFCL/parallel_164_5_2"
+  ]
+}

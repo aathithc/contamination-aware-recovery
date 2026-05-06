@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/346",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                      | Value                   |\n|----------------------------------|------------------------|\n| Cookies per bag                  | 36                     |\n| Cookies in son's lunchbox        | 4                      |\n| Days making lunchbox             | 5                      |\n| Husband's cookie consumption      | 1 per day              |\n| Total cookies Jenny eats weekly   | 9                      |\n\nHighlighted:\n- 36\n- 4\n- 5\n- 1 per day\n- 9\n\nContext:\n- Each week, Jenny puts 4 cookies in her son's lunchbox for 5 days, which totals 20 cookies. Her husband consumes 1 cookie every day, including weekends.\n\nInstruction:\nCalculate the total number of cookies Jenny eats each week.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

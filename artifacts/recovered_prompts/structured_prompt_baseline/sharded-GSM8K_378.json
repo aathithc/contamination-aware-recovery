@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/378",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Total Socks | Washed Socks | Missing Socks |\n|-------------|--------------|---------------|\n| 50          | 15           | 12 to 13      |\n\nHighlighted:\n| Missing Socks |\n\nContext:\nLindsay is suspecting that she might have missed some socks while doing laundry.\n\nInstruction:\nProvide a summary of the socks situation for Lindsay.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

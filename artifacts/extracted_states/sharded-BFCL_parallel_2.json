@@ -1,0 +1,126 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_2",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_2_0_0",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The wire has a length of 5 meters",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_0_1",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[calculate_resistance(length=5, diameter=None, resistivity=None)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_1_0",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Its cross-sectional area is 0.01 square meters",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_1_1",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[calculate_resistance(length=5, diameter=0.1, resistivity=None)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_2_0",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Use the resistivity of copper for the calculation",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_2_1",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[calculate_resistance(length=5, diameter=0.1, resistivity=1.68e-8)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_3_0",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "And also calculate using the resistivity of aluminum",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_2_3_1",
+      "conversation_id": "sharded-BFCL/parallel_2",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[calculate_resistance(length=5, diameter=0.1, resistivity=2.65e-8)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_2_0_0",
+      "target": "sharded-BFCL/parallel_2_0_1",
+      "type": "supports",
+      "rationale": "user provides length for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_2_0_1",
+      "target": "sharded-BFCL/parallel_2_1_0",
+      "type": "supports",
+      "rationale": "user provides area for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_2_1_1",
+      "target": "sharded-BFCL/parallel_2_1_0",
+      "type": "supports",
+      "rationale": "user provides area for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_2_2_0",
+      "target": "sharded-BFCL/parallel_2_2_1",
+      "type": "supports",
+      "rationale": "user specifies resistivity for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_2_3_0",
+      "target": "sharded-BFCL/parallel_2_3_1",
+      "type": "supports",
+      "rationale": "user specifies another resistivity for calculation"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_169",
+  "method": "trust_filtered",
+  "prompt": "The bond has an annual coupon payment of $50\nThe bond has a time frame of 5 years\nUse a discount rate of 5% for the calculation\nThe face value of the bond is $1000\nAfter that, add the result for another bond\nThe second bond has an annual coupon payment of $60\nThe second bond has a time frame of 7 years\nUse a discount rate of 4% for the second bond\nThe second bond has the same face value of $1000",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_169_0_0",
+    "sharded-BFCL/parallel_169_1_0",
+    "sharded-BFCL/parallel_169_2_0",
+    "sharded-BFCL/parallel_169_3_0",
+    "sharded-BFCL/parallel_169_4_0",
+    "sharded-BFCL/parallel_169_5_0",
+    "sharded-BFCL/parallel_169_6_0",
+    "sharded-BFCL/parallel_169_7_0",
+    "sharded-BFCL/parallel_169_8_0"
+  ],
+  "excluded_node_ids": []
+}

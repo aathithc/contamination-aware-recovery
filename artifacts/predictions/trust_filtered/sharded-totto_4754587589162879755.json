@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_4754587589162879755",
   "method": "trust_filtered",
-  "prediction": "The album \"The Best of E-40: Yesterday, Today & Tomorrow\" achieved a peak position of 133 on the U.S. Billboard 200 chart, while it reached a higher peak position of 43 on the U.S. Billboard Top R&B/Hip-Hop Albums chart.",
+  "prediction": "The album \"The Best of E-40: Yesterday, Today & Tomorrow\" peaked at position 133 on the U.S. Billboard 200 and reached a higher position of 43 on the U.S. Billboard Top R&B/Hip-Hop Albums chart.",
   "success": true,
   "baseline_success": true
 }

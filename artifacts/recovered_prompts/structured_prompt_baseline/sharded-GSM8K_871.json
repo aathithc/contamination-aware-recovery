@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/871",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Day       | Pizza Pieces Eaten | Total Pizza Pieces Eaten |\n|-----------|---------------------|--------------------------|\n| Day 1    | 24                  | 24                       |\n| Day 2    | 10                  | 34                       |\n| Day 3    | 14                  | 48                       |\n| Total    |                     | 48                       |\n\nHighlighted:\n24, 10, 14, 48\n\nContext:\nTobias started with 60 pieces of pizza. He ate 2/5 on the first day, 10 more on the second day, and 7/13 of remaining slices on the third day.\n\nInstruction:\nSummarize the total pizza pieces Tobias has eaten.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

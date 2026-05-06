@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/621", "method": "structured_prompt_baseline", "prediction": "John's total cost for 12 sessions at $100 each is $600. With insurance covering 80%, the insurance pays $480 (80% of $600). John's out-of-pocket cost is the remaining 20%, which amounts to $120.", "success": false, "baseline_success": false}

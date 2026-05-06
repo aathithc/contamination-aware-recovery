@@ -1,17 +1,1 @@
-{
-  "contaminated_ids": [
-    "sharded-totto_1798717168393840878_1_4",
-    "sharded-totto_1798717168393840878_2_1",
-    "sharded-totto_1798717168393840878_3_1",
-    "sharded-totto_1798717168393840878_4_1",
-    "sharded-totto_1798717168393840878_5_1"
-  ],
-  "inactive_ids": [],
-  "reasons": {
-    "sharded-totto_1798717168393840878_1_4": "assistant assumption/answer_candidate without support",
-    "sharded-totto_1798717168393840878_2_1": "assistant assumption/answer_candidate without support",
-    "sharded-totto_1798717168393840878_3_1": "assistant assumption/answer_candidate without support",
-    "sharded-totto_1798717168393840878_4_1": "assistant assumption/answer_candidate without support",
-    "sharded-totto_1798717168393840878_5_1": "assistant assumption/answer_candidate without support"
-  }
-}
+{"contaminated_ids": ["sharded-totto_1798717168393840878_1_4", "sharded-totto_1798717168393840878_2_1", "sharded-totto_1798717168393840878_3_1", "sharded-totto_1798717168393840878_4_1", "sharded-totto_1798717168393840878_5_1"], "inactive_ids": [], "reasons": {"sharded-totto_1798717168393840878_1_4": "assistant assumption/answer_candidate without support", "sharded-totto_1798717168393840878_2_1": "assistant assumption/answer_candidate without support", "sharded-totto_1798717168393840878_3_1": "assistant assumption/answer_candidate without support", "sharded-totto_1798717168393840878_4_1": "assistant assumption/answer_candidate without support", "sharded-totto_1798717168393840878_5_1": "assistant assumption/answer_candidate without support"}}

@@ -1,0 +1,92 @@
+{
+  "conversation_id": "sharded-spider-val-798-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-798-medium_0_0",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "constraint",
+      "text": "Ensure the data is grouped by continent",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-798-medium_0_1",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "You can use the following SQL query: SELECT continent, AVG(life_expectancy) AS avg_life_expectancy FROM country_data GROUP BY continent.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-798-medium_1_0",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "constraint",
+      "text": "Filter to only include continents where the average life expectancy is shorter than 72 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-798-medium_1_1",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Modify the query to include a HAVING clause: SELECT continent, AVG(life_expectancy) AS avg_life_expectancy FROM country_data GROUP BY continent HAVING AVG(life_expectancy) < 72.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-798-medium_2_0",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "constraint",
+      "text": "Include the total population alongside average life expectancy",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-798-medium_2_1",
+      "conversation_id": "sharded-spider-val-798-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Modify the query to include SUM(population): SELECT continent, AVG(life_expectancy) AS avg_life_expectancy, SUM(population) AS total_population FROM country_data GROUP BY continent HAVING AVG(life_expectancy) < 72.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-798-medium_0_0",
+      "target": "sharded-spider-val-798-medium_0_1",
+      "type": "supports",
+      "rationale": "User constraint is addressed by assistant's answer"
+    },
+    {
+      "source": "sharded-spider-val-798-medium_1_0",
+      "target": "sharded-spider-val-798-medium_1_1",
+      "type": "supports",
+      "rationale": "User constraint is addressed by assistant's answer"
+    },
+    {
+      "source": "sharded-spider-val-798-medium_2_0",
+      "target": "sharded-spider-val-798-medium_2_1",
+      "type": "supports",
+      "rationale": "User constraint is addressed by assistant's answer"
+    }
+  ],
+  "attributes": {}
+}

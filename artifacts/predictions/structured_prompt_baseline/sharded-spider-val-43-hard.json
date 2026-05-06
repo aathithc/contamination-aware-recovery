@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-43-hard", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT stadium_name, COUNT(e.event_id) AS num_concerts\nFROM events e\nJOIN stadiums s ON e.stadium_id = s.stadium_id\nWHERE e.event_date IS NOT NULL\nGROUP BY stadium_name\nORDER BY COUNT(e.event_id) DESC\nLIMIT 1;\n```", "success": true, "baseline_success": true}

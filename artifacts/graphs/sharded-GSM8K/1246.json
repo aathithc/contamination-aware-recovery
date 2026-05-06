@@ -1,0 +1,257 @@
+{
+  "conversation_id": "sharded-GSM8K/1246",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1246_0_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Ara has been on the school basketball team for four years now",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_0_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To find Ara's total basketball score over the four years, we need to add up the scores for each year.",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_0_2",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = Year 1 score + Year 2 score + Year 3 score + Year 4 score",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_0_3",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = 12 + 15 + 18 + 20",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_0_4",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = 65 points",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Ara plays 40 games per year on average",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total games played = Games per year × Number of years",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_2",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total games played = 40 games × 4 years",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_3",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total games played = 160 games",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_4",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = (0.3 × 40) + (0.375 × 40) + (0.45 × 40) + (0.5 × 40)",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_1_5",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = 65 points",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_0",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "she scores 21 points in each game",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_1",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total score = Points per game × Total games played",
+      "entities": [
+        "Ara"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_2",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = 21 points × 160 games",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1246_2_3",
+      "conversation_id": "sharded-GSM8K/1246",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Total score = 3360 points",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1246_0_0",
+      "target": "sharded-GSM8K/1246_0_1",
+      "type": "supports",
+      "rationale": "user fact provides information for the derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_0_2",
+      "target": "sharded-GSM8K/1246_0_1",
+      "type": "supports",
+      "rationale": "fact provides calculation for the derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_0_3",
+      "target": "sharded-GSM8K/1246_0_2",
+      "type": "supports",
+      "rationale": "fact provides calculation for the total score"
+    },
+    {
+      "source": "sharded-GSM8K/1246_0_4",
+      "target": "sharded-GSM8K/1246_0_3",
+      "type": "supports",
+      "rationale": "fact confirms the total score calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_0",
+      "target": "sharded-GSM8K/1246_1_1",
+      "type": "supports",
+      "rationale": "user fact provides information for the calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_2",
+      "target": "sharded-GSM8K/1246_1_1",
+      "type": "supports",
+      "rationale": "fact provides calculation for total games"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_3",
+      "target": "sharded-GSM8K/1246_1_2",
+      "type": "supports",
+      "rationale": "fact confirms the total games calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_4",
+      "target": "sharded-GSM8K/1246_1_1",
+      "type": "supports",
+      "rationale": "fact details the calculation of total score"
+    },
+    {
+      "source": "sharded-GSM8K/1246_1_5",
+      "target": "sharded-GSM8K/1246_1_4",
+      "type": "supports",
+      "rationale": "fact confirms total score calculation based on average scores"
+    },
+    {
+      "source": "sharded-GSM8K/1246_2_0",
+      "target": "sharded-GSM8K/1246_2_1",
+      "type": "supports",
+      "rationale": "user fact provides new scoring information for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1246_2_2",
+      "target": "sharded-GSM8K/1246_2_1",
+      "type": "supports",
+      "rationale": "fact provides specific calculation of total score"
+    },
+    {
+      "source": "sharded-GSM8K/1246_2_3",
+      "target": "sharded-GSM8K/1246_2_2",
+      "type": "supports",
+      "rationale": "fact confirms final total score calculation"
+    }
+  ],
+  "attributes": {}
+}

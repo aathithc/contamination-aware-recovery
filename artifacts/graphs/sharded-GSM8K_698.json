@@ -1,0 +1,228 @@
+{
+  "conversation_id": "sharded-GSM8K/698",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/698_0_0",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Greta's monthly paycheck is $2400.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_0_1",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Greta's monthly paycheck is $2,400.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_0_2",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total deductions = $360.00 + $120.00 + $148.80 + $34.80 = $663.60.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_0_3",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Amount of money Greta has left = $2,400.00 - $663.60 = $1,736.40.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_1_0",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "She allocates 50% of her paycheck toward her retirement account.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_1_1",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Greta allocates 50% of her paycheck toward her retirement account.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_1_2",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Remaining amount = $2,400.00 - $1,200.00 = $1,200.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_1_3",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Amount Greta has left = $1,200.00 - $331.80 = $868.20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_2_0",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "She also spends 20% of her paycheck for her monthly car payment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_2_1",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Greta spends 20% of her paycheck for her monthly car payment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_2_2",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Remaining amount = $2,400.00 - $1,200.00 - $480.00 = $720.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_2_3",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Amount Greta has left = $720.00 - $199.08 = $520.92.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_3_0",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "retirement and her car payment are her only two deductions.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/698_3_1",
+      "conversation_id": "sharded-GSM8K/698",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Amount Greta has left = $2,400.00 - $1,200.00 - $480.00 = $720.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/698_0_0",
+      "target": "sharded-GSM8K/698_0_1",
+      "type": "supports",
+      "rationale": "user provided salary information"
+    },
+    {
+      "source": "sharded-GSM8K/698_0_1",
+      "target": "sharded-GSM8K/698_0_2",
+      "type": "supports",
+      "rationale": "assistant calculated deductions"
+    },
+    {
+      "source": "sharded-GSM8K/698_0_2",
+      "target": "sharded-GSM8K/698_0_3",
+      "type": "supports",
+      "rationale": "assistant derived the amount left"
+    },
+    {
+      "source": "sharded-GSM8K/698_1_0",
+      "target": "sharded-GSM8K/698_1_1",
+      "type": "supports",
+      "rationale": "user provided retirement allocation"
+    },
+    {
+      "source": "sharded-GSM8K/698_1_1",
+      "target": "sharded-GSM8K/698_1_2",
+      "type": "supports",
+      "rationale": "assistant calculated remaining amount after retirement"
+    },
+    {
+      "source": "sharded-GSM8K/698_1_2",
+      "target": "sharded-GSM8K/698_1_3",
+      "type": "supports",
+      "rationale": "assistant derived the amount left after deductions"
+    },
+    {
+      "source": "sharded-GSM8K/698_2_0",
+      "target": "sharded-GSM8K/698_2_1",
+      "type": "supports",
+      "rationale": "user provided car payment information"
+    },
+    {
+      "source": "sharded-GSM8K/698_2_1",
+      "target": "sharded-GSM8K/698_2_2",
+      "type": "supports",
+      "rationale": "assistant calculated remaining amount after car payment"
+    },
+    {
+      "source": "sharded-GSM8K/698_2_2",
+      "target": "sharded-GSM8K/698_2_3",
+      "type": "supports",
+      "rationale": "assistant derived the amount left after deductions"
+    },
+    {
+      "source": "sharded-GSM8K/698_3_0",
+      "target": "sharded-GSM8K/698_3_1",
+      "type": "supports",
+      "rationale": "user clarified deductions"
+    },
+    {
+      "source": "sharded-GSM8K/698_3_1",
+      "target": "sharded-GSM8K/698_3_1",
+      "type": "supports",
+      "rationale": "assistant recalculated based on provided deductions"
+    }
+  ],
+  "attributes": {}
+}

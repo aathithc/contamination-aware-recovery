@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-spider-val-972-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-972-medium_0_0",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on owners who reside in some specific state.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_0_1",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's focus the owners analysis on those who reside in a specific state.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_1_0",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Include the email address of the owners in the result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_1_1",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's modify the query to include the email address of the owners in the specific state.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_2_0",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Also list the first name of the owners.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_2_1",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's update the query to include the first name of the owners in the specific state.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_3_0",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Restrict this to states whose names include the word 'North'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_3_1",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's update the query to only include owners from states whose names include the word 'North'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_4_0",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Add the last name of the owners.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-972-medium_4_1",
+      "conversation_id": "sharded-spider-val-972-medium",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's update the query to include the last name of the owners from states whose names include the word 'North'.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-972-medium_0_0",
+      "target": "sharded-spider-val-972-medium_0_1",
+      "type": "supports",
+      "rationale": "user request prompts assistant plan"
+    },
+    {
+      "source": "sharded-spider-val-972-medium_1_0",
+      "target": "sharded-spider-val-972-medium_1_1",
+      "type": "supports",
+      "rationale": "user request leads to query modification"
+    },
+    {
+      "source": "sharded-spider-val-972-medium_2_0",
+      "target": "sharded-spider-val-972-medium_2_1",
+      "type": "supports",
+      "rationale": "user request leads to query modification"
+    },
+    {
+      "source": "sharded-spider-val-972-medium_3_0",
+      "target": "sharded-spider-val-972-medium_3_1",
+      "type": "supports",
+      "rationale": "user request leads to query modification"
+    },
+    {
+      "source": "sharded-spider-val-972-medium_4_0",
+      "target": "sharded-spider-val-972-medium_4_1",
+      "type": "supports",
+      "rationale": "user request leads to query modification"
+    }
+  ],
+  "attributes": {}
+}

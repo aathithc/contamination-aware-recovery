@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1180",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                 | Quantity | Price per Gallon | Total Cost | Refund Amount |\n|-----------------------------|----------|-------------------|------------|----------------|\n| Milk purchased by Marcellus | 4000     | $3.50            | $14,000    | $5,600         |\n| Expired Milk                | 1600     | $3.50            | N/A        | $5,600         |\n\nHighlighted:\n- 4000 gallons of milk\n- $3.50 per gallon\n- 1600 gallons of expired milk\n- $5,600 refund amount\n\nContext:\n- The milk expired before all could be used.\n- Company policy provides a full refund for expired products.\n- 2/5 of the milk purchased was expired.\n\nInstruction:\nCalculate the refund amount for the expired milk based on the most recent updates.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

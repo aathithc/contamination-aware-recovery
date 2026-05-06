@@ -1,0 +1,137 @@
+{
+  "conversation_id": "sharded-GSM8K/40",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/40_0_0",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Brandon's iPhone is 4 times older than Ben's iPhone.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_0_1",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Let the age of Ben's iPhone be x.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_0_2",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Brandon's iPhone age can be expressed as 4x.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_1_0",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Ben's iPhone is twice as old as Suzy's iPhone.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_1_1",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Ben's iPhone age equals 2 times Suzy's iPhone age.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_1_2",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Brandon's iPhone age is 8 times Suzy's iPhone age.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_2_0",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Suzy's iPhone is 1 year old.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_2_1",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Ben's iPhone age is 2 years old.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/40_2_2",
+      "conversation_id": "sharded-GSM8K/40",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Brandon's iPhone age is 8 years old.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/40_0_0",
+      "target": "sharded-GSM8K/40_0_1",
+      "type": "supports",
+      "rationale": "user provided information to derive new knowledge"
+    },
+    {
+      "source": "sharded-GSM8K/40_1_0",
+      "target": "sharded-GSM8K/40_1_1",
+      "type": "supports",
+      "rationale": "user provided information to derive new knowledge"
+    },
+    {
+      "source": "sharded-GSM8K/40_0_2",
+      "target": "sharded-GSM8K/40_1_2",
+      "type": "supports",
+      "rationale": "derived new information about Brandon's iPhone age"
+    },
+    {
+      "source": "sharded-GSM8K/40_2_0",
+      "target": "sharded-GSM8K/40_2_1",
+      "type": "supports",
+      "rationale": "user provided information to calculate Ben's age"
+    },
+    {
+      "source": "sharded-GSM8K/40_2_1",
+      "target": "sharded-GSM8K/40_2_2",
+      "type": "supports",
+      "rationale": "derived Benjamin's age to calculate Brandon's age"
+    }
+  ],
+  "attributes": {}
+}

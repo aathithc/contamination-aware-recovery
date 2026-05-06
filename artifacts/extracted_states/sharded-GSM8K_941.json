@@ -1,0 +1,324 @@
+{
+  "conversation_id": "sharded-GSM8K/941",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/941_0_0",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "There are 29 students in the teacher's class.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_0_1",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume that the teacher provided 1 bottle of apple juice for each student in the class.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_0_2",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The teacher would have initially had 29 bottles of apple juice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_0_3",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Initial number of bottles = 29.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_0_4",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bottles left = 29 - 29 = 0.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_1_0",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The teacher possesses 9 coupons in total.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_1_1",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Since the teacher has 9 coupons, we can assume that the initial number of bottles of apple juice was 9.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_1_2",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bottles left = 9 - 29 = -20.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_1_3",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The teacher is short 20 bottles of apple juice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_2_0",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Each one of these coupons can be exchanged for 100 bottles of apple juice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_2_1",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total bottles of apple juice = 9 × 100 = 900.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_2_2",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bottles left = 900 - 29 = 871.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_3_0",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Every student gets 2 bottles of apple juice during lunch.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_3_1",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total bottles needed = 29 × 2 = 58.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_3_2",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bottles left = 900 - 58 = 842.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_4_0",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The teacher redeemed all her coupons and distributed the apple juice to the students for lunch.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_4_1",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total bottles of apple juice = 9 × 100 = 900.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_4_2",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total bottles needed = 29 × 2 = 58.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_4_3",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bottles left = 900 - 58 = 842.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/941_4_4",
+      "conversation_id": "sharded-GSM8K/941",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The teacher has 0 bottles of apple juice left.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/941_0_0",
+      "target": "sharded-GSM8K/941_0_1",
+      "type": "supports",
+      "rationale": "user states the number of students"
+    },
+    {
+      "source": "sharded-GSM8K/941_0_1",
+      "target": "sharded-GSM8K/941_0_2",
+      "type": "supports",
+      "rationale": "assumption leads to initial number of bottles"
+    },
+    {
+      "source": "sharded-GSM8K/941_0_2",
+      "target": "sharded-GSM8K/941_0_3",
+      "type": "supports",
+      "rationale": "derived from initial number of bottles"
+    },
+    {
+      "source": "sharded-GSM8K/941_0_3",
+      "target": "sharded-GSM8K/941_0_4",
+      "type": "supports",
+      "rationale": "calculation of remaining bottles"
+    },
+    {
+      "source": "sharded-GSM8K/941_1_0",
+      "target": "sharded-GSM8K/941_1_1",
+      "type": "supports",
+      "rationale": "user states the number of coupons"
+    },
+    {
+      "source": "sharded-GSM8K/941_1_1",
+      "target": "sharded-GSM8K/941_1_2",
+      "type": "supports",
+      "rationale": "initial number of bottles changes due to coupons"
+    },
+    {
+      "source": "sharded-GSM8K/941_1_2",
+      "target": "sharded-GSM8K/941_1_3",
+      "type": "supports",
+      "rationale": "calculation of shortfall derived from remaining bottles"
+    },
+    {
+      "source": "sharded-GSM8K/941_2_0",
+      "target": "sharded-GSM8K/941_2_1",
+      "type": "supports",
+      "rationale": "user states exchange rate for coupons"
+    },
+    {
+      "source": "sharded-GSM8K/941_2_1",
+      "target": "sharded-GSM8K/941_2_2",
+      "type": "supports",
+      "rationale": "calculation based on total possible bottles from coupons"
+    },
+    {
+      "source": "sharded-GSM8K/941_3_0",
+      "target": "sharded-GSM8K/941_3_1",
+      "type": "supports",
+      "rationale": "user states amount each student receives"
+    },
+    {
+      "source": "sharded-GSM8K/941_3_1",
+      "target": "sharded-GSM8K/941_3_2",
+      "type": "supports",
+      "rationale": "calculation of total needed derived from distribution"
+    },
+    {
+      "source": "sharded-GSM8K/941_3_2",
+      "target": "sharded-GSM8K/941_3_2",
+      "type": "supports",
+      "rationale": "remaining bottles derived from prior calculations"
+    },
+    {
+      "source": "sharded-GSM8K/941_4_0",
+      "target": "sharded-GSM8K/941_4_1",
+      "type": "supports",
+      "rationale": "user states redemption of coupons"
+    },
+    {
+      "source": "sharded-GSM8K/941_4_1",
+      "target": "sharded-GSM8K/941_4_2",
+      "type": "supports",
+      "rationale": "total distribution calculations derived from coupon total"
+    },
+    {
+      "source": "sharded-GSM8K/941_4_2",
+      "target": "sharded-GSM8K/941_4_3",
+      "type": "supports",
+      "rationale": "remaining bottles derived from distribution calculations"
+    },
+    {
+      "source": "sharded-GSM8K/941_4_3",
+      "target": "sharded-GSM8K/941_4_4",
+      "type": "supports",
+      "rationale": "final bottle count determined based on distribution"
+    }
+  ],
+  "attributes": {}
+}

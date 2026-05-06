@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-GSM8K/961",
+  "method": "trust_filtered",
+  "prompt": "Amora, Lainey, and Collins initially planned to share the corn chips equally.\nIf Amora got 10 chips, Lainey got 10 chips, and Collins got 10 chips, then the total number of corn chips would be 30.\nOnly two of them could get the same number of corn chips.\nLet Amora and Lainey have x chips and Collins have y chips where y ≠ x.\nThe total number of corn chips would then be 2x + y.\nThe third person ended up with 15 more corn chips than the others.\nLet Amora and Lainey have x chips and Collins have x + 15 chips.\nSolving for x, we find x = 7.5.\nThus, Amora and Lainey each got 7.5 chips, and Collins got 22.5 chips.\nThe total number of corn chips was 37.5.\nAmora and Lainey each received 70 corn chips.\nAmora and Lainey received 70 chips each, and Collins received 85 chips.\nThe total number of corn chips is 225.",
+  "included_node_ids": [
+    "sharded-GSM8K/961_0_0",
+    "sharded-GSM8K/961_0_3",
+    "sharded-GSM8K/961_1_0",
+    "sharded-GSM8K/961_1_3",
+    "sharded-GSM8K/961_1_4",
+    "sharded-GSM8K/961_2_0",
+    "sharded-GSM8K/961_2_2",
+    "sharded-GSM8K/961_2_3",
+    "sharded-GSM8K/961_2_4",
+    "sharded-GSM8K/961_2_5",
+    "sharded-GSM8K/961_3_0",
+    "sharded-GSM8K/961_3_2",
+    "sharded-GSM8K/961_3_3"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/961_0_1",
+    "sharded-GSM8K/961_0_2",
+    "sharded-GSM8K/961_1_1",
+    "sharded-GSM8K/961_1_2",
+    "sharded-GSM8K/961_2_1",
+    "sharded-GSM8K/961_3_1"
+  ]
+}

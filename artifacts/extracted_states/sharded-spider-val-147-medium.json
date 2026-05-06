@@ -1,0 +1,104 @@
+{
+  "conversation_id": "sharded-spider-val-147-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-147-medium_0_0",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The maker is identified by their full name, American Motor Company.",
+      "entities": [
+        "American Motor Company"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-147-medium_0_1",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To retrieve information about cars made by the American Motor Company, we can use the following SQL query.",
+      "entities": [
+        "American Motor Company"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-147-medium_1_0",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The query is specifically about the maker of the cars, not any other entity.",
+      "entities": [
+        "maker"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-147-medium_1_1",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "We can simplify the query to just retrieve the information about the manufacturer itself.",
+      "entities": [
+        "American Motor Company"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-147-medium_2_0",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on determining the exact number of car models related to the company.",
+      "entities": [
+        "American Motor Company"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-147-medium_2_1",
+      "conversation_id": "sharded-spider-val-147-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To determine the exact number of car models related to the American Motor Company, we can use the following SQL query.",
+      "entities": [
+        "American Motor Company"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-147-medium_0_0",
+      "target": "sharded-spider-val-147-medium_0_1",
+      "type": "supports",
+      "rationale": "User fact emphasizes the importance of the maker's full name."
+    },
+    {
+      "source": "sharded-spider-val-147-medium_1_0",
+      "target": "sharded-spider-val-147-medium_1_1",
+      "type": "supports",
+      "rationale": "User fact clarifies the focus of the query on the manufacturer."
+    },
+    {
+      "source": "sharded-spider-val-147-medium_2_0",
+      "target": "sharded-spider-val-147-medium_2_1",
+      "type": "supports",
+      "rationale": "User fact determines the need focus on car model count."
+    }
+  ],
+  "attributes": {}
+}

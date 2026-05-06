@@ -1,0 +1,205 @@
+{
+  "conversation_id": "sharded-spider-val-53-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-53-hard_0_0",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants a count of dog pets.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_0_1",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the count of dog pets owned by students, you can modify the previous query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_0_2",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This query will return a single row with the total number of dog pets owned by students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_0_3",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The output will look something like this: 25 dog pets owned by students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_1_0",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to focus on dog pets raised or cared for by students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_1_1",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the count of dog pets that are raised or cared for by students, you can use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_1_2",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The output will look something like this: 25 dog pets that are cared for by students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_2_0",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to ensure the students raising the dogs are female only.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_2_1",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the count of dog pets that are raised or cared for by female students, use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_2_2",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The output will look something like this: 15 dog pets that are cared for by female students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_3_0",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to consider only students explicitly marked as female (sex = F).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_3_1",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the count of dog pets that are cared for by students explicitly marked as female (sex = 'F'), use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-53-hard_3_2",
+      "conversation_id": "sharded-spider-val-53-hard",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The output will look something like this: 12 dog pets that are cared for by students explicitly marked as female.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-53-hard_0_0",
+      "target": "sharded-spider-val-53-hard_0_1",
+      "type": "supports",
+      "rationale": "user request aligns with assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_0_1",
+      "target": "sharded-spider-val-53-hard_0_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the SQL usage"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_0_2",
+      "target": "sharded-spider-val-53-hard_0_3",
+      "type": "supports",
+      "rationale": "assistant's output provides a demonstration of the query result"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_1_0",
+      "target": "sharded-spider-val-53-hard_1_1",
+      "type": "supports",
+      "rationale": "user request aligns with assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_1_1",
+      "target": "sharded-spider-val-53-hard_1_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the SQL usage"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_2_0",
+      "target": "sharded-spider-val-53-hard_2_1",
+      "type": "supports",
+      "rationale": "user request aligns with assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_2_1",
+      "target": "sharded-spider-val-53-hard_2_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the SQL usage"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_3_0",
+      "target": "sharded-spider-val-53-hard_3_1",
+      "type": "supports",
+      "rationale": "user request aligns with assistant's response"
+    },
+    {
+      "source": "sharded-spider-val-53-hard_3_1",
+      "target": "sharded-spider-val-53-hard_3_2",
+      "type": "supports",
+      "rationale": "assistant's explanation supports the SQL usage"
+    }
+  ],
+  "attributes": {}
+}

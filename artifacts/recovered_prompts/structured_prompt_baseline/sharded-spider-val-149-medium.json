@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-149-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| company_id | full_company_name | designer_name | designer_role |\n|------------|--------------------|----------------|----------------|\n|            |                    |                |                |\n\nHighlighted:\n- full_company_name\n- company_id\n\nContext:\n- The query is about car makers that designed cars, not just manufacturers or sellers.\n- Only include makers that have designed more than 3 car models.\n\nInstruction:\nConstruct the SQL query to retrieve the company ID and full name of car makers along with designer names and roles for those with more than 3 designs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

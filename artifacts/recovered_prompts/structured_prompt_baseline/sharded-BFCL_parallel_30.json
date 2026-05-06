@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_30",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Flight                     | Departure Date    |\n|---------------------------|-------------------|\n| San Francisco to Tokyo     | 2022-05-03        |\n| Tokyo to Sydney            | 2022-05-18        |\n\nHighlighted:\n- San Francisco to Tokyo on 2022-05-03\n- Tokyo to Sydney on 2022-05-18\n\nContext:\nNone\n\nInstruction:\nList the flights and their departure dates.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

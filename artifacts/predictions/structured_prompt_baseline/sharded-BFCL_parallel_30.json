@@ -1,0 +1,1 @@
+{"task_id": "sharded-BFCL/parallel_30", "method": "structured_prompt_baseline", "prediction": "- San Francisco to Tokyo: 2022-05-03\n- Tokyo to Sydney: 2022-05-18", "success": false, "baseline_success": true}

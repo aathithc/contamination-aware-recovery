@@ -1,0 +1,205 @@
+{
+  "conversation_id": "sharded-GSM8K/976",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/976_0_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Sunny is running a fundraiser selling gingerbread and apple pies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_1_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "On Saturday, Sunny sold 10 boxes of gingerbread.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_2_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "On Saturday, he sold 4 fewer boxes of apple pie than what he sold on Sunday.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_3_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "On Sunday, Sunny sold 5 more boxes of gingerbread compared to what he sold on Saturday.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_4_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On Sunday, he sold 15 boxes of apple pie.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_5_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Each box of gingerbread is priced at $6.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_6_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Each box of apple pie is priced at $15.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_1_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, with the additional information that Sunny sold 10 boxes of gingerbread on Saturday, here's how I would continue solving this problem: 1. Gather more details: - What was the price per box of gingerbread? - Were there any other items sold on Saturday? - Were there any expenses associated with making or selling the gingerbread? 2. Calculate the revenue from the gingerbread sales: - Revenue from gingerbread sales = Number of boxes sold (10) x Price per box 3. Calculate the total earnings for Saturday: - If gingerbread was the only item sold on Saturday, then the total earnings would be the revenue from the gingerbread sales. 4. Provide the final answer: - Sunny's earnings on Saturday = Revenue from gingerbread sales - Expenses.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_2_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, got it. Let's continue solving this step-by-step: 1. Gather more details: - What was the price per box of apple pie? - Were there any other items sold on Saturday? - Were there any expenses associated with making or selling the apple pie? 2. Calculate the revenue from apple pie sales: - Revenue from Saturday apple pie sales = (X - 4) x Price per box - Revenue from Sunday apple pie sales = X x Price per box 3. Calculate the total earnings: - Total earnings = Revenue from gingerbread sales + Revenue from apple pie sales - Any expenses.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_3_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, got it. Let's continue solving this step-by-step: 1. Gather the details: - On Saturday, Sunny sold 10 boxes of gingerbread - On Sunday, Sunny sold 5 more boxes of gingerbread than on Saturday 2. Calculate the gingerbread sales: - On Sunday, Sunny sold 10 + 5 = 15 boxes of gingerbread.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_4_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, great. With the additional information that Sunny sold 15 boxes of apple pie on Sunday, let's complete the calculation: Total earnings = Total revenue from gingerbread sales + Total revenue from apple pie sales - Any expenses.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_5_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, great. With the additional information that each box of gingerbread is priced at $6, let's continue solving this step-by-step: - Revenue from Saturday gingerbread sales = 10 boxes x $6 per box = $60 - Revenue from Sunday gingerbread sales = 15 boxes x $6 per box = $90 - Total revenue from gingerbread sales = $60 + $90 = $150.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_6_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Okay, got it. With the additional information that each box of apple pie is priced at $15, let's complete the calculation: Total earnings = $150 + ((X - 4) x $15 + 225) - Expenses = $375 assuming no expenses.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/976_0_0",
+      "target": "sharded-GSM8K/976_1_0",
+      "type": "supports",
+      "rationale": "user provided additional detail"
+    },
+    {
+      "source": "sharded-GSM8K/976_1_0",
+      "target": "sharded-GSM8K/976_1_1",
+      "type": "supports",
+      "rationale": "assistant continues calculation with user input"
+    },
+    {
+      "source": "sharded-GSM8K/976_1_0",
+      "target": "sharded-GSM8K/976_2_0",
+      "type": "supports",
+      "rationale": "user input affects calculation"
+    },
+    {
+      "source": "sharded-GSM8K/976_2_0",
+      "target": "sharded-GSM8K/976_2_1",
+      "type": "supports",
+      "rationale": "assistant needs more information to continue"
+    },
+    {
+      "source": "sharded-GSM8K/976_1_0",
+      "target": "sharded-GSM8K/976_3_0",
+      "type": "supports",
+      "rationale": "user input relevant to calculation"
+    },
+    {
+      "source": "sharded-GSM8K/976_3_0",
+      "target": "sharded-GSM8K/976_3_1",
+      "type": "supports",
+      "rationale": "assistant expands on user input"
+    },
+    {
+      "source": "sharded-GSM8K/976_4_0",
+      "target": "sharded-GSM8K/976_4_1",
+      "type": "supports",
+      "rationale": "user input leads to further calculation"
+    },
+    {
+      "source": "sharded-GSM8K/976_5_0",
+      "target": "sharded-GSM8K/976_5_1",
+      "type": "supports",
+      "rationale": "user provides price detail for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/976_6_0",
+      "target": "sharded-GSM8K/976_6_1",
+      "type": "supports",
+      "rationale": "user provides second price detail"
+    }
+  ],
+  "attributes": {}
+}

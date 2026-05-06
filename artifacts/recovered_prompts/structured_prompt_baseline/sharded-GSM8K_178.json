@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/178",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Name  | Crabs |\n|-------|-------|\n| Rani  | 46    |\n| Monic | 36    |\n| Bo    | 40    |\n\nHighlighted:\nRani's crabs: 46, Monic's crabs: 36, Bo's crabs: 40\n\nContext:\nRani has 10 more crabs than Monic. Monic has 4 fewer crabs than Bo. Bo has 40 crabs to start with.\n\nInstruction:\nCalculate the total number of crabs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

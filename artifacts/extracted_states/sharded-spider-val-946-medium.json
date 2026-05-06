@@ -1,0 +1,120 @@
+{
+  "conversation_id": "sharded-spider-val-946-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-946-medium_0_0",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Include information about the professional associated with each treatment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_1_0",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "You need to retrieve treatment dates from the database.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_1_1",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "You also want to include the first name of the professional associated with each treatment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_1_2",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "There is likely a relationship between a 'treatments' table and a 'professionals' or 'providers' table that stores the professional information.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_1_3",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT t.treatment_date, p.first_name FROM treatments t JOIN professionals p ON t.professional_id = p.id",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_2_0",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "For the professional, provide only their first name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_3_0",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Based on the requirement to retrieve the first name of the professional who carried out the treatment.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-946-medium_3_1",
+      "conversation_id": "sharded-spider-val-946-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT t.treatment_date, p.first_name FROM treatments t JOIN professionals p ON t.treating_professional_id = p.id",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-946-medium_0_0",
+      "target": "sharded-spider-val-946-medium_1_0",
+      "type": "supports",
+      "rationale": "user request supports assistant's understanding"
+    },
+    {
+      "source": "sharded-spider-val-946-medium_1_3",
+      "target": "sharded-spider-val-946-medium_0_0",
+      "type": "supports",
+      "rationale": "query structure is based on user input"
+    },
+    {
+      "source": "sharded-spider-val-946-medium_2_0",
+      "target": "sharded-spider-val-946-medium_3_0",
+      "type": "supports",
+      "rationale": "user's request clarifies assistant's assumption"
+    },
+    {
+      "source": "sharded-spider-val-946-medium_3_1",
+      "target": "sharded-spider-val-946-medium_3_0",
+      "type": "supports",
+      "rationale": "query reflects user input about the treatment professional"
+    }
+  ],
+  "attributes": {}
+}

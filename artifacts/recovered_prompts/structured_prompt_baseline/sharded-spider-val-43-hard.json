@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-43-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| stadium_name               | num_concerts |\n|----------------------------|---------------|\n| stadium with highest capacity | COUNT(e.event_id) |\n\nHighlighted:\n- stadium with highest capacity\n- COUNT(e.event_id)\n\nContext:\n- The query must focus on the stadium with the highest seating capacity.\n- The concerts counted must have occurred (event_date is not null).\n\nInstruction:\nReturn the SQL query to find the number of concerts in the stadium with the highest seating capacity.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

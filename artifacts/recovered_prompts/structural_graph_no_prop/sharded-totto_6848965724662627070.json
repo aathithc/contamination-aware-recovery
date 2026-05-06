@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-totto_6848965724662627070",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: Jorge Carlos Fonseca\n    Column: Candidate\n    Value: Jorge Carlos Fonseca\n    Highlighted: true\n  - Row: Jorge Carlos Fonseca\n    Column: Party\n    Value: Movement for Democracy\n    Highlighted: true\n  - Row: Jorge Carlos Fonseca\n    Column: %\n    Value: 74.08\n    Highlighted: true\nSupporting context:\n  - Table columns: Candidate, Party, Votes, %\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_6848965724662627070_1_1",
+    "sharded-totto_6848965724662627070_1_2",
+    "sharded-totto_6848965724662627070_1_4",
+    "sharded-totto_6848965724662627070_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_6848965724662627070_2_0",
+    "sharded-totto_6848965724662627070_4_0",
+    "sharded-totto_6848965724662627070_2_1",
+    "sharded-totto_6848965724662627070_1_5",
+    "sharded-totto_6848965724662627070_1_3",
+    "sharded-totto_6848965724662627070_4_1",
+    "sharded-totto_6848965724662627070_3_1",
+    "sharded-totto_6848965724662627070_3_0",
+    "sharded-totto_6848965724662627070_0_0"
+  ]
+}

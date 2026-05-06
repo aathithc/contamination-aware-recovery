@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-787-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| City Name | Alternative Names | Official Language |\n|-----------|-------------------|-------------------|\n|           |                   |                   |\n\nHighlighted:\nNone\n\nContext:\nThe user is interested in listing Asian cities where Chinese is an official language.\n\nInstruction:\nList all different names the Asian cities might be known by, focusing on those where Chinese is an official language.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

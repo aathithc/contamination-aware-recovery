@@ -1,0 +1,1 @@
+{"task_id": "sharded-BFCL/parallel_109", "method": "structured_prompt_baseline", "prediction": "**Mitochondria:**\n1. **Cytochrome c** - Key role in apoptosis.\n2. **ATP synthase** - Produces ATP from ADP.\n\n**Cytoplasm:**\n1. **Actin** - Essential for cell shape.\n2. **Myosin** - Involved in muscle contraction.", "success": true, "baseline_success": false}

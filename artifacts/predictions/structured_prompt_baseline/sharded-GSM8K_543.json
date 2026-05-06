@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/543", "method": "structured_prompt_baseline", "prediction": "Jairus's earnings from tasks: 20 tasks \u00d7 $0.8 = $16  \nJenny's earnings from tasks: 20 tasks \u00d7 $0.5 = $10  \n\nDifference in earnings from tasks: $16 - $10 = $6  \n\nJairus earned $6 more than Jenny from the tasks completed.", "success": true, "baseline_success": true}

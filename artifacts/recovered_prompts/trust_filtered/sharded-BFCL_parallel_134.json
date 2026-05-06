@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_134",
+  "method": "trust_filtered",
+  "prompt": "This is for four individuals\nThe function calls would be for four individuals.\nThe first person weighs 85 kilograms and is 175 centimeters tall\nThe function call for the first person would be.\nThe second person weighs 60 kilograms and is 160 centimeters tall\nThe function call for the second person would be.\nThe third person weighs 75 kilograms and is 180 centimeters tall\nThe function call for the third person would be.\nThe fourth person weighs 90 kilograms and is 185 centimeters tall\nThe function call for the fourth person would be.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_134_0_0",
+    "sharded-BFCL/parallel_134_0_1",
+    "sharded-BFCL/parallel_134_1_0",
+    "sharded-BFCL/parallel_134_1_1",
+    "sharded-BFCL/parallel_134_2_0",
+    "sharded-BFCL/parallel_134_2_1",
+    "sharded-BFCL/parallel_134_3_0",
+    "sharded-BFCL/parallel_134_3_1",
+    "sharded-BFCL/parallel_134_4_0",
+    "sharded-BFCL/parallel_134_4_1"
+  ],
+  "excluded_node_ids": []
+}

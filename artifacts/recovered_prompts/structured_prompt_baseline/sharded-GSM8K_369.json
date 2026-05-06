@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/369",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                  | Cost per Item | Quantity | Total Cost |\n|------------------------------|----------------|----------|------------|\n| Picture Frames                | $24            | 44       | $1,056     |\n| Pins                         | $5             | 2        | $10        |\n| Additional Gifts for Officers | $10            | 11       | $110       |\n| Cords                         | $12            | 11       | $132       |\n| **Total**                    |                |          | **$1,308** |\n\nHighlighted:\n- $24 picture frames\n- $5 pins\n- $10 gifts for the 11 officer seniors\n- $12 cords for the 11 officer seniors\n- $1,308 total\n\nContext:\n- There are 44 seniors in total.\n- About 1/4 of the seniors are officers, which amounts to 11 seniors.\n- The costs of items have been confirmed.\n\nInstruction:\nCalculate the total amount that will be spent on senior gifts.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

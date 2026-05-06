@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_134",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Person | Weight (kg) | Height (cm) |\n|--------|-------------|--------------|\n| 1      | 85          | 175          |\n| 2      | 60          | 160          |\n| 3      | 75          | 180          |\n| 4      | 90          | 185          |\n\nHighlighted:\n| Person | Weight (kg) | Height (cm) |\n|--------|-------------|--------------|\n| 1      | 85          | 175          |\n| 2      | 60          | 160          |\n| 3      | 75          | 180          |\n| 4      | 90          | 185          |\n\nContext:\nThe function calls would be for four individuals.\n\nInstruction:\nProvide the function calls for each individual.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-spider-val-701-medium",
+  "method": "concat",
+  "prompt": "User focuses specifically on the names of the contestants.\nThe pattern in the name should include the substring 'Al'.\nFilter contestants to include only those whose names match a certain pattern.",
+  "included_node_ids": [
+    "sharded-spider-val-701-medium_0_0",
+    "sharded-spider-val-701-medium_1_0",
+    "sharded-spider-val-701-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-701-medium_0_1",
+    "sharded-spider-val-701-medium_0_2",
+    "sharded-spider-val-701-medium_1_1",
+    "sharded-spider-val-701-medium_1_2",
+    "sharded-spider-val-701-medium_2_1",
+    "sharded-spider-val-701-medium_2_2",
+    "sharded-spider-val-701-medium_2_3"
+  ]
+}

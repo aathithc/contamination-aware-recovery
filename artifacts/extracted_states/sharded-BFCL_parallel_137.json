@@ -1,0 +1,139 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_137",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_137_0_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The first list of numbers is [45, 12, 67, 21, 89]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_0_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To sort the array [45, 12, 67, 21, 89], you can use the following function call: [array_sort(array=[45, 12, 67, 21, 89])]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_1_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The second list of numbers is [34, 78, 12, 56, 90]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_1_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To sort the array [34, 78, 12, 56, 90], you can use the following function call: [array_sort(array=[34, 78, 12, 56, 90])]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_2_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The third list of numbers is [23, 45, 67, 89, 12]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_2_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To sort the array [23, 45, 67, 89, 12], you can use the following function call: [array_sort(array=[23, 45, 67, 89, 12])]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_3_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The fourth list of numbers is [56, 78, 90, 12, 34]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_3_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To sort the array [56, 78, 90, 12, 34], you can use the following function call: [array_sort(array=[56, 78, 90, 12, 34])]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_4_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Can you sort help me sort these in ascending order?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_4_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To sort the arrays in ascending order, you can use the following function calls: For the first array [45, 12, 67, 21, 89]: [array_sort(array=[45, 12, 67, 21, 89], order='asc')]. For the second array [34, 78, 12, 56, 90]: [array_sort(array=[34, 78, 12, 56, 90], order='asc')]. For the third array [23, 45, 67, 89, 12]: [array_sort(array=[23, 45, 67, 89, 12], order='asc')]. For the fourth array [56, 78, 90, 12, 34]: [array_sort(array=[56, 78, 90, 12, 34], order='asc')]. The 'order' parameter is set to 'asc' to sort the arrays in ascending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_5_0",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Can you add on the descending order for these four as well?",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_137_5_1",
+      "conversation_id": "sharded-BFCL/parallel_137",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Here are the function calls to sort the arrays in descending order: For the first array [45, 12, 67, 21, 89]: [array_sort(array=[45, 12, 67, 21, 89], order='desc')]. For the second array [34, 78, 12, 56, 90]: [array_sort(array=[34, 78, 12, 56, 90], order='desc')]. For the third array [23, 45, 67, 89, 12]: [array_sort(array=[23, 45, 67, 89, 12], order='desc')]. For the fourth array [56, 78, 90, 12, 34]: [array_sort(array=[56, 78, 90, 12, 34], order='desc')]. The 'order' parameter is set to 'desc' to sort the arrays in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [],
+  "attributes": {}
+}

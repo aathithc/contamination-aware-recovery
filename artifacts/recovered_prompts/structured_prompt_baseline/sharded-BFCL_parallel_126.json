@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_126",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Model   | Prediction (5000 years)     |\n|---------|-----------------------------|\n| Darwin  | To be determined            |\n| Lamarck | To be calculated            |\n\nHighlighted:\n- Model\n- Prediction (5000 years)\n\nContext:\n- Predictions are based on Darwin and Lamarck models over 5000 years.\n\nInstruction:\nProvide predictions for both Darwin and Lamarck models for the African Elephant species over 5000 years.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

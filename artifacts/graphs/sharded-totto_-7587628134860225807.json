@@ -13,12 +13,26 @@
       "status": "active"
     },
     {
+      "id": "sharded-totto_-7587628134860225807_0_1",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The table shows the delegate votes for two candidates, William Wolfe and Arthur Donaldson, with Wolfe receiving 544 votes (69.6%) and Donaldson receiving 238 votes (30.4%).",
+      "entities": [
+        "William Wolfe",
+        "Arthur Donaldson"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
       "id": "sharded-totto_-7587628134860225807_1_0",
       "conversation_id": "sharded-totto_-7587628134860225807",
       "turn_index": 1,
       "source": "user",
       "type": "metadata",
-      "text": "Table columns: Candidate, Votes, %",
+      "text": "Table columns: Candidate, Delegate votes, Votes, %",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -29,7 +43,7 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "Row 0 | Candidate: William Wolfe [highlighted]",
+      "text": "Candidate | Gold: William Wolfe [highlighted]",
       "entities": [
         "William Wolfe"
       ],
@@ -38,7 +52,7 @@
         "row_id": "row_0",
         "row_header": "Candidate",
         "column": "Votes",
-        "value": "544",
+        "value": "William Wolfe",
         "highlighted": true
       },
       "status": "active"
@@ -49,15 +63,15 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "Row 0 | %: 69.6% [highlighted]",
+      "text": "Votes | Gold: 544 [highlighted]",
       "entities": [],
       "attributes": {
         "table_title": "Table",
         "row_id": "row_0",
-        "row_header": "Candidate",
+        "row_header": "",
         "column": "%",
-        "value": "69.6%",
-        "highlighted": false
+        "value": "544",
+        "highlighted": true
       },
       "status": "active"
     },
@@ -67,7 +81,7 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "Row 1 | Candidate: Arthur Donaldson [highlighted]",
+      "text": "Candidate | Gold: Arthur Donaldson [highlighted]",
       "entities": [
         "Arthur Donaldson"
       ],
@@ -76,7 +90,7 @@
         "row_id": "row_1",
         "row_header": "Candidate",
         "column": "Votes",
-        "value": "238",
+        "value": "Arthur Donaldson",
         "highlighted": true
       },
       "status": "active"
@@ -87,49 +101,16 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "Row 1 | %: 30.4% [highlighted]",
+      "text": "Votes | Gold: 238 [highlighted]",
       "entities": [],
       "attributes": {
         "table_title": "Table",
         "row_id": "row_1",
-        "row_header": "Candidate",
+        "row_header": "",
         "column": "%",
-        "value": "30.4%",
-        "highlighted": false
+        "value": "238",
+        "highlighted": true
       },
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-7587628134860225807_2_0",
-      "conversation_id": "sharded-totto_-7587628134860225807",
-      "turn_index": 2,
-      "source": "user",
-      "type": "metadata",
-      "text": "Table webpage URL: http://en.wikipedia.org/wiki/1969_Scottish_National_Party_leadership_election.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-7587628134860225807_3_0",
-      "conversation_id": "sharded-totto_-7587628134860225807",
-      "turn_index": 3,
-      "source": "user",
-      "type": "metadata",
-      "text": "Table page title: 1969 Scottish National Party leadership election.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-7587628134860225807_4_0",
-      "conversation_id": "sharded-totto_-7587628134860225807",
-      "turn_index": 4,
-      "source": "user",
-      "type": "metadata",
-      "text": "Table section title: Result.",
-      "entities": [],
-      "attributes": {},
       "status": "active"
     },
     {
@@ -147,6 +128,17 @@
       "status": "contaminated"
     },
     {
+      "id": "sharded-totto_-7587628134860225807_2_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Additional metadata about the table provided. Table webpage URL: http://en.wikipedia.org/wiki/1969_Scottish_National_Party_leadership_election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
       "id": "sharded-totto_-7587628134860225807_2_1",
       "conversation_id": "sharded-totto_-7587628134860225807",
       "turn_index": 2,
@@ -161,6 +153,17 @@
       "status": "contaminated"
     },
     {
+      "id": "sharded-totto_-7587628134860225807_3_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Additional metadata about the table provided. Table page title: 1969 Scottish National Party leadership election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
       "id": "sharded-totto_-7587628134860225807_3_1",
       "conversation_id": "sharded-totto_-7587628134860225807",
       "turn_index": 3,
@@ -173,6 +176,17 @@
       ],
       "attributes": {},
       "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_4_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Additional metadata about the table provided. Table section title: Result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
     },
     {
       "id": "sharded-totto_-7587628134860225807_4_1",
@@ -192,27 +206,45 @@
   "edges": [
     {
       "source": "sharded-totto_-7587628134860225807_1_1",
-      "target": "sharded-totto_-7587628134860225807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
+      "target": "sharded-totto_-7587628134860225807_0_1",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user fact"
     },
     {
       "source": "sharded-totto_-7587628134860225807_1_2",
-      "target": "sharded-totto_-7587628134860225807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
+      "target": "sharded-totto_-7587628134860225807_0_1",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user fact"
     },
     {
       "source": "sharded-totto_-7587628134860225807_1_3",
-      "target": "sharded-totto_-7587628134860225807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
+      "target": "sharded-totto_-7587628134860225807_0_1",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user fact"
     },
     {
       "source": "sharded-totto_-7587628134860225807_1_4",
-      "target": "sharded-totto_-7587628134860225807_1_0",
-      "type": "belongs_to",
-      "rationale": "cell belongs to table"
+      "target": "sharded-totto_-7587628134860225807_0_1",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user fact"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_2_1",
+      "target": "sharded-totto_-7587628134860225807_2_0",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user metadata"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_3_1",
+      "target": "sharded-totto_-7587628134860225807_3_0",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user metadata"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_4_1",
+      "target": "sharded-totto_-7587628134860225807_4_0",
+      "type": "supports",
+      "rationale": "assistant assumption backed by user metadata"
     }
   ],
   "attributes": {}

@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-spider-val-787-hard",
+  "method": "trust_filtered",
+  "prompt": "User wants to list all the different names the cities might be known by.\nTo get a list of all the different names that Asian cities might be known by, we would need to query a database.\nUser wants to restrict the cities to those located in Asia.\nTo restrict the results to only Asian cities, we add a WHERE clause to the SQL query.\nUser wants to focus on cities for which Chinese is an official language.\nTo focus the analysis on Asian cities where Chinese is an official language, we can modify the SQL query.",
+  "included_node_ids": [
+    "sharded-spider-val-787-hard_0_0",
+    "sharded-spider-val-787-hard_0_1",
+    "sharded-spider-val-787-hard_1_0",
+    "sharded-spider-val-787-hard_1_1",
+    "sharded-spider-val-787-hard_2_0",
+    "sharded-spider-val-787-hard_2_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-787-hard_0_2",
+    "sharded-spider-val-787-hard_1_2",
+    "sharded-spider-val-787-hard_2_2"
+  ]
+}

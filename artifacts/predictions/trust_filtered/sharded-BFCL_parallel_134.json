@@ -1,0 +1,1 @@
+{"task_id": "sharded-BFCL/parallel_134", "method": "trust_filtered", "prediction": "The function calls for each individual would be as follows:\n\n1. `functionCall(85, 175)`\n2. `functionCall(60, 160)`\n3. `functionCall(75, 180)`\n4. `functionCall(90, 185)`", "success": true, "baseline_success": false}

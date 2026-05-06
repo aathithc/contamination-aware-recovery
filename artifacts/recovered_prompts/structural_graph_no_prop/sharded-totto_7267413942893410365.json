@@ -1,0 +1,30 @@
+{
+  "conversation_id": "sharded-totto_7267413942893410365",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 3\n    Column: Name\n    Value: Jim Otis\n    Highlighted: true\n  - Row: 3\n    Column: Team\n    Value: Ohio State\n    Highlighted: true\n  - Row: 3\n    Column: Yards\n    Value: 985\n    Highlighted: true\nSupporting context:\n  - Table columns: Rank, Name, Team, Yards\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_7267413942893410365_2_5",
+    "sharded-totto_7267413942893410365_2_6",
+    "sharded-totto_7267413942893410365_2_7",
+    "sharded-totto_7267413942893410365_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_7267413942893410365_1_1",
+    "sharded-totto_7267413942893410365_5_0",
+    "sharded-totto_7267413942893410365_2_8",
+    "sharded-totto_7267413942893410365_2_2",
+    "sharded-totto_7267413942893410365_2_1",
+    "sharded-totto_7267413942893410365_2_11",
+    "sharded-totto_7267413942893410365_4_1",
+    "sharded-totto_7267413942893410365_4_0",
+    "sharded-totto_7267413942893410365_1_0",
+    "sharded-totto_7267413942893410365_2_3",
+    "sharded-totto_7267413942893410365_2_9",
+    "sharded-totto_7267413942893410365_0_0",
+    "sharded-totto_7267413942893410365_5_1",
+    "sharded-totto_7267413942893410365_2_10",
+    "sharded-totto_7267413942893410365_2_4",
+    "sharded-totto_7267413942893410365_3_0",
+    "sharded-totto_7267413942893410365_3_1"
+  ]
+}

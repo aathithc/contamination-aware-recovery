@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/359",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item          | Price per Pound | Pounds Bought | Amount Spent | Remaining Money | Change Given | Gumballs | Gumball Price | Total Gumballs | Total Gumballs Cost | Remaining Change |\n|---------------|------------------|---------------|--------------|-----------------|--------------|----------|----------------|----------------|---------------------|------------------|\n| Candy         | $1.50            | 6             | $9           | $1              | $0.50        | 5        | $0.05          | 40             | $2                  | -$1.50           |\n\nHighlighted:\n- $1.50\n- 6\n- $9\n- $1\n- $2\n- 40\n- -$1.50\n\nContext:\n- Billy has $10 to spend on candy.\n- He uses half of his remaining money as change.\n- He spends half of the change on gumballs.\n- Each gumball costs 5 cents.\n\nInstruction:\nSummarize Billy's transactions involving candy and gumballs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

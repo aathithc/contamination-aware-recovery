@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/307",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Person | Weight Loss per Week | Total Weight Loss |\n|--------|----------------------|-------------------|\n| Sandy  | 2 lbs                | 20 lbs            |\n| Joey   | 8 lbs                | 32 lbs            |\n\nHighlighted:\n- Joey's weight loss per week of 8 lbs\n- Sandy's weight loss per week of 2 lbs\n\nContext:\n- Sandy's total weight loss goal is to match Joey's 20 lbs.\n- Joey's weight loss is assessed over various time periods.\n\nInstruction:\nSummarize the weight loss comparison between Sandy and Joey.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

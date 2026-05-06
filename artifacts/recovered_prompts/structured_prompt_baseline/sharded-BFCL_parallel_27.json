@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_27",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Location | Distance | Features                      |\n|----------|----------|-------------------------------|\n| Berkeley | 10 km    | Picnic tables, Public restrooms |\n| Tokyo    | 5 km     | Playgrounds, Biking trails    |\n\nHighlighted:\n- Picnic tables\n- Public restrooms\n- Playgrounds\n- Biking trails\n\nContext:\nSearch for nature reserves fulfilling specific criteria near two different locations (Berkeley and Tokyo).\n\nInstruction:\nList nature reserves in Berkeley and Tokyo based on the given features and distances.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

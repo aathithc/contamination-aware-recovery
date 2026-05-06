@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-GSM8K/416",
+  "method": "trust_filtered",
+  "prompt": "The herd has both camels and dromedaries.\nThe total number of animal heads in the herd is 180.\nThe number of dromedaries in the herd is 0.\nThere are 304 humps in the herd.\nThe number of dromedaries in the herd is 56.\nEach camel contributes 2 humps to the total.\nThe number of dromedaries in the herd is 56.\nEach dromedary contributes 1 hump to the total.\nThe number of dromedaries in the herd is 56.",
+  "included_node_ids": [
+    "sharded-GSM8K/416_0_0",
+    "sharded-GSM8K/416_1_0",
+    "sharded-GSM8K/416_1_1",
+    "sharded-GSM8K/416_2_0",
+    "sharded-GSM8K/416_2_1",
+    "sharded-GSM8K/416_3_0",
+    "sharded-GSM8K/416_3_1",
+    "sharded-GSM8K/416_4_0",
+    "sharded-GSM8K/416_4_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/416_0_1"
+  ]
+}

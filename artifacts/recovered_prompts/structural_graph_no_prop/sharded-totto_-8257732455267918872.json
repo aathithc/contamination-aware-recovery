@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-totto_-8257732455267918872",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 25\n    Column: Event Title\n    Value: KOTC 25: Flaming Fury\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Event Title, Date, Arena, Location\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-8257732455267918872_1_7",
+    "sharded-totto_-8257732455267918872_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-8257732455267918872_1_8",
+    "sharded-totto_-8257732455267918872_1_3",
+    "sharded-totto_-8257732455267918872_2_1",
+    "sharded-totto_-8257732455267918872_1_5",
+    "sharded-totto_-8257732455267918872_1_1",
+    "sharded-totto_-8257732455267918872_4_0",
+    "sharded-totto_-8257732455267918872_1_2",
+    "sharded-totto_-8257732455267918872_1_11",
+    "sharded-totto_-8257732455267918872_2_0",
+    "sharded-totto_-8257732455267918872_3_0",
+    "sharded-totto_-8257732455267918872_0_0",
+    "sharded-totto_-8257732455267918872_1_6",
+    "sharded-totto_-8257732455267918872_4_1",
+    "sharded-totto_-8257732455267918872_1_10",
+    "sharded-totto_-8257732455267918872_1_9",
+    "sharded-totto_-8257732455267918872_3_1",
+    "sharded-totto_-8257732455267918872_1_4"
+  ]
+}

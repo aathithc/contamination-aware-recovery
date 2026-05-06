@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/214",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Pool          | Initial Water (liters) | Current Water (liters) |\n|---------------|-------------------------|-------------------------|\n| Small Pool    | 50                      | 4.86                    |\n| Large Pool    | 0                       | 39.44                   |\n\nHighlighted:\n- Small Pool: Current Water (liters) = 4.86\n- Large Pool: Current Water (liters) = 39.44\n\nContext:\n- Small pool initially had 50 liters; 20 liters were moved to large pool. \n- Both pools lose water at a rate of 4 gallons per minute due to leaks, which is approximately 15.14 liters per minute.\n\nInstruction:\nCalculate and present the current status of Jerry's pools.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

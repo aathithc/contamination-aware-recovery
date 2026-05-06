@@ -1,0 +1,572 @@
+{
+  "conversation_id": "sharded-GSM8K/965",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/965_0_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "A bird is migrating from its summer home in the north to its winter home in the south.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's summer (northern) home is located at (x1, y1) and the winter (southern) home is at (x2, y2).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To calculate the distance the bird travels from its northern home to its southern home, we can use the distance formula: Distance = √[(x2 - x1)^2 + (y2 - y1)^2]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Let's say the northern home is at (10, 20) and the southern home is at (5, 10).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_4",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "So, x1 = 10, y1 = 20, x2 = 5, y2 = 10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_5",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Distance = √[(-5)^2 + (-10)^2] = √[25 + 100] = √125 = 11.18 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_6",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the distance the bird travels from its northern summer home to its southern winter home is approximately 11.18 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "First, the bird flies south for 10 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird is flying south for 10 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The change in y-coordinate is y2 - y1 = 10 - 20 = -10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Distance per hour = -10 / 10 = -1 unit per hour.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_4",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total distance traveled in 10 hours = -1 unit/hour × 10 hours = -10 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_5",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, after flying south for 10 hours, the bird has traveled a distance of 10 units south from its northern home.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "During this first leg, it flies at 30 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird is flying at a speed of 30 mph during this first leg.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Distance = Speed × Time = 30 mph × 10 hours = 300 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's new location after the first 10 hours is (10, -280).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_4",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, after flying south for 10 hours at 30 mph, the bird has traveled a distance of 300 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Next, the bird changes direction and flies north for 2 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird now changes direction and flies north for 2 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The change in y-coordinate is 280 units (from -280 to 0).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total distance traveled while flying north for 2 hours = 140 units/hour × 2 hours = 280 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_4",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's new location after flying north for 2 hours is (10, 0).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On this second leg, it flies at 18 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird is now flying north at a speed of 18 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Distance = Speed × Time = 18 mph × 2 hours = 36 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's new location after flying north for 2 hours at 18 mph is (10, 36).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Finally, the bird turns south again and flies for 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird now turns south again and flies for 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The change in y-coordinate is 36 - (-280) = 316 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total distance traveled while flying south for 5 hours = 63.2 units/hour × 5 hours = 316 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_4",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's final location after flying south for 5 hours is (10, -280).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "On the last leg, it travels at 22 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird is now flying south for the final leg at a speed of 22 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_2",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total distance traveled while flying south for the final leg at 22 mph = 316 units/hour × 1 hour = 316 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_3",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The bird's final location after completing its migration is (10, -596).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/965_0_0",
+      "target": "sharded-GSM8K/965_0_1",
+      "type": "supports",
+      "rationale": "user states the migration."
+    },
+    {
+      "source": "sharded-GSM8K/965_0_1",
+      "target": "sharded-GSM8K/965_0_2",
+      "type": "supports",
+      "rationale": "assistant derives distance formula."
+    },
+    {
+      "source": "sharded-GSM8K/965_0_2",
+      "target": "sharded-GSM8K/965_0_3",
+      "type": "supports",
+      "rationale": "assistant specifies home coordinates."
+    },
+    {
+      "source": "sharded-GSM8K/965_0_3",
+      "target": "sharded-GSM8K/965_0_4",
+      "type": "supports",
+      "rationale": "assistant defines coordinates."
+    },
+    {
+      "source": "sharded-GSM8K/965_0_4",
+      "target": "sharded-GSM8K/965_0_5",
+      "type": "supports",
+      "rationale": "assistant calculates distance."
+    },
+    {
+      "source": "sharded-GSM8K/965_0_5",
+      "target": "sharded-GSM8K/965_0_6",
+      "type": "supports",
+      "rationale": "assistant concludes distance."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_0",
+      "target": "sharded-GSM8K/965_1_1",
+      "type": "supports",
+      "rationale": "user states flight time."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_1",
+      "target": "sharded-GSM8K/965_1_2",
+      "type": "supports",
+      "rationale": "assistant acknowledges y-coordinate change."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_2",
+      "target": "sharded-GSM8K/965_1_3",
+      "type": "supports",
+      "rationale": "assistant calculates speed per hour."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_3",
+      "target": "sharded-GSM8K/965_1_4",
+      "type": "supports",
+      "rationale": "assistant computes total distance."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_4",
+      "target": "sharded-GSM8K/965_1_5",
+      "type": "supports",
+      "rationale": "assistant concludes distance traveled."
+    },
+    {
+      "source": "sharded-GSM8K/965_2_0",
+      "target": "sharded-GSM8K/965_2_1",
+      "type": "supports",
+      "rationale": "user states speed."
+    },
+    {
+      "source": "sharded-GSM8K/965_2_1",
+      "target": "sharded-GSM8K/965_2_2",
+      "type": "supports",
+      "rationale": "assistant derives distance using speed."
+    },
+    {
+      "source": "sharded-GSM8K/965_2_2",
+      "target": "sharded-GSM8K/965_2_3",
+      "type": "supports",
+      "rationale": "assistant specifies new location."
+    },
+    {
+      "source": "sharded-GSM8K/965_3_0",
+      "target": "sharded-GSM8K/965_3_1",
+      "type": "supports",
+      "rationale": "user states new direction."
+    },
+    {
+      "source": "sharded-GSM8K/965_3_1",
+      "target": "sharded-GSM8K/965_3_2",
+      "type": "supports",
+      "rationale": "assistant summarizes y-coordinate change."
+    },
+    {
+      "source": "sharded-GSM8K/965_3_2",
+      "target": "sharded-GSM8K/965_3_3",
+      "type": "supports",
+      "rationale": "assistant calculates total distance for new leg."
+    },
+    {
+      "source": "sharded-GSM8K/965_3_3",
+      "target": "sharded-GSM8K/965_3_4",
+      "type": "supports",
+      "rationale": "assistant updates new location."
+    },
+    {
+      "source": "sharded-GSM8K/965_4_0",
+      "target": "sharded-GSM8K/965_4_1",
+      "type": "supports",
+      "rationale": "user states speed for second leg."
+    },
+    {
+      "source": "sharded-GSM8K/965_4_1",
+      "target": "sharded-GSM8K/965_4_2",
+      "type": "supports",
+      "rationale": "assistant calculates distance for second leg."
+    },
+    {
+      "source": "sharded-GSM8K/965_4_2",
+      "target": "sharded-GSM8K/965_4_3",
+      "type": "supports",
+      "rationale": "assistant updates second leg location."
+    },
+    {
+      "source": "sharded-GSM8K/965_5_0",
+      "target": "sharded-GSM8K/965_5_1",
+      "type": "supports",
+      "rationale": "user states next flight direction."
+    },
+    {
+      "source": "sharded-GSM8K/965_5_1",
+      "target": "sharded-GSM8K/965_5_2",
+      "type": "supports",
+      "rationale": "assistant calculates change in y-coordinate."
+    },
+    {
+      "source": "sharded-GSM8K/965_5_2",
+      "target": "sharded-GSM8K/965_5_3",
+      "type": "supports",
+      "rationale": "assistant computes distance for this leg."
+    },
+    {
+      "source": "sharded-GSM8K/965_5_3",
+      "target": "sharded-GSM8K/965_5_4",
+      "type": "supports",
+      "rationale": "assistant concludes final position."
+    },
+    {
+      "source": "sharded-GSM8K/965_6_0",
+      "target": "sharded-GSM8K/965_6_1",
+      "type": "supports",
+      "rationale": "user states final speed."
+    },
+    {
+      "source": "sharded-GSM8K/965_6_1",
+      "target": "sharded-GSM8K/965_6_2",
+      "type": "supports",
+      "rationale": "assistant calculates final distance."
+    },
+    {
+      "source": "sharded-GSM8K/965_6_2",
+      "target": "sharded-GSM8K/965_6_3",
+      "type": "supports",
+      "rationale": "assistant concludes final position after last leg."
+    }
+  ],
+  "attributes": {}
+}

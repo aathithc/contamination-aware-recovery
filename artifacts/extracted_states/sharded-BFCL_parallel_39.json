@@ -1,0 +1,178 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_39",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_39_0_0",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Specifically for the National Museum in Washington D.C.",
+      "entities": [
+        "National Museum",
+        "Washington D.C."
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_1_0",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Additionally, check for the Louvre Museum in Paris",
+      "entities": [
+        "Louvre Museum",
+        "Paris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_2_0",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Also find ticket prices for adults",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_3_0",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Include ticket prices for children",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_0_1",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_opening_hours(museum='National Museum', location='Washington D.C.')]",
+      "entities": [
+        "National Museum",
+        "Washington D.C."
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_1_1",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_opening_hours(museum='Louvre Museum', location='Paris')]",
+      "entities": [
+        "Louvre Museum",
+        "Paris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_2_1",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_ticket_prices(museum='National Museum', location='Washington D.C.', ticket_type='adult')]",
+      "entities": [
+        "National Museum",
+        "Washington D.C."
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_2_2",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_ticket_prices(museum='Louvre Museum', location='Paris', ticket_type='adult')]",
+      "entities": [
+        "Louvre Museum",
+        "Paris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_3_1",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_ticket_prices(museum='National Museum', location='Washington D.C.', ticket_type='child')]",
+      "entities": [
+        "National Museum",
+        "Washington D.C."
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_39_3_2",
+      "conversation_id": "sharded-BFCL/parallel_39",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[get_ticket_prices(museum='Louvre Museum', location='Paris', ticket_type='child')]",
+      "entities": [
+        "Louvre Museum",
+        "Paris"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_39_0_0",
+      "target": "sharded-BFCL/parallel_39_0_1",
+      "type": "supports",
+      "rationale": "user request for hours supports assistant action"
+    },
+    {
+      "source": "sharded-BFCL/parallel_39_1_0",
+      "target": "sharded-BFCL/parallel_39_1_1",
+      "type": "supports",
+      "rationale": "user request for Louvre supports assistant action"
+    },
+    {
+      "source": "sharded-BFCL/parallel_39_2_0",
+      "target": "sharded-BFCL/parallel_39_2_1",
+      "type": "supports",
+      "rationale": "user request for adult ticket prices supports assistant action"
+    },
+    {
+      "source": "sharded-BFCL/parallel_39_2_0",
+      "target": "sharded-BFCL/parallel_39_2_2",
+      "type": "supports",
+      "rationale": "user request for adult ticket prices supports assistant action"
+    },
+    {
+      "source": "sharded-BFCL/parallel_39_3_0",
+      "target": "sharded-BFCL/parallel_39_3_1",
+      "type": "supports",
+      "rationale": "user request for child ticket prices supports assistant action"
+    },
+    {
+      "source": "sharded-BFCL/parallel_39_3_0",
+      "target": "sharded-BFCL/parallel_39_3_2",
+      "type": "supports",
+      "rationale": "user request for child ticket prices supports assistant action"
+    }
+  ],
+  "attributes": {}
+}

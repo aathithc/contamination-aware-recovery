@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_67",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_67_0_0",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The first circle has a radius of 5 meters",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_0_1",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "[circle_area(radius=5)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_1_0",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The second circle has a radius of 10 meters",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_1_1",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "[circle_area(radius=10)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_2_0",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Compare the areas of the two circles",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_2_1",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "[compare_areas(area1=78.53981633974483, area2=314.1592653589793)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_3_0",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Figure out which circle has a larger area",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_3_1",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "[get_larger_area(area1=78.53981633974483, area2=314.1592653589793)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_4_0",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Calculate by how much the larger circle's area exceeds the smaller one",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_67_4_1",
+      "conversation_id": "sharded-BFCL/parallel_67",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "[calculate_area_difference(larger_area=314.1592653589793, smaller_area=78.53981633974483)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_67_0_0",
+      "target": "sharded-BFCL/parallel_67_0_1",
+      "type": "supports",
+      "rationale": "user provides radius for area calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_67_1_0",
+      "target": "sharded-BFCL/parallel_67_1_1",
+      "type": "supports",
+      "rationale": "user provides radius for area calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_67_2_0",
+      "target": "sharded-BFCL/parallel_67_2_1",
+      "type": "supports",
+      "rationale": "user requests area comparison"
+    },
+    {
+      "source": "sharded-BFCL/parallel_67_3_0",
+      "target": "sharded-BFCL/parallel_67_3_1",
+      "type": "supports",
+      "rationale": "user requests to identify larger area"
+    },
+    {
+      "source": "sharded-BFCL/parallel_67_4_0",
+      "target": "sharded-BFCL/parallel_67_4_1",
+      "type": "supports",
+      "rationale": "user requests to calculate area difference"
+    }
+  ],
+  "attributes": {}
+}

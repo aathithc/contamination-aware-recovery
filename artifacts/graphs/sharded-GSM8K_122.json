@@ -1,0 +1,252 @@
+{
+  "conversation_id": "sharded-GSM8K/122",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/122_0_0",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Sadie slept 8 hours on Monday.",
+      "entities": [
+        "Sadie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_0_1",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Monday: 8 hours of sleep.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/122_1_0",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "For the next two days, she slept 2 hours less each day.",
+      "entities": [
+        "Sadie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_1_1",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Tuesday: 6 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_1_2",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Wednesday: 4 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_0",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "This happened because she had assignments to finish.",
+      "entities": [
+        "Sadie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_1",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Thursday: 4 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_2",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Friday: 4 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_3",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Saturday: 10 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_4",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Sunday: 9 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_3_0",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "For the rest of the week, she slept 1 hour more per day than she did on those two days.",
+      "entities": [
+        "Sadie"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_3_1",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Thursday: 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_3_2",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Friday: 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_3_3",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Sunday: 10 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/122_2_5",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total sleep hours for the week is 45 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/122_3_4",
+      "conversation_id": "sharded-GSM8K/122",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total sleep hours for the week is 48 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/122_0_0",
+      "target": "sharded-GSM8K/122_1_0",
+      "type": "supports",
+      "rationale": "user provides initial sleep information."
+    },
+    {
+      "source": "sharded-GSM8K/122_1_0",
+      "target": "sharded-GSM8K/122_1_1",
+      "type": "supports",
+      "rationale": "user details impact on sleep for the next two days."
+    },
+    {
+      "source": "sharded-GSM8K/122_1_1",
+      "target": "sharded-GSM8K/122_1_2",
+      "type": "supports",
+      "rationale": "assistant calculates sleep for Tuesday based on user input."
+    },
+    {
+      "source": "sharded-GSM8K/122_2_0",
+      "target": "sharded-GSM8K/122_2_1",
+      "type": "supports",
+      "rationale": "user explains why sleep was less."
+    },
+    {
+      "source": "sharded-GSM8K/122_2_1",
+      "target": "sharded-GSM8K/122_2_2",
+      "type": "supports",
+      "rationale": "assistant incorporates context into calculations."
+    },
+    {
+      "source": "sharded-GSM8K/122_2_3",
+      "target": "sharded-GSM8K/122_2_4",
+      "type": "supports",
+      "rationale": "user adds more sleep detail for Saturday."
+    },
+    {
+      "source": "sharded-GSM8K/122_3_0",
+      "target": "sharded-GSM8K/122_3_1",
+      "type": "supports",
+      "rationale": "user specifies next week sleep pattern."
+    },
+    {
+      "source": "sharded-GSM8K/122_3_1",
+      "target": "sharded-GSM8K/122_3_2",
+      "type": "supports",
+      "rationale": "assistant calculates Friday sleep."
+    },
+    {
+      "source": "sharded-GSM8K/122_3_1",
+      "target": "sharded-GSM8K/122_3_3",
+      "type": "supports",
+      "rationale": "assistant adds Sunday sleep."
+    },
+    {
+      "source": "sharded-GSM8K/122_2_5",
+      "target": "sharded-GSM8K/122_3_4",
+      "type": "supersedes",
+      "rationale": "changed total sleep calculation."
+    }
+  ],
+  "attributes": {}
+}

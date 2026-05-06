@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_1",
+  "method": "trust_filtered",
+  "prompt": "Use a magnetic field of 5 Tesla\nConsider an area of 2 square meters\nWork with a change in time of 4 seconds initially\nRepeat the calculation with a change in time of 10 seconds",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_1_0_0",
+    "sharded-BFCL/parallel_1_1_0",
+    "sharded-BFCL/parallel_1_2_0",
+    "sharded-BFCL/parallel_1_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_1_0_1",
+    "sharded-BFCL/parallel_1_1_1",
+    "sharded-BFCL/parallel_1_2_1",
+    "sharded-BFCL/parallel_1_3_1"
+  ]
+}

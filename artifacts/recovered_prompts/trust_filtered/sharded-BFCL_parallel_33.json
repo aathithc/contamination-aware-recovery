@@ -1,0 +1,17 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_33",
+  "method": "trust_filtered",
+  "prompt": "User asks about the president of the United States in 2016.\nUser asks about the vice president in 1975.\nUser asks about the vice president in 2011.\nUser requests to return all information together.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_33_0_0",
+    "sharded-BFCL/parallel_33_1_1",
+    "sharded-BFCL/parallel_33_2_1",
+    "sharded-BFCL/parallel_33_3_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_33_1_0",
+    "sharded-BFCL/parallel_33_2_0",
+    "sharded-BFCL/parallel_33_3_0",
+    "sharded-BFCL/parallel_33_3_2"
+  ]
+}

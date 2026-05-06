@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-spider-val-123-medium",
+  "method": "concat",
+  "prompt": "Filter the countries to include only those that have at least one car maker.\nFor each country, also include its id in the result.\nReturn the name of each country in the result.",
+  "included_node_ids": [
+    "sharded-spider-val-123-medium_0_0",
+    "sharded-spider-val-123-medium_2_0",
+    "sharded-spider-val-123-medium_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-123-medium_1_0",
+    "sharded-spider-val-123-medium_1_1",
+    "sharded-spider-val-123-medium_1_2",
+    "sharded-spider-val-123-medium_2_1",
+    "sharded-spider-val-123-medium_2_2",
+    "sharded-spider-val-123-medium_2_3",
+    "sharded-spider-val-123-medium_2_4",
+    "sharded-spider-val-123-medium_3_1",
+    "sharded-spider-val-123-medium_3_2",
+    "sharded-spider-val-123-medium_3_3",
+    "sharded-spider-val-123-medium_3_4",
+    "sharded-spider-val-123-medium_3_5"
+  ]
+}

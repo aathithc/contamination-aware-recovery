@@ -1,0 +1,35 @@
+{
+  "conversation_id": "sharded-GSM8K/144",
+  "method": "concat",
+  "prompt": "Kim has recently started a housekeeping business.\nKim is trying to figure out how much profit he'll earn from clients.\nKim has 3 clients currently.\nKim is in talks with 5 potential new clients.\nKim feels confident these potential clients will become actual clients.\nEach house requires 2 bottles of bleach for cleaning.\nEach home also needs a pack of cloths.\nThe price of each bottle of bleach is $2.\nEach pack of cloths costs $5.\nKim expects to make $92 total each week from his work.\nProfit is simply the total income minus the total expenses he incurs.",
+  "included_node_ids": [
+    "sharded-GSM8K/144_0_0",
+    "sharded-GSM8K/144_1_0",
+    "sharded-GSM8K/144_2_0",
+    "sharded-GSM8K/144_3_0",
+    "sharded-GSM8K/144_4_0",
+    "sharded-GSM8K/144_5_0",
+    "sharded-GSM8K/144_6_0",
+    "sharded-GSM8K/144_7_0",
+    "sharded-GSM8K/144_8_0",
+    "sharded-GSM8K/144_9_0",
+    "sharded-GSM8K/144_10_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/144_1_1",
+    "sharded-GSM8K/144_1_2",
+    "sharded-GSM8K/144_2_1",
+    "sharded-GSM8K/144_2_2",
+    "sharded-GSM8K/144_3_1",
+    "sharded-GSM8K/144_3_2",
+    "sharded-GSM8K/144_4_1",
+    "sharded-GSM8K/144_5_1",
+    "sharded-GSM8K/144_5_2",
+    "sharded-GSM8K/144_6_1",
+    "sharded-GSM8K/144_6_2",
+    "sharded-GSM8K/144_7_1",
+    "sharded-GSM8K/144_8_1",
+    "sharded-GSM8K/144_9_1",
+    "sharded-GSM8K/144_10_1"
+  ]
+}

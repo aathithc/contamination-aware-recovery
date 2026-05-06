@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-551-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT transcript_id, transcript_date\nFROM your_table_name\nGROUP BY transcript_id, transcript_date\nHAVING COUNT(course_results) >= 2;\n```", "success": false, "baseline_success": true}

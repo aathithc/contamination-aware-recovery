@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/234",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| User                  | Value                  |\n|-----------------------|-----------------------|\n| Current Consumption    | 42 cherry tomatoes/week |\n| Girlfriend's Consumption| 15 cherry tomatoes/week |\n| Target Increase        | 20 cherry tomatoes/week |\n| Total Consumption      | 57 cherry tomatoes/week |\n| Plants Needed          | 4                       |\n| Vines Required         | 4                       |\n| Tomatoes per Vine      | 3                       |\n| Total Vines Needed     | 19                      |\n\nHighlighted:\n- Current Consumption\n- Total Consumption\n- Vines Required\n- Total Vines Needed\n\nContext:\n- Steve consumes 6 tomatoes every day.\n- He consumes twice the number of tomatoes as his girlfriend.\n\nInstruction:\nCalculate the total number of cherry tomato plants and vines needed for Steve's diet.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

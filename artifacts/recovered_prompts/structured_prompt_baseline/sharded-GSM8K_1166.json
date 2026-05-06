@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1166",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Age (Years) | Fruits Produced | Average Production per Year | Total Production Over 10 Years |\n|-------------|----------------|-----------------------------|--------------------------------|\n| 5           | 50             | 10                          | 100                            |\n| 6           | 150            | 90                          | 900                            |\n| 7           | 350            | 160                         | 1,600                          |\n| 8           | 40             | 142                         | 1,420                          |\n| 9           | 0              | 110                         | 1,100                          |\n| 10          | 1,000          | 255                         | 2,550                          |\n\nHighlighted:\n- 50 (5-Year-Old)\n- 150 (6-Year-Old)\n- 350 (7-Year-Old)\n- 40 (8-Year-Old)\n- 0 (9-Year-Old)\n- 1,000 (10-Year-Old)\n\nContext:\n- The production numbers fluctuate based on the age of the tree and the user stated various values for different ages.\n\nInstruction:\nSummarize the fruit production of the avocado tree over its 10-year lifespan.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

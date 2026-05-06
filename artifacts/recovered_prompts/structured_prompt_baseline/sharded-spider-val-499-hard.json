@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-499-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Battle ID | Battle Name          | Total Deaths |\n|-----------|---------------------|--------------|\n| 1         | Battle of Gettysburg | 50000        |\n| 2         | Battle of Waterloo   | 25000        |\n| 3         | Battle of Stalingrad | 200000       |\n\nHighlighted:\n| Battle ID | Total Deaths |\n|-----------|--------------|\n| 1         | 50000        |\n| 2         | 25000        |\n| 3         | 200000       |\n\nContext:\n- Focus on battles that resulted in more than 10 people being killed.\n- Include total number of deaths across all participants.\n\nInstruction:\nGenerate a list of battles that had more than 10 deaths along with their IDs.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

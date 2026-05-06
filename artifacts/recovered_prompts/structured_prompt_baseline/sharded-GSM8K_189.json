@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/189",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item          | Total Cost | Per Friend Cost |\n|---------------|------------|------------------|\n| Fair Tickets  | $20.25     | $6.75            |\n| Food          | $15.75     | $5.25            |\n| Rides         | $6.00      | $2.00            |\n| Total         | $42.00     | $14.00           |\n\nHighlighted:\n- Fair Tickets: $20.25\n- Food: $15.75\n- Total: $42.00\n\nContext:\nThe three friends split all costs evenly, and each ride costs $3.\n\nInstruction:\nCalculate and summarize each friend's total expenditure at the fair.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

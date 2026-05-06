@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1260",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Total Photos | Upload Speed (per minute) | Time to Upload (in minutes) | Time to Upload (in days) |\n|--------------|---------------------------|------------------------------|--------------------------|\n| 500          | 20                        | 25                           | 0.0174                   |\n| 700          | 20                        | 35                           | 0.0243                   |\n| 210          | 20                        | 10.5                         | 0.0073                   |\n| 210          | 20                        | 10.5                         | 0.0073                   |\n| 210          | 20                        | 10.5                         | 0.0073                   |\n\nHighlighted:\n- 500\n- 700\n- 210\n- 10.5\n- 220.5\n\nContext:\n- Jade has uploaded multiple photos throughout the week.\n- She can create 6 batches of 7 photos each day.\n\nInstruction:\nCalculate the total time in days it will take Jade to upload all her photos.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/740",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Hobbies          | Number of Students |\n|------------------|--------------------|\n| Baking           | 10                 |\n| Basketball       | 5                  |\n| Video Games      | 25                 |\n| Music            | 10                 |\n\nHighlighted:\n| Video Games: 25 |\n\nContext:\nThere are 50 students in total. The number of students who play basketball is 5, and those who play music are twice as many as those who play basketball.\n\nInstruction:\nSummarize the student distribution among the hobbies.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

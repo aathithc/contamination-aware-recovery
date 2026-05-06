@@ -1,0 +1,477 @@
+{
+  "conversation_id": "sharded-spider-val-467-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-467-medium_0_0",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "One of the names should be the player who won the match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_1",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the match with the longest duration where one of the names is the player who won the match, you can use an SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_2",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT * FROM matches WHERE player1_name = (SELECT name FROM players WHERE won_match = 1) OR player2_name = (SELECT name FROM players WHERE won_match = 1) ORDER BY duration DESC LIMIT 1;",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_3",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This query will select all columns from the matches table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_4",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It adds a WHERE clause to filter the results where either the player1_name or player2_name matches the name of the player who won a match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_5",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It orders the results by the duration column in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_0_6",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It limits the results to just the first row.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_0",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on the players who participated in this match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_1",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the match with the longest duration and focus on the players who participated in this match, you can use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_2",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT m.*, p1.name AS player1_name, p2.name AS player2_name FROM matches m JOIN players p1 ON m.player1_id = p1.id JOIN players p2 ON m.player2_id = p2.id ORDER BY m.duration DESC LIMIT 1;",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_3",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This query will select all columns from the matches table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_4",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It joins the matches table with the players table twice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_5",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It orders the results by the duration column in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_1_6",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It limits the results to just the first row.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_0",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Find the names of individuals involved in the match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_1",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the names of the individuals involved in the match with the longest duration, you can use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_2",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT p1.name AS player1_name, p2.name AS player2_name FROM matches m JOIN players p1 ON m.player1_id = p1.id JOIN players p2 ON m.player2_id = p2.id ORDER BY m.duration DESC LIMIT 1;",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_3",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This query will select the name columns from the players table, aliased as player1_name and player2_name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_4",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It joins the matches table with the players table twice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_5",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It orders the results by the duration column in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_2_6",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It limits the results to just the first row.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_0",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "One of the names should be the player who lost the match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_1",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find the match with the longest duration where one of the names is the player who lost the match, you can use the following SQL query.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_2",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "SELECT p1.name AS player1_name, p2.name AS player2_name FROM matches m JOIN players p1 ON m.player1_id = p1.id JOIN players p2 ON m.player2_id = p2.id WHERE p1.won_match = 0 OR p2.won_match = 0 ORDER BY m.duration DESC LIMIT 1;",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_3",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This query will select the name columns from the players table, aliased as player1_name and player2_name.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_4",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It joins the matches table with the players table twice.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_5",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It adds a WHERE clause to filter for the player who lost the match.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_6",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It orders the results by the duration column in descending order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-467-medium_3_7",
+      "conversation_id": "sharded-spider-val-467-medium",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "It limits the results to just the first row.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-467-medium_0_0",
+      "target": "sharded-spider-val-467-medium_0_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_0_1",
+      "target": "sharded-spider-val-467-medium_0_2",
+      "type": "supports",
+      "rationale": "assistant claims SQL query structure"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_0_2",
+      "target": "sharded-spider-val-467-medium_0_3",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_0_2",
+      "target": "sharded-spider-val-467-medium_0_4",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_0_2",
+      "target": "sharded-spider-val-467-medium_0_5",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_0_2",
+      "target": "sharded-spider-val-467-medium_0_6",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_0",
+      "target": "sharded-spider-val-467-medium_1_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_1",
+      "target": "sharded-spider-val-467-medium_1_2",
+      "type": "supports",
+      "rationale": "assistant claims SQL query structure"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_2",
+      "target": "sharded-spider-val-467-medium_1_3",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_2",
+      "target": "sharded-spider-val-467-medium_1_4",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_2",
+      "target": "sharded-spider-val-467-medium_1_5",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_1_2",
+      "target": "sharded-spider-val-467-medium_1_6",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_0",
+      "target": "sharded-spider-val-467-medium_2_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_1",
+      "target": "sharded-spider-val-467-medium_2_2",
+      "type": "supports",
+      "rationale": "assistant claims SQL query structure"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_2",
+      "target": "sharded-spider-val-467-medium_2_3",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_2",
+      "target": "sharded-spider-val-467-medium_2_4",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_2",
+      "target": "sharded-spider-val-467-medium_2_5",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_2_2",
+      "target": "sharded-spider-val-467-medium_2_6",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_0",
+      "target": "sharded-spider-val-467-medium_3_1",
+      "type": "supports",
+      "rationale": "user fact supports assistant derivation"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_1",
+      "target": "sharded-spider-val-467-medium_3_2",
+      "type": "supports",
+      "rationale": "assistant claims SQL query structure"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_2",
+      "target": "sharded-spider-val-467-medium_3_3",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_2",
+      "target": "sharded-spider-val-467-medium_3_4",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_2",
+      "target": "sharded-spider-val-467-medium_3_5",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_2",
+      "target": "sharded-spider-val-467-medium_3_6",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    },
+    {
+      "source": "sharded-spider-val-467-medium_3_2",
+      "target": "sharded-spider-val-467-medium_3_7",
+      "type": "supports",
+      "rationale": "assistant explains SQL query function"
+    }
+  ],
+  "attributes": {}
+}

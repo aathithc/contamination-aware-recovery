@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-79-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| student_id | num_pets |\n|------------|----------|\n|            |          |\n\nHighlighted:\n| student_id | num_pets |\n\nContext:\nThe name of the table is 'pets_table'. The column representing student ID is 'student_id'.\n\nInstruction:\nWrite an SQL query to group the number of pets by each student, including only those with at least one pet.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-7720423331010486388",
   "method": "structured_prompt_baseline",
-  "prediction": "In the 2008 Olympic Games held in Beijing, Mada\u00ed P\u00e9rez finished in 19th place in the marathon event, completing the race with a time of 2:31:47.",
-  "success": true,
+  "prediction": "Mada\u00ed P\u00e9rez represented Mexico at the 2008 Olympics in Beijing, finishing in 19th position in the marathon with a time of 2:31:47.",
+  "success": false,
   "baseline_success": true
 }

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1247",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Initial Marbles | Marbles Dropped | Marbles Recovered | Beads Disposed | Final Count |\n|------------------|-----------------|--------------------|----------------|-------------|\n| 10               | 5               | 3                  | 1              | 7           |\n\nHighlighted:\n- Initial Marbles: 10\n- Marbles Dropped: 5\n- Marbles Recovered: 3\n- Beads Disposed: 1\n- Final Count: 7\n\nContext:\nBrendan started with 10 marbles, tripped and dropped half, recovered 3, found one bead, and threw it away.\n\nInstruction:\nSummarize the final count of marbles Brendan has.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

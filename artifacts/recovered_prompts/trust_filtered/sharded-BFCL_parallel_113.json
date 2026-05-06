@@ -1,0 +1,38 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_113",
+  "method": "trust_filtered",
+  "prompt": "Focus on four individuals for the prediction\nInclude details for one individual: 180 lbs, 70 inches tall, and a 'lightly active' lifestyle\nAdd another individual: 200 lbs, 65 inches tall, and 'very active'\nAlso include 150 lbs, 72 inches tall, and 'moderately active'\nFinally, add 220 lbs, 68 inches tall, and 'extra active'",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_113_0_0",
+    "sharded-BFCL/parallel_113_2_0",
+    "sharded-BFCL/parallel_113_4_0",
+    "sharded-BFCL/parallel_113_6_0",
+    "sharded-BFCL/parallel_113_8_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_113_1_0",
+    "sharded-BFCL/parallel_113_1_1",
+    "sharded-BFCL/parallel_113_1_2",
+    "sharded-BFCL/parallel_113_1_3",
+    "sharded-BFCL/parallel_113_3_0",
+    "sharded-BFCL/parallel_113_3_1",
+    "sharded-BFCL/parallel_113_3_2",
+    "sharded-BFCL/parallel_113_3_3",
+    "sharded-BFCL/parallel_113_3_4",
+    "sharded-BFCL/parallel_113_5_0",
+    "sharded-BFCL/parallel_113_5_1",
+    "sharded-BFCL/parallel_113_5_2",
+    "sharded-BFCL/parallel_113_5_3",
+    "sharded-BFCL/parallel_113_5_4",
+    "sharded-BFCL/parallel_113_7_0",
+    "sharded-BFCL/parallel_113_7_1",
+    "sharded-BFCL/parallel_113_7_2",
+    "sharded-BFCL/parallel_113_7_3",
+    "sharded-BFCL/parallel_113_7_4",
+    "sharded-BFCL/parallel_113_9_0",
+    "sharded-BFCL/parallel_113_9_1",
+    "sharded-BFCL/parallel_113_9_2",
+    "sharded-BFCL/parallel_113_9_3",
+    "sharded-BFCL/parallel_113_9_4"
+  ]
+}

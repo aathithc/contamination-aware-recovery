@@ -1,7 +1,7 @@
 {
   "task_id": "sharded-totto_-1200443185142546807",
   "method": "trust_filtered",
-  "prediction": "Brad Keselowski, driving for Team Penske, recorded a time of 77.730 seconds and achieved a top speed of 105.596 mph during the final practice session. These highlighted values indicate his performance leading into the race.",
+  "prediction": "The highlighted cells indicate that driver Brad Keselowski achieved a lap time of 77.730 seconds and recorded a speed of 105.596 mph during the final practice of the 2018 Bank of America Roval 400.",
   "success": true,
   "baseline_success": true
 }

@@ -1,0 +1,16 @@
+{
+  "conversation_id": "sharded-spider-val-285-hard",
+  "method": "concat",
+  "prompt": "User requests to return the names of shops.\nUser ensures that no employees are hired by these shops.\nUser asks to find shops that do not hire staff or workers.",
+  "included_node_ids": [
+    "sharded-spider-val-285-hard_0_0",
+    "sharded-spider-val-285-hard_1_0",
+    "sharded-spider-val-285-hard_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-285-hard_0_1",
+    "sharded-spider-val-285-hard_1_1",
+    "sharded-spider-val-285-hard_2_1",
+    "sharded-spider-val-285-hard_2_2"
+  ]
+}

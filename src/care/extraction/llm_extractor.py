@@ -75,6 +75,7 @@ class OpenAIExtractor:
                     model=self.model,
                     messages=messages,
                     response_format={"type": "json_object"},
+                    timeout=90.0,
                 )
                 raw_text = response.choices[0].message.content
                 return _validate(_parse_json_output(raw_text))

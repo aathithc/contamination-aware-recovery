@@ -1,0 +1,98 @@
+{
+  "conversation_id": "sharded-spider-val-265-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-265-medium_0_0",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Focus on cities where there are multiple employees meeting the criteria.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-265-medium_1_0",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To determine which cities the employees originate from, you can modify the previous query to include the employee's city of origin.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-265-medium_1_1",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Join the employees table with the cities table twice: o.city_id is the city of origin for the employee.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-265-medium_2_0",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The employees in question should be under the age of 30.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-265-medium_2_1",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's the updated query to get the cities where there are multiple employees under the age of 30.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-265-medium_2_2",
+      "conversation_id": "sharded-spider-val-265-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "In the WHERE clause, we're using the TIMESTAMPDIFF function to calculate the age of the employee in years.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-265-medium_0_0",
+      "target": "sharded-spider-val-265-medium_1_0",
+      "type": "supports",
+      "rationale": "user specifies a requirement"
+    },
+    {
+      "source": "sharded-spider-val-265-medium_1_0",
+      "target": "sharded-spider-val-265-medium_2_0",
+      "type": "supports",
+      "rationale": "assistant provides a method based on user requirement"
+    },
+    {
+      "source": "sharded-spider-val-265-medium_2_0",
+      "target": "sharded-spider-val-265-medium_2_1",
+      "type": "supports",
+      "rationale": "user requests clarification on employee age criteria"
+    },
+    {
+      "source": "sharded-spider-val-265-medium_2_1",
+      "target": "sharded-spider-val-265-medium_2_2",
+      "type": "supports",
+      "rationale": "assistant explains the adjustment made to the query"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-285-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| id | name  |\n|----|-------|\n| 1  | Shop A|\n| 2  | Shop B|\n| 3  | Shop C|\n\nHighlighted:\nname\n\nContext:\nUser requests to ensure that shops have no employees hired.\n\nInstruction:\nReturn the names of shops that do not hire staff or workers.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

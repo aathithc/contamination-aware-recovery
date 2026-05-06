@@ -1,0 +1,166 @@
+{
+  "conversation_id": "sharded-GSM8K/740",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/740_0_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "There is a class of 50 students with different hobbies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_1_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Out of the 50 students, 10 enjoy baking.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_2_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "5 students prefer playing basketball.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_3_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The remaining students are split between video games and music.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_4_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Those who play music are twice as many as those who play basketball.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_0_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To find how many students like playing video games, the number of students who like playing video games is somewhere between 0 and 40.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_1_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Out of the 50 students in the class, between 0 and 40 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_2_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Out of the 50 students in the class, between 0 and 35 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_3_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Out of the 50 students in the class, 17 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_4_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Out of the 50 students in the class, 25 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/740_0_0",
+      "target": "sharded-GSM8K/740_0_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's response"
+    },
+    {
+      "source": "sharded-GSM8K/740_1_0",
+      "target": "sharded-GSM8K/740_1_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's response"
+    },
+    {
+      "source": "sharded-GSM8K/740_2_0",
+      "target": "sharded-GSM8K/740_2_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's response"
+    },
+    {
+      "source": "sharded-GSM8K/740_3_0",
+      "target": "sharded-GSM8K/740_3_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's response"
+    },
+    {
+      "source": "sharded-GSM8K/740_4_0",
+      "target": "sharded-GSM8K/740_4_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's response"
+    },
+    {
+      "source": "sharded-GSM8K/740_1_0",
+      "target": "sharded-GSM8K/740_2_1",
+      "type": "verified_by",
+      "rationale": "assistant's calculations use confirmed information about baking"
+    },
+    {
+      "source": "sharded-GSM8K/740_2_0",
+      "target": "sharded-GSM8K/740_3_1",
+      "type": "verified_by",
+      "rationale": "assistant's calculations use confirmed information about basketball"
+    },
+    {
+      "source": "sharded-GSM8K/740_1_0",
+      "target": "sharded-GSM8K/740_4_1",
+      "type": "verified_by",
+      "rationale": "assistant's calculations use confirmed information about music"
+    }
+  ],
+  "attributes": {}
+}

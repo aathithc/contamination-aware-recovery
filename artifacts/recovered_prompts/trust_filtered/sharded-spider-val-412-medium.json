@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-spider-val-412-medium",
+  "method": "trust_filtered",
+  "prompt": "User requests to retrieve only the names of the filtered visitors.\nUser ensures the results are sorted in a specific way.\nUser requests to filter the visitors whose membership level is greater than 4.\nUser requests to sort from high to low.\nUser requests to sort the results by their membership level value.",
+  "included_node_ids": [
+    "sharded-spider-val-412-medium_0_0",
+    "sharded-spider-val-412-medium_1_0",
+    "sharded-spider-val-412-medium_2_0",
+    "sharded-spider-val-412-medium_3_0",
+    "sharded-spider-val-412-medium_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-412-medium_0_1",
+    "sharded-spider-val-412-medium_1_1",
+    "sharded-spider-val-412-medium_2_1",
+    "sharded-spider-val-412-medium_3_1",
+    "sharded-spider-val-412-medium_4_1"
+  ]
+}

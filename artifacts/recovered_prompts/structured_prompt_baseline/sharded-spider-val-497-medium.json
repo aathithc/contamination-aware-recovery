@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-497-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n<reproduce table structure from user input>\n\nHighlighted:\nBoril\n\nContext:\nThe commander should not be 'Boril'. Include the outcomes or results of these battles. Provide the names of these battles. Focus on battles involving Bulgarian commanders.\n\nInstruction:\nUpdate the SQL query accordingly.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

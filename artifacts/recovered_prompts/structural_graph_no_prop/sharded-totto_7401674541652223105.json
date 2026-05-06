@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-totto_7401674541652223105",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 4\n    Column: Event Title\n    Value: AFC 3\n    Highlighted: true\n  - Row: 4\n    Column: Date\n    Value: April 14, 2012\n    Highlighted: true\n  - Row: 4\n    Column: Arena\n    Value: Geelong Arena\n    Highlighted: true\n  - Row: 4\n    Column: Location\n    Value: Geelong, Australia\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Event Title, Date, Arena, Location\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_7401674541652223105_1_2",
+    "sharded-totto_7401674541652223105_1_3",
+    "sharded-totto_7401674541652223105_1_4",
+    "sharded-totto_7401674541652223105_1_5",
+    "sharded-totto_7401674541652223105_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_7401674541652223105_1_1",
+    "sharded-totto_7401674541652223105_4_0",
+    "sharded-totto_7401674541652223105_2_0",
+    "sharded-totto_7401674541652223105_3_0",
+    "sharded-totto_7401674541652223105_0_0"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-GSM8K/1124",
+  "method": "concat",
+  "prompt": "Seth decided to give away half of his stickers to Luis.\nLuis then used up half of the stickers he got from Seth.\nLuis handed over the remaining stickers to Kris.\nKris kept 9 of the stickers for himself.\nKris gave the final 7 stickers to Rob.",
+  "included_node_ids": [
+    "sharded-GSM8K/1124_0_0",
+    "sharded-GSM8K/1124_1_0",
+    "sharded-GSM8K/1124_2_0",
+    "sharded-GSM8K/1124_3_0",
+    "sharded-GSM8K/1124_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/1124_0_1",
+    "sharded-GSM8K/1124_0_2",
+    "sharded-GSM8K/1124_0_3",
+    "sharded-GSM8K/1124_0_4",
+    "sharded-GSM8K/1124_1_1",
+    "sharded-GSM8K/1124_1_2",
+    "sharded-GSM8K/1124_1_3",
+    "sharded-GSM8K/1124_1_4",
+    "sharded-GSM8K/1124_1_5",
+    "sharded-GSM8K/1124_2_1",
+    "sharded-GSM8K/1124_2_2",
+    "sharded-GSM8K/1124_2_3",
+    "sharded-GSM8K/1124_2_4",
+    "sharded-GSM8K/1124_2_5"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-832-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| performance_type | performance_share |\n|------------------|-------------------|\n| Live final       | 0.4               |\n| Recorded         | 0.6               |\n| Broadcast        | 0.5               |\n| Webcast          | 0.3               |\n\nHighlighted:\n- Live final\n- performance_share\n\nContext:\n- Exclude performances of type 'Live final'\n\nInstruction:\nIdentify the minimum and maximum share of the filtered performances.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

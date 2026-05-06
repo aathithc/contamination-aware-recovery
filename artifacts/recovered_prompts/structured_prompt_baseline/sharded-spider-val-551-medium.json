@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-551-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| transcript_id | course_results | transcript_date |\n|---------------|----------------|------------------|\n\nHighlighted:\ntranscript_id, transcript_date\n\nContext:\nUser is looking for transcripts that have at least 2 course results, and wants to include the date and ID associated with each transcript.\n\nInstruction:\nProvide a SQL query to retrieve transcripts with at least 2 course results, including transcript ID and date.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

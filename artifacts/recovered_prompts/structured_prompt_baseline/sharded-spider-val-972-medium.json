@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-972-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| First Name | Last Name | Email Address | State         |\n|------------|-----------|---------------|---------------|\n|            |           |               | North Dakota  |\n|            |           |               | North Carolina |\n\nHighlighted:\n[First Name, Last Name, Email Address, State]\n\nContext:\nThe user wants to focus on owners who reside in states that include the word 'North'.\n\nInstruction:\nCompile a list of owners including their first name, last name, and email address from states whose names include the word 'North'.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,262 @@
+{
+  "conversation_id": "sharded-GSM8K/739",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/739_0_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Cecelia went shopping at the milk store.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I do not have enough details to determine how much Cecelia spent on milk jars.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We need to know how many milk jars Cecelia bought.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_2",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We need to know the price per milk jar.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_3",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We need to know if she bought anything else besides the milk jars.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_4",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We need to know the total amount she spent at the milk store.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_2_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The gallon jar is priced $2 higher than the half-gallon jar.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_3_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The price of the gallon jar is $2 higher than the price of the half-gallon jar.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_3_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Assuming the price of the half-gallon jar is $x, then the price of the gallon jar is $x + $2.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_4_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "For reference, a gallon jar costs $5.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_5_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The price of the half-gallon jar is $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_5_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total amount spent = (Number of half-gallon jars × $3) + (Number of gallon jars × $5).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_6_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "She bought 10 gallon jars.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_7_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total amount spent = $50 (for the 10 gallon jars).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_8_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 8,
+      "source": "user",
+      "type": "fact",
+      "text": "She also purchased 16 half-gallon jars.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_9_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 9,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total amount Cecelia spent on the milk jars is $98.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/739_0_0",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "User fact leads to assistant's request for more information."
+    },
+    {
+      "source": "sharded-GSM8K/739_1_1",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "Need for details supports assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/739_1_2",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "Price inquiry supports assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/739_1_3",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "Additional purchase inquiry supports assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/739_1_4",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "Total amount inquiry supports assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/739_2_0",
+      "target": "sharded-GSM8K/739_3_0",
+      "type": "supports",
+      "rationale": "User fact provides context for assistant's price assumption."
+    },
+    {
+      "source": "sharded-GSM8K/739_3_1",
+      "target": "sharded-GSM8K/739_5_0",
+      "type": "derived_from",
+      "rationale": "Price relationship leads to conclusion about half-gallon price."
+    },
+    {
+      "source": "sharded-GSM8K/739_5_1",
+      "target": "sharded-GSM8K/739_5_0",
+      "type": "supports",
+      "rationale": "Spending formula based on accepted prices."
+    },
+    {
+      "source": "sharded-GSM8K/739_4_0",
+      "target": "sharded-GSM8K/739_6_0",
+      "type": "supports",
+      "rationale": "Jar quantity supports cost calculation."
+    },
+    {
+      "source": "sharded-GSM8K/739_6_0",
+      "target": "sharded-GSM8K/739_7_0",
+      "type": "supports",
+      "rationale": "Cecelia buying jars leads to a total cost calculation."
+    },
+    {
+      "source": "sharded-GSM8K/739_8_0",
+      "target": "sharded-GSM8K/739_9_0",
+      "type": "supports",
+      "rationale": "Final jar purchase leads to total expenditure."
+    }
+  ],
+  "attributes": {}
+}

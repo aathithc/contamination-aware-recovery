@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1124",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Name  | Initial Stickers | Given Away | Used Up | Remaining |\n|-------|------------------|------------|---------|-----------|\n| Seth  | 2x               | x          |         | x        |\n| Luis  |                  | x/2        | x/4     | x/4      |\n| Kris  |                  |            |         | 9        |\n| Rob   |                  |            |         | 7        |\n\nHighlighted:\n- 9\n- 7\n\nContext:\n- Seth started with 2x stickers.\n- Luis received x/2 stickers from Seth.\n- Luis used up half of the stickers he got from Seth.\n\nInstruction:\nSummarize the final distribution of stickers among Seth, Luis, Kris, and Rob.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

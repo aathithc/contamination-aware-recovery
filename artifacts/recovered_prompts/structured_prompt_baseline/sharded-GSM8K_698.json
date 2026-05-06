@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/698",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Item                  | Amount       |\n|-----------------------|--------------|\n| Monthly Paycheck      | $2,400.00    |\n| Total Deductions      | $663.60      |\n| Remaining After Deductions | $1,736.40 |\n| Retirement Account     | $1,200.00    |\n| Remaining After Retirement | $1,200.00 |\n| Car Payment           | $480.00      |\n| Remaining After Car Payment | $720.00  |\n\nHighlighted:\n- $2,400.00\n- $663.60\n- $1,736.40\n- $1,200.00\n- $480.00\n- $720.00\n\nContext:\nGreta's deductions include contributions to her retirement account and her car payment.\n\nInstruction:\nCalculate the final amount Greta has after all deductions.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

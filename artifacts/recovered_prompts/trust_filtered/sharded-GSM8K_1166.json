@@ -1,0 +1,31 @@
+{
+  "conversation_id": "sharded-GSM8K/1166",
+  "method": "trust_filtered",
+  "prompt": "A 5-year-old avocado tree produces 50 fruits normally.\nThe average production per year would be 10 fruits per year.\nA total of 100 fruits will be produced over 10 years.\nWhen the tree is 6 years old, it produces 3 times the initial 5-year amount.\nWhen the tree is 6 years old, it produces 150 fruits.\nThe average production per year is 90 fruits.\nA total of 900 fruits will be produced over 10 years.\nAt age 7, it starts producing 7 times the 5-year-old amount.\nWhen the tree is 7 years old, it produces 350 fruits.\nThe average production per year is 160 fruits.\nA total of 1,600 fruits will be produced over 10 years.\nFor an 8-year-old tree, it produces 200 fewer fruits than a 10-year-old tree.\nWhen the tree is 8 years old, it produces 40 fruits.\nThe average production per year is 142 fruits.\nA total of 1,420 fruits will be produced over 10 years.\nIn its ninth year, the tree doesn't produce any fruit at all.\nIn the ninth year, the tree doesn't produce any fruit.\nThe average production per year is 110 fruits.\nA total of 1,100 fruits will be produced over 10 years.\nA 10-year-old tree will produce 20 times the 5-year-old amount.\nA 10-year-old tree will produce 1,000 fruits.\nThe average production per year is 255 fruits.\nA total of 2,550 fruits will be produced over 10 years.",
+  "included_node_ids": [
+    "sharded-GSM8K/1166_0_0",
+    "sharded-GSM8K/1166_0_1",
+    "sharded-GSM8K/1166_0_2",
+    "sharded-GSM8K/1166_1_0",
+    "sharded-GSM8K/1166_1_1",
+    "sharded-GSM8K/1166_1_2",
+    "sharded-GSM8K/1166_1_3",
+    "sharded-GSM8K/1166_2_0",
+    "sharded-GSM8K/1166_2_1",
+    "sharded-GSM8K/1166_2_2",
+    "sharded-GSM8K/1166_2_3",
+    "sharded-GSM8K/1166_3_0",
+    "sharded-GSM8K/1166_3_1",
+    "sharded-GSM8K/1166_3_2",
+    "sharded-GSM8K/1166_3_3",
+    "sharded-GSM8K/1166_4_0",
+    "sharded-GSM8K/1166_4_1",
+    "sharded-GSM8K/1166_4_2",
+    "sharded-GSM8K/1166_4_3",
+    "sharded-GSM8K/1166_5_0",
+    "sharded-GSM8K/1166_5_1",
+    "sharded-GSM8K/1166_5_2",
+    "sharded-GSM8K/1166_5_3"
+  ],
+  "excluded_node_ids": []
+}

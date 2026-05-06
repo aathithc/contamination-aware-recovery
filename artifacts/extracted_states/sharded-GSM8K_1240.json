@@ -1,0 +1,150 @@
+{
+  "conversation_id": "sharded-GSM8K/1240",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1240_0_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Elly is organizing her books on bookcases her parents got her.",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_1_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each of the two middle shelves can hold 10 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_2_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The bottom shelf holds twice as many books as one middle shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_3_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The top shelf can hold 5 fewer books than the bottom shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_4_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Elly has a total of 110 books to organize.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_0_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Assuming Elly has a specific number of bookcases.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_1_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total capacity would be 30 books per bookcase.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_2_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total capacity per bookcase = 40 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_3_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total capacity per bookcase = 55 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_4_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Elly needs 2 bookcases to organize her book collection of 110 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1240_0_0",
+      "target": "sharded-GSM8K/1240_0_1",
+      "type": "supports",
+      "rationale": "user fact provides context for assistant's assumption"
+    },
+    {
+      "source": "sharded-GSM8K/1240_1_0",
+      "target": "sharded-GSM8K/1240_1_1",
+      "type": "supports",
+      "rationale": "user fact contributes to assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1240_2_0",
+      "target": "sharded-GSM8K/1240_2_1",
+      "type": "supports",
+      "rationale": "user fact informs assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1240_3_0",
+      "target": "sharded-GSM8K/1240_3_1",
+      "type": "supports",
+      "rationale": "user fact contributes to assistant's derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1240_4_0",
+      "target": "sharded-GSM8K/1240_4_1",
+      "type": "supports",
+      "rationale": "user fact allows assistant to conclude the number of bookcases"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-782-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Country Code | Country Name | Type of Government |\n|--------------|--------------|---------------------|\n| ...          | ...          | ...                 |\n\nHighlighted:\n| Type of Government |\n| Not Republic       |\n\nContext:\n- Only include countries where English is not spoken.\n- Return country codes instead of names.\n- Focus on countries whose government forms are not Republic.\n\nInstruction:\nCreate a table that displays the country codes and types of government for countries where English is not spoken and whose government forms are not Republic.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

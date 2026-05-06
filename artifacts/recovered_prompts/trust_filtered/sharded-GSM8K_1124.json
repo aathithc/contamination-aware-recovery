@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-GSM8K/1124",
+  "method": "trust_filtered",
+  "prompt": "Seth decided to give away half of his stickers to Luis.\nSeth started with some number of stickers.\nThe number of stickers Seth gave away is x/2.\nThe number of stickers Seth has left is x/2.\nThe original number of stickers Seth started with was 2x.\nLuis then used up half of the stickers he got from Seth.\nSeth originally had x stickers.\nLuis received x/2 stickers from Seth.\nLuis used up x/4 stickers.\nLuis has x/4 stickers left.\nSeth started with 2x stickers.\nLuis handed over the remaining stickers to Kris.\nSeth originally had 2x stickers.\nSeth gave half (x) of his stickers to Luis.\nLuis used up half (x/4) of the stickers Seth gave him.\nLuis had x/4 stickers left.\nKris received x/4 stickers from Luis.\nKris kept 9 of the stickers for himself.\nKris gave the final 7 stickers to Rob.",
+  "included_node_ids": [
+    "sharded-GSM8K/1124_0_0",
+    "sharded-GSM8K/1124_0_1",
+    "sharded-GSM8K/1124_0_2",
+    "sharded-GSM8K/1124_0_3",
+    "sharded-GSM8K/1124_0_4",
+    "sharded-GSM8K/1124_1_0",
+    "sharded-GSM8K/1124_1_1",
+    "sharded-GSM8K/1124_1_2",
+    "sharded-GSM8K/1124_1_3",
+    "sharded-GSM8K/1124_1_4",
+    "sharded-GSM8K/1124_1_5",
+    "sharded-GSM8K/1124_2_0",
+    "sharded-GSM8K/1124_2_1",
+    "sharded-GSM8K/1124_2_2",
+    "sharded-GSM8K/1124_2_3",
+    "sharded-GSM8K/1124_2_4",
+    "sharded-GSM8K/1124_2_5",
+    "sharded-GSM8K/1124_3_0",
+    "sharded-GSM8K/1124_4_0"
+  ],
+  "excluded_node_ids": []
+}

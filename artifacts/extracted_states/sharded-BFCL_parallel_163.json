@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_163",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_163_0_0",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The player attempts 10 shots in the game",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_0_1",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[binomial_probability(n=10, p=0.6, k=6)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_1_0",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Calculate the probability that the player makes exactly 6 successful shots",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_1_1",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[binomial_probability(n=10, p=0.6, k=6)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_2_0",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Now, consider if the player's success rate drops to 50%, but the number of attempts remains at 10 shots",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_2_1",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[binomial_probability(n=10, p=0.5, k=6)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_3_0",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Finally, consider a scenario where the success rate is 50%, but the number of attempts increases to 15 shots",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_3_1",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "[binomial_probability(n=15, p=0.5, k=7)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_4_0",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Calculate the probability of making exactly 6 successful shots in all three scenarios",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_163_4_1",
+      "conversation_id": "sharded-BFCL/parallel_163",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here are the function calls for the three scenarios: [binomial_probability(n=10, p=0.6, k=6)] [binomial_probability(n=10, p=0.5, k=6)] [binomial_probability(n=15, p=0.5, k=7)]",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_163_0_0",
+      "target": "sharded-BFCL/parallel_163_0_1",
+      "type": "supports",
+      "rationale": "user introduces game scenario"
+    },
+    {
+      "source": "sharded-BFCL/parallel_163_1_0",
+      "target": "sharded-BFCL/parallel_163_1_1",
+      "type": "supports",
+      "rationale": "user asks for calculation based on provided scenario"
+    },
+    {
+      "source": "sharded-BFCL/parallel_163_2_0",
+      "target": "sharded-BFCL/parallel_163_2_1",
+      "type": "supports",
+      "rationale": "user changes parameters for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_163_3_0",
+      "target": "sharded-BFCL/parallel_163_3_1",
+      "type": "supports",
+      "rationale": "user introduces a new scenario for calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_163_4_0",
+      "target": "sharded-BFCL/parallel_163_4_1",
+      "type": "supports",
+      "rationale": "user asks for probabilities of multiple scenarios"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/477",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Allergy Type      | Number of Kids |\n|-------------------|----------------|\n| Dairy Allergy      | 9              |\n| Peanut Allergy     | 6              |\n| Both Allergies     | 3              |\n| Total Kids in Class| 32             |\n| Kids Not Allergic  | 20             |\n\nHighlighted:\n- Dairy Allergy: 9\n- Peanut Allergy: 6\n- Both Allergies: 3\n- Total Kids in Class: 32\n- Kids Not Allergic: 20\n\nContext:\n- 9 kids have a dairy allergy\n- 6 kids are allergic to peanuts\n- 3 kids are allergic to both dairy and peanuts\n- The entire class consists of 32 kids\n\nInstruction:\nCalculate the number of kids not allergic to anything.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

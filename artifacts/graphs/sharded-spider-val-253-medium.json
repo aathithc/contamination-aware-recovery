@@ -1,0 +1,107 @@
+{
+  "conversation_id": "sharded-spider-val-253-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-253-medium_0_0",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The destination city should specifically be Aberdeen.",
+      "entities": [
+        "Aberdeen"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-253-medium_1_0",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter the flights to include only those that are arriving at that destination.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-253-medium_1_1",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Let's build a SQL query to look up flights arriving at the destination city of Aberdeen.",
+      "entities": [
+        "Aberdeen"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-253-medium_1_2",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The SQL query retrieves details for flights arriving at Aberdeen (ABZ) airport.",
+      "entities": [
+        "ABZ",
+        "Aberdeen"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-spider-val-253-medium_2_0",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Return the flight numbers for the filtered flights.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-253-medium_2_1",
+      "conversation_id": "sharded-spider-val-253-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Here's an updated SQL query that will return just the flight numbers for flights arriving at Aberdeen.",
+      "entities": [
+        "Aberdeen"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-253-medium_0_0",
+      "target": "sharded-spider-val-253-medium_1_1",
+      "type": "supports",
+      "rationale": "User specifies destination which assistant considers."
+    },
+    {
+      "source": "sharded-spider-val-253-medium_1_0",
+      "target": "sharded-spider-val-253-medium_1_1",
+      "type": "supports",
+      "rationale": "User's filter request is acknowledged by assistant."
+    },
+    {
+      "source": "sharded-spider-val-253-medium_1_1",
+      "target": "sharded-spider-val-253-medium_2_1",
+      "type": "supports",
+      "rationale": "Flight retrieval process continues with updated query."
+    },
+    {
+      "source": "sharded-spider-val-253-medium_1_2",
+      "target": "sharded-spider-val-253-medium_2_1",
+      "type": "supports",
+      "rationale": "Assistant's initial SQL context supports user's request."
+    }
+  ],
+  "attributes": {}
+}

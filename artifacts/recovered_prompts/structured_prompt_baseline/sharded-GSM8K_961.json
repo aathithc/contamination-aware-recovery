@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/961",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Name    | Number of Chips |\n|---------|-----------------|\n| Amora   | 70              |\n| Lainey  | 70              |\n| Collins | 85              |\n| Total   | 225             |\n\nHighlighted:\n| Amora | Lainey | Collins |\n\nContext:\nOnly two of them could get the same number of corn chips. The third person ended up with 15 more corn chips than the others. \n\nInstruction:\nCalculate and present the total number of corn chips shared among Amora, Lainey, and Collins.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

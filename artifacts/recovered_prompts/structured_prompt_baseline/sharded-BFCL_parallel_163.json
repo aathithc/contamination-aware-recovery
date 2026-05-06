@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_163",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Attempts | Success Rate | Successful Shots |\n|----------|---------------|------------------|\n| 10       | 0.6           | 6                |\n| 10       | 0.5           | 6                |\n| 15       | 0.5           | 7                |\n\nHighlighted:\n| 10, 0.6, 6 |\n| 10, 0.5, 6 |\n| 15, 0.5, 7 |\n\nContext:\nNone\n\nInstruction:\nCalculate the probability of making exactly 6 successful shots in all three scenarios.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

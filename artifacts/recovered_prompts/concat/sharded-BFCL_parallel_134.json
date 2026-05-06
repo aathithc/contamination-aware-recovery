@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_134",
+  "method": "concat",
+  "prompt": "This is for four individuals\nThe first person weighs 85 kilograms and is 175 centimeters tall\nThe second person weighs 60 kilograms and is 160 centimeters tall\nThe third person weighs 75 kilograms and is 180 centimeters tall\nThe fourth person weighs 90 kilograms and is 185 centimeters tall",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_134_0_0",
+    "sharded-BFCL/parallel_134_1_0",
+    "sharded-BFCL/parallel_134_2_0",
+    "sharded-BFCL/parallel_134_3_0",
+    "sharded-BFCL/parallel_134_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_134_0_1",
+    "sharded-BFCL/parallel_134_1_1",
+    "sharded-BFCL/parallel_134_2_1",
+    "sharded-BFCL/parallel_134_3_1",
+    "sharded-BFCL/parallel_134_4_1"
+  ]
+}

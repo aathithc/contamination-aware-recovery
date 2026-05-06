@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-265-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| City        | Number of Employees Under 30 |\n|-------------|-------------------------------|\n| New York    | 5                             |\n| Los Angeles | 3                             |\n| Chicago     | 2                             |\n\nHighlighted:\n| New York | 5 |\n| Los Angeles | 3 |\n\nContext:\nThe employees in question should be under the age of 30.\n\nInstruction:\nIdentify the cities where there are multiple employees under the age of 30.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

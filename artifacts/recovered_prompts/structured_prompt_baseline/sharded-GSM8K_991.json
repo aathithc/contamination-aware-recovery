@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/991",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Event                     | Year  | Bill's Age | Dad's Age |\n|---------------------------|-------|------------|-----------|\n| First Observed Comet Halley| 1986  | 10-20      | 30        |\n| Dad saw Comet Halley      | 1948  | 68         | 30        |\n| Bill's Second Observed Comet Halley | 2023  | 90         | N/A       |\n\nHighlighted:\n- Bill's age during first observation (10-20)\n- Dad's age during first observation (30)\n- Bill's age during second observation (90)\n\nContext:\n- Bill's dad saw the comet in 1948.\n- Bill's first sighting age ranges from 10 to 20 years old.\n- Bill's age at second sighting is 90.\n\nInstruction:\nSummarize the key details of Bill and his dad's observations of Comet Halley.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

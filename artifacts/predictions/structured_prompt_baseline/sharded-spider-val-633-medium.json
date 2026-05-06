@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-633-medium", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT channel_name, country\nFROM channels\nWHERE program_type = 'cartoon' AND writer = 'Todd Casey';\n```", "success": false, "baseline_success": true}

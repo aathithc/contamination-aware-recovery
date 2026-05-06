@@ -1,0 +1,278 @@
+{
+  "conversation_id": "sharded-GSM8K/1247",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1247_0_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Brendan started out with 10 marbles in a bag.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He tripped over a pebble while carrying the bag.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "When he tripped, he dropped half of the marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "After searching, he only managed to recover 3 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "When he checked, one of the items he picked up was actually a bead, not a marble.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "He decided to throw the bead away.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_0_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that Brendan started with 10 marbles in a bag, we can solve this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_0_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The answer depends on what happened to the 10 marbles Brendan started with.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that Brendan tripped over a pebble while carrying the bag of 10 marbles, let's continue solving this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The final number of marbles Brendan ended up with would be fewer than 10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that Brendan dropped half of the marbles when he tripped, let's solve this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "So Brendan dropped 5 marbles when he tripped.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that Brendan only managed to recover 3 of the 5 marbles he dropped, let's solve this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the total number of marbles Brendan ended up with is 8 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that one of the 3 items Brendan recovered was actually a bead, not a marble, let's solve this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the total number of marbles Brendan ended up with is 7 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "With the additional information that Brendan decided to throw the bead away, let's solve this step-by-step.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the total number of marbles Brendan ended up with is 7 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1247_0_0",
+      "target": "sharded-GSM8K/1247_0_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_0_2",
+      "target": "sharded-GSM8K/1247_0_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_1_0",
+      "target": "sharded-GSM8K/1247_1_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_1_2",
+      "target": "sharded-GSM8K/1247_1_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_2_0",
+      "target": "sharded-GSM8K/1247_2_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_2_2",
+      "target": "sharded-GSM8K/1247_2_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_3_0",
+      "target": "sharded-GSM8K/1247_3_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_3_2",
+      "target": "sharded-GSM8K/1247_3_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_4_0",
+      "target": "sharded-GSM8K/1247_4_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_4_2",
+      "target": "sharded-GSM8K/1247_4_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_5_0",
+      "target": "sharded-GSM8K/1247_5_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    },
+    {
+      "source": "sharded-GSM8K/1247_5_2",
+      "target": "sharded-GSM8K/1247_5_1",
+      "type": "supports",
+      "rationale": "user fact provides context"
+    }
+  ],
+  "attributes": {}
+}

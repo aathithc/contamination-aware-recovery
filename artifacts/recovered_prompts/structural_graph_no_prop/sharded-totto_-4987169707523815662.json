@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-totto_-4987169707523815662",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 1\n    Column: Name\n    Value: Luis A. Ferré\n    Highlighted: true\n  - Row: 1\n    Column: Term start\n    Value: 1967\n    Highlighted: true\n  - Row: 1\n    Column: Term end\n    Value: 1974\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Portrait, Name, Term start, Term end, Previous public posts\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-4987169707523815662_1_1",
+    "sharded-totto_-4987169707523815662_1_2",
+    "sharded-totto_-4987169707523815662_1_3",
+    "sharded-totto_-4987169707523815662_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-4987169707523815662_2_1",
+    "sharded-totto_-4987169707523815662_4_0",
+    "sharded-totto_-4987169707523815662_3_1",
+    "sharded-totto_-4987169707523815662_1_4",
+    "sharded-totto_-4987169707523815662_2_0",
+    "sharded-totto_-4987169707523815662_0_0",
+    "sharded-totto_-4987169707523815662_4_1",
+    "sharded-totto_-4987169707523815662_3_0"
+  ]
+}

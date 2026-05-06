@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-GSM8K/1246",
+  "method": "trust_filtered",
+  "prompt": "Ara has been on the school basketball team for four years now.\nAra plays 40 games per year on average.\nShe scores 21 points in each game.",
+  "included_node_ids": [
+    "sharded-GSM8K/1246_0_0",
+    "sharded-GSM8K/1246_1_0",
+    "sharded-GSM8K/1246_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/1246_0_1",
+    "sharded-GSM8K/1246_1_1",
+    "sharded-GSM8K/1246_2_1"
+  ]
+}

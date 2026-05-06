@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/307", "method": "concat", "prediction": "If Joey loses 8 pounds in 4 weeks, he loses 2 pounds per week. Since Sandy takes 4 weeks to match Joey's 8 pounds, she also loses 8 pounds in that time. Thus, Sandy's weight loss rate is 2 pounds per week as well.", "success": true, "baseline_success": false}

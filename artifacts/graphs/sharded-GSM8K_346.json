@@ -1,0 +1,245 @@
+{
+  "conversation_id": "sharded-GSM8K/346",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/346_0_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny buys one bag of cookies every week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_0_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "If we assume a standard size bag of cookies contains around 20-25 cookies on average, then: Jenny buys 1 bag of cookies per week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_0_2",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats approximately 20-25 cookies per week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_1_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each bag contains 36 cookies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_1_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Therefore, Jenny eats 36 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_2_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny puts 4 cookies in her son's lunchbox.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_2_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jenny eats 16 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_3_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "She makes a lunchbox 5 days a week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_3_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Therefore, Jenny eats 16 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_4_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Her husband eats one cookie every day.",
+      "entities": [
+        "her husband"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_4_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_5_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "The husband eats cookies even on the weekend.",
+      "entities": [
+        "the husband"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_5_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_6_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny eats whatever cookies are left over after this.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_6_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [
+        "Jenny"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/346_0_0",
+      "target": "sharded-GSM8K/346_0_1",
+      "type": "supports",
+      "rationale": "user states fact that assistant builds on"
+    },
+    {
+      "source": "sharded-GSM8K/346_0_1",
+      "target": "sharded-GSM8K/346_0_2",
+      "type": "supports",
+      "rationale": "assistant estimates based on assumption"
+    },
+    {
+      "source": "sharded-GSM8K/346_1_0",
+      "target": "sharded-GSM8K/346_1_1",
+      "type": "supports",
+      "rationale": "user provides fact that assistant uses to derive conclusion"
+    },
+    {
+      "source": "sharded-GSM8K/346_2_0",
+      "target": "sharded-GSM8K/346_2_1",
+      "type": "supports",
+      "rationale": "user provides additional information impacting calculation"
+    },
+    {
+      "source": "sharded-GSM8K/346_3_0",
+      "target": "sharded-GSM8K/346_3_1",
+      "type": "supports",
+      "rationale": "user modifies earlier claim that affects result"
+    },
+    {
+      "source": "sharded-GSM8K/346_4_0",
+      "target": "sharded-GSM8K/346_4_1",
+      "type": "supports",
+      "rationale": "user provides additional context for calculation"
+    },
+    {
+      "source": "sharded-GSM8K/346_5_0",
+      "target": "sharded-GSM8K/346_5_1",
+      "type": "supports",
+      "rationale": "user provides clarification affecting outcome"
+    },
+    {
+      "source": "sharded-GSM8K/346_6_0",
+      "target": "sharded-GSM8K/346_6_1",
+      "type": "supports",
+      "rationale": "user states conclusion that assistant confirms"
+    }
+  ],
+  "attributes": {}
+}

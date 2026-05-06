@@ -1,0 +1,107 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_46",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_46_0_0",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "The user wants to find the winning percentage of the Bulls.",
+      "entities": [
+        "Bulls"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_46_0_1",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Retrieve winning percentage for Bulls.",
+      "entities": [
+        "Bulls"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_46_1_0",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The user focuses on the NBA season 2018.",
+      "entities": [
+        "2018"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_46_1_1",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Retrieve winning percentage for Lakers in 2018.",
+      "entities": [
+        "Lakers",
+        "2018"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_46_2_0",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The user wants to include results from the NBA season 2020.",
+      "entities": [
+        "2020"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_46_2_1",
+      "conversation_id": "sharded-BFCL/parallel_46",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "structural_record",
+      "text": "Retrieve winning percentage for Lakers in 2018 and 2020.",
+      "entities": [
+        "Lakers",
+        "2018",
+        "2020"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_46_0_0",
+      "target": "sharded-BFCL/parallel_46_0_1",
+      "type": "supports",
+      "rationale": "User request supports assistant's action."
+    },
+    {
+      "source": "sharded-BFCL/parallel_46_1_0",
+      "target": "sharded-BFCL/parallel_46_1_1",
+      "type": "supports",
+      "rationale": "User request supports assistant's action."
+    },
+    {
+      "source": "sharded-BFCL/parallel_46_2_0",
+      "target": "sharded-BFCL/parallel_46_2_1",
+      "type": "supports",
+      "rationale": "User request supports assistant's action."
+    }
+  ],
+  "attributes": {}
+}

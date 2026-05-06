@@ -1,0 +1,159 @@
+{
+  "conversation_id": "sharded-spider-val-787-hard",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-787-hard_0_0",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to list all the different names the cities might be known by.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_0_1",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To get a list of all the different names that Asian cities might be known by, we would need to query a database.",
+      "entities": [
+        "Asian cities"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_0_2",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The SQL query to retrieve this information selects distinct city names and alternative names from city_data where the continent is Asia.",
+      "entities": [
+        "city_data",
+        "Asia"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_1_0",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to restrict the cities to those located in Asia.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_1_1",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To restrict the results to only Asian cities, we add a WHERE clause to the SQL query.",
+      "entities": [
+        "Asian cities"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_1_2",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The updated SQL query will return a list of all the city names and their alternative names for cities in Asia.",
+      "entities": [
+        "Asia"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_2_0",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "User wants to focus on cities for which Chinese is an official language.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_2_1",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To focus the analysis on Asian cities where Chinese is an official language, we can modify the SQL query.",
+      "entities": [
+        "Asian cities",
+        "Chinese"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-787-hard_2_2",
+      "conversation_id": "sharded-spider-val-787-hard",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The SQL query selects distinct city names and alternative names from city_data where the continent is Asia and official_languages includes Chinese.",
+      "entities": [
+        "city_data",
+        "Asia",
+        "Chinese"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-787-hard_0_0",
+      "target": "sharded-spider-val-787-hard_0_1",
+      "type": "supports",
+      "rationale": "User's request supports assistant's analysis."
+    },
+    {
+      "source": "sharded-spider-val-787-hard_0_1",
+      "target": "sharded-spider-val-787-hard_0_2",
+      "type": "supports",
+      "rationale": "Assistant's explanation derives from the initial request."
+    },
+    {
+      "source": "sharded-spider-val-787-hard_1_0",
+      "target": "sharded-spider-val-787-hard_1_1",
+      "type": "supports",
+      "rationale": "User's request for restriction supports assistant's analysis."
+    },
+    {
+      "source": "sharded-spider-val-787-hard_1_1",
+      "target": "sharded-spider-val-787-hard_1_2",
+      "type": "supports",
+      "rationale": "Assistant's explanation derives from the user's restriction."
+    },
+    {
+      "source": "sharded-spider-val-787-hard_2_0",
+      "target": "sharded-spider-val-787-hard_2_1",
+      "type": "supports",
+      "rationale": "User's focus supports assistant's analysis."
+    },
+    {
+      "source": "sharded-spider-val-787-hard_2_1",
+      "target": "sharded-spider-val-787-hard_2_2",
+      "type": "supports",
+      "rationale": "Assistant's explanation derives from the user's focus."
+    }
+  ],
+  "attributes": {}
+}

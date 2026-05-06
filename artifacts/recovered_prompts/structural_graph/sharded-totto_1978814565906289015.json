@@ -1,26 +1,21 @@
 {
   "conversation_id": "sharded-totto_1978814565906289015",
   "method": "structural_graph",
-  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 48th Grand Bell Awards\n    Column: Award\n    Value: 48th Grand Bell Awards\n    Highlighted: true\n  - Row: Best Actress\n    Column: Category\n    Value: Best Actress\n    Highlighted: true\n  - Row: Kim Hye-soo\n    Column: Recipient\n    Value: Kim Hye-soo\n    Highlighted: true\n  - Row: Nominated\n    Column: Result\n    Value: Nominated\n    Highlighted: true\n  - Row: 32nd Blue Dragon Film Awards\n    Column: Award\n    Value: 32nd Blue Dragon Film Awards\n    Highlighted: true\n  - Row: Nominated\n    Column: Result\n    Value: Nominated\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 48th Grand Bell Awards\n    Column: Best Actress\n    Value: Kim Hye-soo\n    Highlighted: true\n  - Row: 32nd Blue Dragon Film Awards\n    Column: Best Actress\n    Value: Nominated\n    Highlighted: true\nSupporting context:\n  - Table columns: Award, Category, Recipient, Result\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
   "included_node_ids": [
     "sharded-totto_1978814565906289015_1_1",
     "sharded-totto_1978814565906289015_1_2",
-    "sharded-totto_1978814565906289015_1_3",
-    "sharded-totto_1978814565906289015_1_4",
-    "sharded-totto_1978814565906289015_1_5",
-    "sharded-totto_1978814565906289015_1_6",
-    "sharded-totto_1978814565906289015_0_0"
+    "sharded-totto_1978814565906289015_1_0"
   ],
   "excluded_node_ids": [
-    "sharded-totto_1978814565906289015_1_7",
-    "sharded-totto_1978814565906289015_2_0",
-    "sharded-totto_1978814565906289015_3_0",
     "sharded-totto_1978814565906289015_4_0",
-    "sharded-totto_1978814565906289015_1_0",
-    "sharded-totto_1978814565906289015_1_9",
-    "sharded-totto_1978814565906289015_1_8",
-    "sharded-totto_1978814565906289015_3_1",
+    "sharded-totto_1978814565906289015_3_0",
+    "sharded-totto_1978814565906289015_0_0",
+    "sharded-totto_1978814565906289015_2_0",
+    "sharded-totto_1978814565906289015_1_3",
     "sharded-totto_1978814565906289015_4_1",
-    "sharded-totto_1978814565906289015_2_1"
+    "sharded-totto_1978814565906289015_1_4",
+    "sharded-totto_1978814565906289015_2_1",
+    "sharded-totto_1978814565906289015_3_1"
   ]
 }

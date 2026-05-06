@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/107",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Day       | Show Type            | Duration  | Number of Episodes |\n|-----------|----------------------|-----------|--------------------|\n| Monday    | Favorite show        | 1 hour    | 1                  |\n| Tuesday   | Favorite show        | 1 hour    | 1                  |\n| Wednesday | 30-minute show       | 1.5 hours | 3                  |\n| Thursday  | Favorite show        | 1 hour    | 1                  |\n| Thursday  | 30-minute show       | 0.5 hours | 1                  |\n| Friday    | Favorite show        | 2 hours   | 2                  |\n\nHighlighted:\nNone\n\nContext:\nFrankie watched a total of 7 hours during the week.\n\nInstruction:\nSummarize the total viewing time and episodes watched per day.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

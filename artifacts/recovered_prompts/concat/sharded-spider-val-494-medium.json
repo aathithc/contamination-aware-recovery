@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-spider-val-494-medium",
+  "method": "concat",
+  "prompt": "The death toll is considered for each specific event or instance.\nFind the minimum death toll recorded for any given instance.\nRetrieve the maximum death toll recorded for any given instance.",
+  "included_node_ids": [
+    "sharded-spider-val-494-medium_0_0",
+    "sharded-spider-val-494-medium_1_0",
+    "sharded-spider-val-494-medium_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-spider-val-494-medium_0_1",
+    "sharded-spider-val-494-medium_1_1",
+    "sharded-spider-val-494-medium_2_1"
+  ]
+}

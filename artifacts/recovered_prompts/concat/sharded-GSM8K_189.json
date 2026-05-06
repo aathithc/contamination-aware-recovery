@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/189",
+  "method": "concat",
+  "prompt": "The three friends spent $20.25 on 3 fair tickets together.\nOn food, they spent $4.50 less than the cost of the tickets.\nThey went on two rides at the fair.\nEach of the rides was $3.\nAll the costs were split evenly between the three friends.",
+  "included_node_ids": [
+    "sharded-GSM8K/189_0_0",
+    "sharded-GSM8K/189_1_0",
+    "sharded-GSM8K/189_2_0",
+    "sharded-GSM8K/189_3_0",
+    "sharded-GSM8K/189_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/189_0_1",
+    "sharded-GSM8K/189_1_1",
+    "sharded-GSM8K/189_1_2",
+    "sharded-GSM8K/189_2_1",
+    "sharded-GSM8K/189_3_1",
+    "sharded-GSM8K/189_4_1",
+    "sharded-GSM8K/189_4_2"
+  ]
+}

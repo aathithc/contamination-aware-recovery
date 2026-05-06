@@ -1,0 +1,15 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_46",
+  "method": "concat",
+  "prompt": "The user wants to find the winning percentage of the Bulls.\nThe user focuses on the NBA season 2018.\nThe user wants to include results from the NBA season 2020.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_46_0_0",
+    "sharded-BFCL/parallel_46_1_0",
+    "sharded-BFCL/parallel_46_2_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_46_0_1",
+    "sharded-BFCL/parallel_46_1_1",
+    "sharded-BFCL/parallel_46_2_1"
+  ]
+}

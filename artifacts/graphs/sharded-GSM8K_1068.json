@@ -1,0 +1,239 @@
+{
+  "conversation_id": "sharded-GSM8K/1068",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1068_0_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Each meatball sub contains 4 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_0_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Each meatball sub contains 4 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Sidney originally ordered 3 fewer than 10 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Sidney originally ordered 7 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs = 7 sub sandwiches × 4 meatballs per sub = 28 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Meatballs left = 28 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Mark ate 4 of Sidney's sub sandwiches from the first order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Sub sandwiches remaining = 7 - 4 = 3 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs remaining = 3 sub sandwiches × 4 meatballs per sub = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Meatballs left = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Sidney ordered 3 more sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs remaining from original order = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs in new sub sandwiches = 3 sub sandwiches × 4 meatballs per sub = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs left = 12 + 12 = 24 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_4",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Meatballs left = 24 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1068_0_0",
+      "target": "sharded-GSM8K/1068_0_1",
+      "type": "supports",
+      "rationale": "user fact provides basis for assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_0",
+      "target": "sharded-GSM8K/1068_1_1",
+      "type": "supports",
+      "rationale": "user fact provides basis for assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_1",
+      "target": "sharded-GSM8K/1068_1_2",
+      "type": "supports",
+      "rationale": "previous calculation informs current calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_2",
+      "target": "sharded-GSM8K/1068_1_3",
+      "type": "supports",
+      "rationale": "calculation result provides answer"
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_0",
+      "target": "sharded-GSM8K/1068_2_1",
+      "type": "supports",
+      "rationale": "user fact provides basis for assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_1",
+      "target": "sharded-GSM8K/1068_2_2",
+      "type": "supports",
+      "rationale": "previous calculation informs current calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_2",
+      "target": "sharded-GSM8K/1068_2_3",
+      "type": "supports",
+      "rationale": "calculation result provides answer"
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_0",
+      "target": "sharded-GSM8K/1068_3_1",
+      "type": "supports",
+      "rationale": "user fact provides basis for assistant derivation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_1",
+      "target": "sharded-GSM8K/1068_3_2",
+      "type": "supports",
+      "rationale": "previous calculation informs current calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_2",
+      "target": "sharded-GSM8K/1068_3_3",
+      "type": "supports",
+      "rationale": "previous calculation informs current calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_3",
+      "target": "sharded-GSM8K/1068_3_4",
+      "type": "supports",
+      "rationale": "calculation result provides answer"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,245 @@
+{
+  "conversation_id": "sharded-spider-val-123-medium",
+  "nodes": [
+    {
+      "id": "sharded-spider-val-123-medium_0_0",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Filter the countries to include only those that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_1_0",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To get the list of manufacturing countries that have at least one car maker, you can use the following SQL query: SELECT DISTINCT country FROM manufacturing_data WHERE country IN (SELECT DISTINCT country FROM car_makers).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_1_1",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The inner query retrieves a list of all the countries that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_1_2",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The outer query filters the manufacturing_data table to only include the countries that are present in the list of car maker countries.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_2_0",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "For each country, also include its id in the result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_2_1",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To include the country ID along with the country name in the result, you can modify the query like this: SELECT m.country_id, m.country FROM manufacturing_data m WHERE m.country IN (SELECT DISTINCT c.country FROM car_makers c).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_2_2",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The main query selects the country_id and country columns from the manufacturing_data table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_2_3",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The WHERE clause filters the manufacturing_data table to only include the countries that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_2_4",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The subquery retrieves the list of distinct countries that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_0",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Return the name of each country in the result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_1",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "To return the name of each country instead of just the country code, you can modify the query like this: SELECT c.country_name, m.country FROM manufacturing_data m JOIN country_lookup c ON m.country = c.country_code WHERE m.country IN (SELECT DISTINCT c2.country FROM car_makers c2).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_2",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The main query selects the country_name column from the country_lookup table and the country column from the manufacturing_data table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_3",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The JOIN clause connects the manufacturing_data table with the country_lookup table.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_4",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The WHERE clause filters the manufacturing_data table to only include the countries that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-spider-val-123-medium_3_5",
+      "conversation_id": "sharded-spider-val-123-medium",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The subquery retrieves the list of distinct countries that have at least one car maker.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-spider-val-123-medium_0_0",
+      "target": "sharded-spider-val-123-medium_1_0",
+      "type": "supports",
+      "rationale": "user's request leads to assistant's answer"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_1_0",
+      "target": "sharded-spider-val-123-medium_1_1",
+      "type": "supports",
+      "rationale": "explanation of query inner workings"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_1_1",
+      "target": "sharded-spider-val-123-medium_1_2",
+      "type": "supports",
+      "rationale": "further explanation of the query"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_2_0",
+      "target": "sharded-spider-val-123-medium_2_1",
+      "type": "supports",
+      "rationale": "user's request for additional information"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_2_1",
+      "target": "sharded-spider-val-123-medium_2_2",
+      "type": "supports",
+      "rationale": "explaining modification of the query"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_2_2",
+      "target": "sharded-spider-val-123-medium_2_3",
+      "type": "supports",
+      "rationale": "describing the main query structure"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_2_3",
+      "target": "sharded-spider-val-123-medium_2_4",
+      "type": "supports",
+      "rationale": "continuing explanation of the query logic"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_3_0",
+      "target": "sharded-spider-val-123-medium_3_1",
+      "type": "supports",
+      "rationale": "user's request for country names"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_3_1",
+      "target": "sharded-spider-val-123-medium_3_2",
+      "type": "supports",
+      "rationale": "explaining query adjustment"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_3_2",
+      "target": "sharded-spider-val-123-medium_3_3",
+      "type": "supports",
+      "rationale": "describing the JOIN operation"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_3_3",
+      "target": "sharded-spider-val-123-medium_3_4",
+      "type": "supports",
+      "rationale": "progressing the logic of the explanation"
+    },
+    {
+      "source": "sharded-spider-val-123-medium_3_4",
+      "target": "sharded-spider-val-123-medium_3_5",
+      "type": "supports",
+      "rationale": "continuing to clarify the subquery role"
+    }
+  ],
+  "attributes": {}
+}

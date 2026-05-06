@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1068",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Quantity of Sub Sandwiches | Meatballs per Sub | Total Meatballs | Meatballs Left |\n|----------------------------|-------------------|------------------|-----------------|\n| 7                          | 4                 | 28               | 12              |\n| 3                          | 4                 | 12               | 24              |\n\nHighlighted:\n- 4 meatballs per sub\n- 7 sub sandwiches\n- 28 meatballs\n- 3 sub sandwiches\n- 12 meatballs\n- 24 meatballs\n\nContext:\n- Sidney initially ordered 3 fewer than 10 sub sandwiches.\n- Sidney ordered 3 more sub sandwiches after Mark ate some.\n\nInstruction:\nCalculate the total meatballs after Sidney's additional order.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

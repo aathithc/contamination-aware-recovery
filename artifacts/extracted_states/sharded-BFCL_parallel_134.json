@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_134",
+  "nodes": [
+    {
+      "id": "sharded-BFCL/parallel_134_0_0",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "This is for four individuals",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_0_1",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The function calls would be for four individuals.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_1_0",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The first person weighs 85 kilograms and is 175 centimeters tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_1_1",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The function call for the first person would be.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_2_0",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The second person weighs 60 kilograms and is 160 centimeters tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_2_1",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The function call for the second person would be.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_3_0",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The third person weighs 75 kilograms and is 180 centimeters tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_3_1",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The function call for the third person would be.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_4_0",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The fourth person weighs 90 kilograms and is 185 centimeters tall",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-BFCL/parallel_134_4_1",
+      "conversation_id": "sharded-BFCL/parallel_134",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The function call for the fourth person would be.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-BFCL/parallel_134_0_0",
+      "target": "sharded-BFCL/parallel_134_0_1",
+      "type": "supports",
+      "rationale": "user states context for BMI calculations"
+    },
+    {
+      "source": "sharded-BFCL/parallel_134_1_0",
+      "target": "sharded-BFCL/parallel_134_1_1",
+      "type": "supports",
+      "rationale": "user provides data for BMI calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_134_2_0",
+      "target": "sharded-BFCL/parallel_134_2_1",
+      "type": "supports",
+      "rationale": "user provides data for BMI calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_134_3_0",
+      "target": "sharded-BFCL/parallel_134_3_1",
+      "type": "supports",
+      "rationale": "user provides data for BMI calculation"
+    },
+    {
+      "source": "sharded-BFCL/parallel_134_4_0",
+      "target": "sharded-BFCL/parallel_134_4_1",
+      "type": "supports",
+      "rationale": "user provides data for BMI calculation"
+    }
+  ],
+  "attributes": {}
+}

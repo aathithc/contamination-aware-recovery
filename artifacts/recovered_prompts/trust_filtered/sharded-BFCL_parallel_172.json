@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_172",
+  "method": "trust_filtered",
+  "prompt": "There are two different investment opportunities to evaluate.\nThe first investment has a present value of $5000.\nIt has an annual interest rate of 5%.\nI plan to hold the first investment for 10 years.\nThe second investment has a present value of $7000.\nIt has an annual interest rate of 4%.\nI plan to hold the second investment for 15 years.\nBoth investments compound interest annually.\nLet's use the finance.predict_future_value function to perform this calculation.",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_172_0_0",
+    "sharded-BFCL/parallel_172_1_0",
+    "sharded-BFCL/parallel_172_2_0",
+    "sharded-BFCL/parallel_172_3_0",
+    "sharded-BFCL/parallel_172_4_0",
+    "sharded-BFCL/parallel_172_5_0",
+    "sharded-BFCL/parallel_172_6_0",
+    "sharded-BFCL/parallel_172_7_0",
+    "sharded-BFCL/parallel_172_8_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_172_0_1",
+    "sharded-BFCL/parallel_172_1_1",
+    "sharded-BFCL/parallel_172_2_1",
+    "sharded-BFCL/parallel_172_3_1",
+    "sharded-BFCL/parallel_172_4_1",
+    "sharded-BFCL/parallel_172_5_1",
+    "sharded-BFCL/parallel_172_6_1",
+    "sharded-BFCL/parallel_172_7_1",
+    "sharded-BFCL/parallel_172_8_1"
+  ]
+}

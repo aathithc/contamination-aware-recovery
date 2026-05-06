@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-253-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Flight Number | Departure City | Arrival City | Departure Time | Arrival Time |\n|---------------|----------------|---------------|----------------|---------------|\n| AB123         | London         | Aberdeen      | 10:00          | 11:30         |\n| AB456         | Manchester     | Aberdeen      | 12:00          | 13:30         |\n| AB789         | Edinburgh      | Aberdeen      | 14:00          | 15:30         |\n\nHighlighted:\n| Flight Number |\n|---------------|\n| AB123         |\n| AB456         |\n| AB789         |\n\nContext:\nThe destination city should specifically be Aberdeen.\n\nInstruction:\nReturn the flight numbers for the filtered flights.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

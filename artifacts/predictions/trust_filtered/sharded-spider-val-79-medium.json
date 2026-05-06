@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-79-medium", "method": "trust_filtered", "prediction": "Group the students by the number of pets they have, including only those with at least one pet.", "success": false, "baseline_success": false}

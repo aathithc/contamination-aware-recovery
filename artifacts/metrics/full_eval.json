@@ -1,0 +1,203 @@
+{
+  "cost_usd": 0.00646,
+  "haiku_d2t": {
+    "concat": {
+      "acc": 0.6667,
+      "ci_lo": 0.4667,
+      "ci_hi": 0.8333,
+      "rescue": 0.3667,
+      "harm": 0.0667,
+      "net": 0.3,
+      "delta": 0.3,
+      "n": 30,
+      "ci_excludes_zero": true
+    },
+    "trust_filtered": {
+      "acc": 0.6667,
+      "ci_lo": 0.5,
+      "ci_hi": 0.8333,
+      "rescue": 0.3667,
+      "harm": 0.0667,
+      "net": 0.3,
+      "delta": 0.3,
+      "n": 30,
+      "ci_excludes_zero": true
+    },
+    "structural_graph": {
+      "acc": 0.8667,
+      "ci_lo": 0.7333,
+      "ci_hi": 0.9667,
+      "rescue": 0.5333,
+      "harm": 0.0333,
+      "net": 0.5,
+      "delta": 0.5,
+      "n": 30,
+      "ci_excludes_zero": true
+    },
+    "structured_prompt_baseline": {
+      "acc": 0.7667,
+      "ci_lo": 0.6,
+      "ci_hi": 0.9,
+      "rescue": 0.4333,
+      "harm": 0.0333,
+      "net": 0.4,
+      "delta": 0.4,
+      "n": 30,
+      "ci_excludes_zero": true
+    },
+    "structural_graph_no_prop": {
+      "acc": 0.8667,
+      "ci_lo": 0.7333,
+      "ci_hi": 0.9667,
+      "rescue": 0.5333,
+      "harm": 0.0333,
+      "net": 0.5,
+      "delta": 0.5,
+      "n": 30,
+      "ci_excludes_zero": true
+    }
+  },
+  "math": {
+    "concat": {
+      "acc": 0.62,
+      "ci_lo": 0.48,
+      "ci_hi": 0.76,
+      "rescue": 0.26,
+      "harm": 0.12,
+      "net": 0.14,
+      "delta": 0.14,
+      "n": 50,
+      "ci_excludes_zero": false
+    },
+    "trust_filtered": {
+      "acc": 0.36,
+      "ci_lo": 0.24,
+      "ci_hi": 0.48,
+      "rescue": 0.16,
+      "harm": 0.28,
+      "net": -0.12,
+      "delta": -0.12,
+      "n": 50,
+      "ci_excludes_zero": false
+    },
+    "structural_graph": {
+      "acc": 0.9,
+      "ci_lo": 0.82,
+      "ci_hi": 0.98,
+      "rescue": 0.44,
+      "harm": 0.02,
+      "net": 0.42,
+      "delta": 0.42,
+      "n": 50,
+      "ci_excludes_zero": true
+    },
+    "structured_prompt_baseline": {
+      "acc": 0.32,
+      "ci_lo": 0.2,
+      "ci_hi": 0.44,
+      "rescue": 0.14,
+      "harm": 0.3,
+      "net": -0.16,
+      "delta": -0.16,
+      "n": 50,
+      "ci_excludes_zero": true
+    }
+  },
+  "database": {
+    "concat": {
+      "acc": 0.7333,
+      "ci_lo": 0.5667,
+      "ci_hi": 0.8667,
+      "rescue": 0.3667,
+      "harm": 0.2,
+      "net": 0.1667,
+      "delta": 0.1667,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "trust_filtered": {
+      "acc": 0.7,
+      "ci_lo": 0.5333,
+      "ci_hi": 0.8667,
+      "rescue": 0.2,
+      "harm": 0.0667,
+      "net": 0.1333,
+      "delta": 0.1333,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "structural_graph": {
+      "acc": 0.6,
+      "ci_lo": 0.4333,
+      "ci_hi": 0.7667,
+      "rescue": 0.2667,
+      "harm": 0.2333,
+      "net": 0.0333,
+      "delta": 0.0333,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "structured_prompt_baseline": {
+      "acc": 0.6667,
+      "ci_lo": 0.5,
+      "ci_hi": 0.8333,
+      "rescue": 0.2667,
+      "harm": 0.1667,
+      "net": 0.1,
+      "delta": 0.1,
+      "n": 30,
+      "ci_excludes_zero": false
+    }
+  },
+  "actions": {
+    "concat": {
+      "acc": 0.8667,
+      "ci_lo": 0.7333,
+      "ci_hi": 0.9667,
+      "rescue": 0.1667,
+      "harm": 0.1333,
+      "net": 0.0333,
+      "delta": 0.0333,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "trust_filtered": {
+      "acc": 0.7333,
+      "ci_lo": 0.5333,
+      "ci_hi": 0.9,
+      "rescue": 0.1667,
+      "harm": 0.2667,
+      "net": -0.1,
+      "delta": -0.1,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "structural_graph": {
+      "acc": 0.6667,
+      "ci_lo": 0.5,
+      "ci_hi": 0.8333,
+      "rescue": 0.1667,
+      "harm": 0.3333,
+      "net": -0.1667,
+      "delta": -0.1667,
+      "n": 30,
+      "ci_excludes_zero": false
+    },
+    "structured_prompt_baseline": {
+      "acc": 0.6,
+      "ci_lo": 0.4333,
+      "ci_hi": 0.7667,
+      "rescue": 0.1667,
+      "harm": 0.4,
+      "net": -0.2333,
+      "delta": -0.2333,
+      "n": 30,
+      "ci_excludes_zero": true
+    }
+  },
+  "propagation_ablation": {
+    "sg_full": 0.8667,
+    "sg_no_prop": 0.8667,
+    "delta_pp": 0.0
+  }
+}

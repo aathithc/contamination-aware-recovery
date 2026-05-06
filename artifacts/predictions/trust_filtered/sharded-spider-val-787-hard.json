@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-787-hard", "method": "trust_filtered", "prediction": "To gather a list of different names for Asian cities where Chinese is an official language, you would construct an SQL query that includes a WHERE clause filtering for both Asian cities and the condition that Chinese is an official language.", "success": false, "baseline_success": false}

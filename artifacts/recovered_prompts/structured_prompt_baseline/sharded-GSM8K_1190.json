@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/1190",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Day        | Starting Amount | Used | Remaining |\n|------------|----------------|------|-----------|\n| Day 1     | 50             | 38   | 12        |\n| Day 2     | 62             | 28   | 34        |\n| Day 3     | 162            | 81   | 78        |\n\nHighlighted:\n- None\n\nContext:\n- The nurses' station gets bandages in bulk packs of 50.\n- They ordered one pack of bandages on the first day.\n- On the second day, they used 10 bandages fewer than on the first day.\n- On the third day, they restocked with two more bulk packs.\n- They only used half a pack of bandages on the third day.\n\nInstruction:\nSummarize the bandage usage over the first three days.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

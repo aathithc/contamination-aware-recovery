@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/976",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Day      | Product       | Boxes Sold | Price per Box | Revenue  |\n|----------|---------------|------------|----------------|----------|\n| Saturday | Gingerbread   | 10         | $6             | $60      |\n| Sunday   | Gingerbread   | 15         | $6             | $90      |\n| Saturday | Apple Pie     | X - 4      | $15            | $15(X - 4) |\n| Sunday   | Apple Pie     | 15         | $15            | $225     |\n\nHighlighted:\n- Gingerbread: 10 boxes on Saturday, 15 boxes on Sunday\n- Apple Pie: 15 boxes on Sunday\n\nContext:\n- Each box of gingerbread is priced at $6.\n- Each box of apple pie is priced at $15.\n- On Saturday, he sold 4 fewer boxes of apple pie than what he sold on Sunday.\n\nInstruction:\nCalculate Sunny's total earnings assuming no expenses.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

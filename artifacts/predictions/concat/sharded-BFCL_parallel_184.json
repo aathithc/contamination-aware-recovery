@@ -1,0 +1,1 @@
+{"task_id": "sharded-BFCL/parallel_184", "method": "concat", "prediction": "For the first equation \\(3x^2 + 7x + 2 = 0\\), the values are:  \n- \\(a = 3\\)  \n- \\(b = 7\\)  \n- \\(c = 2\\)  \n\nFor the second equation \\(5x^2 - 4x + 1 = 0\\), the values are:  \n- \\(a = 5\\)  \n- \\(b = -4\\)  \n- \\(c = 1\\)", "success": true, "baseline_success": true}

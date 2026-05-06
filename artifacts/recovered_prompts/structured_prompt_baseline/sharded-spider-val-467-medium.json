@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-467-medium",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| player1_name | player2_name | duration |\n|---------------|---------------|----------|\n\nHighlighted:\nplayer1_name, player2_name\n\nContext:\nFocus on the players who participated in the match with the longest duration and include the player who lost the match.\n\nInstruction:\nFind the names of the individuals, including the player who lost the match, involved in the match with the longest duration.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

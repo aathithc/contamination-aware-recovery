@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_67",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Circle | Radius (meters) | Area (square meters)  |\n|--------|------------------|------------------------|\n| First  | 5                | 78.54                  |\n| Second | 10               | 314.16                 |\n\nHighlighted:\n| Area (square meters) |\n| 78.54                 |\n| 314.16                |\n\nContext:\nNone\n\nInstruction:\nCalculate the area difference between the two circles.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

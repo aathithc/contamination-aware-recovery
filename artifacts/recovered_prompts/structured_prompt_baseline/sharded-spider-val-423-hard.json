@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-423-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| visitor_id | name  | age | email            | address         | phone        | total_tickets_purchased |\n|------------|-------|-----|------------------|------------------|--------------|--------------------------|\n|            |       |     |                  |                  |              |                          |\n\nHighlighted:\n- name\n- age\n\nContext:\n- The visitor must have purchased the maximum number of tickets in a single transaction.\n\nInstruction:\nRetrieve the visitor's details who purchased the maximum number of tickets in a single transaction, including their age and name.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-GSM8K/1197",
+  "method": "concat",
+  "prompt": "John started by purchasing 10 bottles of scotch.\nHe paid $600 for all the scotch.\nNext, he bought twice as many bottles of cognac as scotch.\nEach bottle of cognac cost 50% more than each bottle of scotch.",
+  "included_node_ids": [
+    "sharded-GSM8K/1197_0_0",
+    "sharded-GSM8K/1197_1_0",
+    "sharded-GSM8K/1197_2_0",
+    "sharded-GSM8K/1197_3_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/1197_0_1",
+    "sharded-GSM8K/1197_0_2",
+    "sharded-GSM8K/1197_0_3",
+    "sharded-GSM8K/1197_1_1",
+    "sharded-GSM8K/1197_1_2",
+    "sharded-GSM8K/1197_2_1",
+    "sharded-GSM8K/1197_2_2",
+    "sharded-GSM8K/1197_2_3",
+    "sharded-GSM8K/1197_3_1"
+  ]
+}

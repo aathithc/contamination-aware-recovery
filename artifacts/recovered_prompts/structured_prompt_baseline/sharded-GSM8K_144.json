@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-GSM8K/144",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Description                | Value  |\n|----------------------------|--------|\n| Current Clients            | 3      |\n| Potential New Clients      | 5      |\n| Total Clients              | 8      |\n| Projected Weekly Profit    | $1,228 |\n| Expected Weekly Profit      | $92    |\n\nHighlighted:\n- $1,228\n- $92\n\nContext:\n- Each house requires 2 bottles of bleach for cleaning.\n- Each home also needs a pack of cloths.\n- The price of each bottle of bleach is $2.\n- Each pack of cloths costs $5.\n\nInstruction:\nCalculate the correct projected weekly profit considering Kim's expected total weekly profit.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

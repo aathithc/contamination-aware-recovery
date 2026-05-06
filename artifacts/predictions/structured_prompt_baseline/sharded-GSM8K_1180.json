@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1180", "method": "structured_prompt_baseline", "prediction": "The refund amount for the expired milk is $5,600, as indicated in the table.", "success": false, "baseline_success": true}

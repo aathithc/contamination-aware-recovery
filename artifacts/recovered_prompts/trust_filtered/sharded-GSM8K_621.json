@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/621",
+  "method": "trust_filtered",
+  "prompt": "John hurt his back and needed physical therapy.\nHe attended therapy for 6 weeks.\nEach session lasted 2 hours.",
+  "included_node_ids": [
+    "sharded-GSM8K/621_0_0",
+    "sharded-GSM8K/621_2_0",
+    "sharded-GSM8K/621_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/621_1_0",
+    "sharded-GSM8K/621_1_1",
+    "sharded-GSM8K/621_1_2",
+    "sharded-GSM8K/621_1_3",
+    "sharded-GSM8K/621_1_4",
+    "sharded-GSM8K/621_3_0",
+    "sharded-GSM8K/621_3_1",
+    "sharded-GSM8K/621_5_0",
+    "sharded-GSM8K/621_5_1"
+  ]
+}

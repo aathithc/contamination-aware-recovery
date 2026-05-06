@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-spider-val-898-hard",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Student ID | Has Friends | Liked By Others |\n|------------|-------------|-----------------|\n| 1          | Yes         | Yes             |\n| 2          | Yes         | No              |\n| 3          | Yes         | Yes             |\n| 4          | No          | Yes             |\n\nHighlighted:\n- Student ID: 1\n- Liked By Others: Yes\n\nContext:\nThe high schoolers should have friends and be liked by someone else.\n\nInstruction:\nReturn the ids of the high schoolers who meet these criteria.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

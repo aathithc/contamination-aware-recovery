@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_18",
+  "method": "trust_filtered",
+  "prompt": "The investment amount is $1000\nUse an annual interest rate of 5%\nCalculate it for a duration of 1 year\nAdditionally, calculate it for a duration of 5 years\nAlso calculate it for a duration of 10 years",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_18_0_0",
+    "sharded-BFCL/parallel_18_1_1",
+    "sharded-BFCL/parallel_18_2_1",
+    "sharded-BFCL/parallel_18_3_1",
+    "sharded-BFCL/parallel_18_4_1"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_18_1_0",
+    "sharded-BFCL/parallel_18_2_0",
+    "sharded-BFCL/parallel_18_3_0",
+    "sharded-BFCL/parallel_18_4_0",
+    "sharded-BFCL/parallel_18_5_0"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-GSM8K/991",
+  "method": "trust_filtered",
+  "prompt": "Comet Halley takes 75 years to complete one orbit around the sun.\nIf Bill was 10 years old when he saw Comet Halley in 1986, then he was born in 1976.\nIf Bill was 20 years old when he saw Comet Halley in 1986, then he was born in 1966.\nBill's dad was 30 years old when he saw the comet.\nBill's dad saw Comet Halley in 1948.\nBill was born in 1918.\nBill was 68 years old when he first saw Comet Halley.\nBill saw Comet Halley for the second time when he was three times as old as his dad was when his dad saw it.\nBill was 90 years old when he saw Comet Halley for the second time.\nBill saw Comet Halley for the second time in 2023.",
+  "included_node_ids": [
+    "sharded-GSM8K/991_0_0",
+    "sharded-GSM8K/991_0_3",
+    "sharded-GSM8K/991_0_4",
+    "sharded-GSM8K/991_1_0",
+    "sharded-GSM8K/991_1_1",
+    "sharded-GSM8K/991_1_2",
+    "sharded-GSM8K/991_1_3",
+    "sharded-GSM8K/991_2_0",
+    "sharded-GSM8K/991_2_1",
+    "sharded-GSM8K/991_2_2"
+  ],
+  "excluded_node_ids": [
+    "sharded-GSM8K/991_0_1",
+    "sharded-GSM8K/991_0_2"
+  ]
+}

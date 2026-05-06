@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-BFCL/parallel_198",
+  "method": "concat",
+  "prompt": "Start by searching for all lawsuits involving the entity 'Google'\nLimit the Google search to lawsuits in the county of 'Santa Clara'\nMake sure the lawsuits are in the state of California\nThen, also search for lawsuits involving the entity 'Facebook'\nLimit the Facebook search to the county of 'San Mateo'",
+  "included_node_ids": [
+    "sharded-BFCL/parallel_198_0_0",
+    "sharded-BFCL/parallel_198_1_0",
+    "sharded-BFCL/parallel_198_2_0",
+    "sharded-BFCL/parallel_198_3_0",
+    "sharded-BFCL/parallel_198_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-BFCL/parallel_198_0_1",
+    "sharded-BFCL/parallel_198_1_1",
+    "sharded-BFCL/parallel_198_2_1",
+    "sharded-BFCL/parallel_198_3_1",
+    "sharded-BFCL/parallel_198_4_1"
+  ]
+}

@@ -1,0 +1,1 @@
+{"task_id": "sharded-spider-val-129-extra", "method": "structured_prompt_baseline", "prediction": "```sql\nSELECT country_name, num_car_manufacturers\nFROM your_table_name\nWHERE num_manufacturers >= 3 AND country_name IN (SELECT country_name FROM europe_countries);\n```", "success": false, "baseline_success": false}
