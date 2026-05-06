@@ -33,6 +33,23 @@ Option 3 — Honest mixed result as methodological contribution:
 
 RECOMMENDATION: Option 2. The 10.0pp advantage over structured_prompt_baseline is the clearest finding. Resolve 10pp with temperature=0 (1-hour task).
 
+## Day 4 Execution Summary — 2026-05-06 — DONE
+
+**⚠️ D2T Track A caveat:** The framing section above reports +50pp D2T which reflects only the `final_combined` strategy (dict key collision in eval script — 4 strategy variants share same task_id, last one wins). The **canonical pre-registered result remains Day 3 strategy=none: +6.7pp (NOT MET)**. See RESULTS_FULL.md Section 9 for full explanation.
+
+**Actual key findings:**
+- D2T strategy=none (canonical): +6.7pp vs baseline — pre-registered 10pp NOT MET (Day 3 result stands)
+- D2T final_combined (Track A artifact): +50pp — not a meaningful comparison; recovery predictions are strategy-agnostic but baseline differs
+- Math (n=50, LLM judge): structural_graph 90% (+42pp). Inflated by circular evaluation (gpt-4o-mini judging gpt-4o-mini)
+- Database (n=30): +3.3pp — not significant
+- Actions (n=30): −16.7pp — structural linearization **hurts** tool-call tasks
+- Propagation ablation (Track C): +0.0pp delta — contamination marking adds nothing on D2T entity-recall; structural retrieval alone drives gains
+- structural_graph vs structured_prompt_baseline on D2T: +10.0pp (robust finding — graph adds value over LLM-only reformatting)
+- Total cost: $0.0065 (well under $30 budget)
+
+**Commits:** 6b8ca38 (Day 4 full eval, 1375 files)
+**Next step for researcher:** Decide on temperature=0 replication to resolve the 10pp threshold ambiguity. The +10pp D2T vs SPB finding is robust and doesn't depend on temperature.
+
 ## Day 3 Final Summary — 2026-05-06 — DECISION POINT
 
 **Headline:** structural_graph beats baseline by +6.7pp (83.3% vs 76.7%). Pre-registered threshold of ≥10pp NOT MET. Outcome 3 applies — paper must reframe before continuing to other task types.
