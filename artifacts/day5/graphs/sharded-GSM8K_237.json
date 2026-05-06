@@ -1,0 +1,205 @@
+{
+  "conversation_id": "sharded-GSM8K/237",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/237_0_0",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Johnny started with a $20 allowance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/237_0_1",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total allowance received in 1 year = $20 × 52 = $1,040.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_0_2",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total amount after 1 year = Starting amount + Total allowance received.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_0_3",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total amount after 1 year = $20 + $1,040 = $1,060.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_0_4",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, after 1 year, Johnny had $1,060.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_1_0",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He also added $10 more to this amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/237_1_1",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Final amount = $1,060 + $10 = $1,070.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_1_2",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, after 1 year and adding an additional $10, Johnny had a total of $1,070.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_2_0",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "He took the total and invested it.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/237_2_1",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without this information, we cannot calculate the final amount Johnny had after investing the $1,070.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_3_0",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "This investment tripled in value after a year.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/237_3_1",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Final value of the investment = $1,070 × 3 = $3,210.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/237_3_2",
+      "conversation_id": "sharded-GSM8K/237",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, after investing the $1,070 and the investment tripling in value over the course of 1 year, Johnny had a final amount of $3,210.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/237_0_0",
+      "target": "sharded-GSM8K/237_0_1",
+      "type": "supports",
+      "rationale": "User states the initial allowance."
+    },
+    {
+      "source": "sharded-GSM8K/237_0_1",
+      "target": "sharded-GSM8K/237_0_2",
+      "type": "derived_from",
+      "rationale": "Calculating based on allowance."
+    },
+    {
+      "source": "sharded-GSM8K/237_0_2",
+      "target": "sharded-GSM8K/237_0_3",
+      "type": "derived_from",
+      "rationale": "Calculating total amount after 1 year."
+    },
+    {
+      "source": "sharded-GSM8K/237_0_3",
+      "target": "sharded-GSM8K/237_0_4",
+      "type": "derived_from",
+      "rationale": "Final amount is derived from initial amount and total allowance."
+    },
+    {
+      "source": "sharded-GSM8K/237_1_0",
+      "target": "sharded-GSM8K/237_1_1",
+      "type": "supports",
+      "rationale": "User states the additional amount added."
+    },
+    {
+      "source": "sharded-GSM8K/237_1_1",
+      "target": "sharded-GSM8K/237_1_2",
+      "type": "derived_from",
+      "rationale": "Final amount calculation based on previous total."
+    },
+    {
+      "source": "sharded-GSM8K/237_2_0",
+      "target": "sharded-GSM8K/237_2_1",
+      "type": "supports",
+      "rationale": "User mentions investment of the total amount."
+    },
+    {
+      "source": "sharded-GSM8K/237_3_0",
+      "target": "sharded-GSM8K/237_3_1",
+      "type": "supports",
+      "rationale": "User states that the investment tripled."
+    },
+    {
+      "source": "sharded-GSM8K/237_3_1",
+      "target": "sharded-GSM8K/237_3_2",
+      "type": "derived_from",
+      "rationale": "Final amount is derived from investment growth."
+    }
+  ],
+  "attributes": {}
+}

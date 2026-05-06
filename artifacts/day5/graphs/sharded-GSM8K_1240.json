@@ -1,0 +1,254 @@
+{
+  "conversation_id": "sharded-GSM8K/1240",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1240_0_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Elly is organizing her books on bookcases her parents got her.",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_0_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Elly's parents provided a specific number of bookcases.",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_0_2",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Assuming the bookcases are standard 3-shelf units that can hold around 30-45 books each.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_0_3",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Elly's parents gave her 3 bookcases, and each bookcase can hold 30-45 books, then Elly likely has somewhere between 90-135 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_1_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each of the two middle shelves can hold 10 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_1_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each of the two middle shelves can hold 10 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_1_2",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Elly has 3 bookcases, each with a capacity of 30 books, then the total number of books would be 3 bookcases x 30 books per bookcase = 90 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_2_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The bottom shelf holds twice as many books as one middle shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_2_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The bottom shelf holds twice as many books as one middle shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_2_2",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Elly has 3 bookcases, each with a capacity of 40 books, then the total number of books would be 3 bookcases x 40 books per bookcase = 120 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_3_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The top shelf can hold 5 fewer books than the bottom shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_3_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The top shelf can hold 5 fewer books than the bottom shelf.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_3_2",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Elly has 3 bookcases, each with a capacity of 55 books, then the total number of books would be 3 bookcases x 55 books per bookcase = 165 books.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_4_0",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Elly has a total of 110 books to organize.",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1240_4_1",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Dividing the total number of books (110) by the capacity of each bookcase (55 books), 110 books / 55 books per bookcase = 2 bookcases (rounded up).",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1240_4_2",
+      "conversation_id": "sharded-GSM8K/1240",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Elly needs 2 bookcases provided by her parents to organize her book collection of 110 books.",
+      "entities": [
+        "Elly"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1240_0_0",
+      "target": "sharded-GSM8K/1240_0_1",
+      "type": "supports",
+      "rationale": "User claims Elly is organizing books, Assistant assumes information from that."
+    },
+    {
+      "source": "sharded-GSM8K/1240_0_2",
+      "target": "sharded-GSM8K/1240_0_3",
+      "type": "derived_from",
+      "rationale": "Assumption about bookcase capacity was used in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/1240_1_0",
+      "target": "sharded-GSM8K/1240_1_1",
+      "type": "supports",
+      "rationale": "User clarifies middle shelf capacity, Assistant considers this."
+    },
+    {
+      "source": "sharded-GSM8K/1240_1_2",
+      "target": "sharded-GSM8K/1240_1_1",
+      "type": "derived_from",
+      "rationale": "Assumption about shelf capacity was used in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/1240_2_0",
+      "target": "sharded-GSM8K/1240_2_1",
+      "type": "supports",
+      "rationale": "User clarifies bottom shelf holds twice a middle shelf, Assistant considers this."
+    },
+    {
+      "source": "sharded-GSM8K/1240_2_2",
+      "target": "sharded-GSM8K/1240_2_1",
+      "type": "derived_from",
+      "rationale": "Assumption about bottom shelf capacity was used in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/1240_3_0",
+      "target": "sharded-GSM8K/1240_3_1",
+      "type": "supports",
+      "rationale": "User clarifies top shelf capacity, Assistant considers this."
+    },
+    {
+      "source": "sharded-GSM8K/1240_3_2",
+      "target": "sharded-GSM8K/1240_3_1",
+      "type": "derived_from",
+      "rationale": "Assumption about top shelf capacity was used in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/1240_4_0",
+      "target": "sharded-GSM8K/1240_4_1",
+      "type": "supports",
+      "rationale": "User provides total number of books for Assistant to finalize solution."
+    },
+    {
+      "source": "sharded-GSM8K/1240_4_1",
+      "target": "sharded-GSM8K/1240_4_2",
+      "type": "derived_from",
+      "rationale": "Calculating number of bookcases based on the total number of books."
+    }
+  ],
+  "attributes": {}
+}

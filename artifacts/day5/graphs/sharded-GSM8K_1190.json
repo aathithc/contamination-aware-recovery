@@ -1,0 +1,244 @@
+{
+  "conversation_id": "sharded-GSM8K/1190",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1190_0_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "the nurses' station gets bandages in bulk packs of 50",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_0_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "the most reasonable assumption would be that the nurses started with a full pack or multiple full packs of 50 bandages on the first day.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1190_0_2",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "the possible starting amounts could be increments of 50 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "on the first day, they used 38 bandages",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "if the nurses started with 50 bandages, they would have 12 bandages remaining after using 38.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_1_2",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the most likely starting amount of bandages on the first day would be 50 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_2_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "they also ordered one pack of bandages on the first day",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "on the second day, they used 10 bandages fewer than on the first day",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "on the second day, they used 28 bandages.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_3_2",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the total number of bandages the nurses had on the second day was 34.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_4_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "on the third day, they restocked with two more bulk packs",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_4_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the total number of bandages the nurses had on the third day was 162.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_5_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "on the third day, they only used half a pack of bandages",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_5_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the total number of bandages the nurses had on the third day was 137.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_6_0",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "by the end of the third day, they had 78 bandages left",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1190_6_1",
+      "conversation_id": "sharded-GSM8K/1190",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "correction",
+      "text": "the total number of bandages they had by the end of the third day was 78.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1190_0_0",
+      "target": "sharded-GSM8K/1190_0_1",
+      "type": "supports",
+      "rationale": "provides information on bulk packs of bandages"
+    },
+    {
+      "source": "sharded-GSM8K/1190_0_2",
+      "target": "sharded-GSM8K/1190_0_1",
+      "type": "supports",
+      "rationale": "the assistant uses the information on bulk packs"
+    },
+    {
+      "source": "sharded-GSM8K/1190_1_0",
+      "target": "sharded-GSM8K/1190_1_1",
+      "type": "supports",
+      "rationale": "provides usage amount for deriving remaining bandages"
+    },
+    {
+      "source": "sharded-GSM8K/1190_1_1",
+      "target": "sharded-GSM8K/1190_1_2",
+      "type": "supports",
+      "rationale": "the calculation confirms the starting amount"
+    },
+    {
+      "source": "sharded-GSM8K/1190_2_0",
+      "target": "sharded-GSM8K/1190_3_1",
+      "type": "supports",
+      "rationale": "the order of bandages impacts the second day's calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1190_3_0",
+      "target": "sharded-GSM8K/1190_3_1",
+      "type": "supports",
+      "rationale": "uses the first day's usage amount"
+    },
+    {
+      "source": "sharded-GSM8K/1190_3_0",
+      "target": "sharded-GSM8K/1190_3_2",
+      "type": "supports",
+      "rationale": "derives total bandages for the second day"
+    },
+    {
+      "source": "sharded-GSM8K/1190_4_0",
+      "target": "sharded-GSM8K/1190_4_1",
+      "type": "supports",
+      "rationale": "provides restocking context for the total number calculation"
+    },
+    {
+      "source": "sharded-GSM8K/1190_5_0",
+      "target": "sharded-GSM8K/1190_5_1",
+      "type": "supports",
+      "rationale": "provides usage amount for calculating remaining bandages"
+    },
+    {
+      "source": "sharded-GSM8K/1190_6_0",
+      "target": "sharded-GSM8K/1190_6_1",
+      "type": "supports",
+      "rationale": "confirms final count of bandages"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,249 @@
+{
+  "conversation_id": "sharded-GSM8K/621",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/621_0_0",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "John hurt his back and needed physical therapy.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_0_1",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "John requires 12 physical therapy sessions.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_0_2",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each session lasts 1 hour.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_0_3",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The cost per session is $100.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_0_4",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "John has health insurance that covers 80% of the physical therapy costs.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_0_5",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "John's out-of-pocket cost would be $240.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_1_0",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He attended therapy for 6 weeks.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_1_1",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "John required 2 physical therapy sessions per week.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_1_2",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "John's out-of-pocket cost would be $240.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_2_0",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "He went to therapy twice per week.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_2_1",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "John's out-of-pocket cost would be $240.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_3_0",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Each session lasted 2 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_3_1",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "John's out-of-pocket cost would be $240.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_4_0",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The cost per hour for a session was $125.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/621_4_1",
+      "conversation_id": "sharded-GSM8K/621",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "John's out-of-pocket cost would be $600.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/621_0_0",
+      "target": "sharded-GSM8K/621_0_1",
+      "type": "supports",
+      "rationale": "User stated John needed therapy sessions."
+    },
+    {
+      "source": "sharded-GSM8K/621_0_0",
+      "target": "sharded-GSM8K/621_0_4",
+      "type": "supports",
+      "rationale": "User stated John needed therapy."
+    },
+    {
+      "source": "sharded-GSM8K/621_0_1",
+      "target": "sharded-GSM8K/621_0_5",
+      "type": "derived_from",
+      "rationale": "Assumption is calculated into John's out-of-pocket cost."
+    },
+    {
+      "source": "sharded-GSM8K/621_1_0",
+      "target": "sharded-GSM8K/621_1_1",
+      "type": "supports",
+      "rationale": "User stated John attended therapy for 6 weeks."
+    },
+    {
+      "source": "sharded-GSM8K/621_1_1",
+      "target": "sharded-GSM8K/621_1_2",
+      "type": "derived_from",
+      "rationale": "Calculated sessions lead to John's out-of-pocket cost."
+    },
+    {
+      "source": "sharded-GSM8K/621_2_0",
+      "target": "sharded-GSM8K/621_2_1",
+      "type": "supports",
+      "rationale": "User stated he went to therapy twice per week."
+    },
+    {
+      "source": "sharded-GSM8K/621_3_0",
+      "target": "sharded-GSM8K/621_3_1",
+      "type": "supports",
+      "rationale": "User stated each session lasted 2 hours."
+    },
+    {
+      "source": "sharded-GSM8K/621_4_0",
+      "target": "sharded-GSM8K/621_4_1",
+      "type": "supports",
+      "rationale": "User stated the cost per hour was $125."
+    },
+    {
+      "source": "sharded-GSM8K/621_4_1",
+      "target": "sharded-GSM8K/621_4_1",
+      "type": "derived_from",
+      "rationale": "Updated cost leads to new out-of-pocket calculation."
+    }
+  ],
+  "attributes": {}
+}

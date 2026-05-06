@@ -1,5 +1,48 @@
 # CARE Project — Status
 
+## Day 5 — Contamination Propagation Validation on Math (2026-05-06)
+
+### Setup
+Re-extracted 50 Math (GSM8K strategy=none) conversations with fixed SUPPORTS edge rules.
+New rules: SUPPORTS requires source to contain the SPECIFIC VALUE the target uses;
+no SUPPORTS when target contains placeholder language ("I'll assume", "let's say", etc.).
+Evaluator: strict numeric extraction (not LLM judge). Gold answers from success=True traces.
+
+### Contamination Audit (key diagnostic)
+- Assistant nodes extracted: 521
+- SUPPORTS→asst edges (new prompt): 333
+- Total contaminated nodes: 160
+- Tasks with ≥1 contaminated node: 39/50
+- Stop condition (0 contaminated): NOT hit — proceeding
+
+### Method Results (n=50, baseline=48.0%)
+| Method | Accuracy | vs Baseline | Net Gain |
+|---|---|---|---|
+| concat | 44.0% | -4.0pp | -4.0pp |
+| trust_filtered | 46.0% | -2.0pp | -2.0pp |
+| structural_graph (full) | 0.0% | -48.0pp | -48.0pp |
+| structural_graph_no_prop | 0.0% | -48.0pp | -48.0pp |
+
+### Interpretation Note (Critical)
+**structural_graph 0% is an applicability failure, not a propagation result.**
+`build_structural_graph_prompt` linearizes highlighted `structural_record` cells — a D2T-specific mechanism. Math tasks have no such nodes, so it returns an empty prompt → empty recovery → 0% score. The structural_graph vs structural_graph_no_prop delta of 0.0pp is therefore uninformative (both fail identically).
+
+**The real propagation ablation for Math is trust_filtered vs concat:**
+trust_filtered excludes contaminated nodes from the recovery context; concat includes them.
++2pp (46% vs 44%) — marginal and not significant.
+
+### Key Comparisons
+- Propagation delta (sg_full vs no_prop): **+0.0pp** ⚠️ structural_graph N/A on math (see above)
+- trust_filtered vs concat (real ablation): **+2.0pp** — marginal
+- Cost: $0.0146
+
+### DECISION
+Contamination IS detected (160 nodes, 39/50 tasks) — the prompt fix works. However:
+- On Math: trust_filtered beats concat by only +2pp (not significant). Contamination propagation has marginal effect on Math recovery accuracy with the strict numeric evaluator.
+- The structural_graph mechanism is D2T-specific (table linearization); it cannot be meaningfully evaluated on Math.
+- **Conclusion: Contamination propagation does not contribute meaningfully (>5pp) on Math. Paper contribution is structural retrieval for D2T, not general contamination propagation.**
+
+
 ## Day 4 Final — Framing Recommendation (2026-05-06)
 
 ### Headline Numbers (Full Scale)

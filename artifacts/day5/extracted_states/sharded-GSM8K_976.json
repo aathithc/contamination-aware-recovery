@@ -1,0 +1,204 @@
+{
+  "conversation_id": "sharded-GSM8K/976",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/976_0_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Sunny is running a fundraiser selling gingerbread and apple pies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_0_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without the specific details about the prices, quantities sold, and any costs, I cannot provide a precise answer.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_1_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "On Saturday, Sunny sold 10 boxes of gingerbread.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_1_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without knowing the price per box of gingerbread and whether there were any other sales or expenses, I can't provide a specific dollar amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_2_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "On Saturday, he sold 4 fewer boxes of apple pie than what he sold on Sunday.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_2_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without knowing the price per box of apple pie and the number of boxes sold on Sunday, I can't provide a specific dollar amount for Sunny's total earnings.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_3_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "On Sunday, Sunny sold 5 more boxes of gingerbread compared to what he sold on Saturday.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_3_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without knowing the price per box of gingerbread and apple pie, I can't provide a specific dollar amount for Sunny's total earnings.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_4_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On Sunday, he sold 15 boxes of apple pie.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_4_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Without knowing the price per box of gingerbread and apple pie, I can't provide a specific dollar amount for Sunny's total earnings.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_5_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Each box of gingerbread is priced at $6.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_5_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total revenue from gingerbread sales = $150.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_6_0",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Each box of apple pie is priced at $15.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/976_6_1",
+      "conversation_id": "sharded-GSM8K/976",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total earnings over the weekend would be $375.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/976_0_0",
+      "target": "sharded-GSM8K/976_0_1",
+      "type": "supports",
+      "rationale": "User provided context about the fundraiser which the assistant's answer builds upon."
+    },
+    {
+      "source": "sharded-GSM8K/976_1_0",
+      "target": "sharded-GSM8K/976_1_1",
+      "type": "supports",
+      "rationale": "User's statement about gingerbread sales provides specific detail the assistant refers to."
+    },
+    {
+      "source": "sharded-GSM8K/976_2_0",
+      "target": "sharded-GSM8K/976_2_1",
+      "type": "supports",
+      "rationale": "User's information on apple pie sales gives critical context to assistant's response."
+    },
+    {
+      "source": "sharded-GSM8K/976_3_0",
+      "target": "sharded-GSM8K/976_3_1",
+      "type": "supports",
+      "rationale": "User's detail about Sunday contributions aids assistant's reasoning."
+    },
+    {
+      "source": "sharded-GSM8K/976_4_0",
+      "target": "sharded-GSM8K/976_4_1",
+      "type": "supports",
+      "rationale": "User specifies additional sales detail that assists with calculations."
+    },
+    {
+      "source": "sharded-GSM8K/976_5_0",
+      "target": "sharded-GSM8K/976_5_1",
+      "type": "supports",
+      "rationale": "User providing the price supports the calculation provided by the assistant."
+    },
+    {
+      "source": "sharded-GSM8K/976_6_0",
+      "target": "sharded-GSM8K/976_6_1",
+      "type": "supports",
+      "rationale": "User's price information allows the assistant to finalize calculations."
+    }
+  ],
+  "attributes": {}
+}

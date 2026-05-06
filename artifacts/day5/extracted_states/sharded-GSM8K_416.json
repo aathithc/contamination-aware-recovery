@@ -1,0 +1,158 @@
+{
+  "conversation_id": "sharded-GSM8K/416",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/416_0_0",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "the herd has both camels and dromedaries",
+      "entities": [
+        "camels",
+        "dromedaries"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_0_1",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The herd contains both camels and dromedaries.",
+      "entities": [
+        "camels",
+        "dromedaries"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_1_0",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "I can see a total of 180 animal heads",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_1_1",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the number of dromedaries in the herd is 0",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_2_0",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "I can also count 304 humps",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_2_1",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the number of dromedaries in the herd is 56",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_3_0",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "each camel contributes 2 humps to the total",
+      "entities": [
+        "camel"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_3_1",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the number of dromedaries in the herd is 56",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_4_0",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "each dromedary contributes 1 hump to the total",
+      "entities": [
+        "dromedary"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/416_4_1",
+      "conversation_id": "sharded-GSM8K/416",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the number of dromedaries in the herd is 56",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/416_0_0",
+      "target": "sharded-GSM8K/416_0_1",
+      "type": "supports",
+      "rationale": "User states the herd contains both camels and dromedaries, assistant confirms."
+    },
+    {
+      "source": "sharded-GSM8K/416_1_0",
+      "target": "sharded-GSM8K/416_1_1",
+      "type": "supports",
+      "rationale": "User provides total heads for calculation."
+    },
+    {
+      "source": "sharded-GSM8K/416_2_0",
+      "target": "sharded-GSM8K/416_2_1",
+      "type": "supports",
+      "rationale": "User's count of humps provides input for recalculation."
+    },
+    {
+      "source": "sharded-GSM8K/416_3_0",
+      "target": "sharded-GSM8K/416_3_1",
+      "type": "supports",
+      "rationale": "User specifies contribution of camels to the total humps."
+    },
+    {
+      "source": "sharded-GSM8K/416_4_0",
+      "target": "sharded-GSM8K/416_4_1",
+      "type": "supports",
+      "rationale": "User specifies contribution of dromedaries to the total humps."
+    }
+  ],
+  "attributes": {}
+}

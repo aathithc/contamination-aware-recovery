@@ -1,0 +1,137 @@
+{
+  "conversation_id": "sharded-GSM8K/510",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/510_0_0",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Andy is aiming to lose 30 pounds.",
+      "entities": [
+        "Andy"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_0_1",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To meet his weight loss goal of 30 pounds in 12 weeks, Andy should cut approximately 1,250 calories from his daily caloric intake.",
+      "entities": [
+        "Andy"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_1_0",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He wants to achieve this goal by his birthday on July 19th.",
+      "entities": [
+        "July 19th"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_1_1",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To meet his weight loss goal of 30 pounds by his birthday on July 19th, Andy should cut approximately 2,188 calories from his daily caloric intake.",
+      "entities": [
+        "Andy",
+        "July 19th"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_2_0",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Today is December 31st.",
+      "entities": [
+        "December 31st"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_2_1",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To meet his weight loss goal of 30 pounds by his birthday on July 19th, Andy should cut approximately 525 calories from his daily caloric intake.",
+      "entities": [
+        "Andy",
+        "July 19th"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_3_0",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "It takes burning 3500 calories to lose one pound of weight.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/510_3_1",
+      "conversation_id": "sharded-GSM8K/510",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To meet his weight loss goal of 30 pounds by his birthday on July 19th, Andy should aim to create a daily calorie deficit of approximately 525 calories.",
+      "entities": [
+        "Andy",
+        "July 19th"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/510_0_0",
+      "target": "sharded-GSM8K/510_0_1",
+      "type": "supports",
+      "rationale": "User fact supports assistant derivation about weight loss."
+    },
+    {
+      "source": "sharded-GSM8K/510_1_0",
+      "target": "sharded-GSM8K/510_1_1",
+      "type": "supports",
+      "rationale": "User fact about birthday supports assistant derivation about weight loss."
+    },
+    {
+      "source": "sharded-GSM8K/510_2_0",
+      "target": "sharded-GSM8K/510_2_1",
+      "type": "supports",
+      "rationale": "User fact about date supports assistant derivation about weight loss."
+    },
+    {
+      "source": "sharded-GSM8K/510_3_0",
+      "target": "sharded-GSM8K/510_3_1",
+      "type": "supports",
+      "rationale": "User fact about calorie deficit supports assistant derivation about weight loss."
+    }
+  ],
+  "attributes": {}
+}

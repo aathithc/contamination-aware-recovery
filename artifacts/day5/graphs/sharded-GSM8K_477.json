@@ -1,0 +1,222 @@
+{
+  "conversation_id": "sharded-GSM8K/477",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/477_0_0",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Nine kids in Gina's class have a dairy allergy.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_0_1",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let’s assume the total number of kids in Gina's class is X.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/477_0_2",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The number of kids who are not allergic to anything is: X - 9.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_1_0",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Six of them are allergic to peanuts.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_1_1",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let’s assume the total number of kids in Gina's class is X.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/477_1_2",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of kids with allergies is: 9 + 6 - Overlap.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_1_3",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The number of kids who are not allergic to anything is: X - (9 + 6 - Overlap) = X - 15 + Overlap.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_2_0",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Three kids are allergic to both dairy and peanuts.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_2_1",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let’s assume the total number of kids in Gina's class is X.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/477_2_2",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of kids with allergies is: 9 + 6 - 3 = 12.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_2_3",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The number of kids who are not allergic to anything is: X - 12.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_3_0",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The entire class has 32 kids.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/477_3_1",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total number of kids who are not allergic to anything is: 32 - 12 = 20.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/477_3_2",
+      "conversation_id": "sharded-GSM8K/477",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The number of kids in Gina's class who are not allergic to anything is 20.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/477_0_0",
+      "target": "sharded-GSM8K/477_0_1",
+      "type": "supports",
+      "rationale": "User mentions 9 kids with dairy allergy used by assistant."
+    },
+    {
+      "source": "sharded-GSM8K/477_0_1",
+      "target": "sharded-GSM8K/477_0_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives number of non-allergic kids from given dairy allergy information."
+    },
+    {
+      "source": "sharded-GSM8K/477_1_0",
+      "target": "sharded-GSM8K/477_1_1",
+      "type": "supports",
+      "rationale": "User mentions 6 kids with peanut allergy used by assistant."
+    },
+    {
+      "source": "sharded-GSM8K/477_1_1",
+      "target": "sharded-GSM8K/477_1_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives number of allergic kids based on new information."
+    },
+    {
+      "source": "sharded-GSM8K/477_1_2",
+      "target": "sharded-GSM8K/477_1_3",
+      "type": "derived_from",
+      "rationale": "Assistant continues calculations with overlap consideration."
+    },
+    {
+      "source": "sharded-GSM8K/477_2_0",
+      "target": "sharded-GSM8K/477_2_1",
+      "type": "supports",
+      "rationale": "User mentions 3 kids allergic to both, used by assistant."
+    },
+    {
+      "source": "sharded-GSM8K/477_2_1",
+      "target": "sharded-GSM8K/477_2_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives total allergic kids using overlap."
+    },
+    {
+      "source": "sharded-GSM8K/477_2_2",
+      "target": "sharded-GSM8K/477_2_3",
+      "type": "derived_from",
+      "rationale": "Assistant calculates number of non-allergic kids."
+    },
+    {
+      "source": "sharded-GSM8K/477_3_0",
+      "target": "sharded-GSM8K/477_3_1",
+      "type": "supports",
+      "rationale": "User confirms total number of kids, used by assistant."
+    },
+    {
+      "source": "sharded-GSM8K/477_3_1",
+      "target": "sharded-GSM8K/477_3_2",
+      "type": "derived_from",
+      "rationale": "Assistant finalizes count of non-allergic kids."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,1 @@
+{"task_id": "sharded-GSM8K/1197", "method": "trust_filtered", "prediction": "The total cost of cognac calculated as $90 per bottle for 20 bottles is correct.\n\nTotal cost of cognac = $90 \u00d7 20 = $1,800.\n\nTherefore, the final answer is:\n\n**$1,800**", "success": false, "baseline_success": true}

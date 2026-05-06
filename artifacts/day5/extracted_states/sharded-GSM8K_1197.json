@@ -1,0 +1,262 @@
+{
+  "conversation_id": "sharded-GSM8K/1197",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1197_0_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "John started by purchasing 10 bottles of scotch.",
+      "entities": [
+        "John",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_1_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's say each bottle of scotch costs $50.",
+      "entities": [
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_1_1",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total spent on scotch = $50 × 10 = $500.",
+      "entities": [
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_1_2",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total amount John spent on the 10 bottles of scotch is $500.",
+      "entities": [
+        "John",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_1_3",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He paid $600 for all the scotch.",
+      "entities": [
+        "John",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_2_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Price per bottle = $600 / 10 = $60 per bottle.",
+      "entities": [
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_2_1",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total amount John spent on the 10 bottles of scotch is $600.",
+      "entities": [
+        "John",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_2_2",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Next, he bought twice as many bottles of cognac as scotch.",
+      "entities": [
+        "John",
+        "cognac",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_3_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "So, the number of bottles of cognac = 2 × 10 = 20 bottles.",
+      "entities": [
+        "cognac",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_3_1",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume the price per bottle of cognac is the same as the price per bottle of scotch.",
+      "entities": [
+        "cognac",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_3_2",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of cognac = $60 × 20 = $1,200.",
+      "entities": [
+        "cognac"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_3_3",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total amount John has spent so far is $1,800.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_4_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Each bottle of cognac cost 50% more than each bottle of scotch.",
+      "entities": [
+        "cognac",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_5_0",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Price per bottle of cognac = $60 + (0.5 × $60) = $90 per bottle.",
+      "entities": [
+        "cognac",
+        "scotch"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_5_1",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of cognac = $90 × 20 = $1,800.",
+      "entities": [
+        "cognac"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1197_5_2",
+      "conversation_id": "sharded-GSM8K/1197",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total amount John spent is $2,400.",
+      "entities": [
+        "John"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1197_0_0",
+      "target": "sharded-GSM8K/1197_1_0",
+      "type": "supports",
+      "rationale": "User fact states the quantity and type of purchase."
+    },
+    {
+      "source": "sharded-GSM8K/1197_0_0",
+      "target": "sharded-GSM8K/1197_1_1",
+      "type": "supports",
+      "rationale": "User fact provides quantity needed for the calculation."
+    },
+    {
+      "source": "sharded-GSM8K/1197_3_1",
+      "target": "sharded-GSM8K/1197_5_0",
+      "type": "supports",
+      "rationale": "User fact provides the relationship between cognac and scotch prices."
+    },
+    {
+      "source": "sharded-GSM8K/1197_1_2",
+      "target": "sharded-GSM8K/1197_2_1",
+      "type": "supersedes",
+      "rationale": "Assistant updates the previous total amount spent."
+    },
+    {
+      "source": "sharded-GSM8K/1197_2_1",
+      "target": "sharded-GSM8K/1197_3_3",
+      "type": "supersedes",
+      "rationale": "New total amount includes cognac calculations."
+    },
+    {
+      "source": "sharded-GSM8K/1197_3_3",
+      "target": "sharded-GSM8K/1197_5_2",
+      "type": "supersedes",
+      "rationale": "Final total updates with cognac cost included."
+    }
+  ],
+  "attributes": {}
+}

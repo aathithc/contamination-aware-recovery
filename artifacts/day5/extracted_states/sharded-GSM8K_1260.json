@@ -1,0 +1,527 @@
+{
+  "conversation_id": "sharded-GSM8K/1260",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1260_0_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Jade just got an amazing new phone with a great camera.",
+      "entities": [
+        "Jade"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_0_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time to upload all photos = 500 photos / 20 photos per minute = 25 minutes.",
+      "entities": [
+        "500",
+        "20"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_0_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 25 minutes / (60 minutes per hour × 24 hours per day) = 0.0174 days.",
+      "entities": [
+        "25"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_1_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "She spent the whole week capturing moments of her daily life.",
+      "entities": [
+        "Jade"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_1_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total photos captured in a week = 100 photos/day x 7 days = 700 photos.",
+      "entities": [
+        "700",
+        "100",
+        "7"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_1_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time to upload all photos = 700 photos / 20 photos per minute = 35 minutes.",
+      "entities": [
+        "700",
+        "20",
+        "35"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_1_3",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 35 minutes / (60 minutes per hour × 24 hours per day) = 0.0243 days.",
+      "entities": [
+        "35"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_2_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "By the end of the week, Jade had taken 210 photos in total.",
+      "entities": [
+        "Jade",
+        "210"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_2_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time to upload all 210 photos = 210 photos / 20 photos per minute = 10.5 minutes.",
+      "entities": [
+        "210",
+        "20",
+        "10.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_2_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 10.5 minutes / (60 minutes per hour × 24 hours per day) = 0.0073 days.",
+      "entities": [
+        "10.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "She plans to upload all her photos onto Instagram.",
+      "entities": [
+        "Jade"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time for editing/filtering = 210 photos x 0.5 minutes/photo = 105 minutes.",
+      "entities": [
+        "210",
+        "0.5",
+        "105"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Time for uploads = 210 photos / 20 photos per minute = 10.5 minutes.",
+      "entities": [
+        "10.5",
+        "20"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_3",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Time for captions/tags = 210 photos x 0.5 minutes/photo = 105 minutes.",
+      "entities": [
+        "105"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_4",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 105 minutes + 10.5 minutes + 105 minutes = 220.5 minutes.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_3_5",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 220.5 minutes / (60 minutes per hour × 24 hours per day) = 0.1532 days.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "She can upload 7 photos per batch.",
+      "entities": [
+        "7"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of batches = 210 / 7 = 30 batches.",
+      "entities": [
+        "210",
+        "7",
+        "30"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Time per batch = 7 photos / 20 photos per minute = 0.35 minutes.",
+      "entities": [
+        "7",
+        "20",
+        "0.35"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_3",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time for batch uploads = 30 batches × 0.35 minutes/batch = 10.5 minutes.",
+      "entities": [
+        "30",
+        "10.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_4",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 10.5 minutes + 105 minutes + 105 minutes = 220.5 minutes.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_4_5",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 220.5 minutes / (60 minutes per hour × 24 hours per day) = 0.1532 days.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_0",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Jade uploads 6 batches of photos every day.",
+      "entities": [
+        "Jade",
+        "6"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_1",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Photos per day = 6 batches × 7 photos/batch = 42 photos/day.",
+      "entities": [
+        "6",
+        "7",
+        "42"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_2",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of days = 210 photos / 42 photos/day = 5 days.",
+      "entities": [
+        "210",
+        "42",
+        "5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_3",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time for batch uploads = 5 days × 2.1 minutes/day = 10.5 minutes.",
+      "entities": [
+        "5",
+        "2.1",
+        "10.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_4",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 10.5 minutes + 105 minutes + 105 minutes = 220.5 minutes.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1260_5_5",
+      "conversation_id": "sharded-GSM8K/1260",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time in days = 220.5 minutes / (60 minutes per hour × 24 hours per day) = 0.1532 days.",
+      "entities": [
+        "220.5"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1260_0_0",
+      "target": "sharded-GSM8K/1260_0_1",
+      "type": "supports",
+      "rationale": "User provides specific value of 500 photos."
+    },
+    {
+      "source": "sharded-GSM8K/1260_0_1",
+      "target": "sharded-GSM8K/1260_0_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_1_0",
+      "target": "sharded-GSM8K/1260_1_1",
+      "type": "supports",
+      "rationale": "User provides specific value of 100 photos per day."
+    },
+    {
+      "source": "sharded-GSM8K/1260_1_1",
+      "target": "sharded-GSM8K/1260_1_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_1_2",
+      "target": "sharded-GSM8K/1260_1_3",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_2_0",
+      "target": "sharded-GSM8K/1260_2_1",
+      "type": "supports",
+      "rationale": "User provides specific value of 210 photos."
+    },
+    {
+      "source": "sharded-GSM8K/1260_2_1",
+      "target": "sharded-GSM8K/1260_2_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_3_0",
+      "target": "sharded-GSM8K/1260_3_1",
+      "type": "supports",
+      "rationale": "User provides context for uploading to Instagram."
+    },
+    {
+      "source": "sharded-GSM8K/1260_3_1",
+      "target": "sharded-GSM8K/1260_3_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_3_2",
+      "target": "sharded-GSM8K/1260_3_3",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_3_3",
+      "target": "sharded-GSM8K/1260_3_4",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_3_4",
+      "target": "sharded-GSM8K/1260_3_5",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_4_0",
+      "target": "sharded-GSM8K/1260_4_1",
+      "type": "supports",
+      "rationale": "User provides specific value of 7 photos per batch."
+    },
+    {
+      "source": "sharded-GSM8K/1260_4_1",
+      "target": "sharded-GSM8K/1260_4_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_4_2",
+      "target": "sharded-GSM8K/1260_4_3",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_4_3",
+      "target": "sharded-GSM8K/1260_4_4",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_4_4",
+      "target": "sharded-GSM8K/1260_4_5",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_5_0",
+      "target": "sharded-GSM8K/1260_5_1",
+      "type": "supports",
+      "rationale": "User provides specific value of 6 batches per day."
+    },
+    {
+      "source": "sharded-GSM8K/1260_5_1",
+      "target": "sharded-GSM8K/1260_5_2",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_5_2",
+      "target": "sharded-GSM8K/1260_5_3",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_5_3",
+      "target": "sharded-GSM8K/1260_5_4",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    },
+    {
+      "source": "sharded-GSM8K/1260_5_4",
+      "target": "sharded-GSM8K/1260_5_5",
+      "type": "derived_from",
+      "rationale": "Step calculation based on previous result."
+    }
+  ],
+  "attributes": {}
+}

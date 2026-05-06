@@ -119,11 +119,13 @@ class TestDerivedFromPropagation:
         assert nmap["a1"].status == NodeStatus.inactive
         assert nmap["a2"].status == NodeStatus.contaminated
 
-    def test_derivation_from_supported_assumption_stays_clean(self):
+    def test_assumption_contaminated_even_with_user_support(self):
+        # Rule A (updated): assumption nodes require tool VERIFIED_BY to stay clean.
+        # A SUPPORTS edge from a user fact is NOT sufficient — assumptions are placeholders
+        # invented by the assistant, not derivations from user-provided values.
         a1 = node("a1", SourceType.assistant, StateType.assumption)
         u1 = node("u1", SourceType.user, StateType.fact)
         a2 = node("a2", SourceType.assistant, StateType.derivation)
-        # u1 supports a1 (user fact endorses assumption)
         support_edge = StateEdge(source="u1", target="a1", type=EdgeType.supports)
         derived_edge = StateEdge(source="a2", target="a1", type=EdgeType.derived_from)
         csg = graph([a1, u1, a2], [support_edge, derived_edge])
@@ -131,9 +133,10 @@ class TestDerivedFromPropagation:
         updated, report = propagate_contamination(csg)
         nmap = {n.id: n for n in updated.nodes}
 
-        assert nmap["a1"].status == NodeStatus.active
-        assert nmap["a2"].status == NodeStatus.active
-        assert report.contaminated_ids == []
+        # a1 is contaminated despite SUPPORTS (assumption rule)
+        assert nmap["a1"].status == NodeStatus.contaminated
+        # a2 is contaminated via Rule D (derived_from contaminated a1)
+        assert nmap["a2"].status == NodeStatus.contaminated
 
 
 class TestTrustLevels:

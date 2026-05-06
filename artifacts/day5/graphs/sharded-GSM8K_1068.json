@@ -1,0 +1,239 @@
+{
+  "conversation_id": "sharded-GSM8K/1068",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1068_0_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Each meatball sub contains 4 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_0_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Sidney had 1 meatball sub sandwich, then the total number of meatballs in the sub would be: Total meatballs = 4 meatballs per sub.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_0_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the number of meatballs left in Sidney's sub sandwich is: Meatballs left = 4 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Sidney originally ordered 3 fewer than 10 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of sub sandwiches = 10 - 3 = 7 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs = 7 sub sandwiches × 4 meatballs per sub = 28 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_1_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the number of meatballs left in Sidney's sub sandwiches is: Meatballs left = 28 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Mark ate 4 of Sidney's sub sandwiches from the first order.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Sub sandwiches remaining = 7 - 4 = 3 sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs remaining = 3 sub sandwiches × 4 meatballs per sub = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_2_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the number of meatballs left in Sidney's sub sandwiches is: Meatballs left = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_0",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "After that, Sidney ordered 3 more sub sandwiches.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_1",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs in new sub sandwiches = 3 sub sandwiches × 4 meatballs per sub = 12 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_2",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total meatballs left = Meatballs remaining from original order + Meatballs in new sub sandwiches = 12 + 12 = 24 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1068_3_3",
+      "conversation_id": "sharded-GSM8K/1068",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the number of meatballs left in Sidney's sub sandwiches is: Meatballs left = 24 meatballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1068_0_0",
+      "target": "sharded-GSM8K/1068_0_1",
+      "type": "supports",
+      "rationale": "User states that each sub contains 4 meatballs."
+    },
+    {
+      "source": "sharded-GSM8K/1068_0_1",
+      "target": "sharded-GSM8K/1068_0_2",
+      "type": "supports",
+      "rationale": "Assistant derives meatballs left based on the known sub contents."
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_0",
+      "target": "sharded-GSM8K/1068_1_1",
+      "type": "supports",
+      "rationale": "User specifies number of ordered sandwiches."
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_1",
+      "target": "sharded-GSM8K/1068_1_2",
+      "type": "supports",
+      "rationale": "Assistant calculates total meatballs based on number of sandwiches."
+    },
+    {
+      "source": "sharded-GSM8K/1068_1_2",
+      "target": "sharded-GSM8K/1068_1_3",
+      "type": "supports",
+      "rationale": "Final answer reflects total meatballs remaining."
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_0",
+      "target": "sharded-GSM8K/1068_2_1",
+      "type": "supports",
+      "rationale": "User specifies how many sub sandwiches Mark ate."
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_1",
+      "target": "sharded-GSM8K/1068_2_2",
+      "type": "supports",
+      "rationale": "Assistant calculates remaining sandwiches."
+    },
+    {
+      "source": "sharded-GSM8K/1068_2_2",
+      "target": "sharded-GSM8K/1068_2_3",
+      "type": "supports",
+      "rationale": "Answer is based on remaining meatballs."
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_0",
+      "target": "sharded-GSM8K/1068_3_1",
+      "type": "supports",
+      "rationale": "User states Sidney ordered more sandwiches."
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_1",
+      "target": "sharded-GSM8K/1068_3_2",
+      "type": "supports",
+      "rationale": "Assistant derives total meatballs from new orders."
+    },
+    {
+      "source": "sharded-GSM8K/1068_3_2",
+      "target": "sharded-GSM8K/1068_3_3",
+      "type": "supports",
+      "rationale": "Final answer reflects total remaining meatballs."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,210 @@
+{
+  "conversation_id": "sharded-GSM8K/740",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/740_0_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "there's a class of 50 students with different hobbies",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_0_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Video game interest data can be categorical or numerical.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_0_2",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "40% of the students in the class like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_1_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "out of them, 10 enjoy baking",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_1_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "40 students do not enjoy baking.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_1_2",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The number of students who like playing video games is between 0 and 40.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_2_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "5 students prefer playing basketball",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_2_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "35 students do not enjoy baking or prefer playing basketball.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_2_2",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The number of students who like playing video games is between 0 and 35.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_3_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "the remaining students are split between video games and music as their hobbies",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_3_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "17 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_4_0",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "those who play music are twice as many as those who play basketball",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_4_1",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "10 students like music.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/740_4_2",
+      "conversation_id": "sharded-GSM8K/740",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "25 students like playing video games.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/740_0_0",
+      "target": "sharded-GSM8K/740_0_1",
+      "type": "supports",
+      "rationale": "User states there is a class of 50 students."
+    },
+    {
+      "source": "sharded-GSM8K/740_1_0",
+      "target": "sharded-GSM8K/740_1_1",
+      "type": "supports",
+      "rationale": "User states 10 students enjoy baking."
+    },
+    {
+      "source": "sharded-GSM8K/740_1_1",
+      "target": "sharded-GSM8K/740_1_2",
+      "type": "supports",
+      "rationale": "The assistant derives the number of students who do not enjoy baking."
+    },
+    {
+      "source": "sharded-GSM8K/740_2_0",
+      "target": "sharded-GSM8K/740_2_1",
+      "type": "supports",
+      "rationale": "User states 5 students prefer basketball."
+    },
+    {
+      "source": "sharded-GSM8K/740_2_1",
+      "target": "sharded-GSM8K/740_2_2",
+      "type": "supports",
+      "rationale": "The assistant derives the number from prior information."
+    },
+    {
+      "source": "sharded-GSM8K/740_3_0",
+      "target": "sharded-GSM8K/740_3_1",
+      "type": "supports",
+      "rationale": "User indicates remaining students' hobbies."
+    },
+    {
+      "source": "sharded-GSM8K/740_4_0",
+      "target": "sharded-GSM8K/740_4_1",
+      "type": "supports",
+      "rationale": "User states that music preference is related to basketball preference."
+    },
+    {
+      "source": "sharded-GSM8K/740_4_1",
+      "target": "sharded-GSM8K/740_4_2",
+      "type": "supports",
+      "rationale": "Assistant calculates based on the confirmed number of music students."
+    }
+  ],
+  "attributes": {}
+}

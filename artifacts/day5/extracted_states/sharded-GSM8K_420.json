@@ -1,0 +1,149 @@
+{
+  "conversation_id": "sharded-GSM8K/420",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/420_0_0",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Mr. Josue raised money from two banks for his store.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_0_1",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Mr. Josue raised money from two banks for his store.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_1_0",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The first bank provided him with $4000.",
+      "entities": [
+        "first bank"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_1_1",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Josue's total capital now is $69,000 plus the amount he raised from the second bank, which is $4,000 + $Y.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_2_0",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The second bank gave him twice the amount the first bank gave.",
+      "entities": [
+        "second bank",
+        "first bank"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_2_1",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Josue's total capital now is $81,000.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_3_0",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Before receiving the loans, he already had $5000 in capital.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/420_3_1",
+      "conversation_id": "sharded-GSM8K/420",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Mr. Josue's total capital now is $86,000.",
+      "entities": [
+        "Mr. Josue"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/420_0_0",
+      "target": "sharded-GSM8K/420_0_1",
+      "type": "supports",
+      "rationale": "User fact states the same information assistant assumes."
+    },
+    {
+      "source": "sharded-GSM8K/420_1_0",
+      "target": "sharded-GSM8K/420_1_1",
+      "type": "supports",
+      "rationale": "User fact provides the specific value used in calculation."
+    },
+    {
+      "source": "sharded-GSM8K/420_2_0",
+      "target": "sharded-GSM8K/420_2_1",
+      "type": "supports",
+      "rationale": "User fact provides the specific value used in calculation."
+    },
+    {
+      "source": "sharded-GSM8K/420_3_0",
+      "target": "sharded-GSM8K/420_3_1",
+      "type": "supports",
+      "rationale": "User fact provides the specific value used in calculation."
+    },
+    {
+      "source": "sharded-GSM8K/420_1_1",
+      "target": "sharded-GSM8K/420_2_1",
+      "type": "derived_from",
+      "rationale": "Assistant's turn builds on previous calculation."
+    },
+    {
+      "source": "sharded-GSM8K/420_2_1",
+      "target": "sharded-GSM8K/420_3_1",
+      "type": "derived_from",
+      "rationale": "Assistant's turn builds on previous calculation."
+    }
+  ],
+  "attributes": {}
+}

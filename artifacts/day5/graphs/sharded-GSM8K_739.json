@@ -1,0 +1,147 @@
+{
+  "conversation_id": "sharded-GSM8K/739",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/739_0_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Cecelia went shopping at the milk store.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I do not have enough details to determine how much Cecelia spent on milk jars.",
+      "entities": [
+        "Cecelia"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_1_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The price of the gallon jar is $2 higher than the price of the half-gallon jar.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/739_2_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "A gallon jar costs $5.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_2_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the price of the half-gallon jar is $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_3_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "She bought 10 gallon jars.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_3_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total amount Cecelia spent on the milk jars is $50.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_4_0",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "She also purchased 16 half-gallon jars.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/739_4_1",
+      "conversation_id": "sharded-GSM8K/739",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Therefore, the total amount Cecelia spent on the milk jars is $98.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/739_0_0",
+      "target": "sharded-GSM8K/739_1_0",
+      "type": "supports",
+      "rationale": "User fact gives context for assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/739_1_1",
+      "target": "sharded-GSM8K/739_2_1",
+      "type": "supports",
+      "rationale": "Assistant's claim uses the gallon's price."
+    },
+    {
+      "source": "sharded-GSM8K/739_2_0",
+      "target": "sharded-GSM8K/739_2_1",
+      "type": "supports",
+      "rationale": "User fact provides the price of the gallon jar."
+    },
+    {
+      "source": "sharded-GSM8K/739_2_1",
+      "target": "sharded-GSM8K/739_3_1",
+      "type": "supports",
+      "rationale": "Assistant's calculation relies on half-gallon pricing."
+    },
+    {
+      "source": "sharded-GSM8K/739_3_0",
+      "target": "sharded-GSM8K/739_3_1",
+      "type": "supports",
+      "rationale": "User fact indicates quantity for the assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/739_4_0",
+      "target": "sharded-GSM8K/739_4_1",
+      "type": "supports",
+      "rationale": "User fact provides quantity for the assistant's final calculation."
+    }
+  ],
+  "attributes": {}
+}

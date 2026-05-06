@@ -1,0 +1,357 @@
+{
+  "conversation_id": "sharded-GSM8K/369",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/369_0_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "there are 44 seniors who need to receive awards",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_0_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume an average of $20 per gift.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_0_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "44 seniors x $20 per gift = $880 total",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "every senior will get a picture frame that costs $20",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = Number of seniors x Cost per picture frame",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = 44 x $20",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_1_3",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "the total amount that will be spent on senior gifts is $880.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "each picture frame also has a logo etched on it, adding 20% more to its cost",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Additional cost per picture frame = 20% of $20 = $4",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "New cost per picture frame = $20 + $4 = $24",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_3",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = 44 x $24 = $1,056",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_2_4",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "the total amount that will be spent on senior gifts is $1,056.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "besides the frames, 2 seniors will also get $5 pins",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost for pins = 2 seniors x $5 per pin = $10",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = Total cost for picture frames + Total cost for pins",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_3_3",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "the total amount that will be spent on senior gifts is $1,066.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "about 1/4 of these seniors are officers",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of officer seniors = 1/4 of 44 = 11 seniors",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total additional cost for officer seniors = 11 seniors x $10 = $110",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_4_3",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "the total amount that will be spent on senior gifts is $1,176.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_5_0",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "officers will also get cords that cost $12 each",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/369_5_1",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost for cords = 11 officer seniors x $12 per cord = $132",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/369_5_2",
+      "conversation_id": "sharded-GSM8K/369",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "the total amount that will be spent on senior gifts is $1,308.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/369_0_0",
+      "target": "sharded-GSM8K/369_0_1",
+      "type": "supports",
+      "rationale": "User states the number of seniors."
+    },
+    {
+      "source": "sharded-GSM8K/369_0_1",
+      "target": "sharded-GSM8K/369_0_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives total cost from average gift cost."
+    },
+    {
+      "source": "sharded-GSM8K/369_1_0",
+      "target": "sharded-GSM8K/369_1_1",
+      "type": "supports",
+      "rationale": "User provides specific cost of the picture frame."
+    },
+    {
+      "source": "sharded-GSM8K/369_1_1",
+      "target": "sharded-GSM8K/369_1_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives total cost from the number of seniors and cost per frame."
+    },
+    {
+      "source": "sharded-GSM8K/369_1_2",
+      "target": "sharded-GSM8K/369_1_3",
+      "type": "derived_from",
+      "rationale": "Total cost derived from pricing calculations."
+    },
+    {
+      "source": "sharded-GSM8K/369_2_0",
+      "target": "sharded-GSM8K/369_2_1",
+      "type": "supports",
+      "rationale": "User gives the percentage increase for the logo etching."
+    },
+    {
+      "source": "sharded-GSM8K/369_2_1",
+      "target": "sharded-GSM8K/369_2_2",
+      "type": "derived_from",
+      "rationale": "Calculates new cost based on additional charge."
+    },
+    {
+      "source": "sharded-GSM8K/369_2_2",
+      "target": "sharded-GSM8K/369_2_3",
+      "type": "derived_from",
+      "rationale": "Total cost derived from updated cost per frame."
+    },
+    {
+      "source": "sharded-GSM8K/369_3_0",
+      "target": "sharded-GSM8K/369_3_1",
+      "type": "supports",
+      "rationale": "User specifies the cost of pins and quantity."
+    },
+    {
+      "source": "sharded-GSM8K/369_3_1",
+      "target": "sharded-GSM8K/369_3_2",
+      "type": "derived_from",
+      "rationale": "Assistant calculates total based on the number of pins."
+    },
+    {
+      "source": "sharded-GSM8K/369_3_2",
+      "target": "sharded-GSM8K/369_3_3",
+      "type": "derived_from",
+      "rationale": "Total cost derived from frames and pins pricing."
+    },
+    {
+      "source": "sharded-GSM8K/369_4_0",
+      "target": "sharded-GSM8K/369_4_1",
+      "type": "supports",
+      "rationale": "User states proportion of seniors who are officers."
+    },
+    {
+      "source": "sharded-GSM8K/369_4_1",
+      "target": "sharded-GSM8K/369_4_2",
+      "type": "derived_from",
+      "rationale": "Calculates total additional cost for officer seniors."
+    },
+    {
+      "source": "sharded-GSM8K/369_4_2",
+      "target": "sharded-GSM8K/369_4_3",
+      "type": "derived_from",
+      "rationale": "Total cost derived from frames, pins, and officers."
+    },
+    {
+      "source": "sharded-GSM8K/369_5_0",
+      "target": "sharded-GSM8K/369_5_1",
+      "type": "supports",
+      "rationale": "User gives additional costs for officers."
+    },
+    {
+      "source": "sharded-GSM8K/369_5_1",
+      "target": "sharded-GSM8K/369_5_2",
+      "type": "derived_from",
+      "rationale": "Total cost derived from frames, pins, officers, and cords."
+    }
+  ],
+  "attributes": {}
+}

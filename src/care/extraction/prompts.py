@@ -47,10 +47,68 @@ Edge rules (only add when relationship is explicit in the text):
 - supersedes: source=new_node, target=old_node_it_replaces
 - contradicts: source=higher_trust_node, target=lower_trust_node
 - supports: source=user_fact, target=assistant_derivation_it_backs
+  (see SUPPORTS RULES below — this edge is STRICT)
 - verified_by: source=assistant_claim, target=tool_output_confirming_it
 - belongs_to: source=structural_record_cell, target=table_metadata_node
 
 Node ID format: "{conversation_id}_{turn_index}_{seq}" where seq starts at 0 per turn.
+
+═══════════════════════════════════════════════════════════════
+SUPPORTS EDGE RULES (STRICT — read carefully before emitting)
+═══════════════════════════════════════════════════════════════
+
+A SUPPORTS edge from user node U to assistant node A is valid ONLY when:
+  U contains a SPECIFIC VALUE (number, name, date) that A uses directly in its claim.
+
+Do NOT emit SUPPORTS in ANY of these cases:
+  1. The assistant claim contains placeholder language such as:
+       "I'll assume", "let me say", "let's assume", "let's call it",
+       "let's say", "$X", "Y dollars", "let me estimate", "let me guess"
+     These are invented values — no user fact "supports" an invented number.
+  2. U merely describes the problem context and A "responded to" or "referenced" U.
+     Being a response to a turn is NOT support.
+  3. A invents intermediate values not present anywhere in the user turns.
+
+Node typing rule for assistant turns:
+  If the assistant turn contains phrases like "Let's assume", "I'll assume",
+  "let me say", or introduces placeholder numbers/values not given by the user,
+  type it as "assumption", NOT "answer_candidate" or "derivation".
+  Type as "derivation" only when the computation uses ONLY values the user stated.
+  Type as "answer_candidate" only for the final complete answer using real facts.
+
+derived_from edges for multi-turn reasoning:
+  If assistant Turn N builds on an intermediate result from assistant Turn N-1
+  (uses its numeric output as an input), add:
+    derived_from: source=Turn_N_node, target=Turn_(N-1)_node
+
+═══════════════════════
+SUPPORTS EXAMPLES
+═══════════════════════
+
+SCENARIO: Math problem delivered in shards.
+  User Turn 0: "Alice has been baking for 3 years."
+  Asst Turn 0: "Let me assume she bakes 10 loaves per year. 3 × 10 = 30 loaves total."
+  User Turn 1: "She bakes 15 loaves per year."
+  Asst Turn 1: "With 15 loaves/year and 3 years: 3 × 15 = 45 loaves total."
+
+CORRECT extraction:
+  Asst Turn 0 node: type="assumption" (uses invented "10 loaves" not given by user)
+  Asst Turn 1 node: type="derivation" (uses "15 loaves" and "3 years" from user)
+  Edge: User Turn 1 ("she bakes 15 loaves/year") --supports--> Asst Turn 1 ("3×15=45") ✓
+    Reason: User Turn 1 contains the SPECIFIC VALUE "15" used in Turn 1's derivation.
+  Edge: Asst Turn 1 --derived_from--> Asst Turn 0 ✗  (Turn 1 recalculates from scratch)
+  NO edge: User Turn 0 --supports--> Asst Turn 0
+    Reason: "3 years" is real, but Turn 0's "10 loaves/year" is INVENTED by the assistant.
+    The user fact does not supply the value "10" — so no SUPPORTS.
+
+INCORRECT (do NOT do this):
+  Edge: User Turn 0 ("Alice has baked for 3 years") --supports--> Asst Turn 0 ("30 loaves")
+    Reason: Asst Turn 0 invented "10 loaves/year" — the user never said this.
+    "3 years" appears in the derivation but the key intermediate value is invented.
+
+═══════════════════════
+END SUPPORTS RULES
+═══════════════════════
 
 ═══════════════════════════════════════════════════════════════
 DATA-TO-TEXT / TABLE TASK DETECTION AND EXTRACTION (MANDATORY)

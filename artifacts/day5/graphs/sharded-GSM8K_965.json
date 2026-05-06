@@ -1,0 +1,204 @@
+{
+  "conversation_id": "sharded-GSM8K/965",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/965_0_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "A bird is migrating from its summer home in the north to its winter home in the south.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_0_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The distance the bird travels from its northern summer home to its southern winter home is approximately 11.18 units.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The bird flies south for 10 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_1_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying south for 10 hours, the bird has traveled a distance of 10 units south from its northern home.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "During this first leg, it flies at 30 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_2_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying south for 10 hours at 30 mph, the bird has traveled a distance of 300 units and its new location is (10, -280).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The bird changes direction and flies north for 2 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_3_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying north for 2 hours, the bird's new location is (10, 0).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On this second leg, it flies at 18 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_4_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying north for 2 hours at 18 mph, the bird's new location is (10, 36).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "The bird turns south again and flies for 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_5_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying south for 5 hours, the bird's final location is (10, -280).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_0",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "On the last leg, it travels at 22 mph.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/965_6_1",
+      "conversation_id": "sharded-GSM8K/965",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "After flying south for 1 hour at 22 mph, the bird's final location is (10, -596).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/965_0_0",
+      "target": "sharded-GSM8K/965_0_1",
+      "type": "supports",
+      "rationale": "User turn states where the bird is migrating to."
+    },
+    {
+      "source": "sharded-GSM8K/965_1_0",
+      "target": "sharded-GSM8K/965_1_1",
+      "type": "supports",
+      "rationale": "User turn provides the duration for travel."
+    },
+    {
+      "source": "sharded-GSM8K/965_2_0",
+      "target": "sharded-GSM8K/965_2_1",
+      "type": "supports",
+      "rationale": "User turn provides the speed for the journey."
+    },
+    {
+      "source": "sharded-GSM8K/965_3_0",
+      "target": "sharded-GSM8K/965_3_1",
+      "type": "supports",
+      "rationale": "User turn states the direction change."
+    },
+    {
+      "source": "sharded-GSM8K/965_4_0",
+      "target": "sharded-GSM8K/965_4_1",
+      "type": "supports",
+      "rationale": "User turn provides the speed for the journey."
+    },
+    {
+      "source": "sharded-GSM8K/965_5_0",
+      "target": "sharded-GSM8K/965_5_1",
+      "type": "supports",
+      "rationale": "User turn states the direction change."
+    },
+    {
+      "source": "sharded-GSM8K/965_6_0",
+      "target": "sharded-GSM8K/965_6_1",
+      "type": "supports",
+      "rationale": "User turn provides the speed for the final journey."
+    }
+  ],
+  "attributes": {}
+}

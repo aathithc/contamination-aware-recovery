@@ -1,0 +1,245 @@
+{
+  "conversation_id": "sharded-GSM8K/435",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/435_0_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Ray started with 25 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The question asks how many lollipops Ray's friends got.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This implies that Ray gave some of his 25 lollipops to his friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_3",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "However, the question does not specify how many friends Ray has or how many lollipops each friend received.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_0_4",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The best we can conclude is that Ray's friends received some number of the 25 lollipops, but the exact quantity is unknown based on the information provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "he decided to keep 5 lollipops for himself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Ray decided to keep 5 lollipops for himself.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "That means he had 25 - 5 = 20 lollipops left to give to his friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_3",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Since Ray had 20 lollipops left after keeping 5 for himself, that means his friends received a total of 20 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_1_4",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Ray's friends got 20 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_0",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "the rest of the lollipops were shared equally among his 4 friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_1",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The question states the remaining lollipops were shared equally among Ray's 4 friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_2",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "20 lollipops remaining were shared equally among Ray's 4 friends.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_3",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "To calculate how many lollipops each friend got, we divide the 20 remaining lollipops by 4 friends: 20 lollipops ÷ 4 friends = 5 lollipops per friend.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/435_2_4",
+      "conversation_id": "sharded-GSM8K/435",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Ray's 4 friends each got 5 lollipops.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/435_0_0",
+      "target": "sharded-GSM8K/435_0_1",
+      "type": "supports",
+      "rationale": "User Turn 0 informs Assistant Turn 0."
+    },
+    {
+      "source": "sharded-GSM8K/435_0_0",
+      "target": "sharded-GSM8K/435_0_2",
+      "type": "supports",
+      "rationale": "User Turn 0 informs Assistant Turn 0."
+    },
+    {
+      "source": "sharded-GSM8K/435_0_1",
+      "target": "sharded-GSM8K/435_0_4",
+      "type": "supports",
+      "rationale": "Assumption directly relates to conclusion about friends' lollipops."
+    },
+    {
+      "source": "sharded-GSM8K/435_0_3",
+      "target": "sharded-GSM8K/435_0_4",
+      "type": "supports",
+      "rationale": "Assumption of lack of information supports conclusion."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_0",
+      "target": "sharded-GSM8K/435_1_1",
+      "type": "supports",
+      "rationale": "User Turn 1 provides information directly relevant to Assistant Turn 1."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_1",
+      "target": "sharded-GSM8K/435_1_2",
+      "type": "supports",
+      "rationale": "Assumption builds on keeping lollipops."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_2",
+      "target": "sharded-GSM8K/435_1_3",
+      "type": "supports",
+      "rationale": "Derivation uses previous value to conclude total lollipops given."
+    },
+    {
+      "source": "sharded-GSM8K/435_1_3",
+      "target": "sharded-GSM8K/435_1_4",
+      "type": "supports",
+      "rationale": "Conclusion about friends' lollipops derived from previous statements."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_0",
+      "target": "sharded-GSM8K/435_2_1",
+      "type": "supports",
+      "rationale": "User Turn 2 builds on required context for sharing."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_1",
+      "target": "sharded-GSM8K/435_2_2",
+      "type": "supports",
+      "rationale": "Assumption about sharing supports the remaining count."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_2",
+      "target": "sharded-GSM8K/435_2_3",
+      "type": "supports",
+      "rationale": "Calculation of how many lollipops each friend got is based on previous statement."
+    },
+    {
+      "source": "sharded-GSM8K/435_2_3",
+      "target": "sharded-GSM8K/435_2_4",
+      "type": "supports",
+      "rationale": "Final answer directly comes from the calculation."
+    }
+  ],
+  "attributes": {}
+}

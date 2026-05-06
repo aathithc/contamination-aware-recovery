@@ -1,0 +1,48 @@
+{
+  "n_tasks": 50,
+  "baseline_accuracy": 0.48,
+  "extraction_failures": 0,
+  "contamination_stats": {
+    "total_contaminated": 160,
+    "total_assumptions": 521,
+    "total_supports": 333,
+    "tasks_with_contamination": 39
+  },
+  "stop_condition_hit": false,
+  "cost_usd": 0.01465,
+  "methods": {
+    "concat": {
+      "acc": 0.44,
+      "rescue": 0.22,
+      "harm": 0.26,
+      "net": -0.04,
+      "delta": -0.04
+    },
+    "trust_filtered": {
+      "acc": 0.46,
+      "rescue": 0.14,
+      "harm": 0.16,
+      "net": -0.02,
+      "delta": -0.02
+    },
+    "structural_graph": {
+      "acc": 0.0,
+      "rescue": 0.0,
+      "harm": 0.48,
+      "net": -0.48,
+      "delta": -0.48
+    },
+    "structural_graph_no_prop": {
+      "acc": 0.0,
+      "rescue": 0.0,
+      "harm": 0.48,
+      "net": -0.48,
+      "delta": -0.48
+    }
+  },
+  "key_comparisons": {
+    "propagation_delta_pp": 0.0,
+    "trust_filtered_vs_concat_pp": 2.0
+  },
+  "decision": "PROPAGATION CONTRIBUTES 0-5pp (+0.0pp): contamination detected but marginal effect. Reframe paper around structural retrieval as primary contribution; propagation is supporting."
+}

@@ -1,0 +1,222 @@
+{
+  "conversation_id": "sharded-GSM8K/14",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/14_0_0",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "There are 20 students in the dance class.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_0_1",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "We will assume that we don't know the exact number of students enrolled in hip-hop dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/14_0_2",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The percentage of students enrolled in hip-hop dance is some unknown value between 0% and 100%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_1_0",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "20% of the students chose contemporary dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_1_1",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "4 students are enrolled in contemporary dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_1_2",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "16 students are not enrolled in contemporary dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_1_3",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The percentage of students enrolled in hip-hop dance is 80%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_2_0",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "25% of the remaining students opted for jazz dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_2_1",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "4 students opted for jazz dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_2_2",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "12 students are enrolled in hip-hop dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_2_3",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The percentage of students enrolled in hip-hop dance is 60%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_3_0",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The rest of the students are in the hip-hop dance group.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_3_1",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "12 students are enrolled in hip-hop dance.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/14_3_2",
+      "conversation_id": "sharded-GSM8K/14",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The percentage of students enrolled in hip-hop dance is 60%.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/14_0_0",
+      "target": "sharded-GSM8K/14_0_1",
+      "type": "supports",
+      "rationale": "User provided total students used in assumption."
+    },
+    {
+      "source": "sharded-GSM8K/14_0_1",
+      "target": "sharded-GSM8K/14_0_2",
+      "type": "derived_from",
+      "rationale": "Assumption leads to conclusion about unknown percentage."
+    },
+    {
+      "source": "sharded-GSM8K/14_1_0",
+      "target": "sharded-GSM8K/14_1_1",
+      "type": "supports",
+      "rationale": "User provided total students used to calculate contemporary dance."
+    },
+    {
+      "source": "sharded-GSM8K/14_1_1",
+      "target": "sharded-GSM8K/14_1_2",
+      "type": "derived_from",
+      "rationale": "Calculating non-contemporary students from contemporary enrollment."
+    },
+    {
+      "source": "sharded-GSM8K/14_1_2",
+      "target": "sharded-GSM8K/14_1_3",
+      "type": "derived_from",
+      "rationale": "Remaining students lead to calculation of hip-hop dance percentage."
+    },
+    {
+      "source": "sharded-GSM8K/14_2_0",
+      "target": "sharded-GSM8K/14_2_1",
+      "type": "supports",
+      "rationale": "User provided percentage used to calculate students opting for jazz."
+    },
+    {
+      "source": "sharded-GSM8K/14_2_1",
+      "target": "sharded-GSM8K/14_2_2",
+      "type": "derived_from",
+      "rationale": "Jazz dance students taken from the number of remaining students."
+    },
+    {
+      "source": "sharded-GSM8K/14_2_2",
+      "target": "sharded-GSM8K/14_2_3",
+      "type": "derived_from",
+      "rationale": "Calculating hip-hop dance percentage from total enrollments."
+    },
+    {
+      "source": "sharded-GSM8K/14_3_0",
+      "target": "sharded-GSM8K/14_3_1",
+      "type": "supports",
+      "rationale": "User confirmed remaining students are in hip-hop dance group."
+    },
+    {
+      "source": "sharded-GSM8K/14_3_1",
+      "target": "sharded-GSM8K/14_3_2",
+      "type": "derived_from",
+      "rationale": "Final calculation of hip-hop percentage from student distribution."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,323 @@
+{
+  "conversation_id": "sharded-GSM8K/1247",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1247_0_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Brendan started out with 10 marbles in a bag.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_0_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "To find how many marbles Brendan ended up with, we need to know what happened to the 10 marbles he started with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_0_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "If Brendan kept all 10 marbles, he ended up with 10 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_0_3",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "If Brendan lost or gave away some of the 10 marbles, we don't know how many marbles he ended up with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "he tripped over a pebble while carrying the bag.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "When Brendan tripped, it's likely that some of the marbles spilled out of the bag.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_1_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The best we can conclude is that Brendan ended up with fewer than 10 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "when he tripped, he dropped half of the marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "To calculate how many marbles Brendan ended up with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Brendan dropped 5 marbles when he tripped.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_2_3",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Brendan ended up with 5 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "after searching, he only managed to recover 3 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "To calculate the total number of marbles Brendan ended up with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_3_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "So the total number of marbles Brendan ended up with is 8 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "when he checked, one of the items he picked up was actually a bead, not a marble.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "To calculate the total number of marbles Brendan ended up with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "So he actually only recovered 2 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_4_3",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "So the final answer is that Brendan ended up with 7 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_0",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "he decided to throw the bead away.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_1",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "To calculate the total number of marbles Brendan ended up with.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1247_5_2",
+      "conversation_id": "sharded-GSM8K/1247",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "So the final answer is that Brendan ended up with 7 marbles.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1247_0_0",
+      "target": "sharded-GSM8K/1247_0_1",
+      "type": "supports",
+      "rationale": "User stated Brendan started with 10 marbles."
+    },
+    {
+      "source": "sharded-GSM8K/1247_0_1",
+      "target": "sharded-GSM8K/1247_0_2",
+      "type": "derived_from",
+      "rationale": "Assumption built on previous user fact."
+    },
+    {
+      "source": "sharded-GSM8K/1247_0_1",
+      "target": "sharded-GSM8K/1247_0_3",
+      "type": "derived_from",
+      "rationale": "Assumption about losing marbles built on user fact."
+    },
+    {
+      "source": "sharded-GSM8K/1247_1_0",
+      "target": "sharded-GSM8K/1247_1_1",
+      "type": "supports",
+      "rationale": "User stated Brendan tripped, likely causing spillage."
+    },
+    {
+      "source": "sharded-GSM8K/1247_1_1",
+      "target": "sharded-GSM8K/1247_1_2",
+      "type": "derived_from",
+      "rationale": "Conclusion built on assumption that marbles spilled."
+    },
+    {
+      "source": "sharded-GSM8K/1247_2_0",
+      "target": "sharded-GSM8K/1247_2_1",
+      "type": "supports",
+      "rationale": "User stated he dropped half the marbles."
+    },
+    {
+      "source": "sharded-GSM8K/1247_2_1",
+      "target": "sharded-GSM8K/1247_2_2",
+      "type": "derived_from",
+      "rationale": "Calculating end result based on user input."
+    },
+    {
+      "source": "sharded-GSM8K/1247_2_2",
+      "target": "sharded-GSM8K/1247_2_3",
+      "type": "derived_from",
+      "rationale": "Deriving final marbles from dropped quantity."
+    },
+    {
+      "source": "sharded-GSM8K/1247_3_0",
+      "target": "sharded-GSM8K/1247_3_1",
+      "type": "supports",
+      "rationale": "User stated he recovered 3 marbles."
+    },
+    {
+      "source": "sharded-GSM8K/1247_3_1",
+      "target": "sharded-GSM8K/1247_3_2",
+      "type": "derived_from",
+      "rationale": "Building on previous numbers to get final conclusion."
+    },
+    {
+      "source": "sharded-GSM8K/1247_4_0",
+      "target": "sharded-GSM8K/1247_4_1",
+      "type": "supports",
+      "rationale": "User stated the item was a bead."
+    },
+    {
+      "source": "sharded-GSM8K/1247_4_1",
+      "target": "sharded-GSM8K/1247_4_2",
+      "type": "derived_from",
+      "rationale": "Calculation depends on recovered items."
+    },
+    {
+      "source": "sharded-GSM8K/1247_5_0",
+      "target": "sharded-GSM8K/1247_5_1",
+      "type": "supports",
+      "rationale": "User stated the bead was thrown away."
+    },
+    {
+      "source": "sharded-GSM8K/1247_5_1",
+      "target": "sharded-GSM8K/1247_5_2",
+      "type": "derived_from",
+      "rationale": "Final count reflects last change."
+    }
+  ],
+  "attributes": {}
+}

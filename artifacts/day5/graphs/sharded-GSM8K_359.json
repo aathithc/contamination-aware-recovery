@@ -1,0 +1,261 @@
+{
+  "conversation_id": "sharded-GSM8K/359",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/359_0_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Billy has $10, which his father gave him, to spend on candy.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_0_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume the price of the candy is $2 per pound.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/359_0_2",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Maximum amount of candy Billy can buy is 5 pounds.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_1_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The candy costs $1.50 per pound.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_1_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy can buy 6.67 pounds of candy.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_1_2",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy bought 6 pounds of candy.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_2_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "After buying some candy, Billy uses half of his remaining money as change.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_2_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The total cost of the 6 pounds of candy is $9.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_2_2",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy has $1 left after buying the candy.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_2_3",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy gives back $0.50 in change.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_3_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "He spends half of his change on gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_3_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy spends $0.25 on gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_4_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Each gumball costs 5 cents.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_4_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy bought 5 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_5_0",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Billy bought a total of 40 gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_5_1",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy spent a total of $2 on gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/359_5_2",
+      "conversation_id": "sharded-GSM8K/359",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Billy has -$1.50 in remaining change after buying the gumballs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/359_0_0",
+      "target": "sharded-GSM8K/359_0_1",
+      "type": "supports",
+      "rationale": "User stated Billy has $10."
+    },
+    {
+      "source": "sharded-GSM8K/359_1_0",
+      "target": "sharded-GSM8K/359_1_1",
+      "type": "supports",
+      "rationale": "User stated the candy costs $1.50 per pound."
+    },
+    {
+      "source": "sharded-GSM8K/359_1_2",
+      "target": "sharded-GSM8K/359_1_1",
+      "type": "derived_from",
+      "rationale": "Assistant calculated maximum amount based on the user's price."
+    },
+    {
+      "source": "sharded-GSM8K/359_2_0",
+      "target": "sharded-GSM8K/359_2_1",
+      "type": "supports",
+      "rationale": "User stated Billy uses half his remaining money as change."
+    },
+    {
+      "source": "sharded-GSM8K/359_2_1",
+      "target": "sharded-GSM8K/359_2_2",
+      "type": "derived_from",
+      "rationale": "Assistant derived remaining money from candy cost."
+    },
+    {
+      "source": "sharded-GSM8K/359_2_2",
+      "target": "sharded-GSM8K/359_2_3",
+      "type": "derived_from",
+      "rationale": "Assistant calculated change based on remaining money."
+    },
+    {
+      "source": "sharded-GSM8K/359_3_0",
+      "target": "sharded-GSM8K/359_3_1",
+      "type": "supports",
+      "rationale": "User stated Billy spends half his change on gumballs."
+    },
+    {
+      "source": "sharded-GSM8K/359_4_0",
+      "target": "sharded-GSM8K/359_4_1",
+      "type": "supports",
+      "rationale": "User provided cost per gumball."
+    },
+    {
+      "source": "sharded-GSM8K/359_4_1",
+      "target": "sharded-GSM8K/359_4_1",
+      "type": "derived_from",
+      "rationale": "Assistant calculated number of gumballs from the amount spent."
+    },
+    {
+      "source": "sharded-GSM8K/359_5_0",
+      "target": "sharded-GSM8K/359_5_1",
+      "type": "supports",
+      "rationale": "User stated Billy bought 40 gumballs."
+    },
+    {
+      "source": "sharded-GSM8K/359_5_1",
+      "target": "sharded-GSM8K/359_5_2",
+      "type": "derived_from",
+      "rationale": "Assistant calculated remaining change based on the spending."
+    }
+  ],
+  "attributes": {}
+}

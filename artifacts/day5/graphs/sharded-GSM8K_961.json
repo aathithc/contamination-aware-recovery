@@ -1,0 +1,293 @@
+{
+  "conversation_id": "sharded-GSM8K/961",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/961_0_0",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Amora, Lainey, and Collins initially planned to share the corn chips equally.",
+      "entities": [
+        "Amora",
+        "Lainey",
+        "Collins"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_0_1",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "If the total number of corn chips is represented as X, then each person would get X/3 chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/961_0_2",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total corn chips = Amora's chips + Lainey's chips + Collins' chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_0_3",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total corn chips = 10 + 10 + 10 = 30.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_0_4",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "fact",
+      "text": "Without any specific information about the number of chips each person received, I cannot determine the total number of corn chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_1_0",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Only two of them could get the same number of corn chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_1_1",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "One person must have gotten a different number of chips compared to the other two.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/961_1_2",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let x be the number of chips each of the two equal-sharing people received and y be the number of chips the third person received.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/961_1_3",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "x = y/2 or y = 2x.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_1_4",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Total corn chips = 2x + y.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_0",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The third person ended up with 15 more corn chips than the others.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_1",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Collins ended up with 15 more chips than the other two.",
+      "entities": [
+        "Collins"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_2",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Let Amora and Lainey get x chips and Collins get x + 15 chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_3",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "x = (x + 15) / 3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_4",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Solving for x gives us x = 7.5.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_5",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Amora and Lainey each got 7.5 chips, and Collins got 22.5 chips.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/961_2_6",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total number of corn chips is 37.5.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_3_0",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Amora and Lainey each received 70 corn chips.",
+      "entities": [
+        "Amora",
+        "Lainey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_3_1",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Collins ended up with 15 more chips than Amora and Lainey, which means Collins has 70 + 15 = 85 chips.",
+      "entities": [
+        "Collins"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/961_3_2",
+      "conversation_id": "sharded-GSM8K/961",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The total number of corn chips is 225.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/961_0_0",
+      "target": "sharded-GSM8K/961_0_1",
+      "type": "supports",
+      "rationale": "User established sharing equally, assistant used this to derive X/3."
+    },
+    {
+      "source": "sharded-GSM8K/961_0_1",
+      "target": "sharded-GSM8K/961_0_2",
+      "type": "supports",
+      "rationale": "Assistant's claim about total corn chips builds on the plan to share equally."
+    },
+    {
+      "source": "sharded-GSM8K/961_1_0",
+      "target": "sharded-GSM8K/961_1_1",
+      "type": "supports",
+      "rationale": "User's fact about only two sharing equally is used by assistant to establish contradiction."
+    },
+    {
+      "source": "sharded-GSM8K/961_1_1",
+      "target": "sharded-GSM8K/961_1_2",
+      "type": "derived_from",
+      "rationale": "Assistant's conclusion about one person getting more derives from knowledge of two getting the same."
+    },
+    {
+      "source": "sharded-GSM8K/961_1_2",
+      "target": "sharded-GSM8K/961_1_3",
+      "type": "supports",
+      "rationale": "Assumption about distribution helps clarify the counts."
+    },
+    {
+      "source": "sharded-GSM8K/961_1_4",
+      "target": "sharded-GSM8K/961_2_0",
+      "type": "supports",
+      "rationale": "User's statement provides the numerical difference needed."
+    },
+    {
+      "source": "sharded-GSM8K/961_2_5",
+      "target": "sharded-GSM8K/961_2_6",
+      "type": "supports",
+      "rationale": "Assumed total chips based on previously derived individual amounts."
+    },
+    {
+      "source": "sharded-GSM8K/961_3_0",
+      "target": "sharded-GSM8K/961_3_1",
+      "type": "supports",
+      "rationale": "User's fact provides a specific value used in assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/961_3_1",
+      "target": "sharded-GSM8K/961_3_2",
+      "type": "supports",
+      "rationale": "Calculation of total builds directly from individual amounts."
+    }
+  ],
+  "attributes": {}
+}

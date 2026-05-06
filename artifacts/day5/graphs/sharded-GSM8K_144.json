@@ -1,0 +1,682 @@
+{
+  "conversation_id": "sharded-GSM8K/144",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/144_0_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Kim has recently started a housekeeping business.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_0_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Kim's total weekly revenue from housekeeping services = $1,500",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/144_0_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Kim's total weekly expenses for the business = $900",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/144_0_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Profit = $1,500 - $900 = $600",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_1_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He's trying to figure out how much profit he'll earn from clients.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_1_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Kim's total weekly revenue from clients = $1,500",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/144_1_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Kim's total weekly expenses related to serving clients = $700",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/144_1_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Profit from Clients = $1,500 - $700 = $800",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_2_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Right now, he has 3 clients.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_2_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Profit per Client = $1,500 / 3 = $500",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_2_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total Weekly Profit from Clients = $500 x 3 = $1,500",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_2_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Profit = $1,500 - $700 = $800",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_3_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "He's also in talks with 5 potential new clients.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_3_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Revenue from 8 Clients = $1,500 + ($300 x 5) = $2,500",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_3_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Expenses related to 8 Clients = $700 + ($100 x 5) = $1,200",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_3_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,200 = $1,300",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_4_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "He feels confident these potential clients will become actual clients, so he's counting them.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_4_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,200 = $1,300",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_5_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Each house requires 2 bottles of bleach for cleaning.",
+      "entities": [
+        "bleach"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_5_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Cost of Bleach = 8 x 2 x $2 = $32",
+      "entities": [
+        "bleach"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_5_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total Projected Weekly Expenses = $1,200 + $32 = $1,232",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_5_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,232 = $1,268",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_6_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Additionally, each home also needs a pack of cloths.",
+      "entities": [
+        "cleaning cloths"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_6_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Cost of Cleaning Cloths = 8 x $5 = $40",
+      "entities": [
+        "cleaning cloths"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_6_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total Projected Weekly Expenses = $1,200 + $32 + $40 = $1,272",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_6_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,272 = $1,228",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_7_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 7,
+      "source": "user",
+      "type": "fact",
+      "text": "The price of each bottle of bleach is $2.",
+      "entities": [
+        "bleach"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_7_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Cost of Bleach = 8 x 2 x $2 = $32",
+      "entities": [
+        "bleach"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_7_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total Projected Weekly Expenses = $1,200 + $32 + $40 = $1,272",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_7_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,272 = $1,228",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_8_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 8,
+      "source": "user",
+      "type": "fact",
+      "text": "Each pack of cloths costs $5.",
+      "entities": [
+        "cleaning cloths"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_8_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 8,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Cost of Bleach = 8 x 2 x $2 = $32",
+      "entities": [
+        "bleach"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_8_2",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 8,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total Projected Weekly Expenses = $1,200 + $32 + $40 = $1,272",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_8_3",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 8,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,272 = $1,228",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_9_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 9,
+      "source": "user",
+      "type": "fact",
+      "text": "Kim expects to make $92 total each week from his work.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_9_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 9,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Projected Weekly Profit = $2,500 - $1,272 = $1,228",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_10_0",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 10,
+      "source": "user",
+      "type": "fact",
+      "text": "Profit is simply the total income minus the total expenses he incurs.",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/144_10_1",
+      "conversation_id": "sharded-GSM8K/144",
+      "turn_index": 10,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Weekly Profit = $2,500 - $1,272 = $1,228",
+      "entities": [
+        "Kim"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/144_0_0",
+      "target": "sharded-GSM8K/144_0_1",
+      "type": "supports",
+      "rationale": "User provides business context that assists calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_0_0",
+      "target": "sharded-GSM8K/144_0_2",
+      "type": "supports",
+      "rationale": "User provides business context that assists calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_0_1",
+      "target": "sharded-GSM8K/144_0_3",
+      "type": "derived_from",
+      "rationale": "Revenue and expenses feed into the profit calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_1_0",
+      "target": "sharded-GSM8K/144_1_1",
+      "type": "supports",
+      "rationale": "User specifies focus on clients, providing context."
+    },
+    {
+      "source": "sharded-GSM8K/144_1_1",
+      "target": "sharded-GSM8K/144_1_2",
+      "type": "derived_from",
+      "rationale": "Revenue and expenses are inputs to the profit calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_1_2",
+      "target": "sharded-GSM8K/144_1_3",
+      "type": "derived_from",
+      "rationale": "Revenue and expenses feed into the profit calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_2_0",
+      "target": "sharded-GSM8K/144_2_1",
+      "type": "supports",
+      "rationale": "User's client count serves as input for additional calculations."
+    },
+    {
+      "source": "sharded-GSM8K/144_2_1",
+      "target": "sharded-GSM8K/144_2_2",
+      "type": "derived_from",
+      "rationale": "Profit from clients is calculated based on client count."
+    },
+    {
+      "source": "sharded-GSM8K/144_2_2",
+      "target": "sharded-GSM8K/144_2_3",
+      "type": "derived_from",
+      "rationale": "Profit is derived from total profit and expenses."
+    },
+    {
+      "source": "sharded-GSM8K/144_3_0",
+      "target": "sharded-GSM8K/144_3_1",
+      "type": "supports",
+      "rationale": "User's mention of potential clients influences expected revenue."
+    },
+    {
+      "source": "sharded-GSM8K/144_3_1",
+      "target": "sharded-GSM8K/144_3_2",
+      "type": "derived_from",
+      "rationale": "Revenue growth includes both current and future clients."
+    },
+    {
+      "source": "sharded-GSM8K/144_3_2",
+      "target": "sharded-GSM8K/144_3_3",
+      "type": "derived_from",
+      "rationale": "Profit is calculated from the total projected revenue and expenses."
+    },
+    {
+      "source": "sharded-GSM8K/144_4_0",
+      "target": "sharded-GSM8K/144_4_1",
+      "type": "supports",
+      "rationale": "User's confidence affects projected profit assumptions."
+    },
+    {
+      "source": "sharded-GSM8K/144_4_1",
+      "target": "sharded-GSM8K/144_4_1",
+      "type": "derived_from",
+      "rationale": "Utilizing previous calculations to confirm projected profit."
+    },
+    {
+      "source": "sharded-GSM8K/144_5_0",
+      "target": "sharded-GSM8K/144_5_1",
+      "type": "supports",
+      "rationale": "User indicates how cleaning is performed, affecting cost."
+    },
+    {
+      "source": "sharded-GSM8K/144_5_1",
+      "target": "sharded-GSM8K/144_5_2",
+      "type": "derived_from",
+      "rationale": "Bleach costs are factored into total expenses."
+    },
+    {
+      "source": "sharded-GSM8K/144_5_2",
+      "target": "sharded-GSM8K/144_5_3",
+      "type": "derived_from",
+      "rationale": "Total projected weekly expenses lead to profit calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_6_0",
+      "target": "sharded-GSM8K/144_6_1",
+      "type": "supports",
+      "rationale": "User provides additional cleaning requirements impacting costs."
+    },
+    {
+      "source": "sharded-GSM8K/144_6_1",
+      "target": "sharded-GSM8K/144_6_2",
+      "type": "derived_from",
+      "rationale": "Costs for cloths contribute to projected expenses."
+    },
+    {
+      "source": "sharded-GSM8K/144_6_2",
+      "target": "sharded-GSM8K/144_6_3",
+      "type": "derived_from",
+      "rationale": "Updated expenses are then used in profit calculation."
+    },
+    {
+      "source": "sharded-GSM8K/144_7_0",
+      "target": "sharded-GSM8K/144_7_1",
+      "type": "supports",
+      "rationale": "User confirms the price of bleach, which is a cost factor."
+    },
+    {
+      "source": "sharded-GSM8K/144_7_1",
+      "target": "sharded-GSM8K/144_7_2",
+      "type": "derived_from",
+      "rationale": "Costs for bleach repeat and reaffirm the expense calculations."
+    },
+    {
+      "source": "sharded-GSM8K/144_7_2",
+      "target": "sharded-GSM8K/144_7_3",
+      "type": "derived_from",
+      "rationale": "Cost assessments support profit analysis."
+    },
+    {
+      "source": "sharded-GSM8K/144_8_0",
+      "target": "sharded-GSM8K/144_8_1",
+      "type": "supports",
+      "rationale": "User confirms the price of cloths, which modifies total costs."
+    },
+    {
+      "source": "sharded-GSM8K/144_8_1",
+      "target": "sharded-GSM8K/144_8_2",
+      "type": "derived_from",
+      "rationale": "Costs for cleaning cloths are reaffirmed."
+    },
+    {
+      "source": "sharded-GSM8K/144_8_2",
+      "target": "sharded-GSM8K/144_8_3",
+      "type": "derived_from",
+      "rationale": "Total profit recalculated using total expenses."
+    },
+    {
+      "source": "sharded-GSM8K/144_9_0",
+      "target": "sharded-GSM8K/144_9_1",
+      "type": "supports",
+      "rationale": "User provides expected profit, initiating a review of calculations."
+    },
+    {
+      "source": "sharded-GSM8K/144_9_1",
+      "target": "sharded-GSM8K/144_9_1",
+      "type": "derived_from",
+      "rationale": "Total profit is derived from previous calculations."
+    },
+    {
+      "source": "sharded-GSM8K/144_10_0",
+      "target": "sharded-GSM8K/144_10_1",
+      "type": "supports",
+      "rationale": "User confirms the profit formula used for calculations."
+    },
+    {
+      "source": "sharded-GSM8K/144_10_1",
+      "target": "sharded-GSM8K/144_10_1",
+      "type": "derived_from",
+      "rationale": "Profit being calculated confirms all previous data."
+    }
+  ],
+  "attributes": {}
+}

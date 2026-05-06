@@ -139,18 +139,32 @@ def propagate_contamination(
         for node in csg.nodes:
             nid = node.id
 
-            # Rule A: assistant assumption/answer_candidate with no incoming SUPPORTS or VERIFIED_BY
+            # Rule A: contaminate unsupported assistant nodes
+            #   - assumption nodes: contaminated unless verified_by a tool output.
+            #     SUPPORTS from a user fact does NOT redeem an assumption — if the
+            #     user provided all values, the extractor should have typed it derivation.
+            #   - answer_candidate nodes: contaminated only if no SUPPORTS or VERIFIED_BY
             if (
                 node.source == SourceType.assistant
                 and node.type in (StateType.assumption, StateType.answer_candidate)
                 and statuses[nid] == NodeStatus.active
             ):
-                has_support = any(
-                    e.type in (EdgeType.supports, EdgeType.verified_by)
-                    for e in _incoming(nid, csg.edges)
-                )
-                if not has_support:
-                    changed |= mark_contaminated(nid, "assistant assumption/answer_candidate without support")
+                if node.type == StateType.assumption:
+                    # Assumptions require tool verification to be trusted
+                    has_tool_verification = any(
+                        e.type == EdgeType.verified_by
+                        for e in _incoming(nid, csg.edges)
+                    )
+                    if not has_tool_verification:
+                        changed |= mark_contaminated(nid, "assistant assumption without tool verification")
+                else:
+                    # answer_candidate: needs SUPPORTS or VERIFIED_BY
+                    has_support = any(
+                        e.type in (EdgeType.supports, EdgeType.verified_by)
+                        for e in _incoming(nid, csg.edges)
+                    )
+                    if not has_support:
+                        changed |= mark_contaminated(nid, "assistant answer_candidate without support")
 
             # Rule B: outgoing CONTRADICTS or SUPERSEDES edges from this node
             src_trust = get_trust_level(nmap[nid], csg)

@@ -1,0 +1,264 @@
+{
+  "conversation_id": "sharded-GSM8K/178",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/178_0_0",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Rani has 10 more crabs compared to Monic.",
+      "entities": [
+        "Rani",
+        "Monic"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_1",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Rani has some crabs.",
+      "entities": [
+        "Rani"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_2",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Monic has some crabs.",
+      "entities": [
+        "Monic"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_3",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Bo has some crabs.",
+      "entities": [
+        "Bo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_4",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Monic's crabs can be represented as y.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_5",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Rani's crabs can be represented as y + 10.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_0_6",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total number of crabs = 2y + 10 + z.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_1_0",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Monic has 4 fewer crabs than Bo.",
+      "entities": [
+        "Monic",
+        "Bo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_1_1",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Monic's crabs can be represented as y.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_1_2",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bo's crabs can be represented as y + 4.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_1_3",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total number of crabs = 3y + 14.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_2_0",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Bo has 40 crabs to start with.",
+      "entities": [
+        "Bo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_2_1",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Bo has 40 crabs.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_2_2",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Monic's crabs = 40 - 4 = 36.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_2_3",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Rani's crabs = 36 + 10 = 46.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/178_2_4",
+      "conversation_id": "sharded-GSM8K/178",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total number of crabs = 46 + 36 + 40 = 122.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/178_0_0",
+      "target": "sharded-GSM8K/178_0_1",
+      "type": "supports",
+      "rationale": "User states comparison needed for solving"
+    },
+    {
+      "source": "sharded-GSM8K/178_0_0",
+      "target": "sharded-GSM8K/178_0_4",
+      "type": "supports",
+      "rationale": "User states relative crabs"
+    },
+    {
+      "source": "sharded-GSM8K/178_0_0",
+      "target": "sharded-GSM8K/178_0_5",
+      "type": "supports",
+      "rationale": "Defines Rani's crabs based on the comparison"
+    },
+    {
+      "source": "sharded-GSM8K/178_0_0",
+      "target": "sharded-GSM8K/178_0_6",
+      "type": "supports",
+      "rationale": "Total crabs calculated based on user input"
+    },
+    {
+      "source": "sharded-GSM8K/178_1_0",
+      "target": "sharded-GSM8K/178_1_1",
+      "type": "supports",
+      "rationale": "User provides additional comparison needed for solving"
+    },
+    {
+      "source": "sharded-GSM8K/178_1_0",
+      "target": "sharded-GSM8K/178_1_2",
+      "type": "supports",
+      "rationale": "Graphs Bo based on user input"
+    },
+    {
+      "source": "sharded-GSM8K/178_1_1",
+      "target": "sharded-GSM8K/178_1_3",
+      "type": "supports",
+      "rationale": "Derives total based on individual values"
+    },
+    {
+      "source": "sharded-GSM8K/178_2_0",
+      "target": "sharded-GSM8K/178_2_1",
+      "type": "supports",
+      "rationale": "User provides direct fact about Bo"
+    },
+    {
+      "source": "sharded-GSM8K/178_2_1",
+      "target": "sharded-GSM8K/178_2_2",
+      "type": "supports",
+      "rationale": "Derives Monic's crabs based on Bo's"
+    },
+    {
+      "source": "sharded-GSM8K/178_2_2",
+      "target": "sharded-GSM8K/178_2_3",
+      "type": "supports",
+      "rationale": "Derives Rani's crabs based on Monic's"
+    },
+    {
+      "source": "sharded-GSM8K/178_2_3",
+      "target": "sharded-GSM8K/178_2_4",
+      "type": "supports",
+      "rationale": "Calculates total based on individual values"
+    }
+  ],
+  "attributes": {}
+}

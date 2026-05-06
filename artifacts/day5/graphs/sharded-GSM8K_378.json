@@ -1,0 +1,200 @@
+{
+  "conversation_id": "sharded-GSM8K/378",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/378_0_0",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Lindsay is working on her laundry",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_0_1",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's say Lindsay had 20 socks before starting the laundry.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/378_0_2",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lindsay is missing 2 socks.",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_1_0",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "she suspects that she might have missed a few socks",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_1_1",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's say Lindsay had 20 socks before starting the laundry.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/378_1_2",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lindsay is likely missing between 2 to 3 socks.",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_2_0",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "there are a total of 50 socks that need washing",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_2_1",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lindsay is missing between 29 to 30 socks.",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_3_0",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "she has managed to wash 10 pairs of socks so far",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_3_1",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lindsay is missing between 27 to 28 socks.",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_4_0",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "plus, she washed 15 individual socks",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/378_4_1",
+      "conversation_id": "sharded-GSM8K/378",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Lindsay is missing between 12 to 13 socks.",
+      "entities": [
+        "Lindsay"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/378_0_0",
+      "target": "sharded-GSM8K/378_0_1",
+      "type": "supports",
+      "rationale": "User states that Lindsay is working on laundry, assistant uses it to build context."
+    },
+    {
+      "source": "sharded-GSM8K/378_0_1",
+      "target": "sharded-GSM8K/378_0_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives missing socks based on assumed values."
+    },
+    {
+      "source": "sharded-GSM8K/378_1_0",
+      "target": "sharded-GSM8K/378_1_1",
+      "type": "supports",
+      "rationale": "User's suspicion of missing socks informs assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/378_1_1",
+      "target": "sharded-GSM8K/378_1_2",
+      "type": "derived_from",
+      "rationale": "Assistant derives missing socks based on context."
+    },
+    {
+      "source": "sharded-GSM8K/378_2_0",
+      "target": "sharded-GSM8K/378_2_1",
+      "type": "supports",
+      "rationale": "User's total number of socks informs assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/378_3_0",
+      "target": "sharded-GSM8K/378_3_1",
+      "type": "supports",
+      "rationale": "User's information on washed pairs informs assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/378_4_0",
+      "target": "sharded-GSM8K/378_4_1",
+      "type": "supports",
+      "rationale": "User information on washed individual socks informs assistant's calculation."
+    }
+  ],
+  "attributes": {}
+}

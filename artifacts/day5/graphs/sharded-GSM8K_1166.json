@@ -1,0 +1,278 @@
+{
+  "conversation_id": "sharded-GSM8K/1166",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1166_0_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "A 5-year-old avocado tree produces 50 fruits normally.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_0_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The average production per year would be 10 fruits per year.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_0_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree that normally produces 50 fruits would produce a total of 100 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "When the tree is 6 years old, it produces 3 times the initial 5-year amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Fruits produced at 6 years old = 3 × 50 fruits = 150 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_1_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree would produce a total of 900 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "At age 7, it starts producing 7 times the 5-year-old amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Fruits produced at 7 years old = 7 × 50 fruits = 350 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_2_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree would produce a total of 1,600 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "For an 8-year-old tree, it produces 200 fewer fruits than a 10-year-old tree.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Fruits produced at 8 years old = 40 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_3_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree would produce a total of 1,420 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "In its ninth year, the tree doesn't produce any fruit at all.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Average production per year = 110 fruits per year.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_4_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree would produce a total of 1,100 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_0",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "A 10-year-old tree will produce 20 times the 5-year-old amount.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_1",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Fruits produced at 10 years old = 1,000 fruits.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1166_5_2",
+      "conversation_id": "sharded-GSM8K/1166",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "An avocado tree would produce a total of 2,550 fruits over a 10-year period.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1166_0_0",
+      "target": "sharded-GSM8K/1166_0_1",
+      "type": "supports",
+      "rationale": "User Turn 0 provides the initial production value."
+    },
+    {
+      "source": "sharded-GSM8K/1166_0_1",
+      "target": "sharded-GSM8K/1166_0_2",
+      "type": "derived_from",
+      "rationale": "Calculation builds on average production."
+    },
+    {
+      "source": "sharded-GSM8K/1166_1_0",
+      "target": "sharded-GSM8K/1166_1_1",
+      "type": "supports",
+      "rationale": "User Turn 1 gives the new production value for when the tree is 6."
+    },
+    {
+      "source": "sharded-GSM8K/1166_1_1",
+      "target": "sharded-GSM8K/1166_1_2",
+      "type": "derived_from",
+      "rationale": "Calculation uses new production value to determine total."
+    },
+    {
+      "source": "sharded-GSM8K/1166_2_0",
+      "target": "sharded-GSM8K/1166_2_1",
+      "type": "supports",
+      "rationale": "User Turn 2 provides the new production for age 7."
+    },
+    {
+      "source": "sharded-GSM8K/1166_2_1",
+      "target": "sharded-GSM8K/1166_2_2",
+      "type": "derived_from",
+      "rationale": "Total calculated using new production amount."
+    },
+    {
+      "source": "sharded-GSM8K/1166_3_0",
+      "target": "sharded-GSM8K/1166_3_1",
+      "type": "supports",
+      "rationale": "User Turn 3 gives the condition for age 8."
+    },
+    {
+      "source": "sharded-GSM8K/1166_3_1",
+      "target": "sharded-GSM8K/1166_3_2",
+      "type": "derived_from",
+      "rationale": "Calculation for total builds on age 8 detail."
+    },
+    {
+      "source": "sharded-GSM8K/1166_4_0",
+      "target": "sharded-GSM8K/1166_4_1",
+      "type": "supports",
+      "rationale": "User Turn 4 provides condition for 9th year."
+    },
+    {
+      "source": "sharded-GSM8K/1166_4_1",
+      "target": "sharded-GSM8K/1166_4_2",
+      "type": "derived_from",
+      "rationale": "Total calculated updates include no production for 9th year."
+    },
+    {
+      "source": "sharded-GSM8K/1166_5_0",
+      "target": "sharded-GSM8K/1166_5_1",
+      "type": "supports",
+      "rationale": "User Turn 5 gives the 10-year tree production information."
+    },
+    {
+      "source": "sharded-GSM8K/1166_5_1",
+      "target": "sharded-GSM8K/1166_5_2",
+      "type": "derived_from",
+      "rationale": "Total production calculated from the 10-year output."
+    }
+  ],
+  "attributes": {}
+}

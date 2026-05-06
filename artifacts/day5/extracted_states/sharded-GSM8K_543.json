@@ -1,0 +1,216 @@
+{
+  "conversation_id": "sharded-GSM8K/543",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/543_0_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Jairus earns $0.8 for every small task he completes.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Jairus earns $5,000 per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Jenny earns $3,500 per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus needs to complete 6,250 small tasks to earn $5,000 per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_0_4",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus earns $1,500 more per month than Jenny.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny earns $0.5 for each task she finishes.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Jenny earns $3,500 per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jenny needs to complete 7,000 tasks to earn $3,500 per month.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus needs to complete 6,250 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_1_4",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus earns $1,500 more than Jenny.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_0",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Both Jairus and Jenny completed 20 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_1",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus earned $16 for completing 20 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_2",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jenny earned $10 for completing 20 tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/543_2_3",
+      "conversation_id": "sharded-GSM8K/543",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Jairus earns $6 more than Jenny for completing the same number of tasks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/543_0_0",
+      "target": "sharded-GSM8K/543_0_4",
+      "type": "supports",
+      "rationale": "User fact describes Jairus's earning for tasks."
+    },
+    {
+      "source": "sharded-GSM8K/543_0_1",
+      "target": "sharded-GSM8K/543_1_1",
+      "type": "supports",
+      "rationale": "First assistant claim for Jenny's earnings."
+    },
+    {
+      "source": "sharded-GSM8K/543_0_1",
+      "target": "sharded-GSM8K/543_1_2",
+      "type": "supports",
+      "rationale": "First assistant claim describes earnings related to tasks."
+    },
+    {
+      "source": "sharded-GSM8K/543_0_4",
+      "target": "sharded-GSM8K/543_1_4",
+      "type": "supports",
+      "rationale": "Second assistant claim reiterates same earnings difference."
+    },
+    {
+      "source": "sharded-GSM8K/543_1_0",
+      "target": "sharded-GSM8K/543_2_3",
+      "type": "supports",
+      "rationale": "User fact describes both completing tasks."
+    },
+    {
+      "source": "sharded-GSM8K/543_2_0",
+      "target": "sharded-GSM8K/543_2_1",
+      "type": "supports",
+      "rationale": "User fact confirms task completion context."
+    },
+    {
+      "source": "sharded-GSM8K/543_2_0",
+      "target": "sharded-GSM8K/543_2_2",
+      "type": "supports",
+      "rationale": "User fact confirms task completion context."
+    },
+    {
+      "source": "sharded-GSM8K/543_2_1",
+      "target": "sharded-GSM8K/543_2_3",
+      "type": "supports",
+      "rationale": "Earnings derived from completing tasks."
+    },
+    {
+      "source": "sharded-GSM8K/543_2_2",
+      "target": "sharded-GSM8K/543_2_3",
+      "type": "supports",
+      "rationale": "Earnings derived from completing tasks."
+    }
+  ],
+  "attributes": {}
+}

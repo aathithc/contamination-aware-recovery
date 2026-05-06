@@ -1,0 +1,434 @@
+{
+  "conversation_id": "sharded-GSM8K/465",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/465_0_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria teaches in a middle school.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_0_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "A typical middle school class size is around 20-30 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_0_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I will use an average middle school class size of 25 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_0_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Miss Maria shared her cards with the entire class.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_0_4",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her cards with 25 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "She has a passion for collecting sports cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Miss Maria likely has a personal collection of sports cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "She may want to share her passion and collection with her students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I will assume a reasonable number of sports cards that a passionate collector may have: around 100 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_1_4",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her collection of approximately 100 sports cards with 25 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "She owns 6 decks of basketball cards, each holding 25 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Miss Maria owns 6 decks of basketball cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each deck contains 25 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria owns 150 cards total from the basketball decks.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_4",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "She shared her entire collection.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_2_5",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her 150 basketball cards with 6 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "She has 5 boxes of baseball cards, with 40 cards per box.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Miss Maria has 5 boxes of baseball cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Each box contains 40 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria owns 200 baseball cards total.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_3_4",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her 350 cards with 14 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Miss Maria keeps 50 cards for herself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "She keeps 50 cards for herself.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The remaining cards available to share are 300.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_4_3",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her cards with 12 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "All the remaining cards are given to her students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Miss Maria shared all 300 remaining cards with her students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_5_2",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The exact number of students is not determined.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_6_0",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Each student ended up receiving 10 cards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/465_6_1",
+      "conversation_id": "sharded-GSM8K/465",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Miss Maria shared her card collection with 30 students.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/465_0_0",
+      "target": "sharded-GSM8K/465_0_1",
+      "type": "supports",
+      "rationale": "User stated Miss Maria teaches in a middle school."
+    },
+    {
+      "source": "sharded-GSM8K/465_0_2",
+      "target": "sharded-GSM8K/465_0_1",
+      "type": "supports",
+      "rationale": "User's context supports the assistant's class size assumption."
+    },
+    {
+      "source": "sharded-GSM8K/465_0_3",
+      "target": "sharded-GSM8K/465_0_4",
+      "type": "supports",
+      "rationale": "Assumption about sharing applies to the stated class size."
+    },
+    {
+      "source": "sharded-GSM8K/465_1_0",
+      "target": "sharded-GSM8K/465_1_1",
+      "type": "supports",
+      "rationale": "User fact about passion for sports cards supports assistant's assumption."
+    },
+    {
+      "source": "sharded-GSM8K/465_1_2",
+      "target": "sharded-GSM8K/465_1_1",
+      "type": "supports",
+      "rationale": "Assumption about sharing arises from passion stated by the user."
+    },
+    {
+      "source": "sharded-GSM8K/465_1_3",
+      "target": "sharded-GSM8K/465_1_4",
+      "type": "supports",
+      "rationale": "Assumption about 100 cards is derived from context."
+    },
+    {
+      "source": "sharded-GSM8K/465_2_0",
+      "target": "sharded-GSM8K/465_2_1",
+      "type": "supports",
+      "rationale": "User fact directly supports the assumption about basketball cards."
+    },
+    {
+      "source": "sharded-GSM8K/465_2_2",
+      "target": "sharded-GSM8K/465_2_3",
+      "type": "supports",
+      "rationale": "Assumption about number of cards per deck supports the total calculation."
+    },
+    {
+      "source": "sharded-GSM8K/465_2_4",
+      "target": "sharded-GSM8K/465_2_5",
+      "type": "supports",
+      "rationale": "Combining totals leads to the final shared amount."
+    },
+    {
+      "source": "sharded-GSM8K/465_3_0",
+      "target": "sharded-GSM8K/465_3_1",
+      "type": "supports",
+      "rationale": "User fact about baseball cards supports the assumption."
+    },
+    {
+      "source": "sharded-GSM8K/465_3_2",
+      "target": "sharded-GSM8K/465_3_3",
+      "type": "supports",
+      "rationale": "Assumption about cards per box supports the calculation."
+    },
+    {
+      "source": "sharded-GSM8K/465_3_4",
+      "target": "sharded-GSM8K/465_3_3",
+      "type": "supports",
+      "rationale": "Final total supports the sharing conclusion."
+    },
+    {
+      "source": "sharded-GSM8K/465_4_0",
+      "target": "sharded-GSM8K/465_4_1",
+      "type": "supports",
+      "rationale": "User fact about keeping 50 cards supports the assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/465_4_2",
+      "target": "sharded-GSM8K/465_4_3",
+      "type": "supports",
+      "rationale": "Subtracting kept cards leads to remaining available for sharing."
+    },
+    {
+      "source": "sharded-GSM8K/465_5_0",
+      "target": "sharded-GSM8K/465_5_1",
+      "type": "supports",
+      "rationale": "User's fact that all remaining cards were shared supports the assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/465_6_0",
+      "target": "sharded-GSM8K/465_6_1",
+      "type": "supports",
+      "rationale": "User's specification of how many cards each student gets supports the assistant's conclusion."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,270 @@
+{
+  "conversation_id": "sharded-GSM8K/968",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/968_0_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Andy works at the pro shop of a tennis resort.",
+      "entities": [
+        "Andy",
+        "tennis resort"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_0_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's continue solving the problem.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/968_0_2",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 20 racquets / 4 racquets per hour = 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_0_3",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "fact",
+      "text": "In a tennis resort, there may be a high demand for racquet stringing services.",
+      "entities": [
+        "tennis resort"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_1_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "He needs to restring 12 racquets in total.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_1_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 12 racquets / 4 racquets per hour = 3 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_1_2",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "fact",
+      "text": "The total time of 3 hours to restring all 12 racquets is the estimated time.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_2_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "3 racquets will use synthetic gut string.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_2_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 9 racquets / 4 racquets per hour + 3 racquets / (4 racquets per hour / 2) = 3.75 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_3_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "5 racquets will be strung with polyester string.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_3_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 4 racquets / 4 racquets per hour + 3 racquets / 3 racquets per hour + 5 racquets / 3 racquets per hour = 3.67 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_4_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The remaining 4 racquets will have hybrid strings, half synthetic gut and half polyester.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_4_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 4 racquets / 3 racquets per hour = 5 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_5_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "Stringing with synthetic gut takes him 15 minutes per racquet on average.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_5_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 3 racquets / 15 minutes per racquet + 5 racquets / 3 racquets per hour + 4 racquets / 3 racquets per hour = 3.75 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_6_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Stringing with polyester string takes him 22 minutes per racquet.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_6_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 3 racquets / 15 minutes per racquet + 5 racquets / 22 minutes per racquet + 4 racquets / 3 racquets per hour = 3.91 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_7_0",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 7,
+      "source": "user",
+      "type": "fact",
+      "text": "Stringing a racquet with a hybrid set takes him 18 minutes on average.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/968_7_1",
+      "conversation_id": "sharded-GSM8K/968",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total time = 3 racquets / 15 minutes per racquet + 5 racquets / 22 minutes per racquet + 4 racquets / 18 minutes per racquet = 3.78 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/968_0_0",
+      "target": "sharded-GSM8K/968_0_2",
+      "type": "supports",
+      "rationale": "User mentions details used in assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/968_1_0",
+      "target": "sharded-GSM8K/968_1_1",
+      "type": "supports",
+      "rationale": "User specifies total racquets assisting the calculation."
+    },
+    {
+      "source": "sharded-GSM8K/968_4_0",
+      "target": "sharded-GSM8K/968_4_1",
+      "type": "supports",
+      "rationale": "User provides information used in assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/968_2_0",
+      "target": "sharded-GSM8K/968_2_1",
+      "type": "supports",
+      "rationale": "User's input informs the assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/968_3_0",
+      "target": "sharded-GSM8K/968_3_1",
+      "type": "supports",
+      "rationale": "Details of racquets assist in calculation by assistant."
+    },
+    {
+      "source": "sharded-GSM8K/968_5_0",
+      "target": "sharded-GSM8K/968_5_1",
+      "type": "supports",
+      "rationale": "User provides time per racquet aiding assistant."
+    },
+    {
+      "source": "sharded-GSM8K/968_6_0",
+      "target": "sharded-GSM8K/968_6_1",
+      "type": "supports",
+      "rationale": "User specifies time per racquet for calculation."
+    },
+    {
+      "source": "sharded-GSM8K/968_7_0",
+      "target": "sharded-GSM8K/968_7_1",
+      "type": "supports",
+      "rationale": "Input about hybrid stringing assists the assistant's calculation."
+    }
+  ],
+  "attributes": {}
+}

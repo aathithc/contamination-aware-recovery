@@ -1,0 +1,171 @@
+{
+  "conversation_id": "sharded-GSM8K/1124",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1124_0_0",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Seth decided to give away half of his stickers to Luis.",
+      "entities": [
+        "Seth",
+        "Luis"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_0_1",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Seth started with 2x stickers.",
+      "entities": [
+        "Seth"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_1_0",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Luis then used up half of the stickers he got from Seth.",
+      "entities": [
+        "Luis",
+        "Seth"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_1_1",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Luis used up x/4 stickers.",
+      "entities": [
+        "Luis"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_1_2",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Seth started with 2x stickers.",
+      "entities": [
+        "Seth"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_2_0",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Luis handed over the remaining stickers to Kris.",
+      "entities": [
+        "Luis",
+        "Kris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_2_1",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Kris received x/4 stickers from Luis.",
+      "entities": [
+        "Kris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_3_0",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "Kris kept 9 of the stickers for himself.",
+      "entities": [
+        "Kris"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1124_4_0",
+      "conversation_id": "sharded-GSM8K/1124",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Kris gave the final 7 stickers to Rob.",
+      "entities": [
+        "Kris",
+        "Rob"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1124_0_0",
+      "target": "sharded-GSM8K/1124_0_1",
+      "type": "supports",
+      "rationale": "User Turn contains information about Seth's stickers."
+    },
+    {
+      "source": "sharded-GSM8K/1124_1_0",
+      "target": "sharded-GSM8K/1124_1_1",
+      "type": "supports",
+      "rationale": "User Turn provides information about stickers Luis used."
+    },
+    {
+      "source": "sharded-GSM8K/1124_1_2",
+      "target": "sharded-GSM8K/1124_1_1",
+      "type": "supports",
+      "rationale": "Assistant Turn derives from information about Luis's stickers."
+    },
+    {
+      "source": "sharded-GSM8K/1124_2_0",
+      "target": "sharded-GSM8K/1124_2_1",
+      "type": "supports",
+      "rationale": "User Turn indicates Luis handed stickers to Kris."
+    },
+    {
+      "source": "sharded-GSM8K/1124_2_1",
+      "target": "sharded-GSM8K/1124_1_2",
+      "type": "supports",
+      "rationale": "Assistant Turn calculates Kris's received stickers based on prior information."
+    },
+    {
+      "source": "sharded-GSM8K/1124_3_0",
+      "target": "sharded-GSM8K/1124_2_1",
+      "type": "supports",
+      "rationale": "User Turn mentions Kris keeping stickers."
+    },
+    {
+      "source": "sharded-GSM8K/1124_4_0",
+      "target": "sharded-GSM8K/1124_3_0",
+      "type": "supports",
+      "rationale": "User Turn describes what Kris did with the stickers."
+    }
+  ],
+  "attributes": {}
+}

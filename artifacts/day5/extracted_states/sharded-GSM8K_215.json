@@ -1,0 +1,155 @@
+{
+  "conversation_id": "sharded-GSM8K/215",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/215_0_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Lori plans to purchase a pair of shoes worth $320.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_0_1",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume Lori's hourly wage is $20.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_0_2",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of hours = $320.00 / $20.00 per hour.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_0_3",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of hours = 16 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_1_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "She also wants to get a matching belt priced at $32.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_0",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Lori earns $8.00 per hour from her part-time job.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_1",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = $320.00 + $32.00 = $352.00.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_2",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of hours = $352.00 / $8.00 per hour.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/215_2_3",
+      "conversation_id": "sharded-GSM8K/215",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of hours = 44 hours.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/215_0_0",
+      "target": "sharded-GSM8K/215_0_1",
+      "type": "supports",
+      "rationale": "User states Lori's purchase amount directly supports the assistant's assumption."
+    },
+    {
+      "source": "sharded-GSM8K/215_0_0",
+      "target": "sharded-GSM8K/215_0_2",
+      "type": "supports",
+      "rationale": "User's fact about the shoes allows the assistant to derive the number of hours."
+    },
+    {
+      "source": "sharded-GSM8K/215_0_1",
+      "target": "sharded-GSM8K/215_0_2",
+      "type": "derived_from",
+      "rationale": "The derivation of hours uses the assistant's assumption about the hourly wage."
+    },
+    {
+      "source": "sharded-GSM8K/215_0_2",
+      "target": "sharded-GSM8K/215_0_3",
+      "type": "derived_from",
+      "rationale": "The calculation of hours is based on a previous computation of hours."
+    },
+    {
+      "source": "sharded-GSM8K/215_1_0",
+      "target": "sharded-GSM8K/215_2_1",
+      "type": "supports",
+      "rationale": "User's fact about the belt's cost supports the calculation of total cost."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_0",
+      "target": "sharded-GSM8K/215_2_1",
+      "type": "supports",
+      "rationale": "User's fact about Lori's hourly wage supports the calculation of total cost."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_1",
+      "target": "sharded-GSM8K/215_2_2",
+      "type": "supports",
+      "rationale": "The total cost calculation directly supports the derivation of hours needed."
+    },
+    {
+      "source": "sharded-GSM8K/215_2_2",
+      "target": "sharded-GSM8K/215_2_3",
+      "type": "derived_from",
+      "rationale": "The calculation of hours is based on the total cost derived in the previous step."
+    }
+  ],
+  "attributes": {}
+}

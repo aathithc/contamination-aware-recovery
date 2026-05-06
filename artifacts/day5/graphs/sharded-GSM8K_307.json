@@ -1,0 +1,128 @@
+{
+  "conversation_id": "sharded-GSM8K/307",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/307_0_0",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Sandy's goal is to lose the same amount of weight as Joey does.",
+      "entities": [
+        "Sandy",
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/307_0_1",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume we have the following information: Joey has lost 20 lbs and Sandy is losing 2 lbs per week.",
+      "entities": [
+        "Joey",
+        "Sandy"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/307_0_2",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "It will take Sandy 10 weeks to match Joey's 20 lb weight loss.",
+      "entities": [
+        "Sandy",
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/307_1_0",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "It takes Sandy 4 weeks to match the amount Joey can lose in just 1 week.",
+      "entities": [
+        "Sandy",
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/307_1_1",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount of weight Joey is losing per week is 8 lbs.",
+      "entities": [
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/307_2_0",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Joey is able to lose 8 pounds over the course of 4 weeks.",
+      "entities": [
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/307_2_1",
+      "conversation_id": "sharded-GSM8K/307",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "It will take Sandy 4 weeks to match the amount of weight Joey can lose in 4 weeks.",
+      "entities": [
+        "Sandy",
+        "Joey"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/307_0_0",
+      "target": "sharded-GSM8K/307_0_2",
+      "type": "supports",
+      "rationale": "User mentions Sandy's goal to lose the same weight as Joey."
+    },
+    {
+      "source": "sharded-GSM8K/307_0_1",
+      "target": "sharded-GSM8K/307_0_2",
+      "type": "supports",
+      "rationale": "Assumption of weight lost by Joey and rate of weight loss for Sandy."
+    },
+    {
+      "source": "sharded-GSM8K/307_1_0",
+      "target": "sharded-GSM8K/307_1_1",
+      "type": "supports",
+      "rationale": "User provides time taken by Sandy related to Joey's weight loss."
+    },
+    {
+      "source": "sharded-GSM8K/307_2_0",
+      "target": "sharded-GSM8K/307_2_1",
+      "type": "supports",
+      "rationale": "User states Joey's total weight loss over a period."
+    }
+  ],
+  "attributes": {}
+}

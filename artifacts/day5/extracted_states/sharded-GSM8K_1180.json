@@ -1,0 +1,302 @@
+{
+  "conversation_id": "sharded-GSM8K/1180",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1180_0_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "the company sold Mr. Marcellus 4000 gallons of milk in jars",
+      "entities": [
+        "Mr. Marcellus"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume the price per gallon of milk was $3.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume the company has a policy of providing a full refund for expired products.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost of 4,000 gallons of milk at $3 per gallon = $12,000",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_0_4",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The amount Mr. Marcellus likely got refunded for the expired milk is $12,000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "each gallon of milk cost $3.50",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Total cost = 4,000 gallons × $3.50 per gallon = $14,000",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_1_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The refund amount would be $14,000.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "he discovered that 2/5 of the milk he bought was expired",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "2/5 of 4,000 gallons = 1,600 gallons of expired milk.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Cost of expired milk = 1,600 gallons × $3.50 per gallon = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_2_3",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Refund amount = Cost of expired milk = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "the spoiled milk couldn't be sold in his store",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The full cost of the expired milk should be refunded.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_3_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Refund amount = Cost of expired milk = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "he ended up returning the expired milk to the company",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "He should receive a full refund for the cost of the expired milk.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_4_2",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Refund amount = Cost of expired milk = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_5_0",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "and then he requested a refund for the returned milk",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1180_5_1",
+      "conversation_id": "sharded-GSM8K/1180",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Refund amount = Cost of expired milk = $5,600.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1180_0_0",
+      "target": "sharded-GSM8K/1180_0_3",
+      "type": "supports",
+      "rationale": "User states '4000 gallons' used in assistant's calculation."
+    },
+    {
+      "source": "sharded-GSM8K/1180_0_1",
+      "target": "sharded-GSM8K/1180_0_4",
+      "type": "supports",
+      "rationale": "Assumptions lead to final refund estimate."
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_0",
+      "target": "sharded-GSM8K/1180_1_1",
+      "type": "supports",
+      "rationale": "User provides the price that assistant uses in calculation."
+    },
+    {
+      "source": "sharded-GSM8K/1180_1_1",
+      "target": "sharded-GSM8K/1180_1_2",
+      "type": "supports",
+      "rationale": "Calculation of total cost derived from prior node."
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_0",
+      "target": "sharded-GSM8K/1180_2_1",
+      "type": "supports",
+      "rationale": "User provides information used for determining expired amount."
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_1",
+      "target": "sharded-GSM8K/1180_2_2",
+      "type": "supports",
+      "rationale": "Derivation based on the expired milk calculation."
+    },
+    {
+      "source": "sharded-GSM8K/1180_2_2",
+      "target": "sharded-GSM8K/1180_2_3",
+      "type": "supports",
+      "rationale": "Refund amount derived from expired milk cost."
+    },
+    {
+      "source": "sharded-GSM8K/1180_3_0",
+      "target": "sharded-GSM8K/1180_3_1",
+      "type": "supports",
+      "rationale": "Context of spoiled milk affects refund policy."
+    },
+    {
+      "source": "sharded-GSM8K/1180_3_1",
+      "target": "sharded-GSM8K/1180_3_2",
+      "type": "supports",
+      "rationale": "Restates refund amount based on the analysis."
+    },
+    {
+      "source": "sharded-GSM8K/1180_4_0",
+      "target": "sharded-GSM8K/1180_4_1",
+      "type": "supports",
+      "rationale": "Returning the expired milk requires analysis of refund."
+    },
+    {
+      "source": "sharded-GSM8K/1180_4_1",
+      "target": "sharded-GSM8K/1180_4_2",
+      "type": "supports",
+      "rationale": "Supports same refund amount based on recent actions."
+    },
+    {
+      "source": "sharded-GSM8K/1180_5_0",
+      "target": "sharded-GSM8K/1180_5_1",
+      "type": "supports",
+      "rationale": "Requesting a refund directly relates to refund action."
+    }
+  ],
+  "attributes": {}
+}

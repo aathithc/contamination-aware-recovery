@@ -1,0 +1,148 @@
+{
+  "conversation_id": "sharded-GSM8K/1027",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/1027_0_0",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "the store sells sandwiches in three package sizes",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1027_0_1",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The largest sandwich package is the one with the cost $Z.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1027_1_0",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "the price of the smallest package is $3 for 2 sandwiches",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1027_1_1",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I understand.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1027_2_0",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "the medium package is $6 for 4 sandwiches",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1027_2_1",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The large (largest) package cost is unknown.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1027_3_0",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "they also have a large package with 8 sandwiches, but its price isn't listed",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1027_3_1",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Since the cost of the large (largest) package is not provided, I cannot definitively determine the cost of the largest sandwich package.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/1027_4_0",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "we are told that the prices grow proportionally with the number of sandwiches",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/1027_4_1",
+      "conversation_id": "sharded-GSM8K/1027",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "the estimated cost of the largest sandwich package (the large package with 8 sandwiches) is $12.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/1027_0_0",
+      "target": "sharded-GSM8K/1027_0_1",
+      "type": "supports",
+      "rationale": "User states the store has three package sizes to inform assistant's assumption."
+    },
+    {
+      "source": "sharded-GSM8K/1027_1_0",
+      "target": "sharded-GSM8K/1027_2_1",
+      "type": "supports",
+      "rationale": "User provides the small package cost for assistant's consideration."
+    },
+    {
+      "source": "sharded-GSM8K/1027_2_0",
+      "target": "sharded-GSM8K/1027_2_1",
+      "type": "supports",
+      "rationale": "User provides the medium package cost for assistant's consideration."
+    },
+    {
+      "source": "sharded-GSM8K/1027_3_0",
+      "target": "sharded-GSM8K/1027_3_1",
+      "type": "supports",
+      "rationale": "User mentions the large package, prompting assistant to assess it."
+    },
+    {
+      "source": "sharded-GSM8K/1027_4_0",
+      "target": "sharded-GSM8K/1027_4_1",
+      "type": "supports",
+      "rationale": "User provides proportional pricing info leading to assistant's estimation."
+    }
+  ],
+  "attributes": {}
+}

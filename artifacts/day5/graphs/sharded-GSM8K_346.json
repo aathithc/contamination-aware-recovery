@@ -1,0 +1,204 @@
+{
+  "conversation_id": "sharded-GSM8K/346",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/346_0_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny buys one bag of cookies every week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_0_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "If we assume a standard size bag of cookies contains around 20-25 cookies on average, then Jenny eats approximately 20-25 cookies per week.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/346_1_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Each bag contains 36 cookies.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_1_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 36 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_2_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny puts 4 cookies in her son's lunchbox.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_2_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 16 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_3_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "She makes a lunchbox 5 days a week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_3_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 16 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_4_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "Her husband eats one cookie every day.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_4_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_5_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "The husband eats cookies even on the weekend.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_5_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_6_0",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 6,
+      "source": "user",
+      "type": "fact",
+      "text": "Jenny eats whatever cookies are left over after this.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/346_6_1",
+      "conversation_id": "sharded-GSM8K/346",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, Jenny eats 9 cookies each week.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/346_0_0",
+      "target": "sharded-GSM8K/346_0_1",
+      "type": "supports",
+      "rationale": "User states how many cookies Jenny buys."
+    },
+    {
+      "source": "sharded-GSM8K/346_1_0",
+      "target": "sharded-GSM8K/346_1_1",
+      "type": "supports",
+      "rationale": "User provides specific count of cookies in a bag."
+    },
+    {
+      "source": "sharded-GSM8K/346_2_0",
+      "target": "sharded-GSM8K/346_2_1",
+      "type": "supports",
+      "rationale": "User indicates how many cookies go into the lunchbox."
+    },
+    {
+      "source": "sharded-GSM8K/346_3_0",
+      "target": "sharded-GSM8K/346_3_1",
+      "type": "supports",
+      "rationale": "User states how lunchboxes are made per week."
+    },
+    {
+      "source": "sharded-GSM8K/346_4_0",
+      "target": "sharded-GSM8K/346_4_1",
+      "type": "supports",
+      "rationale": "User provides information about the husband's cookie consumption."
+    },
+    {
+      "source": "sharded-GSM8K/346_5_0",
+      "target": "sharded-GSM8K/346_5_1",
+      "type": "supports",
+      "rationale": "User clarifies husband's cookie consumption includes weekends."
+    },
+    {
+      "source": "sharded-GSM8K/346_6_0",
+      "target": "sharded-GSM8K/346_6_1",
+      "type": "supports",
+      "rationale": "User states how Jenny consumes remaining cookies."
+    }
+  ],
+  "attributes": {}
+}

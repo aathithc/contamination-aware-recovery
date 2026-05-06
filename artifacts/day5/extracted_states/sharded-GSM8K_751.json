@@ -1,0 +1,329 @@
+{
+  "conversation_id": "sharded-GSM8K/751",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/751_0_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Gunther started with a stash of 48 bananas hidden under a fern branch.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_0_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The original 48 bananas are still there.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_0_2",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the number of bananas left in Gunther's pile is 48.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_1_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Arnold, the chimpanzee, swiped half of those bananas when Gunther wasn't looking.",
+      "entities": [
+        "Arnold"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_1_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas Arnold took = 1/2 × 48 = 24 bananas.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_1_2",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas left = 48 - 24 = 24 bananas.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_1_3",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the answer is that Gunther has 24 bananas left in his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_2_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The following day, Gunther added back another 25 bananas to his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_2_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas in the pile = Number of bananas left + 25.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_2_2",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas in the pile = 24 + 25 = 49 bananas.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_2_3",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the answer is that Gunther now has 49 bananas left in his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_3_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "That evening, Arnold came back and stole 12 more bananas.",
+      "entities": [
+        "Arnold"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_3_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas left = 49 - 12 = 37 bananas.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_3_2",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the final answer is that Gunther has 37 bananas left in his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_4_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "On the third day, Gunther added another 6 bananas to his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_4_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Number of bananas in the pile = 37 + 6 = 43 bananas.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_4_2",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore, the final answer is that Gunther has 43 bananas left in his pile.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_5_0",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "At this point, Gunther started counting how many bananas he had.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/751_5_1",
+      "conversation_id": "sharded-GSM8K/751",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The final number of bananas in his pile was 43.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/751_0_0",
+      "target": "sharded-GSM8K/751_0_1",
+      "type": "supports",
+      "rationale": "User Turn 0 provides the original number of bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_0_1",
+      "target": "sharded-GSM8K/751_0_2",
+      "type": "derived_from",
+      "rationale": "Assistant derivation based on original count."
+    },
+    {
+      "source": "sharded-GSM8K/751_1_0",
+      "target": "sharded-GSM8K/751_0_0",
+      "type": "supports",
+      "rationale": "User Turn 1 reinforces original stash."
+    },
+    {
+      "source": "sharded-GSM8K/751_1_1",
+      "target": "sharded-GSM8K/751_1_0",
+      "type": "supports",
+      "rationale": "User fact about Arnold complementing assistant calculation."
+    },
+    {
+      "source": "sharded-GSM8K/751_1_2",
+      "target": "sharded-GSM8K/751_1_1",
+      "type": "derived_from",
+      "rationale": "Calculation of bananas left based on how many Arnold took."
+    },
+    {
+      "source": "sharded-GSM8K/751_1_3",
+      "target": "sharded-GSM8K/751_1_2",
+      "type": "derived_from",
+      "rationale": "Final conclusion based on the count of bananas left."
+    },
+    {
+      "source": "sharded-GSM8K/751_2_0",
+      "target": "sharded-GSM8K/751_1_0",
+      "type": "supports",
+      "rationale": "User Turn 2 reinforces previous banana counts."
+    },
+    {
+      "source": "sharded-GSM8K/751_2_1",
+      "target": "sharded-GSM8K/751_2_0",
+      "type": "supports",
+      "rationale": "User fact confirms that Gunther added bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_2_2",
+      "target": "sharded-GSM8K/751_2_1",
+      "type": "derived_from",
+      "rationale": "Calculation of total number of bananas after addition."
+    },
+    {
+      "source": "sharded-GSM8K/751_2_3",
+      "target": "sharded-GSM8K/751_2_2",
+      "type": "derived_from",
+      "rationale": "Final answer based on new total of bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_3_0",
+      "target": "sharded-GSM8K/751_2_0",
+      "type": "supports",
+      "rationale": "User fact complements previous banana counts."
+    },
+    {
+      "source": "sharded-GSM8K/751_3_1",
+      "target": "sharded-GSM8K/751_3_0",
+      "type": "supports",
+      "rationale": "User fact adds the number of stolen bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_3_2",
+      "target": "sharded-GSM8K/751_3_1",
+      "type": "derived_from",
+      "rationale": "Final count of bananas based on robbery."
+    },
+    {
+      "source": "sharded-GSM8K/751_4_0",
+      "target": "sharded-GSM8K/751_3_0",
+      "type": "supports",
+      "rationale": "User fact continues the narrative of banana counts."
+    },
+    {
+      "source": "sharded-GSM8K/751_4_1",
+      "target": "sharded-GSM8K/751_4_0",
+      "type": "supports",
+      "rationale": "User fact indicates Gunther is adding."
+    },
+    {
+      "source": "sharded-GSM8K/751_4_2",
+      "target": "sharded-GSM8K/751_4_1",
+      "type": "derived_from",
+      "rationale": "Final amount after addition of bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_5_0",
+      "target": "sharded-GSM8K/751_4_0",
+      "type": "supports",
+      "rationale": "User acknowledges counting the bananas."
+    },
+    {
+      "source": "sharded-GSM8K/751_5_1",
+      "target": "sharded-GSM8K/751_4_2",
+      "type": "supports",
+      "rationale": "Assistant confirms final count."
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,300 @@
+{
+  "conversation_id": "sharded-GSM8K/991",
+  "nodes": [
+    {
+      "id": "sharded-GSM8K/991_0_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Comet Halley takes 75 years to complete one orbit around the sun.",
+      "entities": [
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "metadata",
+      "text": "Comet Halley has an orbital period of 75 years.",
+      "entities": [
+        "Comet Halley"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's assume Bill first observed Comet Halley during its most recent perihelion in 1986.",
+      "entities": [
+        "Bill",
+        "1986"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_3",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "Let's further assume Bill was a typical observer, meaning he would have been old enough to remember and appreciate seeing the comet, say around 10-20 years old.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_4",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Bill was 10 years old when he saw Comet Halley in 1986, then he was born in 1976.",
+      "entities": [
+        "Bill",
+        "1976"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_5",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "If Bill was 20 years old when he saw Comet Halley in 1986, then he was born in 1966.",
+      "entities": [
+        "Bill",
+        "1966"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_0_6",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 0,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Based on these assumptions, Bill would have been between 10 and 20 years old when he first saw Comet Halley in 1986.",
+      "entities": [
+        "Bill",
+        "1986"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "Bill's dad was 30 years old when he saw the comet.",
+      "entities": [
+        "Bill",
+        "30"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "metadata",
+      "text": "Bill's dad was 30 years old when he saw Comet Halley.",
+      "entities": [
+        "Bill",
+        "30"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill's dad saw Comet Halley in 1948.",
+      "entities": [
+        "Bill",
+        "1948"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_3",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill was born in 1918.",
+      "entities": [
+        "Bill",
+        "1918"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_1_4",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Bill would have been 68 years old when he first saw Comet Halley.",
+      "entities": [
+        "Bill",
+        "68"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_0",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "Bill saw Comet Halley for the second time when he was three times as old as his dad was when his dad saw it.",
+      "entities": [
+        "Bill"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_1",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "metadata",
+      "text": "Bill's dad's age when he saw Comet Halley was 30 years old.",
+      "entities": [
+        "Bill",
+        "30"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_2",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill was 90 years old when he saw Comet Halley for the second time.",
+      "entities": [
+        "Bill",
+        "90"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-GSM8K/991_2_3",
+      "conversation_id": "sharded-GSM8K/991",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Bill saw Comet Halley for the second time in 2023.",
+      "entities": [
+        "Bill",
+        "2023"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-GSM8K/991_0_0",
+      "target": "sharded-GSM8K/991_0_1",
+      "type": "supports",
+      "rationale": "Comet Halley's period provided supports assistant's claim."
+    },
+    {
+      "source": "sharded-GSM8K/991_0_1",
+      "target": "sharded-GSM8K/991_0_2",
+      "type": "supports",
+      "rationale": "Assumption based on orbital period."
+    },
+    {
+      "source": "sharded-GSM8K/991_0_2",
+      "target": "sharded-GSM8K/991_0_4",
+      "type": "derived_from",
+      "rationale": "Uses observation date in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/991_0_3",
+      "target": "sharded-GSM8K/991_0_5",
+      "type": "derived_from",
+      "rationale": "Uses observation date in derivation."
+    },
+    {
+      "source": "sharded-GSM8K/991_0_4",
+      "target": "sharded-GSM8K/991_0_6",
+      "type": "derived_from",
+      "rationale": "Indicates age based on assumptions."
+    },
+    {
+      "source": "sharded-GSM8K/991_1_0",
+      "target": "sharded-GSM8K/991_1_1",
+      "type": "supports",
+      "rationale": "Supports further calculation of Bill's age."
+    },
+    {
+      "source": "sharded-GSM8K/991_1_1",
+      "target": "sharded-GSM8K/991_1_2",
+      "type": "supports",
+      "rationale": "Calculates the year based on age."
+    },
+    {
+      "source": "sharded-GSM8K/991_1_2",
+      "target": "sharded-GSM8K/991_1_3",
+      "type": "derived_from",
+      "rationale": "Calculates Bill's birth year based on father's observation year."
+    },
+    {
+      "source": "sharded-GSM8K/991_1_3",
+      "target": "sharded-GSM8K/991_1_4",
+      "type": "derived_from",
+      "rationale": "Calculates age based on birth year."
+    },
+    {
+      "source": "sharded-GSM8K/991_2_0",
+      "target": "sharded-GSM8K/991_2_1",
+      "type": "supports",
+      "rationale": "Supports understanding of context."
+    },
+    {
+      "source": "sharded-GSM8K/991_2_1",
+      "target": "sharded-GSM8K/991_2_2",
+      "type": "supports",
+      "rationale": "Based on father's age to calculate Bill's age."
+    },
+    {
+      "source": "sharded-GSM8K/991_2_2",
+      "target": "sharded-GSM8K/991_2_3",
+      "type": "derived_from",
+      "rationale": "Calculates year based on observation period."
+    }
+  ],
+  "attributes": {}
+}
