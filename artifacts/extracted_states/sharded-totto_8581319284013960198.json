@@ -7,7 +7,7 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Here are 10 examples of descriptions of other tables.",
+      "text": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -18,10 +18,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71.",
-      "entities": [
-        "Daiya Seto"
-      ],
+      "text": "In 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -31,12 +29,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "In 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.",
-      "entities": [
-        "Stamenković",
-        "Kazakhstan",
-        "Irtysh Pavlodar"
-      ],
+      "text": "Mr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -46,11 +40,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Mr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.",
-      "entities": [
-        "S.C. Behar",
-        "RCVP Noronha Academy of Administration"
-      ],
+      "text": "In 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -60,13 +51,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "In 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.",
-      "entities": [
-        "Cochran",
-        "McDaniel",
-        "United States",
-        "Mississippi"
-      ],
+      "text": "Óengus mac Nad Froích was the King of Munster until 489.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -76,11 +62,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Óengus mac Nad Froích was the King of Munster until 489.",
-      "entities": [
-        "Óengus mac Nad Froích",
-        "Munster"
-      ],
+      "text": "They reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -90,10 +73,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "They reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.",
-      "entities": [
-        "Mbekezeli Mabuza"
-      ],
+      "text": "Hungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -103,11 +84,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Hungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.",
-      "entities": [
-        "Hungarian Rhapsody",
-        "Franz Liszt"
-      ],
+      "text": "Tobias Harris scored 15.3 points per game.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -117,10 +95,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "Tobias Harris scored 15.3 points per game.",
-      "entities": [
-        "Tobias Harris"
-      ],
+      "text": "WMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.",
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -130,26 +106,8 @@
       "turn_index": 0,
       "source": "user",
       "type": "fact",
-      "text": "WMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.",
-      "entities": [
-        "WMRQ-FM",
-        "Bolton",
-        "Clinton",
-        "Bridgeport"
-      ],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_10",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
       "text": "Lacourt was dropped to a fourth-place time in 53.08.",
-      "entities": [
-        "Lacourt"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -160,9 +118,7 @@
       "source": "assistant",
       "type": "answer_candidate",
       "text": "A table listing various buildings and structures associated with the Grand Preceptor.",
-      "entities": [
-        "Grand Preceptor"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -172,7 +128,7 @@
       "turn_index": 1,
       "source": "user",
       "type": "fact",
-      "text": "I am now giving you a version of the table with some cells highlighted.",
+      "text": "I am now giving you a version of the table with some cells highlights (by adding a highlighted class to each cell).",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -183,7 +139,18 @@
       "turn_index": 1,
       "source": "user",
       "type": "fact",
-      "text": "The table has some cells highlighted by adding a highlighted class to each cell.",
+      "text": "The table has highlighted cells now.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_1_3",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -195,9 +162,7 @@
       "source": "user",
       "type": "fact",
       "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi.",
-      "entities": [
-        "http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -206,12 +171,9 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 2,
       "source": "assistant",
-      "type": "answer_candidate",
+      "type": "derivation",
       "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
-      "entities": [
-        "Grand Preceptor",
-        "Former Residence of Jia Yi"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -222,9 +184,7 @@
       "source": "user",
       "type": "fact",
       "text": "The table_page_title is Former Residence of Jia Yi.",
-      "entities": [
-        "Former Residence of Jia Yi"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -233,12 +193,9 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 3,
       "source": "assistant",
-      "type": "answer_candidate",
+      "type": "derivation",
       "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
-      "entities": [
-        "Grand Preceptor",
-        "Former Residence of Jia Yi"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -249,9 +206,7 @@
       "source": "user",
       "type": "fact",
       "text": "The table_section_title is Gallery.",
-      "entities": [
-        "Gallery"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     },
@@ -260,41 +215,31 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 4,
       "source": "assistant",
-      "type": "answer_candidate",
+      "type": "derivation",
       "text": "A table in the Gallery section highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
-      "entities": [
-        "Grand Preceptor",
-        "Former Residence of Jia Yi",
-        "Gallery"
-      ],
+      "entities": [],
       "attributes": {},
       "status": "active"
     }
   ],
   "edges": [
     {
-      "source": "sharded-totto_8581319284013960198_0_0",
-      "target": "sharded-totto_8581319284013960198_1_0",
-      "type": "supports",
-      "rationale": "User provides examples to assist in understanding."
-    },
-    {
-      "source": "sharded-totto_8581319284013960198_1_0",
-      "target": "sharded-totto_8581319284013960198_2_1",
-      "type": "derived_from",
-      "rationale": "Assistant's response derives from focused user input."
-    },
-    {
       "source": "sharded-totto_8581319284013960198_2_1",
-      "target": "sharded-totto_8581319284013960198_3_1",
-      "type": "supersedes",
-      "rationale": "Later metadata supersedes earlier assumptions."
+      "target": "sharded-totto_8581319284013960198_2_0",
+      "type": "derived_from",
+      "rationale": "assistant claim derived from user fact"
     },
     {
       "source": "sharded-totto_8581319284013960198_3_1",
-      "target": "sharded-totto_8581319284013960198_4_1",
-      "type": "supersedes",
-      "rationale": "Later section metadata supersedes earlier description."
+      "target": "sharded-totto_8581319284013960198_3_0",
+      "type": "derived_from",
+      "rationale": "assistant claim derived from user fact"
+    },
+    {
+      "source": "sharded-totto_8581319284013960198_4_1",
+      "target": "sharded-totto_8581319284013960198_4_0",
+      "type": "derived_from",
+      "rationale": "assistant claim derived from user fact"
     }
   ],
   "attributes": {}

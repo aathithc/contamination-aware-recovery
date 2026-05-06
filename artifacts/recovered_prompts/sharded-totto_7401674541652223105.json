@@ -1,28 +1,28 @@
 {
   "conversation_id": "sharded-totto_7401674541652223105",
-  "method": "concat",
-  "prompt": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.\nIn 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.\nMr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.\nIn 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.\nÓengus mac Nad Froích was the King of Munster until 489.\nThey reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.\nHungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.\nTobias Harris scored 15.3 points per game.\nWMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.\nLacourt was dropped to a fourth-place time in 53.08.\nAFC 3 event is represented with highlighted cells in the table.\nThe table_webpage_url is http://en.wikipedia.org/wiki/2012_in_AFC.\nThe table_page_title is 2012 in AFC.\nThe table_section_title is Events list.",
+  "method": "structural_graph",
+  "prompt": "Table: Table of Mixed Martial Arts Events\nRelevant highlighted cells:\n  - Row: AFC 3\n    Column: highlighted\n    Value: true\n    Highlighted: true\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
   "included_node_ids": [
-    "sharded-totto_7401674541652223105_0_0",
-    "sharded-totto_7401674541652223105_0_1",
-    "sharded-totto_7401674541652223105_0_2",
-    "sharded-totto_7401674541652223105_0_3",
-    "sharded-totto_7401674541652223105_0_4",
-    "sharded-totto_7401674541652223105_0_5",
-    "sharded-totto_7401674541652223105_0_6",
-    "sharded-totto_7401674541652223105_0_7",
-    "sharded-totto_7401674541652223105_0_8",
-    "sharded-totto_7401674541652223105_0_9",
-    "sharded-totto_7401674541652223105_1_1",
-    "sharded-totto_7401674541652223105_2_0",
-    "sharded-totto_7401674541652223105_3_0",
-    "sharded-totto_7401674541652223105_4_0"
+    "sharded-totto_7401674541652223105_1_2"
   ],
   "excluded_node_ids": [
-    "sharded-totto_7401674541652223105_1_0",
-    "sharded-totto_7401674541652223105_1_2",
-    "sharded-totto_7401674541652223105_2_1",
+    "sharded-totto_7401674541652223105_1_1",
+    "sharded-totto_7401674541652223105_0_0",
+    "sharded-totto_7401674541652223105_0_2",
+    "sharded-totto_7401674541652223105_4_0",
+    "sharded-totto_7401674541652223105_0_3",
+    "sharded-totto_7401674541652223105_0_1",
+    "sharded-totto_7401674541652223105_3_0",
+    "sharded-totto_7401674541652223105_0_5",
+    "sharded-totto_7401674541652223105_0_4",
     "sharded-totto_7401674541652223105_3_1",
-    "sharded-totto_7401674541652223105_4_1"
+    "sharded-totto_7401674541652223105_0_6",
+    "sharded-totto_7401674541652223105_0_9",
+    "sharded-totto_7401674541652223105_4_1",
+    "sharded-totto_7401674541652223105_1_0",
+    "sharded-totto_7401674541652223105_0_8",
+    "sharded-totto_7401674541652223105_0_7",
+    "sharded-totto_7401674541652223105_2_1",
+    "sharded-totto_7401674541652223105_2_0"
   ]
 }

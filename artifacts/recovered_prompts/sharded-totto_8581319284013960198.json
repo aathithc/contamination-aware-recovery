@@ -1,11 +1,10 @@
 {
   "conversation_id": "sharded-totto_8581319284013960198",
   "method": "trust_filtered",
-  "prompt": "Here are 10 examples of descriptions of other tables.\nHagino's fellow countryman Daiya Seto captured the bronze in 4:09.71.\nLacourt was dropped to a fourth-place time in 53.08.\nIn 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.\nMr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.\nIn 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.\nÓengus mac Nad Froích was the King of Munster until 489.\nThey reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.\nHungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.\nTobias Harris scored 15.3 points per game.\nWMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.\nI am now giving you a version of the table with some cells highlighted.\nThe table has some cells highlighted by adding a highlighted class to each cell.\nThe table_webpage_url is http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi.\nThe table_page_title is Former Residence of Jia Yi.\nThe table_section_title is Gallery.",
+  "prompt": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.\nIn 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.\nMr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.\nIn 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.\nÓengus mac Nad Froích was the King of Munster until 489.\nThey reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.\nHungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.\nTobias Harris scored 15.3 points per game.\nWMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.\nLacourt was dropped to a fourth-place time in 53.08.\nI am now giving you a version of the table with some cells highlights (by adding a highlighted class to each cell).\nThe table has highlighted cells now.\nThe table_webpage_url is http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi.\nA table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.\nThe table_page_title is Former Residence of Jia Yi.\nA table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.\nThe table_section_title is Gallery.\nA table in the Gallery section highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
   "included_node_ids": [
     "sharded-totto_8581319284013960198_0_0",
     "sharded-totto_8581319284013960198_0_1",
-    "sharded-totto_8581319284013960198_0_10",
     "sharded-totto_8581319284013960198_0_2",
     "sharded-totto_8581319284013960198_0_3",
     "sharded-totto_8581319284013960198_0_4",
@@ -17,13 +16,14 @@
     "sharded-totto_8581319284013960198_1_1",
     "sharded-totto_8581319284013960198_1_2",
     "sharded-totto_8581319284013960198_2_0",
+    "sharded-totto_8581319284013960198_2_1",
     "sharded-totto_8581319284013960198_3_0",
-    "sharded-totto_8581319284013960198_4_0"
+    "sharded-totto_8581319284013960198_3_1",
+    "sharded-totto_8581319284013960198_4_0",
+    "sharded-totto_8581319284013960198_4_1"
   ],
   "excluded_node_ids": [
     "sharded-totto_8581319284013960198_1_0",
-    "sharded-totto_8581319284013960198_2_1",
-    "sharded-totto_8581319284013960198_3_1",
-    "sharded-totto_8581319284013960198_4_1"
+    "sharded-totto_8581319284013960198_1_3"
   ]
 }
