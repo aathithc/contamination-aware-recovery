@@ -1,0 +1,13 @@
+{
+  "conversation_id": "mock_summary_001",
+  "nodes": [
+    {"id": "mock_summary_001_0_0", "conversation_id": "mock_summary_001", "turn_index": 0, "source": "user", "type": "fact", "text": "Summarize the report on climate change.", "entities": ["climate change"], "attributes": {}, "status": "active"},
+    {"id": "mock_summary_001_1_0", "conversation_id": "mock_summary_001", "turn_index": 1, "source": "assistant", "type": "answer_candidate", "text": "Here is a general summary of climate change impacts.", "entities": ["climate change"], "attributes": {}, "status": "active"},
+    {"id": "mock_summary_001_2_0", "conversation_id": "mock_summary_001", "turn_index": 2, "source": "user", "type": "constraint", "text": "Focus specifically on Arctic ice melt statistics from 2020.", "entities": ["Arctic ice melt", "2020"], "attributes": {}, "status": "active"},
+    {"id": "mock_summary_001_3_0", "conversation_id": "mock_summary_001", "turn_index": 3, "source": "assistant", "type": "answer_candidate", "text": "Climate change continues to affect global temperatures broadly.", "entities": ["climate change"], "attributes": {}, "status": "active"}
+  ],
+  "edges": [
+    {"source": "mock_summary_001_2_0", "target": "mock_summary_001_1_0", "type": "supersedes", "rationale": "user constraint supersedes generic summary with specific focus"}
+  ],
+  "attributes": {}
+}

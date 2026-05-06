@@ -1,0 +1,14 @@
+{
+  "conversation_id": "mock_actions_001",
+  "nodes": [
+    {"id": "mock_actions_001_0_0", "conversation_id": "mock_actions_001", "turn_index": 0, "source": "user", "type": "constraint", "text": "Call send_email with recipient='alice@example.com'", "entities": ["send_email", "alice@example.com"], "attributes": {}, "status": "active"},
+    {"id": "mock_actions_001_1_0", "conversation_id": "mock_actions_001", "turn_index": 1, "source": "assistant", "type": "assumption", "text": "I will call send_email(recipient='bob@example.com')", "entities": ["send_email", "bob@example.com"], "attributes": {}, "status": "active"},
+    {"id": "mock_actions_001_1_1", "conversation_id": "mock_actions_001", "turn_index": 1, "source": "assistant", "type": "derivation", "text": "Email will be sent to bob@example.com", "entities": ["bob@example.com"], "attributes": {}, "status": "active"},
+    {"id": "mock_actions_001_2_0", "conversation_id": "mock_actions_001", "turn_index": 2, "source": "user", "type": "correction", "text": "No, use alice@example.com not bob@example.com", "entities": ["alice@example.com", "bob@example.com"], "attributes": {}, "status": "active"}
+  ],
+  "edges": [
+    {"source": "mock_actions_001_2_0", "target": "mock_actions_001_1_0", "type": "supersedes", "rationale": "user correction supersedes wrong recipient assumption"},
+    {"source": "mock_actions_001_1_1", "target": "mock_actions_001_1_0", "type": "derived_from", "rationale": "derivation about sending to bob depends on assumption"}
+  ],
+  "attributes": {}
+}

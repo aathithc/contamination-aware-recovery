@@ -1,5 +1,8 @@
 # CARE Project — Day 2 Overnight Run Status
 
+## Priority 4 — Mock conversation fixtures — DONE (2026-05-05)
+Created three fixture JSON files in `tests/fixtures/`: mock_database_001.json (6 nodes, 4 edges with Table/Column/JoinKey structure and BELONGS_TO/REQUIRES edges), mock_actions_001.json (4 nodes, 2 edges demonstrating supersedes contamination propagation on wrong recipient), and mock_summary_001.json (4 nodes, 1 edge showing ignored user constraint). Added corresponding JSONL entries to `data/processed/mock_fixtures.jsonl` covering database, actions, and data2text task types. All 30 pytest tests passed after adding fixtures.
+
 ## Priority 3 — Pipeline run on 5 failed D2T tasks — DONE (2026-05-05)
 Ran OpenAIExtractor (gpt-4o-mini) on 5 failed data2text tasks (strategy=none) from the Haiku trace file. All 5 extractions succeeded (0 failures, 0% failure rate — well below the 50% stop threshold). Extracted graphs ranged from 19–33 nodes and 4–15 edges per task; no tasks had zero edges. Contamination propagation identified 0–4 contaminated nodes per task. Recovery method selection produced: concat (1 task), structural_graph (2 tasks), trust_filtered (2 tasks). All 5 extracted states and recovery prompts saved to artifacts/. Next: add mock conversation fixtures.
 

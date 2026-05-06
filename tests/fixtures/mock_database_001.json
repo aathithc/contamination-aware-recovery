@@ -1,0 +1,18 @@
+{
+  "conversation_id": "mock_database_001",
+  "nodes": [
+    {"id": "mock_database_001_0_0", "conversation_id": "mock_database_001", "turn_index": 0, "source": "user", "type": "metadata", "text": "Table: employees", "entities": ["employees"], "attributes": {"table_name": "employees"}, "status": "active"},
+    {"id": "mock_database_001_0_1", "conversation_id": "mock_database_001", "turn_index": 0, "source": "user", "type": "structural_record", "text": "Column: employee_id (primary key)", "entities": ["employee_id"], "attributes": {"table_name": "employees", "column": "employee_id", "role": "primary_key"}, "status": "active"},
+    {"id": "mock_database_001_0_2", "conversation_id": "mock_database_001", "turn_index": 0, "source": "user", "type": "structural_record", "text": "Column: department_id (join key)", "entities": ["department_id"], "attributes": {"table_name": "employees", "column": "department_id", "role": "join_key"}, "status": "active"},
+    {"id": "mock_database_001_0_3", "conversation_id": "mock_database_001", "turn_index": 0, "source": "user", "type": "metadata", "text": "Table: departments", "entities": ["departments"], "attributes": {"table_name": "departments"}, "status": "active"},
+    {"id": "mock_database_001_0_4", "conversation_id": "mock_database_001", "turn_index": 0, "source": "user", "type": "structural_record", "text": "Column: department_id (primary key)", "entities": ["department_id"], "attributes": {"table_name": "departments", "column": "department_id", "role": "primary_key"}, "status": "active"},
+    {"id": "mock_database_001_1_0", "conversation_id": "mock_database_001", "turn_index": 1, "source": "assistant", "type": "answer_candidate", "text": "SELECT e.employee_id FROM employees e JOIN departments d ON e.department_id = d.department_id", "entities": ["employees", "departments", "department_id"], "attributes": {}, "status": "active"}
+  ],
+  "edges": [
+    {"source": "mock_database_001_0_1", "target": "mock_database_001_0_0", "type": "belongs_to", "rationale": "employee_id column belongs to employees table"},
+    {"source": "mock_database_001_0_2", "target": "mock_database_001_0_0", "type": "belongs_to", "rationale": "department_id join key belongs to employees table"},
+    {"source": "mock_database_001_0_4", "target": "mock_database_001_0_3", "type": "belongs_to", "rationale": "department_id primary key belongs to departments table"},
+    {"source": "mock_database_001_0_2", "target": "mock_database_001_0_4", "type": "requires", "rationale": "join key requires matching primary key in departments"}
+  ],
+  "attributes": {}
+}
