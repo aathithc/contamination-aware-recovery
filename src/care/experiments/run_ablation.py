@@ -22,6 +22,7 @@ from care.recovery.concat import build_concat_prompt
 from care.recovery.trust_filtered import build_trust_filtered_prompt
 from care.recovery.structural_graph import build_structural_graph_prompt
 from care.recovery.selector import select_and_build
+from care.recovery.structured_prompt_baseline import build_structured_prompt_from_csg
 from care.eval.metrics import compute_metrics
 from care.eval.oracle import compute_oracle_accuracy
 
@@ -46,7 +47,7 @@ def run_ablation(
 ) -> dict:
     task_ids = list(success_labels.keys())
     predictions_by_method: dict[str, list[bool]] = {
-        m: [] for m in ["concat", "structural_only", "trust_filtered_no_propagation", "full_care"]
+        m: [] for m in ["concat", "structural_only", "trust_filtered_no_propagation", "full_care", "structured_prompt_baseline"]
     }
 
     for task_id in task_ids:
@@ -72,6 +73,7 @@ def run_ablation(
             "structural_only": build_structural_graph_prompt(clean),
             "trust_filtered_no_propagation": build_trust_filtered_prompt(clean),
             "full_care": select_and_build(propagated),
+            "structured_prompt_baseline": build_structured_prompt_from_csg(clean),
         }
 
         for method_name, prompt in prompts.items():
