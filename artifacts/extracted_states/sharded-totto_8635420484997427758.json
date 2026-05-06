@@ -1,0 +1,281 @@
+{
+  "conversation_id": "sharded-totto_8635420484997427758",
+  "nodes": [
+    {
+      "id": "sharded-totto_8635420484997427758_0_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "In 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_2",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Mr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_3",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "In 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_4",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Óengus mac Nad Froích was the King of Munster until 489.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_5",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "They reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_6",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Hungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_7",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Tobias Harris scored 15.3 points per game.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_8",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "WMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_0_9",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Lacourt was dropped to a fourth-place time in 53.08.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_1_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table provides detailed information on the 1915 United States Senate elections, including the incumbent senators, their party affiliations, electoral histories, election results, and the candidates involved.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_1_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "This table highlights the details of the 1915 United States Senate elections, focusing on the states where the incumbent senator lost renomination or retired, resulting in a new senator being elected.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_1_2",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Specifically, the highlighted cells show that in South Dakota, the incumbent Republican senator Coe I. Crawford lost renomination, and the new senator elected was the Democratic candidate Edwin S. Johnson, representing a Democratic gain in that state.",
+      "entities": [
+        "South Dakota",
+        "Coe I. Crawford",
+        "Edwin S. Johnson"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_2_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/1914_United_States_Senate_elections.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_2_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The table is sourced from the Wikipedia page at http://en.wikipedia.org/wiki/1914_United_States_Senate_elections.",
+      "entities": [
+        "http://en.wikipedia.org/wiki/1914_United_States_Senate_elections"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_3_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_page_title is 1914 United States Senate elections.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_3_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "The table provides detailed information on the 1914 United States Senate elections, including the incumbent senators, their party affiliations, electoral histories, election results, and the candidates involved.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_4_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_section_title is Races leading to the 64th Congress.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_4_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "This table, from the \"Races leading to the 64th Congress\" section, provides detailed information on the 1914 United States Senate elections, including the incumbent senators, their party affiliations, electoral histories, election results, and the candidates involved.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_5_0",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 5,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_section_text is In these general elections, the winners were elected for the term beginning March 4, 1915; ordered by state. All of the elections involved the Class 3 seats.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8635420484997427758_5_1",
+      "conversation_id": "sharded-totto_8635420484997427758",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "This table, from the \"Races leading to the 64th Congress\" section of the Wikipedia page on the 1914 United States Senate elections, provides detailed information on the elections for the Class 3 Senate seats.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_8635420484997427758_1_0",
+      "target": "sharded-totto_8635420484997427758_0_0",
+      "type": "supports",
+      "rationale": "User fact endorses assistant's information."
+    },
+    {
+      "source": "sharded-totto_8635420484997427758_1_2",
+      "target": "sharded-totto_8635420484997427758_1_1",
+      "type": "supports",
+      "rationale": "Assumption based on user fact about the table."
+    },
+    {
+      "source": "sharded-totto_8635420484997427758_2_1",
+      "target": "sharded-totto_8635420484997427758_2_0",
+      "type": "verified_by",
+      "rationale": "Assistant claim confirmed by user-provided metadata."
+    },
+    {
+      "source": "sharded-totto_8635420484997427758_3_1",
+      "target": "sharded-totto_8635420484997427758_3_0",
+      "type": "verified_by",
+      "rationale": "Assistant claim confirmed by user-provided metadata."
+    },
+    {
+      "source": "sharded-totto_8635420484997427758_4_1",
+      "target": "sharded-totto_8635420484997427758_4_0",
+      "type": "verified_by",
+      "rationale": "Assistant claim confirmed by user-provided metadata."
+    },
+    {
+      "source": "sharded-totto_8635420484997427758_5_1",
+      "target": "sharded-totto_8635420484997427758_5_0",
+      "type": "verified_by",
+      "rationale": "Assistant claim confirmed by user-provided metadata."
+    }
+  ],
+  "attributes": {}
+}

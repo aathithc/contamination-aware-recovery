@@ -1,0 +1,42 @@
+{
+  "conversation_id": "sharded-totto_-5195739605929852680",
+  "method": "structural_graph",
+  "prompt": "Table: 2009 World Games Medal Winners\nRelevant highlighted cells:\n  - Row: Women's 300 m time trial\n    Column: Gold\n    Value: Huang Yu-ting Chinese Taipei\n    Highlighted: true\n  - Row: Women's 500 m sprint\n    Column: Gold\n    Value: Huang Yu-ting Chinese Taipei\n    Highlighted: true\n  - Row: Women's 1000 m sprint\n    Column: Gold\n    Value: Huang Yu-ting Chinese Taipei\n    Highlighted: true\nSupporting context:\n  - The table displays the medal winners for various track cycling events at the 2009 World Games, with the highlighted cells indicating the gold medalists from Chinese Taipei in the women's events.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-5195739605929852680_1_4",
+    "sharded-totto_-5195739605929852680_1_5",
+    "sharded-totto_-5195739605929852680_1_6",
+    "sharded-totto_-5195739605929852680_1_7"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-5195739605929852680_0_7",
+    "sharded-totto_-5195739605929852680_1_3",
+    "sharded-totto_-5195739605929852680_0_1",
+    "sharded-totto_-5195739605929852680_0_0",
+    "sharded-totto_-5195739605929852680_3_2",
+    "sharded-totto_-5195739605929852680_0_3",
+    "sharded-totto_-5195739605929852680_2_0",
+    "sharded-totto_-5195739605929852680_4_1",
+    "sharded-totto_-5195739605929852680_1_11",
+    "sharded-totto_-5195739605929852680_1_10",
+    "sharded-totto_-5195739605929852680_1_13",
+    "sharded-totto_-5195739605929852680_2_2",
+    "sharded-totto_-5195739605929852680_1_0",
+    "sharded-totto_-5195739605929852680_1_2",
+    "sharded-totto_-5195739605929852680_3_1",
+    "sharded-totto_-5195739605929852680_2_1",
+    "sharded-totto_-5195739605929852680_0_4",
+    "sharded-totto_-5195739605929852680_1_8",
+    "sharded-totto_-5195739605929852680_1_9",
+    "sharded-totto_-5195739605929852680_0_6",
+    "sharded-totto_-5195739605929852680_0_5",
+    "sharded-totto_-5195739605929852680_3_0",
+    "sharded-totto_-5195739605929852680_4_0",
+    "sharded-totto_-5195739605929852680_0_8",
+    "sharded-totto_-5195739605929852680_0_9",
+    "sharded-totto_-5195739605929852680_1_12",
+    "sharded-totto_-5195739605929852680_1_1",
+    "sharded-totto_-5195739605929852680_0_2",
+    "sharded-totto_-5195739605929852680_4_2"
+  ]
+}
