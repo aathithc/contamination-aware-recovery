@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_1978814565906289015",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Award                               | Category     | Recipient   | Result   |\n|-------------------------------------|--------------|-------------|----------|\n| 48th Grand Bell Awards              | Best Actress | Kim Hye-soo | Nominated |\n| 48th Grand Bell Awards              | Best Actress | Kim Hye-soo | Nominated |\n| 48th Grand Bell Awards              | Best Actress | Kim Hye-soo | Nominated |\n| 48th Grand Bell Awards              | Best Actress | Kim Hye-soo | Nominated |\n| 32nd Blue Dragon Film Awards        | Best Actress | Kim Hye-soo | Nominated |\n| 32nd Blue Dragon Film Awards        | Best Actress | Kim Hye-soo | Nominated |\n| Popular Star Award                  | Best Actress | Kim Hye-soo | Won      |\n| Popular Star Award                  | Best Actress | Kim Hye-soo | Won      |\n\nHighlighted:\n48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated, 32nd Blue Dragon Film Awards | Best Actress | Kim Hye-soo | Nominated, Popular Star Award | Best Actress | Kim Hye-soo | Won\n\nContext:\nNone\n\nInstruction:\nSummarize the table entries for Kim Hye-soo's awards and nominations.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

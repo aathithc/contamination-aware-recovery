@@ -1,0 +1,19 @@
+{
+  "contaminated_ids": [
+    "sharded-totto_2466054609666099920_2_1",
+    "sharded-totto_2466054609666099920_2_2",
+    "sharded-totto_2466054609666099920_3_1",
+    "sharded-totto_2466054609666099920_3_2",
+    "sharded-totto_2466054609666099920_4_1",
+    "sharded-totto_2466054609666099920_4_2"
+  ],
+  "inactive_ids": [],
+  "reasons": {
+    "sharded-totto_2466054609666099920_2_1": "assistant assumption/answer_candidate without support",
+    "sharded-totto_2466054609666099920_2_2": "assistant assumption/answer_candidate without support",
+    "sharded-totto_2466054609666099920_3_1": "assistant assumption/answer_candidate without support",
+    "sharded-totto_2466054609666099920_3_2": "assistant assumption/answer_candidate without support",
+    "sharded-totto_2466054609666099920_4_1": "assistant assumption/answer_candidate without support",
+    "sharded-totto_2466054609666099920_4_2": "assistant assumption/answer_candidate without support"
+  }
+}

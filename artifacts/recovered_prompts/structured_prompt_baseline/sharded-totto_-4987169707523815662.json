@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-4987169707523815662",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| # | Portrait | Name               | Term Start | Term End | Previous public posts |\n|---|----------|--------------------|------------|----------|-----------------------|\n| 1 |          | Luis A. Ferré      | 1967       | 1974     |                       |\n\nHighlighted:\n- Term Start: 1967\n- Term End: 1974\n\nContext:\n- The table_url is http://en.wikipedia.org/wiki/List_of_Presidents_of_the_New_Progressive_Party_(Puerto_Rico).\n- The table_page_title is List of Presidents of the New Progressive Party (Puerto Rico).\n- The table_section_title is List of presidents.\n\nInstruction:\nSummarize the key details regarding Luis A. Ferré from the table.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

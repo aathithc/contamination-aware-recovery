@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-1554888779901746112",
+  "method": "structured_prompt_baseline",
+  "prediction": "The table presents a list of MMA events held in 2017, featuring a variety of match titles, dates, and locations primarily in Russia, along with one event in Finland and one in China. Key venues include notable arenas such as the A2 Green Concert Hall, Yubileyny Sports Palace, and Sports Palace \"Magas,\" showcasing a range of fighters and matchups throughout the year.",
+  "success": false,
+  "baseline_success": true
+}

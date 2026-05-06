@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-totto_4754587589162879755",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: U.S. Billboard 200\n    Column: Peak position\n    Value: 133\n    Highlighted: true\n  - Row: U.S. Billboard Top R&B/Hip-Hop Albums\n    Column: Peak position\n    Value: 43\n    Highlighted: true\nSupporting context:\n  - Table columns: Chart (2004), Peak position\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_4754587589162879755_1_1",
+    "sharded-totto_4754587589162879755_1_2",
+    "sharded-totto_4754587589162879755_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_4754587589162879755_3_0",
+    "sharded-totto_4754587589162879755_3_1",
+    "sharded-totto_4754587589162879755_5_1",
+    "sharded-totto_4754587589162879755_4_0",
+    "sharded-totto_4754587589162879755_0_0",
+    "sharded-totto_4754587589162879755_4_1",
+    "sharded-totto_4754587589162879755_2_1",
+    "sharded-totto_4754587589162879755_5_0",
+    "sharded-totto_4754587589162879755_2_0",
+    "sharded-totto_4754587589162879755_1_3"
+  ]
+}

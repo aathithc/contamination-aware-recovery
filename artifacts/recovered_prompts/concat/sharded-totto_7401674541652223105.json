@@ -1,0 +1,18 @@
+{
+  "conversation_id": "sharded-totto_7401674541652223105",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: #, Event Title, Date, Arena, Location\n5 | AFC 4 | December 7, 2012 | Melbourne Pavilion | Melbourne, Australia\n4 | AFC 3 | April 14, 2012 | Geelong Arena | Geelong, Australia [highlighted]\n4 | AFC 3 | April 14, 2012 | Geelong Arena | Geelong, Australia [highlighted]\n4 | AFC 3 | April 14, 2012 | Geelong Arena | Geelong, Australia [highlighted]\n4 | AFC 3 | April 14, 2012 | Geelong Arena | Geelong, Australia [highlighted]\nTable metadata: table_webpage_url=http://en.wikipedia.org/wiki/2012_in_AFC\nTable metadata: table_page_title=2012 in AFC\nTable metadata: table_section_title=Events list",
+  "included_node_ids": [
+    "sharded-totto_7401674541652223105_0_0",
+    "sharded-totto_7401674541652223105_1_0",
+    "sharded-totto_7401674541652223105_1_1",
+    "sharded-totto_7401674541652223105_1_2",
+    "sharded-totto_7401674541652223105_1_3",
+    "sharded-totto_7401674541652223105_1_4",
+    "sharded-totto_7401674541652223105_1_5",
+    "sharded-totto_7401674541652223105_2_0",
+    "sharded-totto_7401674541652223105_3_0",
+    "sharded-totto_7401674541652223105_4_0"
+  ],
+  "excluded_node_ids": []
+}

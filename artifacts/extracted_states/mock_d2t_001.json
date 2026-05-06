@@ -1,0 +1,91 @@
+{
+  "conversation_id": "mock_d2t_001",
+  "nodes": [
+    {
+      "id": "mock_d2t_001_0_0",
+      "conversation_id": "mock_d2t_001",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table: Sales Q1",
+      "entities": [
+        "Sales Q1"
+      ],
+      "attributes": {
+        "title": "Sales Q1"
+      },
+      "status": "active"
+    },
+    {
+      "id": "mock_d2t_001_0_1",
+      "conversation_id": "mock_d2t_001",
+      "turn_index": 0,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Product A Revenue $500K (highlighted)",
+      "entities": [
+        "Product A",
+        "Revenue"
+      ],
+      "attributes": {
+        "table_title": "Sales Q1",
+        "row_id": "row_0",
+        "row_header": "Product A",
+        "column": "Revenue",
+        "value": "$500K",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "mock_d2t_001_0_2",
+      "conversation_id": "mock_d2t_001",
+      "turn_index": 0,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Product B Revenue $300K",
+      "entities": [
+        "Product B",
+        "Revenue"
+      ],
+      "attributes": {
+        "table_title": "Sales Q1",
+        "row_id": "row_1",
+        "row_header": "Product B",
+        "column": "Revenue",
+        "value": "$300K",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "mock_d2t_001_1_0",
+      "conversation_id": "mock_d2t_001",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "Product B's revenue is $300K.",
+      "entities": [
+        "Product B",
+        "Revenue"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mock_d2t_001_0_1",
+      "target": "mock_d2t_001_0_0",
+      "type": "belongs_to",
+      "rationale": "highlighted cell belongs to table"
+    },
+    {
+      "source": "mock_d2t_001_0_2",
+      "target": "mock_d2t_001_0_0",
+      "type": "belongs_to",
+      "rationale": "non-highlighted cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

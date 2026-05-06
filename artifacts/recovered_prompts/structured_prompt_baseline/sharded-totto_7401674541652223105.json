@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_7401674541652223105",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| # | Event Title | Date           | Arena            | Location            |\n|---|-------------|----------------|-------------------|---------------------|\n| 5 | AFC        | December 7, 2012 | Melbourne Pavilion | Melbourne, Australia |\n| 4 | AFC        | April 14, 2012   | Geelong Arena     | Geelong, Australia   |\n| 4 | AFC        | April 14, 2012   | Geelong Arena     | Geelong, Australia   |\n| 4 | AFC        | April 14, 2012   | Geelong Arena     | Geelong, Australia   |\n| 4 | AFC        | April 14, 2012   | Geelong Arena     | Geelong, Australia   |\n\nHighlighted:\nGeelong Arena\n\nContext:\nThe user emphasised the entry for Geelong Arena and provided metadata for the table.\n\nInstruction:\nReformat the table data into a clear description.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

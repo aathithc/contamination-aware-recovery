@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-totto_-7587628134860225807",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: Candidate, Votes, %\nRow 0 | Candidate: William Wolfe [highlighted]\nRow 0 | %: 69.6% [highlighted]\nRow 1 | Candidate: Arthur Donaldson [highlighted]\nRow 1 | %: 30.4% [highlighted]\nTable webpage URL: http://en.wikipedia.org/wiki/1969_Scottish_National_Party_leadership_election.\nTable page title: 1969 Scottish National Party leadership election.\nTable section title: Result.",
+  "included_node_ids": [
+    "sharded-totto_-7587628134860225807_0_0",
+    "sharded-totto_-7587628134860225807_1_0",
+    "sharded-totto_-7587628134860225807_1_1",
+    "sharded-totto_-7587628134860225807_1_2",
+    "sharded-totto_-7587628134860225807_1_3",
+    "sharded-totto_-7587628134860225807_1_4",
+    "sharded-totto_-7587628134860225807_2_0",
+    "sharded-totto_-7587628134860225807_3_0",
+    "sharded-totto_-7587628134860225807_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-7587628134860225807_1_5",
+    "sharded-totto_-7587628134860225807_2_1",
+    "sharded-totto_-7587628134860225807_3_1",
+    "sharded-totto_-7587628134860225807_4_1"
+  ]
+}

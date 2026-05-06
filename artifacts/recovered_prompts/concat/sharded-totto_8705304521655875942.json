@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-totto_8705304521655875942",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: District, Vacator, Reason for change, Successor, Date successor seated\nNew York 25th | Vacant | Rep. Frank Hiscock resigned during previous congress | James J. Belden (R) | November 8, 1887\nTexas 2nd | John H. Reagan (D) | Resigned March 4, 1887, after being elected to the U.S. Senate | William H. Martin (D) | November 4, 1887\nLouisiana 6th | Edward W. Robertson (D) | Died August 2, 1887 | Samuel M. Robertson (D) | December 5, 1891\nNew York 19th | Nicholas T. Kane (D) | Died September 14, 1887 | Charles Tracey (D) | November 8, 1887\nMichigan 11th | Seth C. Moffatt (R) | Died December 22, 1887 | Henry W. Seymour (R) | February 14, 1888\nNew York 1st | Perry Belmont (D) | Resigned December 1, 1888, after being appointed Minister to Spain | Vacant until next Congress |\nIndiana 1st | Alvin P. Hovey (R) | Resigned January 17, 1889, after being elected Governor of Indiana | Francis B. Posey (R) | January 29, 1889\nMissouri 4th | James N. Burnes (D) | Died January 23, 1889 | Charles F. Booher (D) | February 19, 1889\nTable metadata: table_webpage_url is http://en.wikipedia.org/wiki/50th_United_States_Congress.\nTable metadata: table_page_title is 50th United States Congress.\nTable metadata: table_section_title is House of Representatives.\nTable metadata: table_section_text is replacements: 8 Democratic: no net change Republican: no net change deaths: 4 resignations: 5 contested election: 0 Total seats with changes: 8.",
+  "included_node_ids": [
+    "sharded-totto_8705304521655875942_0_0",
+    "sharded-totto_8705304521655875942_1_1",
+    "sharded-totto_8705304521655875942_1_2",
+    "sharded-totto_8705304521655875942_1_3",
+    "sharded-totto_8705304521655875942_1_4",
+    "sharded-totto_8705304521655875942_1_5",
+    "sharded-totto_8705304521655875942_1_6",
+    "sharded-totto_8705304521655875942_1_7",
+    "sharded-totto_8705304521655875942_1_8",
+    "sharded-totto_8705304521655875942_1_9",
+    "sharded-totto_8705304521655875942_2_0",
+    "sharded-totto_8705304521655875942_3_0",
+    "sharded-totto_8705304521655875942_4_0",
+    "sharded-totto_8705304521655875942_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_8705304521655875942_1_0",
+    "sharded-totto_8705304521655875942_2_1",
+    "sharded-totto_8705304521655875942_3_1",
+    "sharded-totto_8705304521655875942_4_1",
+    "sharded-totto_8705304521655875942_5_1"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-totto_8635420484997427758",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: South Dakota\n    Column: Results\n    Value: Incumbent lost renomination. New senator elected. Democratic gain.\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_8635420484997427758_1_5",
+    "sharded-totto_8635420484997427758_0_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_8635420484997427758_4_0",
+    "sharded-totto_8635420484997427758_3_1",
+    "sharded-totto_8635420484997427758_3_0",
+    "sharded-totto_8635420484997427758_2_1",
+    "sharded-totto_8635420484997427758_5_1",
+    "sharded-totto_8635420484997427758_1_4",
+    "sharded-totto_8635420484997427758_4_1",
+    "sharded-totto_8635420484997427758_1_1",
+    "sharded-totto_8635420484997427758_2_0",
+    "sharded-totto_8635420484997427758_1_6",
+    "sharded-totto_8635420484997427758_1_0",
+    "sharded-totto_8635420484997427758_1_3",
+    "sharded-totto_8635420484997427758_1_2",
+    "sharded-totto_8635420484997427758_5_0"
+  ]
+}

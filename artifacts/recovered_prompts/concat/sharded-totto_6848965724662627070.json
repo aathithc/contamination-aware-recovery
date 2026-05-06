@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-totto_6848965724662627070",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Candidate, Party, Votes, %\nJorge Carlos Fonseca | Movement for Democracy | 93,010 | 74.08 [highlighted]\nMovement for Democracy | 93,010 [highlighted]\n93,010 | 74.08 [highlighted]\n74.08 [highlighted]\nMetadata includes table_webpage_url: http://en.wikipedia.org/wiki/2016_Cape_Verdean_presidential_election.\nMetadata includes table_page_title: 2016 Cape Verdean presidential election.\nMetadata includes table_section_title: Results.",
+  "included_node_ids": [
+    "sharded-totto_6848965724662627070_0_0",
+    "sharded-totto_6848965724662627070_1_0",
+    "sharded-totto_6848965724662627070_1_1",
+    "sharded-totto_6848965724662627070_1_2",
+    "sharded-totto_6848965724662627070_1_3",
+    "sharded-totto_6848965724662627070_1_4",
+    "sharded-totto_6848965724662627070_2_0",
+    "sharded-totto_6848965724662627070_3_0",
+    "sharded-totto_6848965724662627070_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_6848965724662627070_1_5",
+    "sharded-totto_6848965724662627070_2_1",
+    "sharded-totto_6848965724662627070_3_1",
+    "sharded-totto_6848965724662627070_4_1"
+  ]
+}

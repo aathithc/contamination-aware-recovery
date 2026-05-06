@@ -1,0 +1,208 @@
+{
+  "conversation_id": "sharded-totto_-6348715672223667663",
+  "nodes": [
+    {
+      "id": "sharded-totto_-6348715672223667663_0_0",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_1_0",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "49 | Deep: 27 Impact | December 20, 2006 | Korakuen Hall | Tokyo",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "49",
+        "column": "Event title",
+        "value": "Deep: 27 Impact",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_1_1",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48 | Deep: clubDeep Tokyo: Future King Tournament 2006 [highlighted] | December 9, 2006 [highlighted] | Shinjuku Face [highlighted] | Tokyo [highlighted]",
+      "entities": [
+        "Deep: clubDeep Tokyo: Future King Tournament 2006",
+        "Tokyo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "48",
+        "column": "Event title",
+        "value": "Deep: clubDeep Tokyo: Future King Tournament 2006",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_1_2",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 [highlighted] | Shinjuku Face [highlighted] | Tokyo [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "48",
+        "column": "Date",
+        "value": "December 9, 2006",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_1_3",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 | Shinjuku Face [highlighted] | Tokyo [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "48",
+        "column": "Arena",
+        "value": "Shinjuku Face",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_1_4",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 | Shinjuku Face | Tokyo [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "48",
+        "column": "Location",
+        "value": "Tokyo",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_2_0",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_webpage_url is http://en.wikipedia.org/wiki/2006_in_Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_2_1",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the Wikipedia page '2006 in Deep' listing 14 Deep MMA events held in Japan between 2006 and 2007, with the event title, date, arena, and location highlighted for the Deep: clubDeep Tokyo: Future King Tournament 2006 event held on December 9, 2006 at the Shinjuku Face arena in Tokyo.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_3_0",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_page_title is 2006 in Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_3_1",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the Wikipedia page '2006 in Deep' listing 14 Deep MMA events held in Japan in 2006, with the event title, date, arena, and location highlighted for the Deep: clubDeep Tokyo: Future King Tournament 2006 event held on December 9, 2006 at the Shinjuku Face arena in Tokyo.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_4_0",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_section_title is Events list.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6348715672223667663_4_1",
+      "conversation_id": "sharded-totto_-6348715672223667663",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the 'Events list' section of the Wikipedia page '2006 in Deep' listing 14 Deep MMA events held in Japan in 2006, with the event title, date, arena, and location highlighted for the Deep: clubDeep Tokyo: Future King Tournament 2006 event held on December 9, 2006 at the Shinjuku Face arena in Tokyo.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-6348715672223667663_1_0",
+      "target": "sharded-totto_-6348715672223667663_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6348715672223667663_1_1",
+      "target": "sharded-totto_-6348715672223667663_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6348715672223667663_1_2",
+      "target": "sharded-totto_-6348715672223667663_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6348715672223667663_1_3",
+      "target": "sharded-totto_-6348715672223667663_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6348715672223667663_1_4",
+      "target": "sharded-totto_-6348715672223667663_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

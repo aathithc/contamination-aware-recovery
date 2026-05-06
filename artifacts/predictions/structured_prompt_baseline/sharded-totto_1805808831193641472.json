@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_1805808831193641472",
+  "method": "structured_prompt_baseline",
+  "prediction": "In 1979, Anne Jeffreys played the role of Siress Blassie in the Battlestar Galactica episode titled \"The Man with Nine Lives.\" This performance is part of a wider television career that has included various roles across multiple series.",
+  "success": true,
+  "baseline_success": true
+}

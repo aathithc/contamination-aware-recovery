@@ -1,0 +1,24 @@
+{
+  "conversation_id": "sharded-totto_8581319284013960198",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: the Grand Preceptor Temple, the Xunqiu Cottage, the Grand Preceptor Hall, the Grand Preceptor Well, the Old Tablet Pavilion, Gate\nRow 0 | Column 0: the Grand Preceptor Temple [highlighted]\nRow 0 | Column 1: the Xunqiu Cottage [highlighted]\nRow 0 | Column 2: the Grand Preceptor Hall [highlighted]\nRow 1 | Column 0: the Grand Preceptor Well [highlighted]\nRow 1 | Column 1: the Old Tablet Pavilion [highlighted]\nRow 1 | Column 2: Gate [highlighted]\nTable webpage URL: http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi\nTable page title: Former Residence of Jia Yi.\nTable section title: Gallery.",
+  "included_node_ids": [
+    "sharded-totto_8581319284013960198_0_0",
+    "sharded-totto_8581319284013960198_1_0",
+    "sharded-totto_8581319284013960198_1_1",
+    "sharded-totto_8581319284013960198_1_2",
+    "sharded-totto_8581319284013960198_1_3",
+    "sharded-totto_8581319284013960198_1_4",
+    "sharded-totto_8581319284013960198_1_5",
+    "sharded-totto_8581319284013960198_1_6",
+    "sharded-totto_8581319284013960198_2_0",
+    "sharded-totto_8581319284013960198_3_0",
+    "sharded-totto_8581319284013960198_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_8581319284013960198_5_0",
+    "sharded-totto_8581319284013960198_5_1",
+    "sharded-totto_8581319284013960198_5_2",
+    "sharded-totto_8581319284013960198_5_3"
+  ]
+}

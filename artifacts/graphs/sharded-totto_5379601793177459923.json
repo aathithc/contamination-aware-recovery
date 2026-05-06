@@ -1,0 +1,180 @@
+{
+  "conversation_id": "sharded-totto_5379601793177459923",
+  "nodes": [
+    {
+      "id": "sharded-totto_5379601793177459923_0_0",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_1_0",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Year, Award, Category, Recipient(s), Result, Ref(s)",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_1_1",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2019 | Hollywood Reel Independent Film Festival Awards | Best Director | Daniel Farrands | Won [highlighted]",
+      "entities": [
+        "Daniel Farrands"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "2019",
+        "column": "Hollywood Reel Independent Film Festival Awards",
+        "value": "Best Director | Daniel Farrands | Won",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_1_2",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2019 | Hollywood Reel Independent Film Festival Awards | Best Actress | Hilary Duff | Won [highlighted]",
+      "entities": [
+        "Hilary Duff"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2019",
+        "column": "Hollywood Reel Independent Film Festival Awards",
+        "value": "Best Actress | Hilary Duff | Won",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_1_3",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2019 | Hollywood Reel Independent Film Festival Awards | Best Horror Movie | The Haunting of Sharon Tate | Won [highlighted]",
+      "entities": [
+        "The Haunting of Sharon Tate"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "2019",
+        "column": "Hollywood Reel Independent Film Festival Awards",
+        "value": "Best Horror Movie | The Haunting of Sharon Tate | Won",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_2_0",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/The_Haunting_of_Sharon_Tate.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_2_1",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the 2019 Hollywood Reel Independent Film Festival Awards, including wins for Best Director, Best Actress, and Best Horror Movie, from the Wikipedia page on The Haunting of Sharon Tate.",
+      "entities": [
+        "The Haunting of Sharon Tate"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_3_0",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is The Haunting of Sharon Tate.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_3_1",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the 2019 Hollywood Reel Independent Film Festival Awards for the film The Haunting of Sharon Tate, including wins for Best Director, Best Actress, and Best Horror Movie.",
+      "entities": [
+        "The Haunting of Sharon Tate"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_4_0",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Reception.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5379601793177459923_4_1",
+      "conversation_id": "sharded-totto_5379601793177459923",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table within the 'Reception' section of the Wikipedia page on The Haunting of Sharon Tate, highlighting the 2019 Hollywood Reel Independent Film Festival Awards, including wins for Best Director, Best Actress, and Best Horror Movie.",
+      "entities": [
+        "The Haunting of Sharon Tate"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_5379601793177459923_1_1",
+      "target": "sharded-totto_5379601793177459923_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_5379601793177459923_1_2",
+      "target": "sharded-totto_5379601793177459923_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_5379601793177459923_1_3",
+      "target": "sharded-totto_5379601793177459923_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

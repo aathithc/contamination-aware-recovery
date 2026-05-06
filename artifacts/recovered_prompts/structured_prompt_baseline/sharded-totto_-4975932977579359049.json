@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-4975932977579359049",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| #  | Event Title                                       | Date              | Arena                       | Location                     |\n|----|--------------------------------------------------|-------------------|-----------------------------|------------------------------|\n| 1  | Fight Nights Global 58: Brandão vs. Machaev     | January 13, 2017  | Ali Aliyev Sports Palace    | Russia Kaspiysk, Russia      |\n| 2  | Fight Nights Global 59: Minakov vs. Linderman    | February 23, 2017 | Ali Aliyev Sports Palace    | Russia Kaspiysk, Russia      |\n| 3  | Fight Nights Global 60: Aryshev vs. Khasanov     | March 4, 2017     | Tax Committee Sports Center  | Tajikistan Dushanbe, Tajikistan|\n| 21 | Fight Nights Global 78: Tsarev vs. Guseinov      | November 4, 2017  | Lada Arena                  | Russia Tolyatti, Russia      |\n\nHighlighted:\n- Fight Nights Global 78: Tsarev vs. Guseinov\n- November 4, 2017\n- Lada Arena\n- Russia Tolyatti, Russia\n\nContext:\n- The table contains information about 25 Fight Nights Global events, including the event number, title, date, arena, and location.\n\nInstruction:\n- Provide a detailed summary of the Fight Nights Global events in the table.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

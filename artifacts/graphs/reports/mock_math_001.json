@@ -1,0 +1,12 @@
+{
+  "contaminated_ids": [
+    "mock_math_001_1_1"
+  ],
+  "inactive_ids": [
+    "mock_math_001_1_0"
+  ],
+  "reasons": {
+    "mock_math_001_1_0": "superseded by mock_math_001_2_0",
+    "mock_math_001_1_1": "derived_from contaminated node mock_math_001_1_0"
+  }
+}

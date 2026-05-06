@@ -1,0 +1,580 @@
+{
+  "conversation_id": "sharded-totto_-4975932977579359049",
+  "nodes": [
+    {
+      "id": "sharded-totto_-4975932977579359049_0_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_1_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_1_1",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Fight Nights Global 58: Brandão vs. Machaev",
+      "entities": [
+        "Fight Nights Global 58",
+        "Brandão",
+        "Machaev"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Event Title",
+        "value": "Fight Nights Global 58: Brandão vs. Machaev",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_1_2",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | January 13, 2017",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Date",
+        "value": "January 13, 2017",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_1_3",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Ali Aliyev Sports Palace",
+      "entities": [
+        "Ali Aliyev Sports Palace"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Arena",
+        "value": "Ali Aliyev Sports Palace",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_1_4",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Russia Kaspiysk, Russia",
+      "entities": [
+        "Russia",
+        "Kaspiysk"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Location",
+        "value": "Russia Kaspiysk, Russia",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_2_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_2_1",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Fight Nights Global 59: Minakov vs. Linderman",
+      "entities": [
+        "Fight Nights Global 59",
+        "Minakov",
+        "Linderman"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Event Title",
+        "value": "Fight Nights Global 59: Minakov vs. Linderman",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_2_2",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | February 23, 2017",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Date",
+        "value": "February 23, 2017",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_2_3",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Ali Aliyev Sports Palace",
+      "entities": [
+        "Ali Aliyev Sports Palace"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Arena",
+        "value": "Ali Aliyev Sports Palace",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_2_4",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Russia Kaspiysk, Russia",
+      "entities": [
+        "Russia",
+        "Kaspiysk"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Location",
+        "value": "Russia Kaspiysk, Russia",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_3_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table page title: 2017 in Fight Nights Global",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_3_1",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 3,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Fight Nights Global 60: Aryshev vs. Khasanov",
+      "entities": [
+        "Fight Nights Global 60",
+        "Aryshev",
+        "Khasanov"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Event Title",
+        "value": "Fight Nights Global 60: Aryshev vs. Khasanov",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_3_2",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 3,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | March 4, 2017",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Date",
+        "value": "March 4, 2017",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_3_3",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 3,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Tax Committee Sports Center",
+      "entities": [
+        "Tax Committee Sports Center"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Arena",
+        "value": "Tax Committee Sports Center",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_3_4",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 3,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Tajikistan Dushanbe, Tajikistan",
+      "entities": [
+        "Tajikistan",
+        "Dushanbe"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Location",
+        "value": "Tajikistan Dushanbe, Tajikistan",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_4_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table section title: List of events",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_4_1",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 4,
+      "source": "user",
+      "type": "structural_record",
+      "text": "21 | Fight Nights Global 78: Tsarev vs. Guseinov [highlighted]",
+      "entities": [
+        "Fight Nights Global 78",
+        "Tsarev",
+        "Guseinov"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_20",
+        "row_header": "21",
+        "column": "Event Title",
+        "value": "Fight Nights Global 78: Tsarev vs. Guseinov",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_4_2",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 4,
+      "source": "user",
+      "type": "structural_record",
+      "text": "21 | November 4, 2017 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_20",
+        "row_header": "21",
+        "column": "Date",
+        "value": "November 4, 2017",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_4_3",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 4,
+      "source": "user",
+      "type": "structural_record",
+      "text": "21 | Lada Arena [highlighted]",
+      "entities": [
+        "Lada Arena"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_20",
+        "row_header": "21",
+        "column": "Arena",
+        "value": "Lada Arena",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_4_4",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 4,
+      "source": "user",
+      "type": "structural_record",
+      "text": "21 | Russia Tolyatti, Russia [highlighted]",
+      "entities": [
+        "Russia",
+        "Tolyatti"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_20",
+        "row_header": "21",
+        "column": "Location",
+        "value": "Russia Tolyatti, Russia",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_5_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table contains information about 25 Fight Nights Global events, including the event number, title, date, arena, and location.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_6_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 6,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table highlights the event title, date, arena, and location for Fight Nights Global 78, which took place on November 4, 2017 at the Lada Arena in Tolyatti, Russia.",
+      "entities": [
+        "Fight Nights Global 78",
+        "Lada Arena",
+        "Tolyatti",
+        "Russia"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_7_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 7,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table contains information about 25 Fight Nights Global events that took place in 2017, including the event number, title, date, arena, and location.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4975932977579359049_8_0",
+      "conversation_id": "sharded-totto_-4975932977579359049",
+      "turn_index": 8,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table provides details on 25 Fight Nights Global events that took place in 2017, including the event number, title, date, arena, and location.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-4975932977579359049_1_0",
+      "target": "sharded-totto_-4975932977579359049_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_1_1",
+      "target": "sharded-totto_-4975932977579359049_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_1_2",
+      "target": "sharded-totto_-4975932977579359049_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_1_3",
+      "target": "sharded-totto_-4975932977579359049_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_1_4",
+      "target": "sharded-totto_-4975932977579359049_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_2_0",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_2_1",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_2_2",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_2_3",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_2_4",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_3_0",
+      "target": "sharded-totto_-4975932977579359049_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_3_1",
+      "target": "sharded-totto_-4975932977579359049_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_3_2",
+      "target": "sharded-totto_-4975932977579359049_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_3_3",
+      "target": "sharded-totto_-4975932977579359049_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_3_4",
+      "target": "sharded-totto_-4975932977579359049_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_4_0",
+      "target": "sharded-totto_-4975932977579359049_3_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_4_1",
+      "target": "sharded-totto_-4975932977579359049_3_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_4_2",
+      "target": "sharded-totto_-4975932977579359049_3_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_4_3",
+      "target": "sharded-totto_-4975932977579359049_3_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_4_4",
+      "target": "sharded-totto_-4975932977579359049_3_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_5_0",
+      "target": "sharded-totto_-4975932977579359049_1_0",
+      "type": "supports",
+      "rationale": "assists user understanding"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_6_0",
+      "target": "sharded-totto_-4975932977579359049_4_1",
+      "type": "supports",
+      "rationale": "provides specific details about highlighted event"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_7_0",
+      "target": "sharded-totto_-4975932977579359049_5_0",
+      "type": "supports",
+      "rationale": "reiterates information"
+    },
+    {
+      "source": "sharded-totto_-4975932977579359049_8_0",
+      "target": "sharded-totto_-4975932977579359049_7_0",
+      "type": "supports",
+      "rationale": "reiterates information"
+    }
+  ],
+  "attributes": {}
+}

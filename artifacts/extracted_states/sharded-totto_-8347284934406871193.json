@@ -1,0 +1,1470 @@
+{
+  "conversation_id": "sharded-totto_-8347284934406871193",
+  "nodes": [
+    {
+      "id": "sharded-totto_-8347284934406871193_0_0",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_0",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_1",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_0 | # | 134",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "#",
+        "column": "#",
+        "value": "134",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_2",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_0 | Event Title | KOTC: Prowler",
+      "entities": [
+        "KOTC: Prowler"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Prowler",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_3",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_0 | Date | December 11, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "December 11, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_4",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_0 | Arena | San Manuel Casino",
+      "entities": [
+        "San Manuel Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "San Manuel Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_5",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_0 | Location | Highland, California",
+      "entities": [
+        "Highland, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Highland, California",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_6",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_7",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_1 | # | 133",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "#",
+        "column": "#",
+        "value": "133",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_8",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_1 | Event Title | KOTC: Goodfellas",
+      "entities": [
+        "KOTC: Goodfellas"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Goodfellas",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_9",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_1 | Date | December 6, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "December 6, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_10",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_1 | Arena | Isleta Casino",
+      "entities": [
+        "Isleta Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Isleta Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_11",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_1 | Location | Albuquerque, New Mexico",
+      "entities": [
+        "Albuquerque, New Mexico"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Albuquerque, New Mexico",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_12",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_2 | # | 132",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "#",
+        "column": "#",
+        "value": "132",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_13",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_2 | Event Title | KOTC: Anticipation",
+      "entities": [
+        "KOTC: Anticipation"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Anticipation",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_14",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_2 | Date | November 26, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "November 26, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_15",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_2 | Arena | Soaring Eagle Casino",
+      "entities": [
+        "Soaring Eagle Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Soaring Eagle Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_16",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_2 | Location | Mount Pleasant, Michigan",
+      "entities": [
+        "Mount Pleasant, Michigan"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Mount Pleasant, Michigan",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_17",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_3 | # | 131",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "#",
+        "column": "#",
+        "value": "131",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_18",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_3 | Event Title | KOTC: Bragging Rights",
+      "entities": [
+        "KOTC: Bragging Rights"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Bragging Rights",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_19",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_3 | Date | November 20, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "November 20, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_20",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_3 | Arena | Ohio Expo Center Coliseum",
+      "entities": [
+        "Ohio Expo Center Coliseum"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Ohio Expo Center Coliseum",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_21",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_3 | Location | Columbus, Ohio",
+      "entities": [
+        "Columbus, Ohio"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Columbus, Ohio",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_22",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_4 | # | 130",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "#",
+        "column": "#",
+        "value": "130",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_23",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_4 | Event Title | KOTC: Frost Bite",
+      "entities": [
+        "KOTC: Frost Bite"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Frost Bite",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_24",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_4 | Date | November 7, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "November 7, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_25",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_4 | Arena | Kewadin Casino",
+      "entities": [
+        "Kewadin Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Kewadin Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_26",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_4 | Location | Sault Ste. Marie, Michigan",
+      "entities": [
+        "Sault Ste. Marie, Michigan"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Sault Ste. Marie, Michigan",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_27",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_5 | # | 129",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "#",
+        "column": "#",
+        "value": "129",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_28",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_5 | Event Title | KOTC: Level One",
+      "entities": [
+        "KOTC: Level One"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Level One",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_29",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_5 | Date | October 18, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "October 18, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_30",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_5 | Arena | Lake of the Torches Casino",
+      "entities": [
+        "Lake of the Torches Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Lake of the Torches Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_31",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_5 | Location | Lac du Flambeau, Wisconsin",
+      "entities": [
+        "Lac du Flambeau, Wisconsin"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Lac du Flambeau, Wisconsin",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_32",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_6 | # | 128",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "#",
+        "column": "#",
+        "value": "128",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_33",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_6 | Event Title | KOTC: Misconduct",
+      "entities": [
+        "KOTC: Misconduct"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Misconduct",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_34",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_6 | Date | October 16, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "October 16, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_35",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_6 | Arena | San Manuel Casino",
+      "entities": [
+        "San Manuel Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "San Manuel Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_36",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_6 | Location | Highland, California",
+      "entities": [
+        "Highland, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Highland, California",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_37",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_7 | # | 127",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "#",
+        "column": "#",
+        "value": "127",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_38",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_7 | Event Title | KOTC: Cage Masters",
+      "entities": [
+        "KOTC: Cage Masters"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Cage Masters",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_39",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_7 | Date | October 4, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "October 4, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_40",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_7 | Arena | Avi Resort and Casino",
+      "entities": [
+        "Avi Resort and Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Avi Resort and Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_41",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_7 | Location | Laughlin, Nevada",
+      "entities": [
+        "Laughlin, Nevada"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Laughlin, Nevada",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_42",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_8 | # | 126",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "#",
+        "column": "#",
+        "value": "126",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_43",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_8 | Event Title | KOTC: Retribution",
+      "entities": [
+        "KOTC: Retribution"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Retribution",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_44",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_8 | Date | August 30, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "August 30, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_45",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_8 | Arena | Ute Mountain Casino",
+      "entities": [
+        "Ute Mountain Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Ute Mountain Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_46",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_8 | Location | Cortez, Colorado",
+      "entities": [
+        "Cortez, Colorado"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Cortez, Colorado",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_47",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_9 | # | 125",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "#",
+        "column": "#",
+        "value": "125",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_48",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_9 | Event Title | KOTC: Bio Hazard",
+      "entities": [
+        "KOTC: Bio Hazard"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Bio Hazard",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_49",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_9 | Date | August 14, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "August 14, 2008",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_50",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_9 | Arena | San Manuel Casino",
+      "entities": [
+        "San Manuel Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "San Manuel Casino",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_51",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_9 | Location | Highland, California",
+      "entities": [
+        "Highland, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Highland, California",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_52",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_10 | # | 124",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "#",
+        "column": "#",
+        "value": "124",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_53",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_10 | Event Title | KOTC: Rock Solid",
+      "entities": [
+        "KOTC: Rock Solid"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "Event Title",
+        "column": "Event Title",
+        "value": "KOTC: Rock Solid",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_54",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_10 | Date | July 19, 2008",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "Date",
+        "column": "Date",
+        "value": "July 19, 2008",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_55",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_10 | Arena | Lake of the Torches Casino",
+      "entities": [
+        "Lake of the Torches Casino"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "Arena",
+        "column": "Arena",
+        "value": "Lake of the Torches Casino",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_56",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "row_10 | Location | Lac du Flambeau, Wisconsin",
+      "entities": [
+        "Lac du Flambeau, Wisconsin"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "Location",
+        "column": "Location",
+        "value": "Lac du Flambeau, Wisconsin",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_2_0",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table webpage URL: http://en.wikipedia.org/wiki/2008_in_King_of_the_Cage",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_3_0",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table page title: 2008 in King of the Cage",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_4_0",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table section title: Events list",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_1_57",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table highlights the details of the KOTC: Rock Solid event, which took place on July 19, 2008 at the Lake of the Torches Casino in Lac du Flambeau, Wisconsin.",
+      "entities": [
+        "KOTC: Rock Solid",
+        "Lake of the Torches Casino",
+        "Lac du Flambeau",
+        "Wisconsin"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_2_1",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists the King of the Cage (KOTC) mixed martial arts events held in 2008, as detailed on the Wikipedia page at http://en.wikipedia.org/wiki/2008_in_King_of_the_Cage. The highlighted cells focus on the KOTC: Rock Solid event, which took place on July 19, 2008 at the Lake of the Torches Casino in Lac du Flambeau, Wisconsin.",
+      "entities": [
+        "KOTC: Rock Solid",
+        "Lake of the Torches Casino",
+        "Lac du Flambeau",
+        "Wisconsin"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_3_1",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists the King of the Cage (KOTC) mixed martial arts events held in 2008, as detailed on the Wikipedia page titled \"2008 in King of the Cage\" at http://en.wikipedia.org/wiki/2008_in_King_of_the_Cage. The highlighted cells focus on the KOTC: Rock Solid event, which took place on July 19, 2008 at the Lake of the Torches Casino in Lac du Flambeau, Wisconsin.",
+      "entities": [
+        "KOTC: Rock Solid",
+        "Lake of the Torches Casino",
+        "Lac du Flambeau",
+        "Wisconsin"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8347284934406871193_4_1",
+      "conversation_id": "sharded-totto_-8347284934406871193",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, part of the \"Events list\" section on the Wikipedia page \"2008 in King of the Cage\" at http://en.wikipedia.org/wiki/2008_in_King_of_the_Cage, lists the King of the Cage (KOTC) mixed martial arts events held in 2008. The highlighted cells focus on the KOTC: Rock Solid event, which took place on July 19, 2008 at the Lake of the Torches Casino in Lac du Flambeau, Wisconsin.",
+      "entities": [
+        "KOTC: Rock Solid",
+        "Lake of the Torches Casino",
+        "Lac du Flambeau",
+        "Wisconsin"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-8347284934406871193_1_0",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_1",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_2",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_3",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_4",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_5",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_17",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_18",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_19",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_20",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_21",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_22",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_23",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_24",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_25",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_26",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_27",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_28",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_29",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_30",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_31",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_32",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_33",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_34",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_35",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_36",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_37",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_38",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_39",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_40",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_41",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_42",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_43",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_44",
+      "target": "sharded-totto_-8347284938406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_45",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_46",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_47",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_48",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_49",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_50",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_51",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_52",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_53",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_54",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_55",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8347284934406871193_1_56",
+      "target": "sharded-totto_-8347284934406871193_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

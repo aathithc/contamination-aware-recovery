@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_8581319284013960198",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Buildings/Structures       |                  |                  |\n|---------------------------|------------------|------------------|\n| the Grand Preceptor Temple | the Xunqiu Cottage | the Grand Preceptor Hall |\n| the Grand Preceptor Well   | the Old Tablet Pavilion | Gate              |\n\nHighlighted:\nthe Grand Preceptor Temple, the Xunqiu Cottage, the Grand Preceptor Hall, the Grand Preceptor Well, the Old Tablet Pavilion, Gate\n\nContext:\nNone\n\nInstruction:\nProvide a structured table representation of the highlighted buildings associated with the Grand Preceptor.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

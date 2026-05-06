@@ -1,0 +1,220 @@
+{
+  "conversation_id": "sharded-totto_6848965724662627070",
+  "nodes": [
+    {
+      "id": "sharded-totto_6848965724662627070_0_0",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_0",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Candidate, Party, Votes, %",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_1",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Jorge Carlos Fonseca | Movement for Democracy | 93,010 | 74.08 [highlighted]",
+      "entities": [
+        "Jorge Carlos Fonseca",
+        "Movement for Democracy"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Jorge Carlos Fonseca",
+        "column": "Candidate",
+        "value": "Jorge Carlos Fonseca",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_2",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Movement for Democracy | 93,010 [highlighted]",
+      "entities": [
+        "Movement for Democracy"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Jorge Carlos Fonseca",
+        "column": "Party",
+        "value": "Movement for Democracy",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_3",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "93,010 | 74.08 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Jorge Carlos Fonseca",
+        "column": "Votes",
+        "value": "93,010",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_4",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "74.08 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Jorge Carlos Fonseca",
+        "column": "%",
+        "value": "74.08",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_2_0",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Metadata includes table_webpage_url: http://en.wikipedia.org/wiki/2016_Cape_Verdean_presidential_election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_3_0",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Metadata includes table_page_title: 2016 Cape Verdean presidential election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_4_0",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Metadata includes table_section_title: Results.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_1_5",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table highlights the candidate Jorge Carlos Fonseca from the Movement for Democracy party, who received 74.08% of the votes.",
+      "entities": [
+        "Jorge Carlos Fonseca",
+        "Movement for Democracy"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_2_1",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table shows the results of the 2016 Cape Verdean presidential election, highlighting that Jorge Carlos Fonseca of the Movement for Democracy party received 74.08% of the votes.",
+      "entities": [
+        "Jorge Carlos Fonseca",
+        "Movement for Democracy"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_3_1",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table shows the results of the 2016 Cape Verdean presidential election, highlighting that Jorge Carlos Fonseca of the Movement for Democracy party received 74.08% of the votes.",
+      "entities": [
+        "Jorge Carlos Fonseca",
+        "Movement for Democracy"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6848965724662627070_4_1",
+      "conversation_id": "sharded-totto_6848965724662627070",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, from the 'Results' section of the 2016 Cape Verdean presidential election Wikipedia page, highlights that Jorge Carlos Fonseca of the Movement for Democracy party received 74.08% of the votes.",
+      "entities": [
+        "Jorge Carlos Fonseca",
+        "Movement for Democracy"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_6848965724662627070_1_1",
+      "target": "sharded-totto_6848965724662627070_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6848965724662627070_1_2",
+      "target": "sharded-totto_6848965724662627070_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6848965724662627070_1_3",
+      "target": "sharded-totto_6848965724662627070_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6848965724662627070_1_4",
+      "target": "sharded-totto_6848965724662627070_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

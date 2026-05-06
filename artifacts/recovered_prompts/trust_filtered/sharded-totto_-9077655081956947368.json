@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-totto_-9077655081956947368",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: #, Event title, Date, Arena, Location\n8 | EliteXC: Renegade | November 10, 2007 | American Bank Center | Corpus Christi, Texas\n7 | ShoXC: Elite Challenger Series | October 26, 2007 | Chumash Casino Resort | Santa Ynez, California\n6 | EliteXC: Uprising | September 15, 2007 | Neal S. Blaisdell Arena | Oahu, Hawaii\n5 | ShoXC: Elite Challenger Series | August 25, 2007 | Vicksburg Convention Center | Vicksburg, Mississippi\n4 | ShoXC: Elite Challenger Series | July 27, 2007 | Chumash Casino Resort | Santa Ynez, California\n3 | Strikeforce: Shamrock vs. Baroni | June 22, 2007 | HP Pavilion | San Jose, California\n2 | Dynamite!! USA | June 2, 2007 | Los Angeles Memorial Coliseum | Los Angeles [highlighted]\n1 | EliteXC: Destiny | February 10, 2007 | DeSoto Civic Center | Southaven, Mississippi\nThe table_webpage_url is http://en.wikipedia.org/wiki/2007_in_Elite_Xtreme_Combat.\nThe table_page_title is 2007 in Elite Xtreme Combat.\nThe table_section_title is Events list.",
+  "included_node_ids": [
+    "sharded-totto_-9077655081956947368_0_0",
+    "sharded-totto_-9077655081956947368_1_0",
+    "sharded-totto_-9077655081956947368_1_1",
+    "sharded-totto_-9077655081956947368_1_2",
+    "sharded-totto_-9077655081956947368_1_3",
+    "sharded-totto_-9077655081956947368_1_4",
+    "sharded-totto_-9077655081956947368_1_5",
+    "sharded-totto_-9077655081956947368_1_6",
+    "sharded-totto_-9077655081956947368_1_7",
+    "sharded-totto_-9077655081956947368_1_8",
+    "sharded-totto_-9077655081956947368_2_0",
+    "sharded-totto_-9077655081956947368_3_0",
+    "sharded-totto_-9077655081956947368_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-9077655081956947368_1_9",
+    "sharded-totto_-9077655081956947368_2_1",
+    "sharded-totto_-9077655081956947368_3_1",
+    "sharded-totto_-9077655081956947368_4_1"
+  ]
+}

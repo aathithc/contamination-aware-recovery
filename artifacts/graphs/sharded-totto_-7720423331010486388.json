@@ -1,0 +1,215 @@
+{
+  "conversation_id": "sharded-totto_-7720423331010486388",
+  "nodes": [
+    {
+      "id": "sharded-totto_-7720423331010486388_0_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_1_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "The table provides a detailed record of a Mexican athlete's competitive achievements in various track and field events from 1998 to 2013.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_2_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Year, Competition, Venue, Position, Event, Notes",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_2_1",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1998 | Central American and Caribbean Junior Championships (U20) | Georgetown, Cayman Islands | 1st | 5000 m | 17:41.88",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1998",
+        "column": "Competition",
+        "value": "Central American and Caribbean Junior Championships (U20)",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_2_2",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1999 | Pan American Junior Championships | Tampa, United States | 2nd | 3000 m | 9:38.44",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1999",
+        "column": "Competition",
+        "value": "Pan American Junior Championships",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_2_3",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2008 | Olympic Games | Beijing, PR China | 19th | Marathon | 2:31:47 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "2008",
+        "column": "Competition",
+        "value": "Olympic Games",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_3_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Mada%C3%AD_P%C3%A9rez.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_3_1",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table provides a detailed record of the competitive achievements of Mexican athlete Madaí Pérez, including her performance at the 2008 Olympic Games in Beijing where she finished 19th in the marathon with a time of 2:31:47, as found on the Wikipedia page.",
+      "entities": [
+        "Madaí Pérez"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_4_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_page_title is Madaí Pérez.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_4_1",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table provides a detailed record of the competitive achievements of Mexican athlete Madaí Pérez, including her performance at the 2008 Olympic Games in Beijing where she finished 19th in the marathon with a time of 2:31:47, as found on the Wikipedia page titled \"Madaí Pérez\".",
+      "entities": [
+        "Madaí Pérez"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_5_0",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 5,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_section_title is Achievements.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7720423331010486388_5_1",
+      "conversation_id": "sharded-totto_-7720423331010486388",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table provides a detailed record of the competitive achievements of Mexican athlete Madaí Pérez, including her performance at the 2008 Olympic Games in Beijing where she finished 19th in the marathon with a time of 2:31:47, as found in the \"Achievements\" section of her Wikipedia page.",
+      "entities": [
+        "Madaí Pérez"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-7720423331010486388_1_0",
+      "target": "sharded-totto_-7720423331010486388_0_0",
+      "type": "supports",
+      "rationale": "assistant assumes the content of the table"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_2_0",
+      "target": "sharded-totto_-7720423331010486388_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_2_1",
+      "target": "sharded-totto_-7720423331010486388_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_2_2",
+      "target": "sharded-totto_-7720423331010486388_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_2_3",
+      "target": "sharded-totto_-7720423331010486388_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_3_1",
+      "target": "sharded-totto_-7720423331010486388_3_0",
+      "type": "supports",
+      "rationale": "assistant adds information about the webpage URL"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_4_1",
+      "target": "sharded-totto_-7720423331010486388_4_0",
+      "type": "supports",
+      "rationale": "assistant adds information about the page title"
+    },
+    {
+      "source": "sharded-totto_-7720423331010486388_5_1",
+      "target": "sharded-totto_-7720423331010486388_5_0",
+      "type": "supports",
+      "rationale": "assistant adds information about the section title"
+    }
+  ],
+  "attributes": {}
+}

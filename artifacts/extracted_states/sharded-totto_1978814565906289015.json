@@ -1,0 +1,326 @@
+{
+  "conversation_id": "sharded-totto_1978814565906289015",
+  "nodes": [
+    {
+      "id": "sharded-totto_1978814565906289015_0_0",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_0",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Award, Category, Recipient, Result",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_1",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "48th Grand Bell Awards",
+        "column": "Award",
+        "value": "48th Grand Bell Awards",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_2",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Best Actress",
+        "column": "Category",
+        "value": "Best Actress",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_3",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Kim Hye-soo",
+        "column": "Recipient",
+        "value": "Kim Hye-soo",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_4",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Nominated",
+        "column": "Result",
+        "value": "Nominated",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_5",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "32nd Blue Dragon Film Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "32nd Blue Dragon Film Awards",
+        "column": "Award",
+        "value": "32nd Blue Dragon Film Awards",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_6",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "32nd Blue Dragon Film Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Nominated",
+        "column": "Result",
+        "value": "Nominated",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_7",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Popular Star Award | Best Actress | Kim Hye-soo | Won",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Popular Star Award",
+        "column": "Award",
+        "value": "Popular Star Award",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_8",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Popular Star Award | Best Actress | Kim Hye-soo | Won",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Won",
+        "column": "Result",
+        "value": "Won",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_2_0",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table webpage URL: http://en.wikipedia.org/wiki/Villain_and_Widow",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_3_0",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table page title: Villain and Widow",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_4_0",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table section title: Awards and nominations",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_1_9",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting Kim Hye-soo's Best Actress nominations at the 48th Grand Bell Awards and 32nd Blue Dragon Film Awards.",
+      "entities": [
+        "Kim Hye-soo"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_2_1",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting Kim Hye-soo's Best Actress nominations at the 48th Grand Bell Awards and 32nd Blue Dragon Film Awards, from the Wikipedia page on Villain and Widow.",
+      "entities": [
+        "Kim Hye-soo",
+        "Villain and Widow"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_3_1",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the Wikipedia page \"Villain and Widow\" highlighting Kim Hye-soo's Best Actress nominations at the 48th Grand Bell Awards and 32nd Blue Dragon Film Awards.",
+      "entities": [
+        "Kim Hye-soo",
+        "Villain and Widow"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1978814565906289015_4_1",
+      "conversation_id": "sharded-totto_1978814565906289015",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the \"Awards and nominations\" section of the Wikipedia page \"Villain and Widow\" highlighting Kim Hye-soo's Best Actress nominations at the 48th Grand Bell Awards and 32nd Blue Dragon Film Awards.",
+      "entities": [
+        "Kim Hye-soo",
+        "Villain and Widow"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_1978814565906289015_1_1",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_2",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_3",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_4",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_5",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_6",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_7",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1978814565906289015_1_8",
+      "target": "sharded-totto_1978814565906289015_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,13 @@
+{
+  "contaminated_ids": [
+    "sharded-totto_1805808831193641472_2_1",
+    "sharded-totto_1805808831193641472_3_1",
+    "sharded-totto_1805808831193641472_4_1"
+  ],
+  "inactive_ids": [],
+  "reasons": {
+    "sharded-totto_1805808831193641472_2_1": "assistant assumption/answer_candidate without support",
+    "sharded-totto_1805808831193641472_3_1": "assistant assumption/answer_candidate without support",
+    "sharded-totto_1805808831193641472_4_1": "assistant assumption/answer_candidate without support"
+  }
+}

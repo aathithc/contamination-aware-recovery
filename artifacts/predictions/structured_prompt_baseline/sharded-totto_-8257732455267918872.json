@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-8257732455267918872",
+  "method": "structured_prompt_baseline",
+  "prediction": "The highlighted event is \"KOTC 25: Flaming Fury,\" which took place on June 29, 2003, at Soboba Casino in San Jacinto, California.",
+  "success": true,
+  "baseline_success": true
+}

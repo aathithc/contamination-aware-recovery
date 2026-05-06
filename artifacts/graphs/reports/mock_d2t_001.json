@@ -1,0 +1,9 @@
+{
+  "contaminated_ids": [
+    "mock_d2t_001_1_0"
+  ],
+  "inactive_ids": [],
+  "reasons": {
+    "mock_d2t_001_1_0": "assistant assumption/answer_candidate without support"
+  }
+}

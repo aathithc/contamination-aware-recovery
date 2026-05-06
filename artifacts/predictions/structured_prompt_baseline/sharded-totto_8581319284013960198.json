@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_8581319284013960198",
+  "method": "structured_prompt_baseline",
+  "prediction": "| Highlighted Buildings/Structures     |\n|--------------------------------------|\n| the Grand Preceptor Temple           |\n| the Xunqiu Cottage                   |\n| the Grand Preceptor Hall             |\n| the Grand Preceptor Well             |\n| the Old Tablet Pavilion              |\n| Gate                                 |",
+  "success": true,
+  "baseline_success": false
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_5550605730650873901",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Caribbean |  | Anguilla | Pacific |  | American Samoa | Africa, Indian Ocean, Mediterranean and South China Sea (AIMS) |  | Bahrain |\n\nHighlighted:\nNone\n\nContext:\nThe table_webpage_url is http://en.wikipedia.org/wiki/Small_Island_Developing_States. The table_page_title is Small Island Developing States. The table_section_title is List of SIDS.\n\nInstruction:\nSummarize the table contents and provide insights based on it.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_2466054609666099920",
+  "method": "structured_prompt_baseline",
+  "prediction": "In 2015, Jason Day from Australia won the BMW Championship with a score of 262, finishing at 22 under par. He secured the victory by a margin of 6 strokes over runner-up Daniel Berger at Conway Farms Golf Club in Lake Forest, Illinois, with a purse of $8,250,000.",
+  "success": true,
+  "baseline_success": true
+}

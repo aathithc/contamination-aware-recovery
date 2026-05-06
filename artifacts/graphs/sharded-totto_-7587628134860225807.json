@@ -1,0 +1,219 @@
+{
+  "conversation_id": "sharded-totto_-7587628134860225807",
+  "nodes": [
+    {
+      "id": "sharded-totto_-7587628134860225807_0_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Candidate, Votes, %",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_1",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 0 | Candidate: William Wolfe [highlighted]",
+      "entities": [
+        "William Wolfe"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Candidate",
+        "column": "Votes",
+        "value": "544",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_2",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 0 | %: 69.6% [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Candidate",
+        "column": "%",
+        "value": "69.6%",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_3",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 1 | Candidate: Arthur Donaldson [highlighted]",
+      "entities": [
+        "Arthur Donaldson"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Candidate",
+        "column": "Votes",
+        "value": "238",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_4",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 1 | %: 30.4% [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Candidate",
+        "column": "%",
+        "value": "30.4%",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_2_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table webpage URL: http://en.wikipedia.org/wiki/1969_Scottish_National_Party_leadership_election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_3_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table page title: 1969 Scottish National Party leadership election.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_4_0",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table section title: Result.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_1_5",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells in the table show that William Wolfe received 544 delegate votes and Arthur Donaldson received 238 delegate votes.",
+      "entities": [
+        "William Wolfe",
+        "Arthur Donaldson"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_2_1",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells in the table from the Wikipedia page on the 1969 Scottish National Party leadership election show that William Wolfe received 544 delegate votes and Arthur Donaldson received 238 delegate votes.",
+      "entities": [
+        "William Wolfe",
+        "Arthur Donaldson"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_3_1",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells in the table from the 1969 Scottish National Party leadership election show that William Wolfe received 544 delegate votes and Arthur Donaldson received 238 delegate votes.",
+      "entities": [
+        "William Wolfe",
+        "Arthur Donaldson"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-7587628134860225807_4_1",
+      "conversation_id": "sharded-totto_-7587628134860225807",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells in the 'Result' section of the table from the 1969 Scottish National Party leadership election show that William Wolfe received 544 delegate votes and Arthur Donaldson received 238 delegate votes.",
+      "entities": [
+        "William Wolfe",
+        "Arthur Donaldson"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-7587628134860225807_1_1",
+      "target": "sharded-totto_-7587628134860225807_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_1_2",
+      "target": "sharded-totto_-7587628134860225807_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_1_3",
+      "target": "sharded-totto_-7587628134860225807_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7587628134860225807_1_4",
+      "target": "sharded-totto_-7587628134860225807_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

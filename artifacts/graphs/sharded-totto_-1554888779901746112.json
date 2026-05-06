@@ -1,0 +1,563 @@
+{
+  "conversation_id": "sharded-totto_-1554888779901746112",
+  "nodes": [
+    {
+      "id": "sharded-totto_-1554888779901746112_0_0",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_0",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_1",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Event Title: Road to M-1: St. Petersburg 1 | Date: February 9, 2017 | Arena: A2 Green Concert Hall | Location: Russia Saint Petersburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Event Title",
+        "value": "Road to M-1: St. Petersburg 1",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_2",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Event Title: M-1 Challenge 74 - Yusupov vs. Puetz | Date: February 18, 2017 | Arena: Ice Palace | Location: Russia Saint Petersburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Event Title",
+        "value": "M-1 Challenge 74 - Yusupov vs. Puetz",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_3",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Event Title: M-1 Challenge 75 - Shlemenko vs. Bradley | Date: March 3, 2017 | Arena: Olimpiyskiy | Location: Russia Moscow, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "2",
+        "column": "Event Title",
+        "value": "M-1 Challenge 75 - Shlemenko vs. Bradley",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_4",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Event Title: Road to M-1: Battle in Nazran 6 | Date: March 11, 2017 | Arena: Sports Palace \"Magas\" | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "3",
+        "column": "Event Title",
+        "value": "Road to M-1: Battle in Nazran 6",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_5",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "4 | Event Title: M-1 Challenge 76 - Nevzorov vs. Evloev | Date: April 22, 2017 | Arena: Sports Palace \"Magas\" | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "4",
+        "column": "Event Title",
+        "value": "M-1 Challenge 76 - Nevzorov vs. Evloev",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_6",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "5 | Event Title: Road to M-1: St. Petersburg 2 | Date: April 27, 2017 | Arena: A2 Green Concert Hall | Location: Russia Saint Petersburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "5",
+        "column": "Event Title",
+        "value": "Road to M-1: St. Petersburg 2",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_7",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "6 | Event Title: M-1 Challenge 77 - Nemkov vs. Markes | Date: May 19, 2017 | Arena: Sochi sport palace | Location: Russia Sochi, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "6",
+        "column": "Event Title",
+        "value": "M-1 Challenge 77 - Nemkov vs. Markes",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_8",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "7 | Event Title: Road to M-1: Battle in Nazran 7 | Date: May 20, 2017 | Arena: Sports Palace \"Magas\" | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "7",
+        "column": "Event Title",
+        "value": "Road to M-1: Battle in Nazran 7",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_9",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "8 | Event Title: M-1 Challenge 78 - Divnich vs. Ismagulov | Date: May 26, 2017 | Arena: Orenburzhye Sport Arena | Location: Russia Orenburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "8",
+        "column": "Event Title",
+        "value": "M-1 Challenge 78 - Divnich vs. Ismagulov",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_10",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "9 | Event Title: M-1 Challenge 79 - Shlemenko vs. Halsey 2 | Date: June 1, 2017 | Arena: Yubileyny Sports Palace | Location: Russia Saint Petersburg, Russia",
+      "entities": [
+        "M-1 Challenge 79",
+        "June 1, 2017",
+        "Yubileyny Sports Palace",
+        "Russia Saint Petersburg, Russia"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "9",
+        "column": "Event Title",
+        "value": "M-1 Challenge 79 - Shlemenko vs. Halsey 2",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_11",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "10 | Event Title: Road to M-1: St. Petersburg 3 | Date: June 8, 2017 | Arena: A2 Green Concert Hall | Location: Russia Saint Petersburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "10",
+        "column": "Event Title",
+        "value": "Road to M-1: St. Petersburg 3",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_12",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "11 | Event Title: M-1 Challenge 80 - Kharitonov vs. Sokoudjou | Date: June 15, 2017 | Arena: Harbin International Convention Exhibition and Sports Center | Location: China Harbin, China",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_11",
+        "row_header": "11",
+        "column": "Event Title",
+        "value": "M-1 Challenge 80 - Kharitonov vs. Sokoudjou",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_13",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "12 | Event Title: M-1 Challenge 81 - Battle in the Mountains 6 | Date: July 22, 2017 | Arena: The Mountain | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_12",
+        "row_header": "12",
+        "column": "Event Title",
+        "value": "M-1 Challenge 81 - Battle in the Mountains 6",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_14",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "13 | Event Title: M-1 Challenge 82 - Vanttinen vs. Zayats | Date: August 5, 2017 | Arena: Hartwall Arena | Location: Finland Helsinki, Finland",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_13",
+        "row_header": "13",
+        "column": "Event Title",
+        "value": "M-1 Challenge 82 - Vanttinen vs. Zayats",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_15",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "14 | Event Title: Road to M-1: Battle in Nazran 8 | Date: August 27, 2017 | Arena: Sports Palace \"Magas\" | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_14",
+        "row_header": "14",
+        "column": "Event Title",
+        "value": "Road to M-1: Battle in Nazran 8",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_16",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "15 | Event Title: M-1 Challenge 83 - Ragozin vs. Halsey | Date: September 23, 2017 | Arena: Basket-Hall Kazan | Location: Russia Kazan, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_15",
+        "row_header": "15",
+        "column": "Event Title",
+        "value": "M-1 Challenge 83 - Ragozin vs. Halsey",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_17",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "16 | Event Title: M-1 Challenge 84 - Kunchenko vs. Romanov | Date: October 27, 2017 | Arena: Ice Palace | Location: Russia Saint Petersburg, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_16",
+        "row_header": "16",
+        "column": "Event Title",
+        "value": "M-1 Challenge 84 - Kunchenko vs. Romanov",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_18",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "17 | Event Title: M-1 Challenge 85: Ismagulov vs. Matias | Date: November 10, 2017 | Arena: Olimpiyskiy | Location: Russia Moscow, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_17",
+        "row_header": "17",
+        "column": "Event Title",
+        "value": "M-1 Challenge 85: Ismagulov vs. Matias",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_1_19",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "18 | Event Title: M-1 Challenge 86 - Buchinger vs. Dalgiev | Date: November 24, 2017 | Arena: Sports Palace \"Magas\" | Location: Russia Nazran, Russia",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_18",
+        "row_header": "18",
+        "column": "Event Title",
+        "value": "M-1 Challenge 86 - Buchinger vs. Dalgiev",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_2_0",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2017_in_M-1_Global.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_2_1",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists 18 MMA events held in Russia and China in 2017, as detailed on the Wikipedia page http://en.wikipedia.org/wiki/2017_in_M-1_Global.",
+      "entities": [
+        "2017"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_3_0",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is 2017 in M-1 Global.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_3_1",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, from the Wikipedia page titled \"2017 in M-1 Global\", lists 18 MMA events held in Russia and China in 2017.",
+      "entities": [
+        "2017"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_4_0",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is List of events.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1554888779901746112_4_1",
+      "conversation_id": "sharded-totto_-1554888779901746112",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, from the \"List of events\" section of the Wikipedia page \"2017 in M-1 Global\", lists 18 MMA events held in Russia and China in 2017.",
+      "entities": [
+        "2017"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-1554888779901746112_1_0",
+      "target": "sharded-totto_-1554888779901746112_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_1",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_2",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_3",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_4",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_5",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_6",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_7",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_8",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_9",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_10",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_11",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_12",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_13",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_14",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_15",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_16",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_17",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1554888779901746112_1_18",
+      "target": "sharded-totto_-1554888779901746112_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

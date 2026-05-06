@@ -1,0 +1,78 @@
+{
+  "conversation_id": "mock_math_001",
+  "nodes": [
+    {
+      "id": "mock_math_001_0_0",
+      "conversation_id": "mock_math_001",
+      "turn_index": 0,
+      "source": "user",
+      "type": "fact",
+      "text": "Let x = 5.",
+      "entities": [
+        "x"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "mock_math_001_1_0",
+      "conversation_id": "mock_math_001",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "I will assume x = 10.",
+      "entities": [
+        "x"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "mock_math_001_1_1",
+      "conversation_id": "mock_math_001",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "derivation",
+      "text": "Therefore x squared equals 100.",
+      "entities": [
+        "x"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "mock_math_001_2_0",
+      "conversation_id": "mock_math_001",
+      "turn_index": 2,
+      "source": "user",
+      "type": "correction",
+      "text": "No, x = 5, not 10.",
+      "entities": [
+        "x"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mock_math_001_0_0",
+      "target": "mock_math_001_1_0",
+      "type": "contradicts",
+      "rationale": "User fact x=5 contradicts assistant assumption x=10"
+    },
+    {
+      "source": "mock_math_001_1_1",
+      "target": "mock_math_001_1_0",
+      "type": "derived_from",
+      "rationale": "Derivation x^2=100 depends on assumption x=10"
+    },
+    {
+      "source": "mock_math_001_2_0",
+      "target": "mock_math_001_1_0",
+      "type": "supersedes",
+      "rationale": "User correction supersedes the assistant assumption"
+    }
+  ],
+  "attributes": {}
+}

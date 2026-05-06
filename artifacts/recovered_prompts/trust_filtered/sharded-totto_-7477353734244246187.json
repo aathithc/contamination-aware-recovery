@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-totto_-7477353734244246187",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: #, Event title, Date, Arena, Location\n167 | Gold: Deep: Oyaji Deep [highlighted]\n167 | Date: December 18, 2011 [highlighted]\n167 | Arena: Asunal Kanayama Hall [highlighted]\n167 | Location: Nagoya [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/2011_in_Deep.\nThe table_page_title is 2011 in Deep.\nThe table_section_title is Events list.",
+  "included_node_ids": [
+    "sharded-totto_-7477353734244246187_0_0",
+    "sharded-totto_-7477353734244246187_1_0",
+    "sharded-totto_-7477353734244246187_1_1",
+    "sharded-totto_-7477353734244246187_1_2",
+    "sharded-totto_-7477353734244246187_1_3",
+    "sharded-totto_-7477353734244246187_1_4",
+    "sharded-totto_-7477353734244246187_2_0",
+    "sharded-totto_-7477353734244246187_3_0",
+    "sharded-totto_-7477353734244246187_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-7477353734244246187_2_1",
+    "sharded-totto_-7477353734244246187_3_1",
+    "sharded-totto_-7477353734244246187_4_1"
+  ]
+}

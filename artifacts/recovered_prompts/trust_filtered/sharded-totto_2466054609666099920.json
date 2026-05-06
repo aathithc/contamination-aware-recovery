@@ -1,0 +1,32 @@
+{
+  "conversation_id": "sharded-totto_2466054609666099920",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: Year, Player, Country, Score, To par, Margin of victory, Runner(s)-up, Course, Location, Purse ($), Winner's share ($)\n2018 | Keegan Bradley | United States | 260 | −20 | Playoff | England Justin Rose | Aronimink Golf Club | Newtown Square, Pennsylvania | 9,000,000 | 1,620,000\n2009 | Tiger Woods (2) | United States | 265 | −19 | 8 strokes | United States Jim Furyk Australia Marc Leishman | Cog Hill Golf & Country Club | Lemont, Illinois | 7,500,000 | 1,350,000\n2008 | Camilo Villegas | Colombia | 265 | −15 | 2 strokes | United States Dudley Hart | Bellerive Country Club | Town and Country, Missouri | 7,000,000 | 1,260,000\n2007 | Tiger Woods | United States | 262 | −22 | 2 strokes | Australia Aaron Baddeley | Cog Hill Golf & Country Club | Lemont, Illinois | 7,000,000 | 1,260,000\n2017 | Marc Leishman | Australia | 261 | −23 | 5 strokes | United States Rickie Fowler | Conway Farms Golf Club | Lake Forest, Illinois | 8,750,000 | 1,575,000\n2016 | Dustin Johnson (2) | United States | 265 | −23 | 3 strokes | England Paul Casey | Crooked Stick Golf Club | Carmel, Indiana | 8,500,000 | 1,530,000\n2015 | Jason Day | Australia | 262 | −22 | 6 strokes | United States Daniel Berger | Conway Farms Golf Club | Lake Forest, Illinois | 8,250,000 | 1,485,000 [highlighted]\n2014 | Billy Horschel | United States | 266 | −14 | 2 strokes | United States Bubba Watson | Cherry Hills Country Club | Cherry Hills Village, Colorado | 8,000,000 | 1,440,000\n2013 | Zach Johnson | United States | 268 | −16 | 2 strokes | United States Nick Watney | Conway Farms Golf Club | Lake Forest, Illinois | 8,000,000 | 1,440,000\n2012 | Rory McIlroy | Northern Ireland | 268 | −20 | 2 strokes | United States Phil Mickelson England Lee Westwood | Crooked Stick Golf Club | Carmel, Indiana | 8,000,000 | 1,440,000\n2011 | Justin Rose | England | 271 | −13 | 2 strokes | Australia John Senden | Cog Hill Golf & Country Club | Lemont, Illinois | 8,000,000 | 1,440,000\n2010 | Dustin Johnson | United States | 275 | −9 | 1 stroke | England Paul Casey | Cog Hill Golf & Country Club | Lemont, Illinois | 7,500,000 | 1,350,000\nThe table_webpage_url is http://en.wikipedia.org/wiki/BMW_Championship_(PGA_Tour).\nThe table_page_title is BMW Championship (PGA Tour).\nThe table_section_title is Winners.",
+  "included_node_ids": [
+    "sharded-totto_2466054609666099920_0_0",
+    "sharded-totto_2466054609666099920_1_0",
+    "sharded-totto_2466054609666099920_1_1",
+    "sharded-totto_2466054609666099920_1_10",
+    "sharded-totto_2466054609666099920_1_11",
+    "sharded-totto_2466054609666099920_1_12",
+    "sharded-totto_2466054609666099920_1_2",
+    "sharded-totto_2466054609666099920_1_3",
+    "sharded-totto_2466054609666099920_1_4",
+    "sharded-totto_2466054609666099920_1_5",
+    "sharded-totto_2466054609666099920_1_6",
+    "sharded-totto_2466054609666099920_1_7",
+    "sharded-totto_2466054609666099920_1_8",
+    "sharded-totto_2466054609666099920_1_9",
+    "sharded-totto_2466054609666099920_2_0",
+    "sharded-totto_2466054609666099920_3_0",
+    "sharded-totto_2466054609666099920_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_2466054609666099920_2_1",
+    "sharded-totto_2466054609666099920_2_2",
+    "sharded-totto_2466054609666099920_3_1",
+    "sharded-totto_2466054609666099920_3_2",
+    "sharded-totto_2466054609666099920_4_1",
+    "sharded-totto_2466054609666099920_4_2"
+  ]
+}

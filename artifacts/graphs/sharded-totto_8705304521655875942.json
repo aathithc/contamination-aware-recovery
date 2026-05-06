@@ -1,0 +1,352 @@
+{
+  "conversation_id": "sharded-totto_8705304521655875942",
+  "nodes": [
+    {
+      "id": "sharded-totto_8705304521655875942_0_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "assumption",
+      "text": "This table lists changes in U.S. House of Representatives districts, including vacancies, reasons for changes, and the successors and their seating dates.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_2_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table metadata: table_webpage_url is http://en.wikipedia.org/wiki/50th_United_States_Congress.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_2_1",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page on the 50th United States Congress highlights changes in the U.S. House of Representatives, including the death of Representative James N. Burnes, the subsequent election of Charles F. Booher, and his seating on February 19, 1889.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_3_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table metadata: table_page_title is 50th United States Congress.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_3_1",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page '50th United States Congress' highlights changes in the U.S. House of Representatives, including the death of Representative James N. Burnes, the subsequent election of Charles F. Booher, and his seating on February 19, 1889.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_4_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table metadata: table_section_title is House of Representatives.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_4_1",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the 'House of Representatives' section of the Wikipedia page '50th United States Congress' highlights changes in the U.S. House of Representatives, including the death of Representative James N. Burnes, the subsequent election of Charles F. Booher, and his seating on February 19, 1889.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_5_0",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 5,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table metadata: table_section_text is replacements: 8 Democratic: no net change Republican: no net change deaths: 4 resignations: 5 contested election: 0 Total seats with changes: 8.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_5_1",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the 'House of Representatives' section of the Wikipedia page '50th United States Congress' highlights changes in the U.S. House of Representatives, including 8 replacements with no net change in Democratic or Republican seats, 4 deaths, 5 resignations, and no contested elections, for a total of 8 seats with changes.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_1",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: District, Vacator, Reason for change, Successor, Date successor seated",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_2",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "New York 25th | Vacant | Rep. Frank Hiscock resigned during previous congress | James J. Belden (R) | November 8, 1887",
+      "entities": [
+        "New York 25th",
+        "James J. Belden",
+        "Frank Hiscock"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "New York 25th",
+        "column": "District",
+        "value": "New York 25th",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_3",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Texas 2nd | John H. Reagan (D) | Resigned March 4, 1887, after being elected to the U.S. Senate | William H. Martin (D) | November 4, 1887",
+      "entities": [
+        "Texas 2nd",
+        "John H. Reagan",
+        "William H. Martin"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Texas 2nd",
+        "column": "District",
+        "value": "Texas 2nd",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_4",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Louisiana 6th | Edward W. Robertson (D) | Died August 2, 1887 | Samuel M. Robertson (D) | December 5, 1891",
+      "entities": [
+        "Louisiana 6th",
+        "Edward W. Robertson",
+        "Samuel M. Robertson"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Louisiana 6th",
+        "column": "District",
+        "value": "Louisiana 6th",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_5",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "New York 19th | Nicholas T. Kane (D) | Died September 14, 1887 | Charles Tracey (D) | November 8, 1887",
+      "entities": [
+        "New York 19th",
+        "Nicholas T. Kane",
+        "Charles Tracey"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "New York 19th",
+        "column": "District",
+        "value": "New York 19th",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_6",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Michigan 11th | Seth C. Moffatt (R) | Died December 22, 1887 | Henry W. Seymour (R) | February 14, 1888",
+      "entities": [
+        "Michigan 11th",
+        "Seth C. Moffatt",
+        "Henry W. Seymour"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Michigan 11th",
+        "column": "District",
+        "value": "Michigan 11th",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_7",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "New York 1st | Perry Belmont (D) | Resigned December 1, 1888, after being appointed Minister to Spain | Vacant until next Congress |",
+      "entities": [
+        "New York 1st",
+        "Perry Belmont"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "New York 1st",
+        "column": "District",
+        "value": "New York 1st",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_8",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Indiana 1st | Alvin P. Hovey (R) | Resigned January 17, 1889, after being elected Governor of Indiana | Francis B. Posey (R) | January 29, 1889",
+      "entities": [
+        "Indiana 1st",
+        "Alvin P. Hovey",
+        "Francis B. Posey"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Indiana 1st",
+        "column": "District",
+        "value": "Indiana 1st",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8705304521655875942_1_9",
+      "conversation_id": "sharded-totto_8705304521655875942",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Missouri 4th | James N. Burnes (D) | Died January 23, 1889 | Charles F. Booher (D) | February 19, 1889",
+      "entities": [
+        "Missouri 4th",
+        "James N. Burnes",
+        "Charles F. Booher"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Missouri 4th",
+        "column": "District",
+        "value": "Missouri 4th",
+        "highlighted": true
+      },
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_8705304521655875942_1_9",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_8",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_7",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_6",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_5",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_4",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_3",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8705304521655875942_1_2",
+      "target": "sharded-totto_8705304521655875942_1_1",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_6088913208208480958",
+  "method": "structured_prompt_baseline",
+  "prediction": "The highlighted event is \"Shooto: Spirit 2010 Summer,\" which took place on June 27, 2010, at Accel Hall in Sendai, Miyagi, Japan.",
+  "success": true,
+  "baseline_success": true
+}

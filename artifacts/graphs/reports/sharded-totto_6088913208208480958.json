@@ -1,0 +1,9 @@
+{
+  "contaminated_ids": [
+    "sharded-totto_6088913208208480958_2_1"
+  ],
+  "inactive_ids": [],
+  "reasons": {
+    "sharded-totto_6088913208208480958_2_1": "assistant assumption/answer_candidate without support"
+  }
+}

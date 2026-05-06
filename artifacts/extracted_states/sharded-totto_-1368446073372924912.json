@@ -6,107 +6,8 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 0,
       "source": "user",
-      "type": "fact",
-      "text": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_1",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "In 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_2",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Mr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_3",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "In 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_4",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Óengus mac Nad Froích was the King of Munster until 489.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_5",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "They reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_6",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Hungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_7",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Tobias Harris scored 15.3 points per game.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_8",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "WMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_-1368446073372924912_0_9",
-      "conversation_id": "sharded-totto_-1368446073372924912",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Lacourt was dropped to a fourth-place time in 53.08.",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -115,9 +16,9 @@
       "id": "sharded-totto_-1368446073372924912_1_0",
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 1,
-      "source": "assistant",
-      "type": "derivation",
-      "text": "A table listing 7 Rings events held in Holland and Lithuania between 2003-2004, including event titles, dates, arenas, and locations.",
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -127,10 +28,17 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 1,
       "source": "user",
-      "type": "fact",
-      "text": "You can now update your description of the table, which must now focus on the highlighted cells in the table.",
+      "type": "structural_record",
+      "text": "0 | # | 84",
       "entities": [],
-      "attributes": {},
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "#",
+        "value": "84",
+        "highlighted": false
+      },
       "status": "active"
     },
     {
@@ -139,15 +47,15 @@
       "turn_index": 1,
       "source": "user",
       "type": "structural_record",
-      "text": "Table of Rings events",
+      "text": "0 | Event Title | Rings Holland: I Have a Dream",
       "entities": [],
       "attributes": {
-        "table_title": "Rings Events",
-        "row_id": "0",
-        "row_header": "Event Title",
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
         "column": "Event Title",
-        "value": "Rings Holland: The Untouchables",
-        "highlighted": true
+        "value": "Rings Holland: I Have a Dream",
+        "highlighted": false
       },
       "status": "active"
     },
@@ -155,11 +63,144 @@
       "id": "sharded-totto_-1368446073372924912_1_3",
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 1,
-      "source": "assistant",
-      "type": "derivation",
-      "text": "A table highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location.",
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Date | November 30, 2003",
       "entities": [],
-      "attributes": {},
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Date",
+        "value": "November 30, 2003",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_4",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Arena | ",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Arena",
+        "value": "",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_5",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Location | Enschede, Holland",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Location",
+        "value": "Enschede, Holland",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_6",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | # | 83",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "#",
+        "value": "83",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_7",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Event Title | Rings Holland: The Untouchables [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Event Title",
+        "value": "Rings Holland: The Untouchables",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_8",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Date | September 27, 2003 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Date",
+        "value": "September 27, 2003",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_9",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Arena | Vechtsebanen Sport Hall [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Arena",
+        "value": "Vechtsebanen Sport Hall",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_10",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Location | Utrecht, Netherlands [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Location",
+        "value": "Utrecht, Netherlands",
+        "highlighted": true
+      },
       "status": "active"
     },
     {
@@ -167,8 +208,8 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 2,
       "source": "user",
-      "type": "fact",
-      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2003_in_Fighting_Network_Rings.",
+      "type": "metadata",
+      "text": "table_webpage_url: http://en.wikipedia.org/wiki/2003_in_Fighting_Network_Rings",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -178,8 +219,8 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 2,
       "source": "assistant",
-      "type": "derivation",
-      "text": "A table highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location, from the 2003 in Fighting Network Rings Wikipedia page.",
+      "type": "answer_candidate",
+      "text": "A table highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -189,8 +230,8 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 3,
       "source": "user",
-      "type": "fact",
-      "text": "The table_page_title is 2003 in Fighting Network Rings.",
+      "type": "metadata",
+      "text": "table_page_title: 2003 in Fighting Network Rings",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -200,7 +241,7 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 3,
       "source": "assistant",
-      "type": "derivation",
+      "type": "answer_candidate",
       "text": "A table from the 2003 in Fighting Network Rings page, highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location.",
       "entities": [],
       "attributes": {},
@@ -211,8 +252,8 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 4,
       "source": "user",
-      "type": "fact",
-      "text": "The table_section_title is Events list.",
+      "type": "metadata",
+      "text": "table_section_title: Events list",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -222,7 +263,7 @@
       "conversation_id": "sharded-totto_-1368446073372924912",
       "turn_index": 4,
       "source": "assistant",
-      "type": "assumption",
+      "type": "answer_candidate",
       "text": "I understand.",
       "entities": [],
       "attributes": {},
@@ -232,27 +273,69 @@
   "edges": [
     {
       "source": "sharded-totto_-1368446073372924912_1_0",
-      "target": "sharded-totto_-1368446073372924912_1_3",
-      "type": "supports",
-      "rationale": "User fact endorses assistant derivation"
+      "target": "sharded-totto_-1368446073372924912_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     },
     {
-      "source": "sharded-totto_-1368446073372924912_2_1",
-      "target": "sharded-totto_-1368446073372924912_1_3",
-      "type": "verified_by",
-      "rationale": "Assistant claim is confirmed by tool output"
+      "source": "sharded-totto_-1368446073372924912_1_1",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     },
     {
-      "source": "sharded-totto_-1368446073372924912_3_1",
-      "target": "sharded-totto_-1368446073372924912_1_3",
-      "type": "verified_by",
-      "rationale": "Assistant claim is confirmed by user metadata"
+      "source": "sharded-totto_-1368446073372924912_1_2",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     },
     {
-      "source": "sharded-totto_-1368446073372924912_4_1",
-      "target": "sharded-totto_-1368446073372924912_1_3",
-      "type": "supports",
-      "rationale": "User fact endorses assistant derivation"
+      "source": "sharded-totto_-1368446073372924912_1_3",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_4",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_5",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_6",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_7",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_8",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_9",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_10",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     }
   ],
   "attributes": {}

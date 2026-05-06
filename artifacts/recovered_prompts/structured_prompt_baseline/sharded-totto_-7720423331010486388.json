@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-7720423331010486388",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Year | Competition                                        | Venue                     | Position | Event    | Notes     |\n|------|----------------------------------------------------|---------------------------|----------|----------|-----------|\n| 1998 | Central American and Caribbean Junior Championships (U20) | Georgetown, Cayman Islands | 1st      | 5000 m   | 17:41.88  |\n| 1999 | Pan American Junior Championships                  | Tampa, United States      | 2nd      | 3000 m   | 9:38.44   |\n| 2008 | Olympic Games                                      | Beijing, PR China        | 19th     | Marathon | 2:31:47   |\n\nHighlighted:\n19th | Marathon | 2:31:47\n\nContext:\nThe table contains achievements of the Mexican athlete Madaí Pérez, as referenced from her Wikipedia page.\n\nInstruction:\nSummarize the achievements of Madaí Pérez from the table.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

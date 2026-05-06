@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-totto_-6391398674965984921",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: United States\n    Column: Date\n    Value: 15 November 2013\n    Highlighted: true\n  - Row: United States\n    Column: Format\n    Value: Digital download\n    Highlighted: true\n  - Row: United States\n    Column: Label\n    Value: Atlantic Records\n    Highlighted: true\nSupporting context:\n  - Table columns: Region, Date, Format, Label\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-6391398674965984921_1_1",
+    "sharded-totto_-6391398674965984921_1_2",
+    "sharded-totto_-6391398674965984921_1_3",
+    "sharded-totto_-6391398674965984921_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-6391398674965984921_3_1",
+    "sharded-totto_-6391398674965984921_0_0",
+    "sharded-totto_-6391398674965984921_4_1",
+    "sharded-totto_-6391398674965984921_2_1",
+    "sharded-totto_-6391398674965984921_2_0",
+    "sharded-totto_-6391398674965984921_3_0",
+    "sharded-totto_-6391398674965984921_4_0"
+  ]
+}

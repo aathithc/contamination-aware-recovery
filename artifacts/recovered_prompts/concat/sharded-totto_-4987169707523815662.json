@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-totto_-4987169707523815662",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: #, Portrait, Name, Term start, Term end, Previous public posts\n1 | Gold: Luis A. Ferré | Term Start: 1967 | Term End: 1974 [highlighted]\n1 | Term Start: 1967 [highlighted]\n1 | Term End: 1974 [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/List_of_Presidents_of_the_New_Progressive_Party_(Puerto_Rico).\nThe table_page_title is List of Presidents of the New Progressive Party (Puerto Rico).\nThe table_section_title is List of presidents.",
+  "included_node_ids": [
+    "sharded-totto_-4987169707523815662_0_0",
+    "sharded-totto_-4987169707523815662_1_0",
+    "sharded-totto_-4987169707523815662_1_1",
+    "sharded-totto_-4987169707523815662_1_2",
+    "sharded-totto_-4987169707523815662_1_3",
+    "sharded-totto_-4987169707523815662_2_0",
+    "sharded-totto_-4987169707523815662_3_0",
+    "sharded-totto_-4987169707523815662_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-4987169707523815662_1_4",
+    "sharded-totto_-4987169707523815662_2_1",
+    "sharded-totto_-4987169707523815662_3_1",
+    "sharded-totto_-4987169707523815662_4_1"
+  ]
+}

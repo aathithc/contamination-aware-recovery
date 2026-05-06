@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_6848965724662627070",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Candidate                    | Party                     | Votes   | %      |\n|------------------------------|---------------------------|---------|--------|\n| Jorge Carlos Fonseca         | Movement for Democracy     | 93,010  | 74.08  |\n\nHighlighted:\n- Jorge Carlos Fonseca\n- Movement for Democracy\n- 93,010\n- 74.08\n\nContext:\n- Metadata includes table_webpage_url: http://en.wikipedia.org/wiki/2016_Cape_Verdean_presidential_election\n- Metadata includes table_page_title: 2016 Cape Verdean presidential election\n- Metadata includes table_section_title: Results\n\nInstruction:\nSummarize the results of the 2016 Cape Verdean presidential election.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

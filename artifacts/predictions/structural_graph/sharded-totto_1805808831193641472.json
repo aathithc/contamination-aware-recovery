@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_1805808831193641472",
+  "method": "structural_graph",
+  "prediction": "The highlighted cell in the table indicates that the title \"Battlestar Galactica\" was released in the year 1979.",
+  "success": true,
+  "baseline_success": true
+}

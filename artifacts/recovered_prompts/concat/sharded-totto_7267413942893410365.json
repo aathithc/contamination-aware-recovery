@@ -1,0 +1,30 @@
+{
+  "conversation_id": "sharded-totto_7267413942893410365",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nThe input table shows the rankings of college football players by total yards gained.\nTable columns: Rank, Name, Team, Yards\n1 | Name: Ron Johnson | Team: Michigan | Yards: 1,391\n5 | Name: Ed Podolak | Team: Iowa | Yards: 937\n5 | Name: Ed Podolak | Team: Iowa | Yards: 937\n1 | Name: Ron Johnson | Team: Michigan | Yards: 1,391\n2 | Name: Leroy Keyes | Team: Purdue | Yards: 1,003\n2 | Name: Leroy Keyes | Team: Purdue | Yards: 1,003\n3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]\n3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]\n3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]\n4 | Name: Rich Johnson | Team: Illinois | Yards: 973\n4 | Name: Rich Johnson | Team: Illinois | Yards: 973\nThe table_webpage_url is http://en.wikipedia.org/wiki/1968_Big_Ten_Conference_football_season.\nThe table_page_title is 1968 Big Ten Conference football season.\nThe table_section_title is Rushing yards.",
+  "included_node_ids": [
+    "sharded-totto_7267413942893410365_0_0",
+    "sharded-totto_7267413942893410365_1_0",
+    "sharded-totto_7267413942893410365_2_0",
+    "sharded-totto_7267413942893410365_2_1",
+    "sharded-totto_7267413942893410365_2_10",
+    "sharded-totto_7267413942893410365_2_11",
+    "sharded-totto_7267413942893410365_2_2",
+    "sharded-totto_7267413942893410365_2_3",
+    "sharded-totto_7267413942893410365_2_4",
+    "sharded-totto_7267413942893410365_2_5",
+    "sharded-totto_7267413942893410365_2_6",
+    "sharded-totto_7267413942893410365_2_7",
+    "sharded-totto_7267413942893410365_2_8",
+    "sharded-totto_7267413942893410365_2_9",
+    "sharded-totto_7267413942893410365_3_0",
+    "sharded-totto_7267413942893410365_4_0",
+    "sharded-totto_7267413942893410365_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_7267413942893410365_1_1",
+    "sharded-totto_7267413942893410365_3_1",
+    "sharded-totto_7267413942893410365_4_1",
+    "sharded-totto_7267413942893410365_5_1"
+  ]
+}

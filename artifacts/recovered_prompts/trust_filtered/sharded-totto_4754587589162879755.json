@@ -1,0 +1,22 @@
+{
+  "conversation_id": "sharded-totto_4754587589162879755",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: Chart (2004), Peak position\nU.S. Billboard 200 | Peak position: 133 [highlighted]\nU.S. Billboard Top R&B/Hip-Hop Albums | Peak position: 43 [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/The_Best_of_E-40:_Yesterday,_Today_%26_Tomorrow.\nThe table_page_title is The Best of E-40: Yesterday, Today & Tomorrow.\nThe table_section_title is Chart history.\nThe table_section_text is Album.",
+  "included_node_ids": [
+    "sharded-totto_4754587589162879755_0_0",
+    "sharded-totto_4754587589162879755_1_0",
+    "sharded-totto_4754587589162879755_1_1",
+    "sharded-totto_4754587589162879755_1_2",
+    "sharded-totto_4754587589162879755_2_0",
+    "sharded-totto_4754587589162879755_3_0",
+    "sharded-totto_4754587589162879755_4_0",
+    "sharded-totto_4754587589162879755_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_4754587589162879755_1_3",
+    "sharded-totto_4754587589162879755_2_1",
+    "sharded-totto_4754587589162879755_3_1",
+    "sharded-totto_4754587589162879755_4_1",
+    "sharded-totto_4754587589162879755_5_1"
+  ]
+}

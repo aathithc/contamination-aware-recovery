@@ -1,0 +1,342 @@
+{
+  "conversation_id": "sharded-totto_-1368446073372924912",
+  "nodes": [
+    {
+      "id": "sharded-totto_-1368446073372924912_0_0",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_0",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_1",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | # | 84",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "#",
+        "value": "84",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_2",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Event Title | Rings Holland: I Have a Dream",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Event Title",
+        "value": "Rings Holland: I Have a Dream",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_3",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Date | November 30, 2003",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Date",
+        "value": "November 30, 2003",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_4",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Arena | ",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Arena",
+        "value": "",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_5",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "0 | Location | Enschede, Holland",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "0",
+        "column": "Location",
+        "value": "Enschede, Holland",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_6",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | # | 83",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "#",
+        "value": "83",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_7",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Event Title | Rings Holland: The Untouchables [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Event Title",
+        "value": "Rings Holland: The Untouchables",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_8",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Date | September 27, 2003 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Date",
+        "value": "September 27, 2003",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_9",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Arena | Vechtsebanen Sport Hall [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Arena",
+        "value": "Vechtsebanen Sport Hall",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_1_10",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Location | Utrecht, Netherlands [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1",
+        "column": "Location",
+        "value": "Utrecht, Netherlands",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_2_0",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_webpage_url: http://en.wikipedia.org/wiki/2003_in_Fighting_Network_Rings",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_2_1",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_3_0",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_page_title: 2003 in Fighting Network Rings",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_3_1",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the 2003 in Fighting Network Rings page, highlighting details of the Rings Holland: The Untouchables event, including the event title, date, arena, and location.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_4_0",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "table_section_title: Events list",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-1368446073372924912_4_1",
+      "conversation_id": "sharded-totto_-1368446073372924912",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "I understand.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-1368446073372924912_1_0",
+      "target": "sharded-totto_-1368446073372924912_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_1",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_2",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_3",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_4",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_5",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_6",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_7",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_8",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_9",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-1368446073372924912_1_10",
+      "target": "sharded-totto_-1368446073372924912_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

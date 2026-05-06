@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-totto_-9077655081956947368",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 2\n    Column: Event title\n    Value: Dynamite!! USA\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Event title, Date, Arena, Location\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-9077655081956947368_1_7",
+    "sharded-totto_-9077655081956947368_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-9077655081956947368_1_6",
+    "sharded-totto_-9077655081956947368_1_8",
+    "sharded-totto_-9077655081956947368_1_5",
+    "sharded-totto_-9077655081956947368_0_0",
+    "sharded-totto_-9077655081956947368_1_2",
+    "sharded-totto_-9077655081956947368_1_3",
+    "sharded-totto_-9077655081956947368_2_1",
+    "sharded-totto_-9077655081956947368_3_1",
+    "sharded-totto_-9077655081956947368_3_0",
+    "sharded-totto_-9077655081956947368_4_0",
+    "sharded-totto_-9077655081956947368_1_1",
+    "sharded-totto_-9077655081956947368_4_1",
+    "sharded-totto_-9077655081956947368_1_9",
+    "sharded-totto_-9077655081956947368_1_4",
+    "sharded-totto_-9077655081956947368_2_0"
+  ]
+}

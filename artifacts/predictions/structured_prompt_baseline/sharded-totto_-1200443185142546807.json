@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-1200443185142546807",
+  "method": "structured_prompt_baseline",
+  "prediction": "In the final practice for the 2018 Bank of America Roval 400, Brad Keselowski achieved the fastest time of 77.730 seconds, with an impressive speed of 105.596 mph.",
+  "success": true,
+  "baseline_success": true
+}

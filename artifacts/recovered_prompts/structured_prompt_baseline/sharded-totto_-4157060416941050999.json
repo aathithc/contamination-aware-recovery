@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-4157060416941050999",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Chart (1989) | Peak position UK Albums Chart | Peak position Billboard 200 | Peak position: 169 |\n|--------------|-------------------------------|----------------------------|---------------------|\n\nHighlighted:\n| Peak position: 169 |\n\nContext:\nThe table_webpage_url is http://en.wikipedia.org/wiki/This_Is_the_Day...This_Is_the_Hour...This_Is_This!; The table_page_title is This Is the Day...This Is the Hour...This Is This!; The table_section_title is Charts.\n\nInstruction:\nSummarize the highlighted cell's significance in relation to the album's performance on charts.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

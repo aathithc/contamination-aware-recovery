@@ -1,0 +1,19 @@
+{
+  "conversation_id": "sharded-totto_-4157060416941050999",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Chart (1989), Peak position\nUK Albums Chart | Peak position: 24\nBillboard 200 | Peak position: 169 [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/This_Is_the_Day...This_Is_the_Hour...This_Is_This!\nThe table_page_title is This Is the Day...This Is the Hour...This Is This!.\nThe table_section_title is Charts.",
+  "included_node_ids": [
+    "sharded-totto_-4157060416941050999_0_0",
+    "sharded-totto_-4157060416941050999_1_0",
+    "sharded-totto_-4157060416941050999_1_1",
+    "sharded-totto_-4157060416941050999_1_2",
+    "sharded-totto_-4157060416941050999_2_0",
+    "sharded-totto_-4157060416941050999_3_0",
+    "sharded-totto_-4157060416941050999_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-4157060416941050999_2_1",
+    "sharded-totto_-4157060416941050999_3_1",
+    "sharded-totto_-4157060416941050999_4_1"
+  ]
+}

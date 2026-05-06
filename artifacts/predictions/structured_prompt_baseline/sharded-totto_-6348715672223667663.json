@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-6348715672223667663",
+  "method": "structured_prompt_baseline",
+  "prediction": "The highlighted event is the \"Deep: clubDeep Tokyo: Future King Tournament 2006,\" which took place on December 9, 2006, at Shinjuku Face in Tokyo. This tournament is part of the Deep promotion's series of events held in 2006.",
+  "success": true,
+  "baseline_success": true
+}

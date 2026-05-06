@@ -1,0 +1,338 @@
+{
+  "conversation_id": "sharded-totto_-9077655081956947368",
+  "nodes": [
+    {
+      "id": "sharded-totto_-9077655081956947368_0_0",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_0",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_1",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "8 | EliteXC: Renegade | November 10, 2007 | American Bank Center | Corpus Christi, Texas",
+      "entities": [
+        "EliteXC: Renegade",
+        "Corpus Christi, Texas"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "8",
+        "column": "Event title",
+        "value": "EliteXC: Renegade",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_2",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "7 | ShoXC: Elite Challenger Series | October 26, 2007 | Chumash Casino Resort | Santa Ynez, California",
+      "entities": [
+        "ShoXC: Elite Challenger Series",
+        "Santa Ynez, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "7",
+        "column": "Event title",
+        "value": "ShoXC: Elite Challenger Series",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_3",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "6 | EliteXC: Uprising | September 15, 2007 | Neal S. Blaisdell Arena | Oahu, Hawaii",
+      "entities": [
+        "EliteXC: Uprising",
+        "Oahu, Hawaii"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "6",
+        "column": "Event title",
+        "value": "EliteXC: Uprising",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_4",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "5 | ShoXC: Elite Challenger Series | August 25, 2007 | Vicksburg Convention Center | Vicksburg, Mississippi",
+      "entities": [
+        "ShoXC: Elite Challenger Series",
+        "Vicksburg, Mississippi"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "5",
+        "column": "Event title",
+        "value": "ShoXC: Elite Challenger Series",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_5",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "4 | ShoXC: Elite Challenger Series | July 27, 2007 | Chumash Casino Resort | Santa Ynez, California",
+      "entities": [
+        "ShoXC: Elite Challenger Series",
+        "Santa Ynez, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "4",
+        "column": "Event title",
+        "value": "ShoXC: Elite Challenger Series",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_6",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Strikeforce: Shamrock vs. Baroni | June 22, 2007 | HP Pavilion | San Jose, California",
+      "entities": [
+        "Strikeforce: Shamrock vs. Baroni",
+        "San Jose, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "3",
+        "column": "Event title",
+        "value": "Strikeforce: Shamrock vs. Baroni",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_7",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Dynamite!! USA | June 2, 2007 | Los Angeles Memorial Coliseum | Los Angeles [highlighted]",
+      "entities": [
+        "Dynamite!! USA",
+        "Los Angeles"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "2",
+        "column": "Event title",
+        "value": "Dynamite!! USA",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_8",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | EliteXC: Destiny | February 10, 2007 | DeSoto Civic Center | Southaven, Mississippi",
+      "entities": [
+        "EliteXC: Destiny",
+        "Southaven, Mississippi"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "1",
+        "column": "Event title",
+        "value": "EliteXC: Destiny",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_1_9",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table highlights the details of the Dynamite!! USA event, including its date, arena, and location.",
+      "entities": [
+        "Dynamite!! USA"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_2_0",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2007_in_Elite_Xtreme_Combat.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_2_1",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists 8 mixed martial arts events held in 2007, including details about the Dynamite!! USA event which took place on June 2, 2007 at the Los Angeles Memorial Coliseum in Los Angeles, as found on the Wikipedia page http://en.wikipedia.org/wiki/2007_in_Elite_Xtreme_Combat.",
+      "entities": [
+        "Dynamite!! USA",
+        "Los Angeles",
+        "http://en.wikipedia.org/wiki/2007_in_Elite_Xtreme_Combat"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_3_0",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is 2007 in Elite Xtreme Combat.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_3_1",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists 8 mixed martial arts events that took place in 2007 as part of the Elite Xtreme Combat promotion, including details about the Dynamite!! USA event held on June 2, 2007 at the Los Angeles Memorial Coliseum in Los Angeles, as found on the Wikipedia page titled '2007 in Elite Xtreme Combat'.",
+      "entities": [
+        "Dynamite!! USA",
+        "Los Angeles",
+        "2007 in Elite Xtreme Combat"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_4_0",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Events list.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-9077655081956947368_4_1",
+      "conversation_id": "sharded-totto_-9077655081956947368",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, found in the 'Events list' section of the Wikipedia page '2007 in Elite Xtreme Combat', lists 8 mixed martial arts events that took place in 2007 as part of the Elite Xtreme Combat promotion, including details about the Dynamite!! USA event held on June 2, 2007 at the Los Angeles Memorial Coliseum in Los Angeles.",
+      "entities": [
+        "Dynamite!! USA",
+        "Los Angeles",
+        "Events list",
+        "2007 in Elite Xtreme Combat"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-9077655081956947368_1_1",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_2",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_3",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_4",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_5",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_6",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_7",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-9077655081956947368_1_8",
+      "target": "sharded-totto_-9077655081956947368_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

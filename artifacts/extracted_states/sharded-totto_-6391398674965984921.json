@@ -1,0 +1,199 @@
+{
+  "conversation_id": "sharded-totto_-6391398674965984921",
+  "nodes": [
+    {
+      "id": "sharded-totto_-6391398674965984921_0_0",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_1_0",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Region, Date, Format, Label",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_1_1",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "United States | Date: 15 November 2013 [highlighted]",
+      "entities": [
+        "United States"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "United States",
+        "column": "Date",
+        "value": "15 November 2013",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_1_2",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "United States | Format: Digital download [highlighted]",
+      "entities": [
+        "Digital download"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "United States",
+        "column": "Format",
+        "value": "Digital download",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_1_3",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "United States | Label: Atlantic Records [highlighted]",
+      "entities": [
+        "Atlantic Records"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "United States",
+        "column": "Label",
+        "value": "Atlantic Records",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_2_0",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Want_Dem_All.",
+      "entities": [
+        "http://en.wikipedia.org/wiki/Want_Dem_All"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_2_1",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the United States as the region, November 15, 2013 as the date, digital download as the format, and Atlantic Records as the label for a release, as found on the Wikipedia page for 'Want Dem All'.",
+      "entities": [
+        "United States",
+        "November 15, 2013",
+        "digital download",
+        "Atlantic Records",
+        "Want Dem All"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_3_0",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is Want Dem All.",
+      "entities": [
+        "Want Dem All"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_3_1",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the Wikipedia page 'Want Dem All' highlighting the United States as the region, November 15, 2013 as the date, digital download as the format, and Atlantic Records as the label for a release.",
+      "entities": [
+        "Want Dem All",
+        "United States",
+        "November 15, 2013",
+        "digital download",
+        "Atlantic Records"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_4_0",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Release history.",
+      "entities": [
+        "Release history"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-6391398674965984921_4_1",
+      "conversation_id": "sharded-totto_-6391398674965984921",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table from the 'Release history' section of the Wikipedia page 'Want Dem All' highlighting the United States as the region, November 15, 2013 as the date, digital download as the format, and Atlantic Records as the label for a release.",
+      "entities": [
+        "Release history",
+        "Want Dem All",
+        "United States",
+        "November 15, 2013",
+        "digital download",
+        "Atlantic Records"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-6391398674965984921_1_1",
+      "target": "sharded-totto_-6391398674965984921_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6391398674965984921_1_2",
+      "target": "sharded-totto_-6391398674965984921_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-6391398674965984921_1_3",
+      "target": "sharded-totto_-6391398674965984921_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

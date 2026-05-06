@@ -1,0 +1,501 @@
+{
+  "conversation_id": "sharded-totto_2466054609666099920",
+  "nodes": [
+    {
+      "id": "sharded-totto_2466054609666099920_0_0",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_0",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Year, Player, Country, Score, To par, Margin of victory, Runner(s)-up, Course, Location, Purse ($), Winner's share ($)",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_1",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2018 | Keegan Bradley | United States | 260 | −20 | Playoff | England Justin Rose | Aronimink Golf Club | Newtown Square, Pennsylvania | 9,000,000 | 1,620,000",
+      "entities": [
+        "Keegan Bradley",
+        "United States",
+        "Aronimink Golf Club",
+        "Newtown Square, Pennsylvania"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "2018",
+        "column": "Winner",
+        "value": "Keegan Bradley",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_2",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2017 | Marc Leishman | Australia | 261 | −23 | 5 strokes | United States Rickie Fowler | Conway Farms Golf Club | Lake Forest, Illinois | 8,750,000 | 1,575,000",
+      "entities": [
+        "Marc Leishman",
+        "Australia",
+        "Conway Farms Golf Club",
+        "Lake Forest, Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2017",
+        "column": "Winner",
+        "value": "Marc Leishman",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_3",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2016 | Dustin Johnson (2) | United States | 265 | −23 | 3 strokes | England Paul Casey | Crooked Stick Golf Club | Carmel, Indiana | 8,500,000 | 1,530,000",
+      "entities": [
+        "Dustin Johnson",
+        "United States",
+        "Crooked Stick Golf Club",
+        "Carmel, Indiana"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "2016",
+        "column": "Winner",
+        "value": "Dustin Johnson (2)",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_4",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2015 | Jason Day | Australia | 262 | −22 | 6 strokes | United States Daniel Berger | Conway Farms Golf Club | Lake Forest, Illinois | 8,250,000 | 1,485,000 [highlighted]",
+      "entities": [
+        "Jason Day",
+        "Australia",
+        "Conway Farms Golf Club",
+        "Lake Forest",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "2015",
+        "column": "Winner",
+        "value": "Jason Day",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_5",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2014 | Billy Horschel | United States | 266 | −14 | 2 strokes | United States Bubba Watson | Cherry Hills Country Club | Cherry Hills Village, Colorado | 8,000,000 | 1,440,000",
+      "entities": [
+        "Billy Horschel",
+        "United States",
+        "Cherry Hills Country Club",
+        "Cherry Hills Village",
+        "Colorado"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "2014",
+        "column": "Winner",
+        "value": "Billy Horschel",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_6",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2013 | Zach Johnson | United States | 268 | −16 | 2 strokes | United States Nick Watney | Conway Farms Golf Club | Lake Forest, Illinois | 8,000,000 | 1,440,000",
+      "entities": [
+        "Zach Johnson",
+        "United States",
+        "Conway Farms Golf Club",
+        "Lake Forest",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "2013",
+        "column": "Winner",
+        "value": "Zach Johnson",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_7",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2012 | Rory McIlroy | Northern Ireland | 268 | −20 | 2 strokes | United States Phil Mickelson England Lee Westwood | Crooked Stick Golf Club | Carmel, Indiana | 8,000,000 | 1,440,000",
+      "entities": [
+        "Rory McIlroy",
+        "Northern Ireland",
+        "Crooked Stick Golf Club",
+        "Carmel",
+        "Indiana"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "2012",
+        "column": "Winner",
+        "value": "Rory McIlroy",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_8",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2011 | Justin Rose | England | 271 | −13 | 2 strokes | Australia John Senden | Cog Hill Golf & Country Club | Lemont, Illinois | 8,000,000 | 1,440,000",
+      "entities": [
+        "Justin Rose",
+        "England",
+        "Cog Hill Golf & Country Club",
+        "Lemont",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "2011",
+        "column": "Winner",
+        "value": "Justin Rose",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_9",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2010 | Dustin Johnson | United States | 275 | −9 | 1 stroke | England Paul Casey | Cog Hill Golf & Country Club | Lemont, Illinois | 7,500,000 | 1,350,000",
+      "entities": [
+        "Dustin Johnson",
+        "United States",
+        "Cog Hill Golf & Country Club",
+        "Lemont",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "2010",
+        "column": "Winner",
+        "value": "Dustin Johnson",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_10",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2009 | Tiger Woods (2) | United States | 265 | −19 | 8 strokes | United States Jim Furyk Australia Marc Leishman | Cog Hill Golf & Country Club | Lemont, Illinois | 7,500,000 | 1,350,000",
+      "entities": [
+        "Tiger Woods",
+        "United States",
+        "Cog Hill Golf & Country Club",
+        "Lemont",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "2009",
+        "column": "Winner",
+        "value": "Tiger Woods (2)",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_11",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2008 | Camilo Villegas | Colombia | 265 | −15 | 2 strokes | United States Dudley Hart | Bellerive Country Club | Town and Country, Missouri | 7,000,000 | 1,260,000",
+      "entities": [
+        "Camilo Villegas",
+        "Colombia",
+        "Bellerive Country Club",
+        "Town and Country",
+        "Missouri"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "2008",
+        "column": "Winner",
+        "value": "Camilo Villegas",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_1_12",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2007 | Tiger Woods | United States | 262 | −22 | 2 strokes | Australia Aaron Baddeley | Cog Hill Golf & Country Club | Lemont, Illinois | 7,000,000 | 1,260,000",
+      "entities": [
+        "Tiger Woods",
+        "United States",
+        "Cog Hill Golf & Country Club",
+        "Lemont",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_11",
+        "row_header": "2007",
+        "column": "Winner",
+        "value": "Tiger Woods",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_2_0",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/BMW_Championship_(PGA_Tour).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_2_1",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table provides details on the winners of the BMW Championship golf tournament from 2007 to 2018, including the year, player, country, score, margin of victory, runner(s)-up, course, location, purse, and winner's share.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_2_2",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells focus on Jason Day's 2015 victory, where he shot a score of -22 at the Conway Farms Golf Club in Lake Forest, Illinois.",
+      "entities": [
+        "Jason Day",
+        "Conway Farms Golf Club",
+        "Lake Forest",
+        "Illinois"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_3_0",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is BMW Championship (PGA Tour).",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_3_1",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The BMW Championship (PGA Tour) table provides details on the winners of the tournament from 2007 to 2018, including the year, player, country, score, margin of victory, runner(s)-up, course, location, purse, and winner's share.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_3_2",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells focus on Jason Day's 2015 victory, where he shot a score of -22 at the Conway Farms Golf Club in Lake Forest, Illinois.",
+      "entities": [
+        "Jason Day",
+        "Conway Farms Golf Club",
+        "Lake Forest",
+        "Illinois"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_4_0",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Winners.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_4_1",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The \"Winners\" table for the BMW Championship (PGA Tour) provides details on the tournament champions from 2007 to 2018, including the year, player, country, score, margin of victory, runner(s)-up, course, location, purse, and winner's share.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_2466054609666099920_4_2",
+      "conversation_id": "sharded-totto_2466054609666099920",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The highlighted cells focus on Jason Day's 2015 victory, where he shot a score of -22 at the Conway Farms Golf Club in Lake Forest, Illinois.",
+      "entities": [
+        "Jason Day",
+        "Conway Farms Golf Club",
+        "Lake Forest",
+        "Illinois"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_2466054609666099920_1_1",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_2",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_3",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_4",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_5",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_6",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_7",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_8",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_9",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_10",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_11",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_2466054609666099920_1_12",
+      "target": "sharded-totto_2466054609666099920_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

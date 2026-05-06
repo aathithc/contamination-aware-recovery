@@ -1,0 +1,566 @@
+{
+  "conversation_id": "sharded-totto_6763966874855482258",
+  "nodes": [
+    {
+      "id": "sharded-totto_6763966874855482258_0_0",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_0",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Number, Name, Tenure, Life, Notes & Events",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_1",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Edison E. Oberholtzer | 1927–1950 | 1880–1954 | University of Houston was founded, permanent location was created, enrollment increased from under 500 to over 13,000",
+      "entities": [
+        "Edison E. Oberholtzer",
+        "University of Houston"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Name",
+        "value": "Edison E. Oberholtzer",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_2",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Walter William Kemmerer | 1950–1953 | 1903–1993 | Was interim president in 1950",
+      "entities": [
+        "Walter William Kemmerer"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Name",
+        "value": "Walter William Kemmerer",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_3",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Interim | Charles Flemming McElhinney | 1953–1954 | 1907–1978 | ",
+      "entities": [
+        "Charles Flemming McElhinney"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Interim",
+        "column": "Name",
+        "value": "Charles Flemming McElhinney",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_4",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | A.D. Bruce | 1954–1956 | 1894–1969 | Served as Chancellor of the University of Houston when that position was created until 1961, helped to establish UH as a state school",
+      "entities": [
+        "A.D. Bruce"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "3",
+        "column": "Name",
+        "value": "A.D. Bruce",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_5",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "4 | Clanton Ware Williams | 1956–1961 | 1904–1975 | Served as President after A.D. Bruce became Chancellor",
+      "entities": [
+        "Clanton Ware Williams"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "4",
+        "column": "Name",
+        "value": "Clanton Ware Williams",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_6",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "5 | Philip Guthrie Hoffman | 1961–1977 | 1915–2008 | First chancellor of the University of Houston System",
+      "entities": [
+        "Philip Guthrie Hoffman"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "5",
+        "column": "Name",
+        "value": "Philip Guthrie Hoffman",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_7",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "6 | Barry Munitz | 1977–1982 | 1941— | ",
+      "entities": [
+        "Barry Munitz"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "6",
+        "column": "Name",
+        "value": "Barry Munitz",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_8",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Interim | Hugh Walker | 1982–1983 | 1935–2005 | ",
+      "entities": [
+        "Hugh Walker"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Interim",
+        "column": "Name",
+        "value": "Hugh Walker",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_9",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "7 | Richard L. Van Horn | 1983–1989 | 1932— | ",
+      "entities": [
+        "Richard L. Van Horn"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "7",
+        "column": "Name",
+        "value": "Richard L. Van Horn",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_10",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Interim | George W. Magner | 1989–1990 | 1927–2005 | Ended the tradition of a live cougar Shasta mascot",
+      "entities": [
+        "George W. Magner"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Interim",
+        "column": "Name",
+        "value": "George W. Magner",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_11",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "8 | Marguerite Ross Barnett | 1990–1992 | 1942–1992 | First female and first black president, Took a leave of absence after being diagnosed with cancer",
+      "entities": [
+        "Marguerite Ross Barnett"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "8",
+        "column": "Name",
+        "value": "Marguerite Ross Barnett",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_12",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "9 | James H. Pickering | 1992–1995 | 1938— | Was originally interim president after Barnett stepped down",
+      "entities": [
+        "James H. Pickering"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_11",
+        "row_header": "9",
+        "column": "Name",
+        "value": "James H. Pickering",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_13",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "10 | Glenn Allan Goerke | 1995–1997 | 1931–2015 | ",
+      "entities": [
+        "Glenn Allan Goerke"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_12",
+        "row_header": "10",
+        "column": "Name",
+        "value": "Glenn Allan Goerke",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_14",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "11 | Arthur K. Smith | 1997–2003 | 1937— | First person to hold UH Presidency and UHS Chancellor position simultaneously",
+      "entities": [
+        "Arthur K. Smith"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_13",
+        "row_header": "11",
+        "column": "Name",
+        "value": "Arthur K. Smith",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_15",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "12 | Jay Gogue | 2003–2007 | 1947— | ",
+      "entities": [
+        "Jay Gogue"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_14",
+        "row_header": "12",
+        "column": "Name",
+        "value": "Jay Gogue",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_16",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Interim | John M. Rudley | 2007 | 1947— | Was President of Texas Southern University from 2008-2016; currently President Emeritus at Texas Southern",
+      "entities": [
+        "John M. Rudley"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_15",
+        "row_header": "Interim",
+        "column": "Name",
+        "value": "John M. Rudley",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_1_17",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "13 | Renu Khator | 2008— | 1955— | First foreign-born president, allowed for re-establishment of live Shasta mascot",
+      "entities": [
+        "Renu Khator"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_16",
+        "row_header": "13",
+        "column": "Name",
+        "value": "Renu Khator",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_2_0",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page \"List of Presidents of the University of Houston\" provides a chronological overview of the presidents of the University of Houston, including their names, tenures, lifespans, and notable events during their presidencies, with a particular focus on the fifth president, Philip Guthrie Hoffman, who was the first chancellor of the University of Houston System.",
+      "entities": [
+        "Philip Guthrie Hoffman"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_3_0",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page \"List of Presidents of the University of Houston\" provides a comprehensive overview of the presidents of the University of Houston, including their names, tenures, lifespans, and notable events during their presidencies, with a particular focus on the fifth president, Philip Guthrie Hoffman, who was the first chancellor of the University of Houston System.",
+      "entities": [
+        "Philip Guthrie Hoffman"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_4_0",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page \"List of Presidents of the University of Houston\" provides a comprehensive overview of the presidents of the University of Houston, including their names, tenures, lifespans, and notable events during their presidencies, with a particular focus on the fifth president, Philip Guthrie Hoffman, who was the first chancellor of the University of Houston System. The office of the President of the University of Houston, currently held by Renu Khator, was created with the founding of the University of Houston (then known as Houston Junior College) in 1927 as the chief executive officer of the school.",
+      "entities": [
+        "Philip Guthrie Hoffman",
+        "Renu Khator"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_2_1",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/List_of_Presidents_of_the_University_of_Houston.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_3_1",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is List of Presidents of the University of Houston.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_6763966874855482258_4_1",
+      "conversation_id": "sharded-totto_6763966874855482258",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_text is The office of the President of the University of Houston, currently held by Renu Khator, was created with the founding of the University of Houston (then known as Houston Junior College) in 1927 as the chief executive officer of the school.",
+      "entities": [
+        "Renu Khator"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_6763966874855482258_1_1",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_2",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_3",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_4",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_5",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_6",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_7",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_8",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_9",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_10",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_11",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_12",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_13",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_14",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_15",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_16",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_1_17",
+      "target": "sharded-totto_6763966874855482258_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_2_0",
+      "target": "sharded-totto_6763966874855482258_1_0",
+      "type": "supports",
+      "rationale": "URL provides context"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_3_0",
+      "target": "sharded-totto_6763966874855482258_1_0",
+      "type": "supports",
+      "rationale": "Title provides context"
+    },
+    {
+      "source": "sharded-totto_6763966874855482258_4_0",
+      "target": "sharded-totto_6763966874855482258_1_0",
+      "type": "supports",
+      "rationale": "Section text provides context"
+    }
+  ],
+  "attributes": {}
+}

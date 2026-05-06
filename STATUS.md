@@ -1,4 +1,31 @@
-# CARE Project — Day 2 Overnight Run Status
+# CARE Project — Status
+
+## Day 3 Final Summary — 2026-05-06 — DECISION POINT
+
+**Headline:** structural_graph beats baseline by +6.7pp (83.3% vs 76.7%). Pre-registered threshold of ≥10pp NOT MET. Outcome 3 applies — paper must reframe before continuing to other task types.
+
+**Key numbers (30 D2T tasks, strategy=none):**
+- Baseline: 76.7% | concat: 63.3% (−13.3pp) | trust_filtered: 70.0% | structural_graph: 83.3% (+6.7pp) | structured_prompt_baseline: 66.7% | Oracle: 86.7%
+- structural_graph vs structured_prompt_baseline: +16.7pp (graph adds real value over LLM-only reformatting)
+- structural_graph harm rate: 10% vs concat harm rate: 26.7%
+- Extraction failures: 0/30. Total API cost: $0.0096.
+
+**Recommended reframe:** Lead with contamination propagation as the core contribution. structural_graph is the only method that improves over baseline; its +16.7pp advantage over structured_prompt_baseline shows the contamination model is doing real work, not just the structured format. See RESULTS_D2T.md for full analysis and three reframing options.
+
+**Stop condition triggered:** Do NOT continue to other task types until researcher decides on framing direction.
+
+## Day 3 Phase 1 — D2T Extraction Fix — DONE (2026-05-06)
+Rewrote D2T extraction rules in `src/care/extraction/prompts.py`. Added mandatory D2T detection (triggered by `<table>`/`class="highlighted"` keywords), explicit per-cell structural_record rules, a skip-reference-examples rule for Turn 0, and a correct/incorrect extraction example. Tested on the 5 previously-failing tasks: **5/5 pass** on first attempt (was 2/5 before). Committed `ae9dbf7`.
+
+## Day 3 Phase 2 — Full D2T Pipeline — DONE (2026-05-06)
+Ran full pipeline on all 30 D2T strategy=none tasks: extraction (gpt-4o-mini) → contamination propagation → recovery prompts (4 methods) → recovery LLM calls (gpt-4o-mini) → entity-recall scoring. 0 extraction failures. Artifacts saved to `artifacts/extracted_states/`, `artifacts/graphs/`, `artifacts/recovered_prompts/`, `artifacts/predictions/`, `artifacts/metrics/d2t_eval.json`.
+
+## Day 3 Phase 3 — Metrics and RESULTS_D2T.md — DONE (2026-05-06)
+Computed per-method accuracy, rescue/harm/net-gain. structural_graph +6.7pp vs baseline, +16.7pp vs structured_prompt_baseline. Pre-registered threshold (≥10pp) not met → Outcome 3. Full analysis in `RESULTS_D2T.md`.
+
+---
+
+# Day 2 Overnight Run Status
 
 ## P3 Fix — auto-selector for recovery prompts (2026-05-05, session 2)
 Re-ran P3 this session and found 3/5 recovery prompts were empty: the extractor produced `fact` nodes instead of `structural_record` for raw table rows (no `highlighted` attribute set), so `build_structural_graph_prompt` returned "". Switched to `select_and_build` (auto-selector): those 3 tasks fall back to `trust_filtered`. Final method split: structural_graph×2, trust_filtered×3. Logged as Day 3 extraction quality issue: extractor needs a stronger prompt hint for D2T tasks to consistently produce `structural_record` nodes with `highlighted` attribute. All 30 tests still pass. Fix committed and pushed as `70441bb`.

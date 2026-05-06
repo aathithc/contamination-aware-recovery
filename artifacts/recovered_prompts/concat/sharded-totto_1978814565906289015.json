@@ -1,0 +1,26 @@
+{
+  "conversation_id": "sharded-totto_1978814565906289015",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Award, Category, Recipient, Result\n48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\n48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\n48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\n48th Grand Bell Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\n32nd Blue Dragon Film Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\n32nd Blue Dragon Film Awards | Best Actress | Kim Hye-soo | Nominated [highlighted]\nPopular Star Award | Best Actress | Kim Hye-soo | Won\nPopular Star Award | Best Actress | Kim Hye-soo | Won\nTable webpage URL: http://en.wikipedia.org/wiki/Villain_and_Widow\nTable page title: Villain and Widow\nTable section title: Awards and nominations",
+  "included_node_ids": [
+    "sharded-totto_1978814565906289015_0_0",
+    "sharded-totto_1978814565906289015_1_0",
+    "sharded-totto_1978814565906289015_1_1",
+    "sharded-totto_1978814565906289015_1_2",
+    "sharded-totto_1978814565906289015_1_3",
+    "sharded-totto_1978814565906289015_1_4",
+    "sharded-totto_1978814565906289015_1_5",
+    "sharded-totto_1978814565906289015_1_6",
+    "sharded-totto_1978814565906289015_1_7",
+    "sharded-totto_1978814565906289015_1_8",
+    "sharded-totto_1978814565906289015_2_0",
+    "sharded-totto_1978814565906289015_3_0",
+    "sharded-totto_1978814565906289015_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_1978814565906289015_1_9",
+    "sharded-totto_1978814565906289015_2_1",
+    "sharded-totto_1978814565906289015_3_1",
+    "sharded-totto_1978814565906289015_4_1"
+  ]
+}

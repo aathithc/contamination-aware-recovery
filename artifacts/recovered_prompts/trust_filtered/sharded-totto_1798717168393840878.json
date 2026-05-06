@@ -1,0 +1,23 @@
+{
+  "conversation_id": "sharded-totto_1798717168393840878",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: Character, Film\nAn Unexpected Journey | Bilbo Baggins | Martin Freeman [highlighted]\nThe Desolation of Smaug | Bilbo Baggins | Martin Freeman [highlighted]\nThe Battle of the Five Armies | Bilbo Baggins | Martin Freeman [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/The_Hobbit_(film_series).\nThe table_page_title is The Hobbit (film series).\nThe table_section_title is Cast.\nThe table_section_text is 'The following is a list of cast members who voiced or portrayed characters appearing in The Hobbit films. Character Film An Unexpected Journey, The Desolation of Smaug, The Battle of the Five Armies.'",
+  "included_node_ids": [
+    "sharded-totto_1798717168393840878_0_0",
+    "sharded-totto_1798717168393840878_1_0",
+    "sharded-totto_1798717168393840878_1_1",
+    "sharded-totto_1798717168393840878_1_2",
+    "sharded-totto_1798717168393840878_1_3",
+    "sharded-totto_1798717168393840878_2_0",
+    "sharded-totto_1798717168393840878_3_0",
+    "sharded-totto_1798717168393840878_4_0",
+    "sharded-totto_1798717168393840878_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_1798717168393840878_1_4",
+    "sharded-totto_1798717168393840878_2_1",
+    "sharded-totto_1798717168393840878_3_1",
+    "sharded-totto_1798717168393840878_4_1",
+    "sharded-totto_1798717168393840878_5_1"
+  ]
+}

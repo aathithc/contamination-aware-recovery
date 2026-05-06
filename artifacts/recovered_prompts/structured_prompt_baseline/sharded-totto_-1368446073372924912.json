@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-1368446073372924912",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| #  | Event Title                        | Date               | Arena                     | Location                     |\n|----|------------------------------------|---------------------|---------------------------|------------------------------|\n| 84 | Rings Holland: I Have a Dream      | November 30, 2003   |                           | Utrecht, Netherlands         |\n| 83 | Rings Holland: The Untouchables    | September 27, 2003  | Vechtsebanen Sport Hall   | Enschede, Holland            |\n\nHighlighted:\n- Utrecht, Netherlands\n- Rings Holland: The Untouchables\n- September 27, 2003\n- Vechtsebanen Sport Hall\n\nContext:\nNone\n\nInstruction:\nProvide a description of the highlighted events.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

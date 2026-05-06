@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-9077655081956947368",
+  "method": "structured_prompt_baseline",
+  "prediction": "The highlighted event is \"Dynamite!! USA,\" which took place on June 2, 2007, at the Los Angeles Memorial Coliseum in Los Angeles.",
+  "success": true,
+  "baseline_success": true
+}

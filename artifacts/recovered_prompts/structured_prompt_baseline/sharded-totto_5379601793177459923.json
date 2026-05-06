@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_5379601793177459923",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Year | Award                                         | Category          | Recipient(s)            | Result |\n|------|-----------------------------------------------|-------------------|-------------------------|--------|\n| 2019 | Hollywood Reel Independent Film Festival Awards | Best Director     | Daniel Farrands         | Won    |\n| 2019 | Hollywood Reel Independent Film Festival Awards | Best Actress      | Hilary Duff             | Won    |\n| 2019 | Hollywood Reel Independent Film Festival Awards | Best Horror Movie | The Haunting of Sharon Tate | Won    |\n\nHighlighted:\n- Best Director | Daniel Farrands | Won\n- Best Actress | Hilary Duff | Won\n- Best Horror Movie | The Haunting of Sharon Tate | Won\n\nContext:\n- The table_webpage_url is http://en.wikipedia.org/wiki/The_Haunting_of_Sharon_Tate.\n- The table_page_title is The Haunting of Sharon Tate.\n- The table_section_title is Reception.\n\nInstruction:\nCreate a table for the 2019 Hollywood Reel Independent Film Festival Awards and highlight the wins.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

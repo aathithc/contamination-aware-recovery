@@ -1,0 +1,406 @@
+{
+  "conversation_id": "sharded-totto_-5195739605929852680",
+  "nodes": [
+    {
+      "id": "sharded-totto_-5195739605929852680_0_0",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_0",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Event, Gold, Silver, Bronze",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_1",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Men's 300 m time trial | Gold: Lo Wei-lin Chinese Taipei | Silver: Andrés Felipe Muñoz Colombia | Bronze: Pedro Causil Colombia",
+      "entities": [
+        "Lo Wei-lin",
+        "Chinese Taipei",
+        "Andrés Felipe Muñoz",
+        "Colombia",
+        "Pedro Causil",
+        "Colombia"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Men's 300 m time trial",
+        "column": "Gold",
+        "value": "Lo Wei-lin Chinese Taipei",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_2",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Men's 500 m sprint | Gold: Andrés Felipe Muñoz Colombia | Silver: Lo Wei-lin Chinese Taipei | Bronze: Lee Myung-kyu South Korea",
+      "entities": [
+        "Andrés Felipe Muñoz",
+        "Colombia",
+        "Lo Wei-lin",
+        "Chinese Taipei",
+        "Lee Myung-kyu",
+        "South Korea"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Men's 500 m sprint",
+        "column": "Gold",
+        "value": "Andrés Felipe Muñoz Colombia",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_3",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Men's 1000 m sprint | Gold: Pedro Causil Colombia | Silver: Alexis Contin France | Bronze: Claudio Naselli Italy",
+      "entities": [
+        "Pedro Causil",
+        "Colombia",
+        "Alexis Contin",
+        "France",
+        "Claudio Naselli",
+        "Italy"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Men's 1000 m sprint",
+        "column": "Gold",
+        "value": "Pedro Causil Colombia",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_4",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Men's 10000 m points elimination | Gold: Yann Guyader France | Silver: Nelson Garzón Colombia | Bronze: Daniel Álvarez Venezuela",
+      "entities": [
+        "Yann Guyader",
+        "France",
+        "Nelson Garzón",
+        "Colombia",
+        "Daniel Álvarez",
+        "Venezuela"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "Men's 10000 m points elimination",
+        "column": "Gold",
+        "value": "Yann Guyader France",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_5",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Men's 15000 m elimination | Gold: Jorge Luis Cifuentes Colombia | Silver: Yann Guyader France | Bronze: Andrés Felipe Muñoz Colombia",
+      "entities": [
+        "Jorge Luis Cifuentes",
+        "Colombia",
+        "Yann Guyader",
+        "France",
+        "Andrés Felipe Muñoz",
+        "Colombia"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "Men's 15000 m elimination",
+        "column": "Gold",
+        "value": "Jorge Luis Cifuentes Colombia",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_6",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Women's 300 m time trial | Gold: Huang Yu-ting Chinese Taipei | Silver: Hsu Chiao-jen Chinese Taipei | Bronze: Lim Jin-seon South Korea [highlighted]",
+      "entities": [
+        "Huang Yu-ting",
+        "Chinese Taipei",
+        "Hsu Chiao-jen",
+        "Chinese Taipei",
+        "Lim Jin-seon",
+        "South Korea"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "Women's 300 m time trial",
+        "column": "Gold",
+        "value": "Huang Yu-ting Chinese Taipei",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_7",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Women's 500 m sprint | Gold: Huang Yu-ting Chinese Taipei | Silver: Lim Jin-seon South Korea | Bronze: Jercy Puello Colombia [highlighted]",
+      "entities": [
+        "Huang Yu-ting",
+        "Chinese Taipei",
+        "Lim Jin-seon",
+        "South Korea",
+        "Jercy Puello",
+        "Colombia"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "Women's 500 m sprint",
+        "column": "Gold",
+        "value": "Huang Yu-ting Chinese Taipei",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_8",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Women's 1000 m sprint | Gold: Huang Yu-ting Chinese Taipei | Silver: Hsu Chiao-jen Chinese Taipei | Bronze: Nicole Begg New Zealand [highlighted]",
+      "entities": [
+        "Huang Yu-ting",
+        "Chinese Taipei",
+        "Hsu Chiao-jen",
+        "Chinese Taipei",
+        "Nicole Begg",
+        "New Zealand"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "Women's 1000 m sprint",
+        "column": "Gold",
+        "value": "Huang Yu-ting Chinese Taipei",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_9",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Women's 10000 m points elimination | Gold: Woo Hyo-sook South Korea | Silver: Marta Ramírez Colombia | Bronze: Nicole Begg New Zealand",
+      "entities": [
+        "Woo Hyo-sook",
+        "South Korea",
+        "Marta Ramírez",
+        "Colombia",
+        "Nicole Begg",
+        "New Zealand"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "Women's 10000 m points elimination",
+        "column": "Gold",
+        "value": "Woo Hyo-sook South Korea",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_1_10",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Women's 15000 m elimination | Gold: Woo Hyo-sook South Korea | Silver: Marta Ramírez Colombia | Bronze: Pan Yi-chin Chinese Taipei",
+      "entities": [
+        "Woo Hyo-sook",
+        "South Korea",
+        "Marta Ramírez",
+        "Colombia",
+        "Pan Yi-chin",
+        "Chinese Taipei"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "Women's 15000 m elimination",
+        "column": "Gold",
+        "value": "Woo Hyo-sook South Korea",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_2_0",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/List_of_2009_World_Games_medal_winners.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_2_1",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table displays the medal winners for various track cycling events at the 2009 World Games, with the highlighted cells indicating the gold medalists from Chinese Taipei in the women's events.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_3_0",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is List of 2009 World Games medal winners.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_3_1",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table displays the medal winners for various track cycling events at the 2009 World Games, with the highlighted cells indicating the gold medalists from Chinese Taipei in the women's events.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_4_0",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Inline speed skating.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-5195739605929852680_4_1",
+      "conversation_id": "sharded-totto_-5195739605929852680",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "The table displays the medal winners for various inline speed skating events at the 2009 World Games, with the highlighted cells indicating the gold medalists from Chinese Taipei in the women's events.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-5195739605929852680_1_1",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_2",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_3",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_4",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_5",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_6",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_7",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_8",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_9",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-5195739605929852680_1_10",
+      "target": "sharded-totto_-5195739605929852680_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

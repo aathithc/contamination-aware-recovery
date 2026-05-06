@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-totto_5379601793177459923",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Year, Award, Category, Recipient(s), Result, Ref(s)\n2019 | Hollywood Reel Independent Film Festival Awards | Best Director | Daniel Farrands | Won [highlighted]\n2019 | Hollywood Reel Independent Film Festival Awards | Best Actress | Hilary Duff | Won [highlighted]\n2019 | Hollywood Reel Independent Film Festival Awards | Best Horror Movie | The Haunting of Sharon Tate | Won [highlighted]\nThe table_webpage_url is http://en.wikipedia.org/wiki/The_Haunting_of_Sharon_Tate.\nThe table_page_title is The Haunting of Sharon Tate.\nThe table_section_title is Reception.",
+  "included_node_ids": [
+    "sharded-totto_5379601793177459923_0_0",
+    "sharded-totto_5379601793177459923_1_0",
+    "sharded-totto_5379601793177459923_1_1",
+    "sharded-totto_5379601793177459923_1_2",
+    "sharded-totto_5379601793177459923_1_3",
+    "sharded-totto_5379601793177459923_2_0",
+    "sharded-totto_5379601793177459923_3_0",
+    "sharded-totto_5379601793177459923_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_5379601793177459923_2_1",
+    "sharded-totto_5379601793177459923_3_1",
+    "sharded-totto_5379601793177459923_4_1"
+  ]
+}

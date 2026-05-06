@@ -1,0 +1,200 @@
+{
+  "conversation_id": "sharded-totto_-7477353734244246187",
+  "nodes": [
+    {
+      "id": "sharded-totto_-7477353734244246187_0_0",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_1_0",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_1_1",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "167 | Gold: Deep: Oyaji Deep [highlighted]",
+      "entities": [
+        "Deep: Oyaji Deep"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "#",
+        "column": "Event title",
+        "value": "Deep: Oyaji Deep",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_1_2",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "167 | Date: December 18, 2011 [highlighted]",
+      "entities": [
+        "December 18, 2011"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "#",
+        "column": "Date",
+        "value": "December 18, 2011",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_1_3",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "167 | Arena: Asunal Kanayama Hall [highlighted]",
+      "entities": [
+        "Asunal Kanayama Hall"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "#",
+        "column": "Arena",
+        "value": "Asunal Kanayama Hall",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_1_4",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "167 | Location: Nagoya [highlighted]",
+      "entities": [
+        "Nagoya"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "#",
+        "column": "Location",
+        "value": "Nagoya",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_2_0",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2011_in_Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_2_1",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists 30 MMA events organized by the Deep promotion in 2011, including event titles, dates, arenas, and locations, as found on the Wikipedia page at http://en.wikipedia.org/wiki/2011_in_Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_3_0",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is 2011 in Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_3_1",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists 30 MMA events organized by the Deep promotion in 2011, including event titles, dates, arenas, and locations, as found on the Wikipedia page titled '2011 in Deep' at http://en.wikipedia.org/wiki/2011_in_Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_4_0",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Events list.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-7477353734244246187_4_1",
+      "conversation_id": "sharded-totto_-7477353734244246187",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, titled 'Events list', lists 30 MMA events organized by the Deep promotion in 2011, including event titles, dates, arenas, and locations, as found on the Wikipedia page titled '2011 in Deep' at http://en.wikipedia.org/wiki/2011_in_Deep.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-7477353734244246187_1_1",
+      "target": "sharded-totto_-7477353734244246187_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7477353734244246187_1_2",
+      "target": "sharded-totto_-7477353734244246187_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7477353734244246187_1_3",
+      "target": "sharded-totto_-7477353734244246187_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-7477353734244246187_1_4",
+      "target": "sharded-totto_-7477353734244246187_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

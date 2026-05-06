@@ -1,0 +1,20 @@
+{
+  "conversation_id": "sharded-totto_5550605730650873901",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\nTable columns: Caribbean, Pacific, Africa, Indian Ocean, Mediterranean and South China Sea (AIMS)\nCaribbean |  | Anguilla\nPacific |  | American Samoa\nAfrica, Indian Ocean, Mediterranean and South China Sea (AIMS) |  | Bahrain\nThe table_webpage_url is http://en.wikipedia.org/wiki/Small_Island_Developing_States.\nThe table_page_title is Small Island Developing States.\nThe table_section_title is List of SIDS.",
+  "included_node_ids": [
+    "sharded-totto_5550605730650873901_0_0",
+    "sharded-totto_5550605730650873901_1_0",
+    "sharded-totto_5550605730650873901_1_1",
+    "sharded-totto_5550605730650873901_1_2",
+    "sharded-totto_5550605730650873901_1_3",
+    "sharded-totto_5550605730650873901_2_0",
+    "sharded-totto_5550605730650873901_3_0",
+    "sharded-totto_5550605730650873901_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_5550605730650873901_2_1",
+    "sharded-totto_5550605730650873901_3_1",
+    "sharded-totto_5550605730650873901_4_1"
+  ]
+}

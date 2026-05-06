@@ -1,0 +1,28 @@
+{
+  "conversation_id": "sharded-totto_-8257732455267918872",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: #, Event Title, Date, Arena, Location\n31 | KOTC 31: King of the Cage 31 | December 6, 2003 | Soboba Casino | San Jacinto, California\n22 | KOTC 22: Steel Warrior | March 23, 2003 | Soboba Casino | San Jacinto, California\n21 | KOTC 21: Invasion | February 21, 2003 | Santa Ana Star Hotel & Casino | Albuquerque, New Mexico\n30 | KOTC 30: The Pinnacle | November 12, 2003 | Pala Casino Spa Resort | Pala, California\n29 | KOTC 29: Renegades | September 5, 2003 | Soboba Casino | San Jacinto, California\n28 | KOTC 28: More Punishment | August 16, 2003 | N/A | Reno, Nevada\n27 | KOTC 27: Aftermath | August 10, 2003 | Saboba Casino | San Jacinto, California\n26 | KOTC 26: Gladiator Challenge | August 3, 2003 | Sky City Casino | Acoma, New Mexico\n25 | KOTC 25: Flaming Fury | June 29, 2003 | Soboba Casino | San Jacinto, California\n24 | KOTC 24: Mayhem | June 14, 2003 | N/A | Albuquerque, New Mexico\n23 | KOTC 23: Sin City | May 16, 2003 | Orleans Hotel Casino | Las Vegas, Nevada\nThe table_webpage_url is http://en.wikipedia.org/wiki/2003_in_King_of_the_Cage.\nThe table_page_title is 2003 in King of the Cage.\nThe table_section_title is Events list.",
+  "included_node_ids": [
+    "sharded-totto_-8257732455267918872_0_0",
+    "sharded-totto_-8257732455267918872_1_0",
+    "sharded-totto_-8257732455267918872_1_1",
+    "sharded-totto_-8257732455267918872_1_10",
+    "sharded-totto_-8257732455267918872_1_11",
+    "sharded-totto_-8257732455267918872_1_2",
+    "sharded-totto_-8257732455267918872_1_3",
+    "sharded-totto_-8257732455267918872_1_4",
+    "sharded-totto_-8257732455267918872_1_5",
+    "sharded-totto_-8257732455267918872_1_6",
+    "sharded-totto_-8257732455267918872_1_7",
+    "sharded-totto_-8257732455267918872_1_8",
+    "sharded-totto_-8257732455267918872_1_9",
+    "sharded-totto_-8257732455267918872_2_0",
+    "sharded-totto_-8257732455267918872_3_0",
+    "sharded-totto_-8257732455267918872_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-8257732455267918872_2_1",
+    "sharded-totto_-8257732455267918872_3_1",
+    "sharded-totto_-8257732455267918872_4_1"
+  ]
+}

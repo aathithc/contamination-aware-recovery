@@ -1,0 +1,144 @@
+{
+  "conversation_id": "sharded-totto_-4157060416941050999",
+  "nodes": [
+    {
+      "id": "sharded-totto_-4157060416941050999_0_0",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_1_0",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Chart (1989), Peak position",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_1_1",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "UK Albums Chart | Peak position: 24",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "UK Albums Chart",
+        "column": "Peak position",
+        "value": "24",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_1_2",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Billboard 200 | Peak position: 169 [highlighted]",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Billboard 200",
+        "column": "Peak position",
+        "value": "169",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_2_0",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/This_Is_the_Day...This_Is_the_Hour...This_Is_This!",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_2_1",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the peak position of 169 on the Billboard 200 chart for a 1989 album, as found on the Wikipedia page http://en.wikipedia.org/wiki/This_Is_the_Day...This_Is_the_Hour...This_Is_This!.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_3_0",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is This Is the Day...This Is the Hour...This Is This!.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_3_1",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the peak position of 169 on the Billboard 200 chart for a 1989 album, as found on the Wikipedia page \"This Is the Day...This Is the Hour...This Is This!\".",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_4_0",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Charts.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-4157060416941050999_4_1",
+      "conversation_id": "sharded-totto_-4157060416941050999",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table in the \"Charts\" section highlighting the peak position of 169 on the Billboard 200 chart for a 1989 album, as found on the Wikipedia page \"This Is the Day...This Is the Hour...This Is This!\".",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-4157060416941050999_1_1",
+      "target": "sharded-totto_-4157060416941050999_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-4157060416941050999_1_2",
+      "target": "sharded-totto_-4157060416941050999_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

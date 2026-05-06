@@ -1,0 +1,21 @@
+{
+  "conversation_id": "sharded-totto_-6348715672223667663",
+  "method": "trust_filtered",
+  "prompt": "Reference table-description examples provided.\n49 | Deep: 27 Impact | December 20, 2006 | Korakuen Hall | Tokyo\n48 | Deep: clubDeep Tokyo: Future King Tournament 2006 [highlighted] | December 9, 2006 [highlighted] | Shinjuku Face [highlighted] | Tokyo [highlighted]\n48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 [highlighted] | Shinjuku Face [highlighted] | Tokyo [highlighted]\n48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 | Shinjuku Face [highlighted] | Tokyo [highlighted]\n48 | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 | Shinjuku Face | Tokyo [highlighted]\ntable_webpage_url is http://en.wikipedia.org/wiki/2006_in_Deep.\ntable_page_title is 2006 in Deep.\ntable_section_title is Events list.",
+  "included_node_ids": [
+    "sharded-totto_-6348715672223667663_0_0",
+    "sharded-totto_-6348715672223667663_1_0",
+    "sharded-totto_-6348715672223667663_1_1",
+    "sharded-totto_-6348715672223667663_1_2",
+    "sharded-totto_-6348715672223667663_1_3",
+    "sharded-totto_-6348715672223667663_1_4",
+    "sharded-totto_-6348715672223667663_2_0",
+    "sharded-totto_-6348715672223667663_3_0",
+    "sharded-totto_-6348715672223667663_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-6348715672223667663_2_1",
+    "sharded-totto_-6348715672223667663_3_1",
+    "sharded-totto_-6348715672223667663_4_1"
+  ]
+}

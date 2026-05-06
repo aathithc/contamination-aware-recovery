@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-6391398674965984921",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Region          | Date               | Format          | Label             |\n|-----------------|--------------------|------------------|-------------------|\n| United States    | 15 November 2013    | Digital download  | Atlantic Records   |\n\nHighlighted:\n- United States\n- 15 November 2013\n- Digital download\n- Atlantic Records\n\nContext:\nThe table_webpage_url is http://en.wikipedia.org/wiki/Want_Dem_All. The table_page_title is Want Dem All. The table_section_title is Release history.\n\nInstruction:\nFormat the table for presentation.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

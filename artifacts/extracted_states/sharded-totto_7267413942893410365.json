@@ -1,0 +1,433 @@
+{
+  "conversation_id": "sharded-totto_7267413942893410365",
+  "nodes": [
+    {
+      "id": "sharded-totto_7267413942893410365_0_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_1_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 1,
+      "source": "user",
+      "type": "fact",
+      "text": "The input table shows the rankings of college football players by total yards gained.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_1_1",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table displaying the top 5 college football players ranked by total yards gained.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Rank, Name, Team, Yards",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_1",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Name: Ron Johnson | Team: Michigan | Yards: 1,391",
+      "entities": [
+        "Ron Johnson",
+        "Michigan"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Name",
+        "value": "Ron Johnson",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_2",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1 | Name: Ron Johnson | Team: Michigan | Yards: 1,391",
+      "entities": [
+        "Ron Johnson",
+        "Michigan"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1",
+        "column": "Yards",
+        "value": "1,391",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_3",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Name: Leroy Keyes | Team: Purdue | Yards: 1,003",
+      "entities": [
+        "Leroy Keyes",
+        "Purdue"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Name",
+        "value": "Leroy Keyes",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_4",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2 | Name: Leroy Keyes | Team: Purdue | Yards: 1,003",
+      "entities": [
+        "Leroy Keyes",
+        "Purdue"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "2",
+        "column": "Yards",
+        "value": "1,003",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_5",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]",
+      "entities": [
+        "Jim Otis",
+        "Ohio State"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Name",
+        "value": "Jim Otis",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_6",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]",
+      "entities": [
+        "Jim Otis",
+        "Ohio State"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Team",
+        "value": "Ohio State",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_7",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "3 | Name: Jim Otis | Team: Ohio State | Yards: 985 [highlighted]",
+      "entities": [
+        "Jim Otis",
+        "Ohio State"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "3",
+        "column": "Yards",
+        "value": "985",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_8",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "4 | Name: Rich Johnson | Team: Illinois | Yards: 973",
+      "entities": [
+        "Rich Johnson",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "4",
+        "column": "Name",
+        "value": "Rich Johnson",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_9",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "4 | Name: Rich Johnson | Team: Illinois | Yards: 973",
+      "entities": [
+        "Rich Johnson",
+        "Illinois"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "4",
+        "column": "Yards",
+        "value": "973",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_10",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "5 | Name: Ed Podolak | Team: Iowa | Yards: 937",
+      "entities": [
+        "Ed Podolak",
+        "Iowa"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "5",
+        "column": "Name",
+        "value": "Ed Podolak",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_2_11",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 2,
+      "source": "user",
+      "type": "structural_record",
+      "text": "5 | Name: Ed Podolak | Team: Iowa | Yards: 937",
+      "entities": [
+        "Ed Podolak",
+        "Iowa"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "5",
+        "column": "Yards",
+        "value": "937",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_3_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/1968_Big_Ten_Conference_football_season.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_3_1",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "I understand.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_4_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_page_title is 1968 Big Ten Conference football season.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_4_1",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the player Jim Otis from Ohio State who had 985 yards, from the 1968 Big Ten Conference football season Wikipedia page.",
+      "entities": [
+        "Jim Otis",
+        "Ohio State"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_5_0",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 5,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_section_title is Rushing yards.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_7267413942893410365_5_1",
+      "conversation_id": "sharded-totto_7267413942893410365",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting the player Jim Otis from Ohio State who had 985 rushing yards, from the Rushing yards section of the 1968 Big Ten Conference football season Wikipedia page.",
+      "entities": [
+        "Jim Otis",
+        "Ohio State"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_7267413942893410365_1_0",
+      "target": "sharded-totto_7267413942893410365_0_0",
+      "type": "supports",
+      "rationale": "user describes reference examples"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_1_1",
+      "target": "sharded-totto_7267413942893410365_1_0",
+      "type": "supports",
+      "rationale": "describing table content"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_5",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_6",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_7",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_8",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_9",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_10",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_2_11",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_3_0",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "supports",
+      "rationale": "providing web page URL"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_4_0",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "supports",
+      "rationale": "providing page title"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_5_0",
+      "target": "sharded-totto_7267413942893410365_2_0",
+      "type": "supports",
+      "rationale": "providing section title"
+    },
+    {
+      "source": "sharded-totto_7267413942893410365_5_1",
+      "target": "sharded-totto_7267413942893410365_4_1",
+      "type": "supports",
+      "rationale": "describing the table's content added with section detail"
+    }
+  ],
+  "attributes": {}
+}

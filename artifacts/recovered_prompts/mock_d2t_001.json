@@ -1,0 +1,13 @@
+{
+  "conversation_id": "mock_d2t_001",
+  "method": "structural_graph",
+  "prompt": "Table: Sales Q1\nRelevant highlighted cells:\n  - Row: Product A\n    Column: Revenue\n    Value: $500K\n    Highlighted: true\nSupporting context:\n  - Table: Sales Q1\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "mock_d2t_001_0_1",
+    "mock_d2t_001_0_0"
+  ],
+  "excluded_node_ids": [
+    "mock_d2t_001_0_2",
+    "mock_d2t_001_1_0"
+  ]
+}

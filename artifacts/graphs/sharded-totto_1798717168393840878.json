@@ -1,0 +1,227 @@
+{
+  "conversation_id": "sharded-totto_1798717168393840878",
+  "nodes": [
+    {
+      "id": "sharded-totto_1798717168393840878_0_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_1_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Character, Film",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_1_1",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "An Unexpected Journey | Bilbo Baggins | Martin Freeman [highlighted]",
+      "entities": [
+        "Bilbo Baggins",
+        "Martin Freeman"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Bilbo Baggins",
+        "column": "An Unexpected Journey",
+        "value": "Martin Freeman",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_1_2",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "The Desolation of Smaug | Bilbo Baggins | Martin Freeman [highlighted]",
+      "entities": [
+        "Bilbo Baggins",
+        "Martin Freeman"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Bilbo Baggins",
+        "column": "The Desolation of Smaug",
+        "value": "Martin Freeman",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_1_3",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "The Battle of the Five Armies | Bilbo Baggins | Martin Freeman [highlighted]",
+      "entities": [
+        "Bilbo Baggins",
+        "Martin Freeman"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "Bilbo Baggins",
+        "column": "The Battle of the Five Armies",
+        "value": "Martin Freeman",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_1_4",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 1,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table highlights the actors who appeared in each of the three Hobbit films, with the highlighted cells indicating the specific films in which they appeared.",
+      "entities": [],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_2_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/The_Hobbit_(film_series).",
+      "entities": [
+        "http://en.wikipedia.org/wiki/The_Hobbit_(film_series)"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_2_1",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table provides a comprehensive list of characters from the Hobbit film trilogy, including their roles in each of the three films, as sourced from the Wikipedia page at http://en.wikipedia.org/wiki/The_Hobbit_(film_series).",
+      "entities": [
+        "http://en.wikipedia.org/wiki/The_Hobbit_(film_series)"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_3_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is The Hobbit (film series).",
+      "entities": [
+        "The Hobbit (film series)"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_3_1",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia page 'The Hobbit (film series)' provides a comprehensive list of characters from the Hobbit film trilogy, including their roles in each of the three films.",
+      "entities": [
+        "The Hobbit (film series)"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_4_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Cast.",
+      "entities": [
+        "Cast"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_4_1",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the 'Cast' section of the Wikipedia page 'The Hobbit (film series)' provides a comprehensive list of characters from the Hobbit film trilogy, including their roles in each of the three films.",
+      "entities": [
+        "Cast",
+        "The Hobbit (film series)"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_5_0",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 5,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_text is 'The following is a list of cast members who voiced or portrayed characters appearing in The Hobbit films. Character Film An Unexpected Journey, The Desolation of Smaug, The Battle of the Five Armies.'",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1798717168393840878_5_1",
+      "conversation_id": "sharded-totto_1798717168393840878",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the 'Cast' section of the Wikipedia page 'The Hobbit (film series)' provides a comprehensive list of characters from the Hobbit film trilogy, including the actors who portrayed them in each of the three films: An Unexpected Journey, The Desolation of Smaug, and The Battle of the Five Armies.",
+      "entities": [
+        "An Unexpected Journey",
+        "The Desolation of Smaug",
+        "The Battle of the Five Armies"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_1798717168393840878_1_1",
+      "target": "sharded-totto_1798717168393840878_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1798717168393840878_1_2",
+      "target": "sharded-totto_1798717168393840878_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1798717168393840878_1_3",
+      "target": "sharded-totto_1798717168393840878_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

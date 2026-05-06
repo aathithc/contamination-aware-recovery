@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-6348715672223667663",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Event No | Event Title | Date           | Arena        | Location |\n|----------|-------------|----------------|--------------|----------|\n| 49       | Deep: 27 Impact | December 20, 2006 | Korakuen Hall | Tokyo    |\n| 48       | Deep: clubDeep Tokyo: Future King Tournament 2006 | December 9, 2006 | Shinjuku Face  | Tokyo    |\n\nHighlighted:\n- Deep: clubDeep Tokyo: Future King Tournament 2006\n- December 9, 2006\n- Shinjuku Face\n- Tokyo\n\nContext:\n- Table webpage URL is http://en.wikipedia.org/wiki/2006_in_Deep.\n- Table page title is 2006 in Deep.\n- Table section title is Events list.\n\nInstruction:\nProvide a description of the highlighted event.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

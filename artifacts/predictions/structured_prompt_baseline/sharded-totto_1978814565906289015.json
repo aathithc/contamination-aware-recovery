@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_1978814565906289015",
+  "method": "structured_prompt_baseline",
+  "prediction": "Kim Hye-soo received multiple nominations for Best Actress at both the 48th Grand Bell Awards and the 32nd Blue Dragon Film Awards. Additionally, she won the Best Actress award at the Popular Star Award ceremony.",
+  "success": true,
+  "baseline_success": true
+}

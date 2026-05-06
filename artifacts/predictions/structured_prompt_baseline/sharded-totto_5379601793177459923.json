@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_5379601793177459923",
+  "method": "structured_prompt_baseline",
+  "prediction": "In 2019, Daniel Farrands won the Best Director award, Hilary Duff won the Best Actress award, and the film \"The Haunting of Sharon Tate\" won the award for Best Horror Movie at the Hollywood Reel Independent Film Festival Awards. All highlighted recipients achieved recognition in their respective categories.",
+  "success": false,
+  "baseline_success": true
+}

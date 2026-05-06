@@ -6,107 +6,8 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 0,
       "source": "user",
-      "type": "fact",
-      "text": "Hagino's fellow countryman Daiya Seto captured the bronze in 4:09.71, to give Japan two swimmers on the same Olympic podium.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_1",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "In 2017, Stamenković appeared in the Kazakhstan Premier League for Irtysh Pavlodar.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_2",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Mr S.C. Behar was the Director General of RCVP Noronha Academy of Administration from 01.04.1997 until 31.01.1999.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_3",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "In 2014 United States Senate election in Mississippi, Cochran and McDaniel received 49.0% and 49.5% of the votes.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_4",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Óengus mac Nad Froích was the King of Munster until 489.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_5",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "They reached a first innings score of 195, a total propped up by a score of 54 by batsman Mbekezeli Mabuza.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_6",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Hungarian Rhapsody No. 11, S.244/11, in A minor, is the eleventh Hungarian Rhapsody by Franz Liszt.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_7",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Tobias Harris scored 15.3 points per game.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_8",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "WMRQ-FM's translator stations were 97.1 W246CC in Bolton, 99.5 W258AL in Clinton, and 104.5 W283BS in Bridgeport.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_0_9",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 0,
-      "source": "user",
-      "type": "fact",
-      "text": "Lacourt was dropped to a fourth-place time in 53.08.",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -115,9 +16,9 @@
       "id": "sharded-totto_8581319284013960198_1_0",
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 1,
-      "source": "assistant",
-      "type": "answer_candidate",
-      "text": "A table listing various buildings and structures associated with the Grand Preceptor.",
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: the Grand Preceptor Temple, the Xunqiu Cottage, the Grand Preceptor Hall, the Grand Preceptor Well, the Old Tablet Pavilion, Gate",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -127,10 +28,19 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 1,
       "source": "user",
-      "type": "fact",
-      "text": "I am now giving you a version of the table with some cells highlights (by adding a highlighted class to each cell).",
-      "entities": [],
-      "attributes": {},
+      "type": "structural_record",
+      "text": "Row 0 | Column 0: the Grand Preceptor Temple [highlighted]",
+      "entities": [
+        "the Grand Preceptor Temple"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Row 0",
+        "column": "Column 0",
+        "value": "the Grand Preceptor Temple",
+        "highlighted": true
+      },
       "status": "active"
     },
     {
@@ -138,21 +48,99 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 1,
       "source": "user",
-      "type": "fact",
-      "text": "The table has highlighted cells now.",
-      "entities": [],
-      "attributes": {},
+      "type": "structural_record",
+      "text": "Row 0 | Column 1: the Xunqiu Cottage [highlighted]",
+      "entities": [
+        "the Xunqiu Cottage"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Row 0",
+        "column": "Column 1",
+        "value": "the Xunqiu Cottage",
+        "highlighted": true
+      },
       "status": "active"
     },
     {
       "id": "sharded-totto_8581319284013960198_1_3",
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 1,
-      "source": "assistant",
-      "type": "answer_candidate",
-      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor.",
-      "entities": [],
-      "attributes": {},
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 0 | Column 2: the Grand Preceptor Hall [highlighted]",
+      "entities": [
+        "the Grand Preceptor Hall"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "Row 0",
+        "column": "Column 2",
+        "value": "the Grand Preceptor Hall",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_1_4",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 1 | Column 0: the Grand Preceptor Well [highlighted]",
+      "entities": [
+        "the Grand Preceptor Well"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Row 1",
+        "column": "Column 0",
+        "value": "the Grand Preceptor Well",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_1_5",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 1 | Column 1: the Old Tablet Pavilion [highlighted]",
+      "entities": [
+        "the Old Tablet Pavilion"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Row 1",
+        "column": "Column 1",
+        "value": "the Old Tablet Pavilion",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_1_6",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Row 1 | Column 2: Gate [highlighted]",
+      "entities": [
+        "Gate"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Row 1",
+        "column": "Column 2",
+        "value": "Gate",
+        "highlighted": true
+      },
       "status": "active"
     },
     {
@@ -160,19 +148,8 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 2,
       "source": "user",
-      "type": "fact",
-      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_2_1",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 2,
-      "source": "assistant",
-      "type": "derivation",
-      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
+      "type": "metadata",
+      "text": "Table webpage URL: http://en.wikipedia.org/wiki/Former_Residence_of_Jia_Yi",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -182,19 +159,8 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 3,
       "source": "user",
-      "type": "fact",
-      "text": "The table_page_title is Former Residence of Jia Yi.",
-      "entities": [],
-      "attributes": {},
-      "status": "active"
-    },
-    {
-      "id": "sharded-totto_8581319284013960198_3_1",
-      "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 3,
-      "source": "assistant",
-      "type": "derivation",
-      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
+      "type": "metadata",
+      "text": "Table page title: Former Residence of Jia Yi.",
       "entities": [],
       "attributes": {},
       "status": "active"
@@ -204,18 +170,51 @@
       "conversation_id": "sharded-totto_8581319284013960198",
       "turn_index": 4,
       "source": "user",
-      "type": "fact",
-      "text": "The table_section_title is Gallery.",
+      "type": "metadata",
+      "text": "Table section title: Gallery.",
       "entities": [],
       "attributes": {},
       "status": "active"
     },
     {
-      "id": "sharded-totto_8581319284013960198_4_1",
+      "id": "sharded-totto_8581319284013960198_5_0",
       "conversation_id": "sharded-totto_8581319284013960198",
-      "turn_index": 4,
+      "turn_index": 5,
       "source": "assistant",
-      "type": "derivation",
+      "type": "answer_candidate",
+      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_5_1",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_5_2",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "A table highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_8581319284013960198_5_3",
+      "conversation_id": "sharded-totto_8581319284013960198",
+      "turn_index": 5,
+      "source": "assistant",
+      "type": "answer_candidate",
       "text": "A table in the Gallery section highlighting various buildings and structures associated with the Grand Preceptor, located at the Former Residence of Jia Yi.",
       "entities": [],
       "attributes": {},
@@ -224,22 +223,40 @@
   ],
   "edges": [
     {
-      "source": "sharded-totto_8581319284013960198_2_1",
-      "target": "sharded-totto_8581319284013960198_2_0",
-      "type": "derived_from",
-      "rationale": "assistant claim derived from user fact"
+      "source": "sharded-totto_8581319284013960198_1_1",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     },
     {
-      "source": "sharded-totto_8581319284013960198_3_1",
-      "target": "sharded-totto_8581319284013960198_3_0",
-      "type": "derived_from",
-      "rationale": "assistant claim derived from user fact"
+      "source": "sharded-totto_8581319284013960198_1_2",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     },
     {
-      "source": "sharded-totto_8581319284013960198_4_1",
-      "target": "sharded-totto_8581319284013960198_4_0",
-      "type": "derived_from",
-      "rationale": "assistant claim derived from user fact"
+      "source": "sharded-totto_8581319284013960198_1_3",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8581319284013960198_1_4",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8581319284013960198_1_5",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_8581319284013960198_1_6",
+      "target": "sharded-totto_8581319284013960198_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
     }
   ],
   "attributes": {}

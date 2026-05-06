@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-4975932977579359049",
+  "method": "structured_prompt_baseline",
+  "prediction": "The highlighted cell represents the event \"Fight Nights Global 78: Tsarev vs. Guseinov,\" which took place on November 4, 2017, at the Lada Arena located in Tolyatti, Russia. This event is part of the Fight Nights Global series and adds to the rich history of mixed martial arts in the region.",
+  "success": true,
+  "baseline_success": true
+}

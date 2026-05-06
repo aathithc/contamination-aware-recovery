@@ -1,0 +1,192 @@
+{
+  "conversation_id": "sharded-totto_5550605730650873901",
+  "nodes": [
+    {
+      "id": "sharded-totto_5550605730650873901_0_0",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_1_0",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Caribbean, Pacific, Africa, Indian Ocean, Mediterranean and South China Sea (AIMS)",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_1_1",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Caribbean |  | Anguilla",
+      "entities": [
+        "Anguilla"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Caribbean",
+        "column": "Country",
+        "value": "Anguilla",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_1_2",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Pacific |  | American Samoa",
+      "entities": [
+        "American Samoa"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Pacific",
+        "column": "Country",
+        "value": "American Samoa",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_1_3",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "Africa, Indian Ocean, Mediterranean and South China Sea (AIMS) |  | Bahrain",
+      "entities": [
+        "Bahrain"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "Africa, Indian Ocean, Mediterranean and South China Sea (AIMS)",
+        "column": "Country",
+        "value": "Bahrain",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_2_0",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 2,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Small_Island_Developing_States.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_2_1",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia article on Small Island Developing States highlights the regions of the Caribbean, Pacific, and Africa, Indian Ocean, Mediterranean and South China Sea (AIMS), listing the countries and territories within each region.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_3_0",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 3,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_page_title is Small Island Developing States.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_3_1",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the Wikipedia article \"Small Island Developing States\" highlights the regions of the Caribbean, Pacific, and Africa, Indian Ocean, Mediterranean and South China Sea (AIMS), listing the countries and territories within each region.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_4_0",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 4,
+      "source": "user",
+      "type": "metadata",
+      "text": "The table_section_title is List of SIDS.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_5550605730650873901_4_1",
+      "conversation_id": "sharded-totto_5550605730650873901",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table from the \"List of SIDS\" section of the Wikipedia article \"Small Island Developing States\" highlights the regions of the Caribbean, Pacific, and Africa, Indian Ocean, Mediterranean and South China Sea (AIMS), listing the countries and territories within each region.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_5550605730650873901_1_0",
+      "target": "sharded-totto_5550605730650873901_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_5550605730650873901_1_1",
+      "target": "sharded-totto_5550605730650873901_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_5550605730650873901_1_2",
+      "target": "sharded-totto_5550605730650873901_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_5550605730650873901_2_1",
+      "target": "sharded-totto_5550605730650873901_2_0",
+      "type": "supports",
+      "rationale": "metadata references table"
+    },
+    {
+      "source": "sharded-totto_5550605730650873901_3_1",
+      "target": "sharded-totto_5550605730650873901_3_0",
+      "type": "supports",
+      "rationale": "metadata references table"
+    },
+    {
+      "source": "sharded-totto_5550605730650873901_4_1",
+      "target": "sharded-totto_5550605730650873901_4_0",
+      "type": "supports",
+      "rationale": "metadata references table"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,13 @@
+{
+  "conversation_id": "mock_math_001",
+  "method": "trust_filtered",
+  "prompt": "Let x = 5.\nNo, x = 5, not 10.",
+  "included_node_ids": [
+    "mock_math_001_0_0",
+    "mock_math_001_2_0"
+  ],
+  "excluded_node_ids": [
+    "mock_math_001_1_0",
+    "mock_math_001_1_1"
+  ]
+}

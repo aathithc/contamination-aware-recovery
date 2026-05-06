@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-totto_-1368446073372924912",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 1\n    Column: Event Title\n    Value: Rings Holland: The Untouchables\n    Highlighted: true\n  - Row: 1\n    Column: Date\n    Value: September 27, 2003\n    Highlighted: true\n  - Row: 1\n    Column: Arena\n    Value: Vechtsebanen Sport Hall\n    Highlighted: true\n  - Row: 1\n    Column: Location\n    Value: Utrecht, Netherlands\n    Highlighted: true\nSupporting context:\n  - Table columns: #, Event Title, Date, Arena, Location\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_-1368446073372924912_1_7",
+    "sharded-totto_-1368446073372924912_1_8",
+    "sharded-totto_-1368446073372924912_1_9",
+    "sharded-totto_-1368446073372924912_1_10",
+    "sharded-totto_-1368446073372924912_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-1368446073372924912_0_0",
+    "sharded-totto_-1368446073372924912_2_0",
+    "sharded-totto_-1368446073372924912_1_2",
+    "sharded-totto_-1368446073372924912_4_1",
+    "sharded-totto_-1368446073372924912_3_0",
+    "sharded-totto_-1368446073372924912_1_4",
+    "sharded-totto_-1368446073372924912_1_5",
+    "sharded-totto_-1368446073372924912_1_1",
+    "sharded-totto_-1368446073372924912_1_6",
+    "sharded-totto_-1368446073372924912_2_1",
+    "sharded-totto_-1368446073372924912_1_3",
+    "sharded-totto_-1368446073372924912_4_0",
+    "sharded-totto_-1368446073372924912_3_1"
+  ]
+}

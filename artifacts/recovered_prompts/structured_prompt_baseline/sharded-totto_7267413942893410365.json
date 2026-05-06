@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_7267413942893410365",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Rank | Name          | Team           | Yards |\n|------|---------------|----------------|-------|\n| 1    | Ron Johnson   | Michigan       | 1,391 |\n| 2    | Leroy Keyes   | Purdue         | 1,003 |\n| 3    | Jim Otis      | Ohio State     | 985   |\n| 4    | Rich Johnson   | Illinois       | 973   |\n| 5    | Ed Podolak     | Iowa           | 937   |\n\nHighlighted:\n- Jim Otis, Ohio State, 985\n\nContext:\n- Rushing yards section of the 1968 Big Ten Conference football season Wikipedia page.\n\nInstruction:\n- Summarize the highlighted player and their stats.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

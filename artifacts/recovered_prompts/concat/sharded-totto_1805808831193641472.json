@@ -1,0 +1,42 @@
+{
+  "conversation_id": "sharded-totto_1805808831193641472",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Year, Title, Role, Notes\n1953–1955 | Title: Topper | Role: Marion Kerby | Notes: 78 episodes\n1975–1976 | Title: Police Story | Role: Examiner Murphy / Marie Tabor | Notes: 2 episodes\n1978–1982 | Title: Fantasy Island | Role: Nancy Ogden / Cissy Darumple / Sally Dupres | Notes: 3 episodes\n1978 | Title: Flying High | Role: Mrs. Benton | Notes: Episode: \"In the Still of the Night\"\n1979 | Title: Battlestar Galactica | Role: Siress Blassie | Notes: Episode: \"The Man with Nine Lives\"\n1979 | Title: Vega$ | Role: Cynthia | Notes: Episode: \"Doubtful Target\"\n1979 | Title: Beggarman, Thief | Role: Honor Day | Notes: TV movie\n1982–1983 | Title: Falcon Crest | Role: Amanda Croft | Notes: 7 episodes\n1983 | Title: Matt Houston | Role: Elisabeth Davis | Notes: Episode: \"Here's Another Fine Mess\"\n1984 | Title: Hotel | Role: Mrs. Jenks | Notes: Episode: \"Tomorrows\"\n1984–1985 | Title: Finder of Lost Loves | Role: Rita Hargrove | Notes: 23 episodes\n1955 | Title: Dearest Enemy | Role: Betsy Burke | Notes: TV movie\n1984–2004 | Title: General Hospital | Role: Amanda Barrington | Notes: 361 episodes\n1986 | Title: Murder, She Wrote | Role: Agnes Shipley | Notes: Episode: \"If a Body Meet a Body\"\n1992 | Title: L.A. Law | Role: Lilah Vandenberg | Notes: Episode: \"I'm Ready for My Closeup, Mr. Markowitz\"\n1993–1998 | Title: Baywatch | Role: Irene Buchannon | Notes: 5 episodes\n1999–2003 | Title: Port Charles | Role: Amanda Barrington | Notes: 17 episodes\n2013 | Title: Getting On | Role: Donna Hewler | Notes: Episode: \"If You're Going to San Francisco\"\n1957 | Title: Wagon Train | Role: Julia Gage | Notes: Episode: The Julia Gage Story\n1957 | Title: Wagon Train | Role: Mary Beckett | Notes: Episode: The Mary Beckett Story\n1966 | Title: Bonanza | Role: Lily | Notes: Episode: \"The Unwritten Commandment\"\n1966 | Title: The Man from U.N.C.L.E. | Role: Calamity Rogers | Notes: Episode: \"The Abominable Snowman Affair\"\n1969 | Title: My Three Sons | Role: Mrs. Carstairs | Notes: Episode: What did you do today Grandpa\n1972 | Title: Love, American Style | Role: the First Lady | Notes: Segment \"Love and the President\" Episode: \"Love and the Clinic/Love and the Perfect Wedding/Love and the President/Love and the Return of Raymond\"\n1972–1973 | Title: The Delphi Bureau | Role: Sybil Van Loween | Notes: \nThe table_webpage_url is http://en.wikipedia.org/wiki/Anne_Jeffreys.\nThe table_page_title is Anne Jeffreys.\nThe table_section_title is Television.",
+  "included_node_ids": [
+    "sharded-totto_1805808831193641472_0_0",
+    "sharded-totto_1805808831193641472_1_0",
+    "sharded-totto_1805808831193641472_1_1",
+    "sharded-totto_1805808831193641472_1_10",
+    "sharded-totto_1805808831193641472_1_11",
+    "sharded-totto_1805808831193641472_1_12",
+    "sharded-totto_1805808831193641472_1_13",
+    "sharded-totto_1805808831193641472_1_14",
+    "sharded-totto_1805808831193641472_1_15",
+    "sharded-totto_1805808831193641472_1_16",
+    "sharded-totto_1805808831193641472_1_17",
+    "sharded-totto_1805808831193641472_1_18",
+    "sharded-totto_1805808831193641472_1_19",
+    "sharded-totto_1805808831193641472_1_2",
+    "sharded-totto_1805808831193641472_1_20",
+    "sharded-totto_1805808831193641472_1_21",
+    "sharded-totto_1805808831193641472_1_22",
+    "sharded-totto_1805808831193641472_1_23",
+    "sharded-totto_1805808831193641472_1_24",
+    "sharded-totto_1805808831193641472_1_25",
+    "sharded-totto_1805808831193641472_1_3",
+    "sharded-totto_1805808831193641472_1_4",
+    "sharded-totto_1805808831193641472_1_5",
+    "sharded-totto_1805808831193641472_1_6",
+    "sharded-totto_1805808831193641472_1_7",
+    "sharded-totto_1805808831193641472_1_8",
+    "sharded-totto_1805808831193641472_1_9",
+    "sharded-totto_1805808831193641472_2_0",
+    "sharded-totto_1805808831193641472_3_0",
+    "sharded-totto_1805808831193641472_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_1805808831193641472_2_1",
+    "sharded-totto_1805808831193641472_3_1",
+    "sharded-totto_1805808831193641472_4_1"
+  ]
+}

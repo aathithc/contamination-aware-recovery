@@ -1,0 +1,396 @@
+{
+  "conversation_id": "sharded-totto_-8257732455267918872",
+  "nodes": [
+    {
+      "id": "sharded-totto_-8257732455267918872_0_0",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_0",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: #, Event Title, Date, Arena, Location",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_1",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "31 | KOTC 31: King of the Cage 31 | December 6, 2003 | Soboba Casino | San Jacinto, California",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "31",
+        "column": "Event Title",
+        "value": "KOTC 31: King of the Cage 31",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_2",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "30 | KOTC 30: The Pinnacle | November 12, 2003 | Pala Casino Spa Resort | Pala, California",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "30",
+        "column": "Event Title",
+        "value": "KOTC 30: The Pinnacle",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_3",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "29 | KOTC 29: Renegades | September 5, 2003 | Soboba Casino | San Jacinto, California",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "29",
+        "column": "Event Title",
+        "value": "KOTC 29: Renegades",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_4",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "28 | KOTC 28: More Punishment | August 16, 2003 | N/A | Reno, Nevada",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "28",
+        "column": "Event Title",
+        "value": "KOTC 28: More Punishment",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_5",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "27 | KOTC 27: Aftermath | August 10, 2003 | Saboba Casino | San Jacinto, California",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "27",
+        "column": "Event Title",
+        "value": "KOTC 27: Aftermath",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_6",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "26 | KOTC 26: Gladiator Challenge | August 3, 2003 | Sky City Casino | Acoma, New Mexico",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "26",
+        "column": "Event Title",
+        "value": "KOTC 26: Gladiator Challenge",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_7",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "25 | KOTC 25: Flaming Fury | June 29, 2003 | Soboba Casino | San Jacinto, California",
+      "entities": [
+        "KOTC 25",
+        "Flaming Fury",
+        "June 29, 2003",
+        "Soboba Casino",
+        "San Jacinto, California"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "25",
+        "column": "Event Title",
+        "value": "KOTC 25: Flaming Fury",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_8",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "24 | KOTC 24: Mayhem | June 14, 2003 | N/A | Albuquerque, New Mexico",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "24",
+        "column": "Event Title",
+        "value": "KOTC 24: Mayhem",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_9",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "23 | KOTC 23: Sin City | May 16, 2003 | Orleans Hotel Casino | Las Vegas, Nevada",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "23",
+        "column": "Event Title",
+        "value": "KOTC 23: Sin City",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_10",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "22 | KOTC 22: Steel Warrior | March 23, 2003 | Soboba Casino | San Jacinto, California",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "22",
+        "column": "Event Title",
+        "value": "KOTC 22: Steel Warrior",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_1_11",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "21 | KOTC 21: Invasion | February 21, 2003 | Santa Ana Star Hotel & Casino | Albuquerque, New Mexico",
+      "entities": [],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "21",
+        "column": "Event Title",
+        "value": "KOTC 21: Invasion",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_2_0",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/2003_in_King_of_the_Cage.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_2_1",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table provides details on 12 King of the Cage (KOTC) mixed martial arts events from 2003, including the highlighted details for KOTC 25: Flaming Fury, which took place on June 29, 2003 at the Soboba Casino in San Jacinto, California.",
+      "entities": [
+        "King of the Cage",
+        "KOTC 25",
+        "Flaming Fury",
+        "June 29, 2003",
+        "Soboba Casino",
+        "San Jacinto",
+        "California"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_3_0",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is 2003 in King of the Cage.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_3_1",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table provides details on 12 King of the Cage (KOTC) mixed martial arts events that took place in 2003, including the highlighted details for KOTC 25: Flaming Fury, which took place on June 29, 2003 at the Soboba Casino in San Jacinto, California.",
+      "entities": [
+        "King of the Cage",
+        "KOTC 25",
+        "Flaming Fury",
+        "June 29, 2003",
+        "Soboba Casino",
+        "San Jacinto",
+        "California"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_4_0",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Events list.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_-8257732455267918872_4_1",
+      "conversation_id": "sharded-totto_-8257732455267918872",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table, part of the \"Events list\" section, provides details on 12 King of the Cage (KOTC) mixed martial arts events that took place in 2003, including the highlighted details for KOTC 25: Flaming Fury, which took place on June 29, 2003 at the Soboba Casino in San Jacinto, California.",
+      "entities": [
+        "King of the Cage",
+        "KOTC 25",
+        "Flaming Fury",
+        "June 29, 2003",
+        "Soboba Casino",
+        "San Jacinto",
+        "California"
+      ],
+      "attributes": {},
+      "status": "contaminated"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_-8257732455267918872_1_0",
+      "target": "sharded-totto_-8257732455267918872_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_1",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_2",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_3",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_4",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_5",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_6",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_7",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_8",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_9",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_10",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_-8257732455267918872_1_11",
+      "target": "sharded-totto_-8257732455267918872_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_1798717168393840878",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Character         | Film                          | Actor            |\n|-------------------|-------------------------------|------------------|\n| Bilbo Baggins     | An Unexpected Journey         | Martin Freeman    |\n| Bilbo Baggins     | The Desolation of Smaug       | Martin Freeman    |\n| Bilbo Baggins     | The Battle of the Five Armies | Martin Freeman    |\n\nHighlighted:\n- Bilbo Baggins | Martin Freeman (for An Unexpected Journey)\n- Bilbo Baggins | Martin Freeman (for The Desolation of Smaug)\n- Bilbo Baggins | Martin Freeman (for The Battle of the Five Armies)\n\nContext:\n- The table_webpage_url is http://en.wikipedia.org/wiki/The_Hobbit_(film_series).\n- The table_page_title is The Hobbit (film series).\n- The table_section_title is Cast.\n- The table_section_text is 'The following is a list of cast members who voiced or portrayed characters appearing in The Hobbit films. Character Film An Unexpected Journey, The Desolation of Smaug, The Battle of the Five Armies.'\n\nInstruction:\nSummarize the provided table and context.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

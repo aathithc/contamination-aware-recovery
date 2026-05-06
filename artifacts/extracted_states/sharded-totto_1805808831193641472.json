@@ -1,0 +1,825 @@
+{
+  "conversation_id": "sharded-totto_1805808831193641472",
+  "nodes": [
+    {
+      "id": "sharded-totto_1805808831193641472_0_0",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 0,
+      "source": "user",
+      "type": "metadata",
+      "text": "Reference table-description examples provided.",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_0",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "metadata",
+      "text": "Table columns: Year, Title, Role, Notes",
+      "entities": [],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_1",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1953–1955 | Title: Topper | Role: Marion Kerby | Notes: 78 episodes",
+      "entities": [
+        "Topper",
+        "Marion Kerby"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_0",
+        "row_header": "1953–1955",
+        "column": "Title",
+        "value": "Topper",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_2",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1955 | Title: Dearest Enemy | Role: Betsy Burke | Notes: TV movie",
+      "entities": [
+        "Dearest Enemy",
+        "Betsy Burke"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_1",
+        "row_header": "1955",
+        "column": "Title",
+        "value": "Dearest Enemy",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_3",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1957 | Title: Wagon Train | Role: Julia Gage | Notes: Episode: The Julia Gage Story",
+      "entities": [
+        "Wagon Train",
+        "Julia Gage"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_2",
+        "row_header": "1957",
+        "column": "Title",
+        "value": "Wagon Train",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_4",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1957 | Title: Wagon Train | Role: Mary Beckett | Notes: Episode: The Mary Beckett Story",
+      "entities": [
+        "Wagon Train",
+        "Mary Beckett"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_3",
+        "row_header": "1957",
+        "column": "Title",
+        "value": "Wagon Train",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_5",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1966 | Title: Bonanza | Role: Lily | Notes: Episode: \"The Unwritten Commandment\"",
+      "entities": [
+        "Bonanza",
+        "Lily"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_4",
+        "row_header": "1966",
+        "column": "Title",
+        "value": "Bonanza",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_6",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1966 | Title: The Man from U.N.C.L.E. | Role: Calamity Rogers | Notes: Episode: \"The Abominable Snowman Affair\"",
+      "entities": [
+        "The Man from U.N.C.L.E.",
+        "Calamity Rogers"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_5",
+        "row_header": "1966",
+        "column": "Title",
+        "value": "The Man from U.N.C.L.E.",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_7",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1969 | Title: My Three Sons | Role: Mrs. Carstairs | Notes: Episode: What did you do today Grandpa",
+      "entities": [
+        "My Three Sons",
+        "Mrs. Carstairs"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_6",
+        "row_header": "1969",
+        "column": "Title",
+        "value": "My Three Sons",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_8",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1972 | Title: Love, American Style | Role: the First Lady | Notes: Segment \"Love and the President\" Episode: \"Love and the Clinic/Love and the Perfect Wedding/Love and the President/Love and the Return of Raymond\"",
+      "entities": [
+        "Love, American Style",
+        "the First Lady"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_7",
+        "row_header": "1972",
+        "column": "Title",
+        "value": "Love, American Style",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_9",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1972–1973 | Title: The Delphi Bureau | Role: Sybil Van Loween | Notes: ",
+      "entities": [
+        "The Delphi Bureau",
+        "Sybil Van Loween"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_8",
+        "row_header": "1972–1973",
+        "column": "Title",
+        "value": "The Delphi Bureau",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_10",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1975–1976 | Title: Police Story | Role: Examiner Murphy / Marie Tabor | Notes: 2 episodes",
+      "entities": [
+        "Police Story",
+        "Examiner Murphy"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_9",
+        "row_header": "1975–1976",
+        "column": "Title",
+        "value": "Police Story",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_11",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1978–1982 | Title: Fantasy Island | Role: Nancy Ogden / Cissy Darumple / Sally Dupres | Notes: 3 episodes",
+      "entities": [
+        "Fantasy Island",
+        "Nancy Ogden"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_10",
+        "row_header": "1978–1982",
+        "column": "Title",
+        "value": "Fantasy Island",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_12",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1978 | Title: Flying High | Role: Mrs. Benton | Notes: Episode: \"In the Still of the Night\"",
+      "entities": [
+        "Flying High",
+        "Mrs. Benton"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_11",
+        "row_header": "1978",
+        "column": "Title",
+        "value": "Flying High",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_13",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1979 | Title: Battlestar Galactica | Role: Siress Blassie | Notes: Episode: \"The Man with Nine Lives\"",
+      "entities": [
+        "Battlestar Galactica",
+        "Siress Blassie"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_12",
+        "row_header": "1979",
+        "column": "Title",
+        "value": "Battlestar Galactica",
+        "highlighted": true
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_14",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1979 | Title: Vega$ | Role: Cynthia | Notes: Episode: \"Doubtful Target\"",
+      "entities": [
+        "Vega$",
+        "Cynthia"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_13",
+        "row_header": "1979",
+        "column": "Title",
+        "value": "Vega$",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_15",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1979 | Title: Beggarman, Thief | Role: Honor Day | Notes: TV movie",
+      "entities": [
+        "Beggarman, Thief",
+        "Honor Day"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_14",
+        "row_header": "1979",
+        "column": "Title",
+        "value": "Beggarman, Thief",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_16",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1982–1983 | Title: Falcon Crest | Role: Amanda Croft | Notes: 7 episodes",
+      "entities": [
+        "Falcon Crest",
+        "Amanda Croft"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_15",
+        "row_header": "1982–1983",
+        "column": "Title",
+        "value": "Falcon Crest",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_17",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1983 | Title: Matt Houston | Role: Elisabeth Davis | Notes: Episode: \"Here's Another Fine Mess\"",
+      "entities": [
+        "Matt Houston",
+        "Elisabeth Davis"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_16",
+        "row_header": "1983",
+        "column": "Title",
+        "value": "Matt Houston",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_18",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1984 | Title: Hotel | Role: Mrs. Jenks | Notes: Episode: \"Tomorrows\"",
+      "entities": [
+        "Hotel",
+        "Mrs. Jenks"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_17",
+        "row_header": "1984",
+        "column": "Title",
+        "value": "Hotel",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_19",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1984–1985 | Title: Finder of Lost Loves | Role: Rita Hargrove | Notes: 23 episodes",
+      "entities": [
+        "Finder of Lost Loves",
+        "Rita Hargrove"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_18",
+        "row_header": "1984–1985",
+        "column": "Title",
+        "value": "Finder of Lost Loves",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_20",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1984–2004 | Title: General Hospital | Role: Amanda Barrington | Notes: 361 episodes",
+      "entities": [
+        "General Hospital",
+        "Amanda Barrington"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_19",
+        "row_header": "1984–2004",
+        "column": "Title",
+        "value": "General Hospital",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_21",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1986 | Title: Murder, She Wrote | Role: Agnes Shipley | Notes: Episode: \"If a Body Meet a Body\"",
+      "entities": [
+        "Murder, She Wrote",
+        "Agnes Shipley"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_20",
+        "row_header": "1986",
+        "column": "Title",
+        "value": "Murder, She Wrote",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_22",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1992 | Title: L.A. Law | Role: Lilah Vandenberg | Notes: Episode: \"I'm Ready for My Closeup, Mr. Markowitz\"",
+      "entities": [
+        "L.A. Law",
+        "Lilah Vandenberg"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_21",
+        "row_header": "1992",
+        "column": "Title",
+        "value": "L.A. Law",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_23",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1993–1998 | Title: Baywatch | Role: Irene Buchannon | Notes: 5 episodes",
+      "entities": [
+        "Baywatch",
+        "Irene Buchannon"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_22",
+        "row_header": "1993–1998",
+        "column": "Title",
+        "value": "Baywatch",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_24",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "1999–2003 | Title: Port Charles | Role: Amanda Barrington | Notes: 17 episodes",
+      "entities": [
+        "Port Charles",
+        "Amanda Barrington"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_23",
+        "row_header": "1999–2003",
+        "column": "Title",
+        "value": "Port Charles",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_1_25",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 1,
+      "source": "user",
+      "type": "structural_record",
+      "text": "2013 | Title: Getting On | Role: Donna Hewler | Notes: Episode: \"If You're Going to San Francisco\"",
+      "entities": [
+        "Getting On",
+        "Donna Hewler"
+      ],
+      "attributes": {
+        "table_title": "Table",
+        "row_id": "row_24",
+        "row_header": "2013",
+        "column": "Title",
+        "value": "Getting On",
+        "highlighted": false
+      },
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_2_0",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 2,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_webpage_url is http://en.wikipedia.org/wiki/Anne_Jeffreys.",
+      "entities": [
+        "http://en.wikipedia.org/wiki/Anne_Jeffreys"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_2_1",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 2,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table lists the acting roles of actress Anne Jeffreys, including the year, title, role, and notes for each role, with a highlighted entry for her role as Siress Blassie in the 1979 Battlestar Galactica episode \"The Man with Nine Lives\", as found on her Wikipedia page at http://en.wikipedia.org/wiki/Anne_Jeffreys.",
+      "entities": [
+        "Anne Jeffreys",
+        "Siress Blassie",
+        "Battlestar Galactica"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_3_0",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 3,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_page_title is Anne Jeffreys.",
+      "entities": [
+        "Anne Jeffreys"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_3_1",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 3,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table on the Wikipedia page for Anne Jeffreys lists her acting roles, including the year, title, role, and notes for each role, with a highlighted entry for her role as Siress Blassie in the 1979 Battlestar Galactica episode \"The Man with Nine Lives\".",
+      "entities": [
+        "Anne Jeffreys",
+        "Siress Blassie",
+        "Battlestar Galactica"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_4_0",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 4,
+      "source": "user",
+      "type": "fact",
+      "text": "The table_section_title is Television.",
+      "entities": [
+        "Television"
+      ],
+      "attributes": {},
+      "status": "active"
+    },
+    {
+      "id": "sharded-totto_1805808831193641472_4_1",
+      "conversation_id": "sharded-totto_1805808831193641472",
+      "turn_index": 4,
+      "source": "assistant",
+      "type": "answer_candidate",
+      "text": "This table in the Television section of Anne Jeffreys' Wikipedia page lists her acting roles, including the year, title, role, and notes for each role, with a highlighted entry for her role as Siress Blassie in the 1979 Battlestar Galactica episode \"The Man with Nine Lives\".",
+      "entities": [
+        "Anne Jeffreys",
+        "Siress Blassie",
+        "Battlestar Galactica"
+      ],
+      "attributes": {},
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sharded-totto_1805808831193641472_1_0",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_1",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_2",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_3",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_4",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_5",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_6",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_7",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_8",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_9",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_10",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_11",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_12",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_13",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_14",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_15",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_16",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_17",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_18",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_19",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_20",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_21",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_22",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_23",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_24",
+      "target": "sharded-totto_1805808831193641472_0_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_2_1",
+      "target": "sharded-totto_1805808831193641472_2_0",
+      "type": "supports",
+      "rationale": "metadata supports table overview"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_2_1",
+      "target": "sharded-totto_1805808831193641472_1_0",
+      "type": "supports",
+      "rationale": "metadata supports table columns"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_3_1",
+      "target": "sharded-totto_1805808831193641472_3_0",
+      "type": "supports",
+      "rationale": "metadata supports table page title"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_4_1",
+      "target": "sharded-totto_1805808831193641472_4_0",
+      "type": "supports",
+      "rationale": "metadata supports table section title"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_4_1",
+      "target": "sharded-totto_1805808831193641472_3_0",
+      "type": "supports",
+      "rationale": "metadata supports table page title"
+    },
+    {
+      "source": "sharded-totto_1805808831193641472_1_13",
+      "target": "sharded-totto_1805808831193641472_1_0",
+      "type": "belongs_to",
+      "rationale": "cell belongs to table"
+    }
+  ],
+  "attributes": {}
+}

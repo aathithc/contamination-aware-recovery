@@ -1,0 +1,42 @@
+{
+  "conversation_id": "sharded-totto_1805808831193641472",
+  "method": "structural_graph",
+  "prompt": "Table: Table\nRelevant highlighted cells:\n  - Row: 1979\n    Column: Title\n    Value: Battlestar Galactica\n    Highlighted: true\nSupporting context:\n  - Reference table-description examples provided.\n  - Table columns: Year, Title, Role, Notes\n\nInstruction:\nWrite one faithful sentence describing only the highlighted cell(s). Preserve row/column alignment. Do not mention non-highlighted cells unless necessary.",
+  "included_node_ids": [
+    "sharded-totto_1805808831193641472_1_13",
+    "sharded-totto_1805808831193641472_0_0",
+    "sharded-totto_1805808831193641472_1_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_1805808831193641472_1_10",
+    "sharded-totto_1805808831193641472_1_12",
+    "sharded-totto_1805808831193641472_1_6",
+    "sharded-totto_1805808831193641472_3_0",
+    "sharded-totto_1805808831193641472_4_1",
+    "sharded-totto_1805808831193641472_2_1",
+    "sharded-totto_1805808831193641472_1_24",
+    "sharded-totto_1805808831193641472_1_14",
+    "sharded-totto_1805808831193641472_1_20",
+    "sharded-totto_1805808831193641472_2_0",
+    "sharded-totto_1805808831193641472_1_8",
+    "sharded-totto_1805808831193641472_4_0",
+    "sharded-totto_1805808831193641472_1_23",
+    "sharded-totto_1805808831193641472_1_15",
+    "sharded-totto_1805808831193641472_1_4",
+    "sharded-totto_1805808831193641472_1_3",
+    "sharded-totto_1805808831193641472_1_25",
+    "sharded-totto_1805808831193641472_1_2",
+    "sharded-totto_1805808831193641472_1_1",
+    "sharded-totto_1805808831193641472_1_21",
+    "sharded-totto_1805808831193641472_1_11",
+    "sharded-totto_1805808831193641472_1_9",
+    "sharded-totto_1805808831193641472_3_1",
+    "sharded-totto_1805808831193641472_1_17",
+    "sharded-totto_1805808831193641472_1_16",
+    "sharded-totto_1805808831193641472_1_18",
+    "sharded-totto_1805808831193641472_1_19",
+    "sharded-totto_1805808831193641472_1_22",
+    "sharded-totto_1805808831193641472_1_5",
+    "sharded-totto_1805808831193641472_1_7"
+  ]
+}

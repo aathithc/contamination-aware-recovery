@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_-5195739605929852680",
+  "method": "structured_prompt_baseline",
+  "prediction": "Huang Yu-ting from Chinese Taipei won gold medals in three women's events: the 300 m time trial, the 500 m sprint, and the 1000 m sprint. Her consistent performance highlights her dominance in inline speed skating at the 2009 World Games.",
+  "success": false,
+  "baseline_success": false
+}

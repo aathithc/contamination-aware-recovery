@@ -1,0 +1,27 @@
+{
+  "conversation_id": "sharded-totto_-5195739605929852680",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: Event, Gold, Silver, Bronze\nMen's 300 m time trial | Gold: Lo Wei-lin Chinese Taipei | Silver: Andrés Felipe Muñoz Colombia | Bronze: Pedro Causil Colombia\nWomen's 15000 m elimination | Gold: Woo Hyo-sook South Korea | Silver: Marta Ramírez Colombia | Bronze: Pan Yi-chin Chinese Taipei\nMen's 500 m sprint | Gold: Andrés Felipe Muñoz Colombia | Silver: Lo Wei-lin Chinese Taipei | Bronze: Lee Myung-kyu South Korea\nMen's 1000 m sprint | Gold: Pedro Causil Colombia | Silver: Alexis Contin France | Bronze: Claudio Naselli Italy\nMen's 10000 m points elimination | Gold: Yann Guyader France | Silver: Nelson Garzón Colombia | Bronze: Daniel Álvarez Venezuela\nMen's 15000 m elimination | Gold: Jorge Luis Cifuentes Colombia | Silver: Yann Guyader France | Bronze: Andrés Felipe Muñoz Colombia\nWomen's 300 m time trial | Gold: Huang Yu-ting Chinese Taipei | Silver: Hsu Chiao-jen Chinese Taipei | Bronze: Lim Jin-seon South Korea [highlighted]\nWomen's 500 m sprint | Gold: Huang Yu-ting Chinese Taipei | Silver: Lim Jin-seon South Korea | Bronze: Jercy Puello Colombia [highlighted]\nWomen's 1000 m sprint | Gold: Huang Yu-ting Chinese Taipei | Silver: Hsu Chiao-jen Chinese Taipei | Bronze: Nicole Begg New Zealand [highlighted]\nWomen's 10000 m points elimination | Gold: Woo Hyo-sook South Korea | Silver: Marta Ramírez Colombia | Bronze: Nicole Begg New Zealand\nThe table_webpage_url is http://en.wikipedia.org/wiki/List_of_2009_World_Games_medal_winners.\nThe table_page_title is List of 2009 World Games medal winners.\nThe table_section_title is Inline speed skating.",
+  "included_node_ids": [
+    "sharded-totto_-5195739605929852680_0_0",
+    "sharded-totto_-5195739605929852680_1_0",
+    "sharded-totto_-5195739605929852680_1_1",
+    "sharded-totto_-5195739605929852680_1_10",
+    "sharded-totto_-5195739605929852680_1_2",
+    "sharded-totto_-5195739605929852680_1_3",
+    "sharded-totto_-5195739605929852680_1_4",
+    "sharded-totto_-5195739605929852680_1_5",
+    "sharded-totto_-5195739605929852680_1_6",
+    "sharded-totto_-5195739605929852680_1_7",
+    "sharded-totto_-5195739605929852680_1_8",
+    "sharded-totto_-5195739605929852680_1_9",
+    "sharded-totto_-5195739605929852680_2_0",
+    "sharded-totto_-5195739605929852680_3_0",
+    "sharded-totto_-5195739605929852680_4_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_-5195739605929852680_2_1",
+    "sharded-totto_-5195739605929852680_3_1",
+    "sharded-totto_-5195739605929852680_4_1"
+  ]
+}

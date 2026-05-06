@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-7587628134860225807",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| Candidate              | Votes | %      |\n|-----------------------|-------|--------|\n| William Wolfe         | 544   | 69.6%  |\n| Arthur Donaldson      | 238   | 30.4%  |\n\nHighlighted:\n- Candidate: William Wolfe\n- %: 69.6%\n- Candidate: Arthur Donaldson\n- %: 30.4%\n\nContext:\nTable webpage URL: http://en.wikipedia.org/wiki/1969_Scottish_National_Party_leadership_election. Table page title: 1969 Scottish National Party leadership election. Table section title: Result.\n\nInstruction:\nSummarize the highlighted cells in the table.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}

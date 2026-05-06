@@ -1,0 +1,25 @@
+{
+  "conversation_id": "sharded-totto_8635420484997427758",
+  "method": "concat",
+  "prompt": "Reference table-description examples provided.\nTable columns: State, Incumbent, Results, Candidates\nAlabama | Francis S. White | Democratic | 1914 (special) | Incumbent retired. New senator elected. Democratic hold. | √ Oscar Underwood (Democratic) 90.2% Alex Birch (Republican) 6.8% Adolphus Longshore (Progressive) 2.35% S. F. Hinton (Socialist) 0.64%\nArizona | Marcus A. Smith | Democratic | 1912 | Incumbent re-elected. | √ Marcus A. Smith (Democratic) 53.23% Don Lorenzo Hubbell (Republican) 18.95%\nArkansas | James Paul Clarke | Democratic | 1903 1909 | Incumbent re-elected in 1915. | √ James Paul Clarke (Democratic) 74.88% Harry H. Myers (Republican) 25.12%\nCalifornia | George Clement Perkins | Republican | 1893 (appointed) 1895 (special) 1897 1903 1909 | Incumbent retired. New senator elected. Democratic gain. | √ James D. Phelan (Democratic) 31.59% Francis J.\nSouth Dakota | Coe I. Crawford | Republican | 1909 | Incumbent lost renomination. New senator elected. Democratic gain. | √ Edwin S. Johnson (Democratic) 48.32% Charles H.\ntable_webpage_url: http://en.wikipedia.org/wiki/1914_United_States_Senate_elections\ntable_page_title: 1914 United States Senate elections\ntable_section_title: Races leading to the 64th Congress\ntable_section_text: In these general elections, the winners were elected for the term beginning March 4, 1915; ordered by state. All of the elections involved the Class 3 seats.",
+  "included_node_ids": [
+    "sharded-totto_8635420484997427758_0_0",
+    "sharded-totto_8635420484997427758_1_0",
+    "sharded-totto_8635420484997427758_1_1",
+    "sharded-totto_8635420484997427758_1_2",
+    "sharded-totto_8635420484997427758_1_3",
+    "sharded-totto_8635420484997427758_1_4",
+    "sharded-totto_8635420484997427758_1_5",
+    "sharded-totto_8635420484997427758_2_0",
+    "sharded-totto_8635420484997427758_3_0",
+    "sharded-totto_8635420484997427758_4_0",
+    "sharded-totto_8635420484997427758_5_0"
+  ],
+  "excluded_node_ids": [
+    "sharded-totto_8635420484997427758_1_6",
+    "sharded-totto_8635420484997427758_2_1",
+    "sharded-totto_8635420484997427758_3_1",
+    "sharded-totto_8635420484997427758_4_1",
+    "sharded-totto_8635420484997427758_5_1"
+  ]
+}

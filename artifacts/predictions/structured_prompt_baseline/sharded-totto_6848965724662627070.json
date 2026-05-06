@@ -1,0 +1,7 @@
+{
+  "task_id": "sharded-totto_6848965724662627070",
+  "method": "structured_prompt_baseline",
+  "prediction": "Jorge Carlos Fonseca, representing the Movement for Democracy, received 93,010 votes, which accounted for 74.08% of the total votes in the 2016 Cape Verdean presidential election.",
+  "success": true,
+  "baseline_success": true
+}

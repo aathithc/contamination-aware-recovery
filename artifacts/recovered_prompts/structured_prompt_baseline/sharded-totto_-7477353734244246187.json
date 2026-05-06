@@ -1,0 +1,7 @@
+{
+  "conversation_id": "sharded-totto_-7477353734244246187",
+  "method": "structured_prompt_baseline",
+  "prompt": "Table:\n| #  | Event title                      | Date               | Arena                   | Location  |\n|----|----------------------------------|--------------------|-------------------------|-----------|\n| 1  | Gold: Deep: Oyaji Deep          | December 18, 2011  | Asunal Kanayama Hall    | Nagoya    |\n\nHighlighted:\nGold: Deep: Oyaji Deep, December 18, 2011, Asunal Kanayama Hall, Nagoya\n\nContext:\nN/A\n\nInstruction:\nProvide a summary of the highlighted information from the table.",
+  "included_node_ids": [],
+  "excluded_node_ids": []
+}
