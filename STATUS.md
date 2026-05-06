@@ -1,5 +1,8 @@
 # CARE Project — Day 2 Overnight Run Status
 
+## P3 Fix — auto-selector for recovery prompts (2026-05-05, session 2)
+Re-ran P3 this session and found 3/5 recovery prompts were empty: the extractor produced `fact` nodes instead of `structural_record` for raw table rows (no `highlighted` attribute set), so `build_structural_graph_prompt` returned "". Switched to `select_and_build` (auto-selector): those 3 tasks fall back to `trust_filtered`. Final method split: structural_graph×2, trust_filtered×3. Logged as Day 3 extraction quality issue: extractor needs a stronger prompt hint for D2T tasks to consistently produce `structural_record` nodes with `highlighted` attribute. All 30 tests still pass. Fix committed and pushed as `70441bb`.
+
 ## Final Summary — 2026-05-05
 All 6 priorities completed successfully. P1 added the structured_prompt_baseline D2T rewriter with LLM and rule-based fallback paths, and updated the ablation runner. P2 upgraded lic_loader with multi-file loading, strategy filtering, and task_type inference (190 traces loaded across 4 task types). P3 ran the full extraction-contamination-recovery pipeline on 5 failed D2T tasks using gpt-4o-mini with 0% failure rate and diverse recovery method selection. P4 added three well-structured mock fixtures covering database, actions, and data2text scenarios, with all 30 pytest tests passing. P5 pushed all commits to the remote repository successfully via git (gh CLI not required). No priorities were skipped or stopped early.
 
