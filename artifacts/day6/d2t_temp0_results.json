@@ -1,0 +1,38 @@
+{
+  "run": "day6_temperature0_d2t",
+  "n_tasks": 30,
+  "temperature": 0,
+  "baseline_accuracy": 0.7666666666666667,
+  "methods": {
+    "concat": {
+      "accuracy": 0.6333333333333333,
+      "rescue_rate": 0.13333333333333333,
+      "harm_rate": 0.26666666666666666,
+      "delta_pp": -13.3
+    },
+    "trust_filtered": {
+      "accuracy": 0.6333333333333333,
+      "rescue_rate": 0.13333333333333333,
+      "harm_rate": 0.26666666666666666,
+      "delta_pp": -13.3
+    },
+    "structural_graph": {
+      "accuracy": 0.8666666666666667,
+      "rescue_rate": 0.16666666666666666,
+      "harm_rate": 0.06666666666666667,
+      "delta_pp": 10.0
+    },
+    "structured_prompt_baseline": {
+      "accuracy": 0.5,
+      "rescue_rate": 0.13333333333333333,
+      "harm_rate": 0.4,
+      "delta_pp": -26.7
+    }
+  },
+  "key_comparisons": {
+    "structural_graph_vs_baseline_pp": 10.0,
+    "structural_graph_vs_spb_pp": 36.7,
+    "preregistered_threshold_met": true
+  },
+  "cost_usd": 0.01046
+}
