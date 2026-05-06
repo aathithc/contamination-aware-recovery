@@ -1,0 +1,18 @@
+extraction:
+  extractor: mock       # mock | openai | anthropic
+  max_calls: 1
+
+recovery:
+  methods:
+    - concat
+    - trust_filtered
+    - structural_graph
+    - auto
+
+ablation:
+  compare:
+    - concat
+    - structural_only
+    - trust_filtered_no_propagation
+    - full_care
+    - oracle

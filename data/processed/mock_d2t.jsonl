@@ -1,0 +1,1 @@
+{"task_id": "mock_d2t_001", "task_type": "data2text", "strategy": "base", "success": false, "turns": [{"turn_id": 0, "user_input": "Table: Sales Q1\nProduct A | Revenue | $500K [highlighted]\nProduct B | Revenue | $300K\nDescribe the highlighted cell.", "agent_response": "Product B's revenue is $300K."}]}

@@ -1,0 +1,1 @@
+{"task_id": "mock_math_001", "task_type": "math", "strategy": "base", "success": false, "turns": [{"turn_id": 0, "user_input": "Let x = 5.", "agent_response": "I will assume x = 10. Therefore x squared equals 100."}, {"turn_id": 1, "user_input": "No, x = 5, not 10.", "agent_response": "You are right, x = 5, so x squared equals 25."}]}

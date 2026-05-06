@@ -1,0 +1,10 @@
+openai:
+  model: gpt-4o
+  temperature: 0.0
+
+anthropic:
+  model: claude-opus-4-7
+  temperature: 0.0
+
+mock:
+  fixture_dir: tests/fixtures
