@@ -94,3 +94,20 @@ Per stop condition: do not continue to other task types until framing is decided
   }
 }
 ```
+
+---
+
+## 6. Evaluation Variance Warning
+
+A second independent run (same model, same prompt, no temperature fix) produced materially different scores:
+
+| Method | Run 1 (canonical) | Run 2 (independent) | Δ |
+|---|---|---|---|
+| concat | 63.3% | 63.3% | 0pp |
+| trust\_filtered | 70.0% | 60.0% | −10pp |
+| **structural\_graph** | **83.3%** | **86.7%** | +3.4pp |
+| structured\_prompt\_baseline | 66.7% | 80.0% | +13.3pp |
+
+Run 2 shows structural\_graph at exactly 10.0pp above baseline (borderline threshold) and structured\_prompt\_baseline at 80% (only 6.7pp below structural\_graph). The large swings — particularly trust\_filtered (10pp) and structured\_prompt\_baseline (13.3pp) — indicate that n=30 with default LLM temperature produces unreliable estimates.
+
+**Implication for the paper:** Results should be reported with a confidence interval or replicated at temperature=0. The +6.7pp point estimate (Run 1) and +10pp borderline (Run 2) are both consistent with a true effect somewhere around 8–10pp — which brackets the pre-registered threshold. This strengthens rather than weakens the case for a full evaluation across all task types, but the current 30-task estimate is not stable enough to finalize the outcome determination.
