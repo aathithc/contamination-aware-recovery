@@ -1,5 +1,11 @@
 # CARE Project — Day 2 Overnight Run Status
 
+## Final Summary — 2026-05-05
+All 6 priorities completed successfully. P1 added the structured_prompt_baseline D2T rewriter with LLM and rule-based fallback paths, and updated the ablation runner. P2 upgraded lic_loader with multi-file loading, strategy filtering, and task_type inference (190 traces loaded across 4 task types). P3 ran the full extraction-contamination-recovery pipeline on 5 failed D2T tasks using gpt-4o-mini with 0% failure rate and diverse recovery method selection. P4 added three well-structured mock fixtures covering database, actions, and data2text scenarios, with all 30 pytest tests passing. P5 pushed all commits to the remote repository successfully via git (gh CLI not required). No priorities were skipped or stopped early.
+
+## Priority 5 — gh install and push — DONE (2026-05-05)
+`gh` CLI was not installed on this system (command not found). However, the git remote was already configured for `https://github.com/aathithc/contamination-aware-recovery.git`, and `git push origin main` succeeded without needing `gh auth`. All 4 priority commits (P1–P4) were pushed successfully to the remote main branch.
+
 ## Priority 4 — Mock conversation fixtures — DONE (2026-05-05)
 Created three fixture JSON files in `tests/fixtures/`: mock_database_001.json (6 nodes, 4 edges with Table/Column/JoinKey structure and BELONGS_TO/REQUIRES edges), mock_actions_001.json (4 nodes, 2 edges demonstrating supersedes contamination propagation on wrong recipient), and mock_summary_001.json (4 nodes, 1 edge showing ignored user constraint). Added corresponding JSONL entries to `data/processed/mock_fixtures.jsonl` covering database, actions, and data2text task types. All 30 pytest tests passed after adding fixtures.
 
