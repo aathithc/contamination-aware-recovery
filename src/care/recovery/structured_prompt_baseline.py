@@ -97,6 +97,7 @@ def _llm_format(turns: list[dict], client: Any, model: str) -> str:
             {"role": "system", "content": _LLM_SYSTEM_PROMPT},
             {"role": "user", "content": turns_text.strip()},
         ],
+        temperature=0,
         timeout=45.0,
     )
     return response.choices[0].message.content.strip()

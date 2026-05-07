@@ -1,0 +1,56 @@
+{
+  "n_tasks": 30,
+  "recovery_model": "gpt-4o-mini",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1000
+  ],
+  "methods": {
+    "concat": {
+      "temp0_acc": 60.0,
+      "temp0_delta": -16.7,
+      "mean_07_acc": 55.3,
+      "std_07_acc": 5.1,
+      "min_07_acc": 50.0,
+      "max_07_acc": 63.3
+    },
+    "trust_filtered": {
+      "temp0_acc": 60.0,
+      "temp0_delta": -16.7,
+      "mean_07_acc": 57.3,
+      "std_07_acc": 3.7,
+      "min_07_acc": 53.3,
+      "max_07_acc": 63.3
+    },
+    "structural_graph": {
+      "temp0_acc": 86.7,
+      "temp0_delta": 10.0,
+      "mean_07_acc": 86.7,
+      "std_07_acc": 0.0,
+      "min_07_acc": 86.7,
+      "max_07_acc": 86.7
+    },
+    "structured_prompt_baseline": {
+      "temp0_acc": 46.7,
+      "temp0_delta": -30.0,
+      "mean_07_acc": 51.3,
+      "std_07_acc": 1.8,
+      "min_07_acc": 50.0,
+      "max_07_acc": 53.3
+    }
+  },
+  "bootstrap_95ci": {
+    "sg_vs_baseline": [
+      -6.7,
+      26.7
+    ],
+    "sg_vs_spb": [
+      23.3,
+      56.7
+    ]
+  },
+  "cost_usd": 0.25089
+}

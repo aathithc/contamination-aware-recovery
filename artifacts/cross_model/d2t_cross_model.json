@@ -1,0 +1,90 @@
+{
+  "n_tasks": 30,
+  "models": [
+    "gpt-4o-mini",
+    "gpt-4o"
+  ],
+  "methods": [
+    "concat",
+    "trust_filtered",
+    "structural_graph",
+    "structured_prompt_baseline"
+  ],
+  "results": {
+    "gpt-4o-mini": {
+      "concat": {
+        "accuracy": 0.6333333333333333,
+        "rescue": 0.13333333333333333,
+        "harm": 0.26666666666666666,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -13.3,
+        "n": 30
+      },
+      "trust_filtered": {
+        "accuracy": 0.6,
+        "rescue": 0.13333333333333333,
+        "harm": 0.3,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -16.7,
+        "n": 30
+      },
+      "structural_graph": {
+        "accuracy": 0.8666666666666667,
+        "rescue": 0.16666666666666666,
+        "harm": 0.06666666666666667,
+        "baseline": 0.7666666666666667,
+        "delta_pp": 10.0,
+        "n": 30
+      },
+      "structured_prompt_baseline": {
+        "accuracy": 0.4666666666666667,
+        "rescue": 0.1,
+        "harm": 0.4,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -30.0,
+        "n": 30
+      },
+      "oracle": {
+        "accuracy": 0.8666666666666667
+      }
+    },
+    "gpt-4o": {
+      "concat": {
+        "accuracy": 0.5333333333333333,
+        "rescue": 0.06666666666666667,
+        "harm": 0.3,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -23.3,
+        "n": 30
+      },
+      "trust_filtered": {
+        "accuracy": 0.5333333333333333,
+        "rescue": 0.1,
+        "harm": 0.3333333333333333,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -23.3,
+        "n": 30
+      },
+      "structural_graph": {
+        "accuracy": 0.8666666666666667,
+        "rescue": 0.16666666666666666,
+        "harm": 0.06666666666666667,
+        "baseline": 0.7666666666666667,
+        "delta_pp": 10.0,
+        "n": 30
+      },
+      "structured_prompt_baseline": {
+        "accuracy": 0.5666666666666667,
+        "rescue": 0.1,
+        "harm": 0.3,
+        "baseline": 0.7666666666666667,
+        "delta_pp": -20.0,
+        "n": 30
+      },
+      "oracle": {
+        "accuracy": 0.8666666666666667
+      }
+    }
+  },
+  "cost_usd": 0.18816
+}

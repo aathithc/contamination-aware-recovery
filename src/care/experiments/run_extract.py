@@ -22,7 +22,7 @@ def run_extract(
     if extractor_type == "mock":
         extractor = MockExtractor(fixture_dir or Path("tests/fixtures"))
     elif extractor_type == "openai":
-        extractor = OpenAIExtractor(model=model or "gpt-4o")
+        extractor = OpenAIExtractor(model=model or "gpt-4o-mini")
     elif extractor_type == "anthropic":
         extractor = AnthropicExtractor(model=model or "claude-opus-4-7")
     else:
